@@ -15,6 +15,8 @@ Good, clear and consistent code styles are pivotal in the success of any softwar
 
 ##Guidance
 
+A few key points to bear in mind. See also the [Zen of Python](http://www.python.org/dev/peps/pep-0020/)
+
 * **When coding, less is always more.** Write the least amount of code possible to solve just the problem at hand. 
 * **Predicting the future is impossible.** Try to distinguish between anticipating potential future problems and potential future features. The former is usually good, the latter is usually bad.
 * **Callbacks are great, but promises and deferreds are even better.** We are using ### library to provide promise functionality. In the vast majority of cases this is preferred to using callbacks.
