@@ -54,7 +54,7 @@ Please do not use underscores to denote private properties or methods.
 _ = require("underscore")
 _.each()
 ```
-OK
+OK :)
 
 ```
 var myObj = function () {
@@ -64,7 +64,7 @@ var myObj = function () {
     }
 };
 ```
-OK
+OK :)
 
 ```
 var myObj = function () {
@@ -74,4 +74,4 @@ var myObj = function () {
     }
 };
 ```
-NOT OK
+Not OK :(
