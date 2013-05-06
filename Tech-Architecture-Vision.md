@@ -7,4 +7,4 @@ This represents a rough overview of the vision for the core architecture of Ghos
 
 This diagram deliberately does not reference how these components should be built, or any frameworks or libraries. Although we have a rough working system built on Express, using jugglingDB as the ORM and using handlebars for templating, each of these things is still up for discussion. Long term, we expect to turn more and more of the 3rd party libraries into core competencies by either forking the libraries or building our own.
 
-The editor write screen is currently built using CodeMirror & Showdown. These are first candidates for being rewritten specifically for ghost.
+The editor write screen is currently built using CodeMirror & Showdown. These are first candidates for being rewritten specifically for Ghost.
