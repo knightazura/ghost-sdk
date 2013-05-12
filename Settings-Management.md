@@ -1,3 +1,5 @@
+# Settings (Desktop/Mobile/Everything)
+
 User story for settings management. This is the main screen - http://cl.ly/O6v7
 
 * User arrives on settings screen
