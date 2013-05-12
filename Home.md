@@ -5,4 +5,5 @@ If you're reading this then you have been invited to contribute to Ghost in duri
 * [Code Standards](https://github.com/TryGhost/Ghost/wiki/Code-Standards)
 * [Git workflow](https://github.com/TryGhost/Ghost/wiki/Git-workflow)
 * [Intro to the code base](https://github.com/TryGhost/Ghost/wiki/code-structure)
+* [User stories](https://github.com/TryGhost/Ghost/wiki/user-stories)
 * [Tech architecture vision](https://github.com/TryGhost/Ghost/wiki/Tech-Architecture-Vision)
