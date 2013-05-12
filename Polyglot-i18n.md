@@ -37,11 +37,18 @@ The function is used in the navbar partial, and throughout editor.hbs as an exam
 
 Still todo:
 
-- move the i18n code to somewhere sensible
-- optimise for the default "en" language 
-- use promises to load the language file
+* ensure all of the admin is marked up [#16](https://github.com/TryGhost/Ghost/issues/16)
+* move the i18n code to somewhere sensible [#17](https://github.com/TryGhost/Ghost/issues/17)
+* optimise for the default "en" language [#18](https://github.com/TryGhost/Ghost/issues/18)
+* use promises to load the language file [#21](https://github.com/TryGhost/Ghost/issues/21)
 
 Also to be in separate stories:
 
-- language file loading for the frontend / theme
-- using req.acceptedLanguages to set the language on first load of the dashboard after install
+* language file loading for the frontend / theme [19](https://github.com/TryGhost/Ghost/issues/19)
+* using req.acceptedLanguages to set the language on first load of the dashboard after install [#20](https://github.com/TryGhost/Ghost/issues/20)
+
+
+Interesting questions:
+
+* should the admin i18n be in a json file, or should it be in the database?
+* how can we make it easy for developers to create these files for their themes / plugins?
