@@ -6,4 +6,4 @@ If you're reading this then you have been invited to contribute to Ghost in duri
 * [Git workflow](Git-workflow)
 * [Intro to the code base](Code-Structure)
 * [User stories](User-Stories)
-* [Tech architecture vision](Tech-Architecture-Vision)
+* [Tech architecture vision](Tech-architecture-vision)
