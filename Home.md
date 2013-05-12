@@ -4,6 +4,6 @@ If you're reading this then you have been invited to contribute to Ghost in duri
 
 * [Code Standards](Code-Standards)
 * [Git workflow](Git-workflow)
-* [Intro to the code base](code-structure)
-* [User stories](user-stories)
+* [Intro to the code base](Code-Structure)
+* [User stories](User-Stories)
 * [Tech architecture vision](Tech-Architecture-Vision)
