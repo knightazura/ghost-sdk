@@ -13,11 +13,11 @@ Bob has opened the Ghost Editor because he wants to write a post about Banana/Gl
 ##Adding an Image
 
 * When Bob comes to a place in his text where he wants to add an image, he hits enter a couple of times. Images cannot be floated within text. They always appear as a new paragraph.
-* In this instance, Bob knows the url of the image he wants to embed. He's got it on his clipboard already. He writes `image[alt text](http://path/to/img.jpg)` and the image appears in the preview pane.
-* A little later, Bob reaches another place in the post where he wants to use an image. Of some Bananas. He's going to need to go and find an image, and he doesn't want stop writing, so he just types in the placeholder: `image[Some Bananas]`
+* In this instance, Bob knows the url of the image he wants to embed. He's got it on his clipboard already. He writes `!image[alt text](http://path/to/img.jpg)` and the image appears in the preview pane.
+* A little later, Bob reaches another place in the post where he wants to use an image. Of some Bananas. He's going to need to go and find an image, and he doesn't want stop writing, so he just types in the placeholder: `!image[Some Bananas]`
 * The placeholder generates an upload form in the preview pane http://cl.ly/NxpQ
     * NB: The two icons in the corners should be added as non-functional placeholders only, for now. Later they will be "add image from URL" and "Take photo with camera" respectively.
-* When Bob later uploads his image with this form, his Markdown syntax is automatically updated to `image[Some Bananas](http://path/to/some-bananas.jpg)`
+* When Bob later uploads his image with this form, his Markdown syntax is automatically updated to `!image[Some Bananas](http://path/to/some-bananas.jpg)`
 
 ## Adding a Video
 
