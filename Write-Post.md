@@ -28,7 +28,7 @@ Bob has opened the Ghost Editor because he wants to write a post about Banana/Gl
     * Placeholder: `video[title]`
     * The upload panel: http://cl.ly/Nvd3
 
-## Adding a Tag - #34
+## Adding a Tag - #2
 
 * Once Bob has finished writing his post, he clicks on the "tag" icon in the bottom left hand corned of the screen
 * The "tags" input field becomes enabled, and Bob starts typing the name of a tag in
