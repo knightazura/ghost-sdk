@@ -1,4 +1,4 @@
-See the branch "with-polyglot" which has node-polyglot installed & a config option which provides either "en" or "en_PL" languages. 
+So far we have node-polyglot installed & a config option which provides either "en" or "en_PL" languages. 
 
 _e() equivalent syntax is:
 
