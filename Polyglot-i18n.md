@@ -44,7 +44,7 @@ Still todo:
 
 Also to be in separate stories:
 
-* language file loading for the frontend / theme [19](https://github.com/TryGhost/Ghost/issues/19)
+* language file loading for the frontend / theme [#19](https://github.com/TryGhost/Ghost/issues/19)
 * using req.acceptedLanguages to set the language on first load of the dashboard after install [#20](https://github.com/TryGhost/Ghost/issues/20)
 
 
