@@ -1,6 +1,10 @@
 Full details
 [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)
 
+**Please note:** I will always try to merge your pull request, or at least give a reason why your pull request has not been merged, within 24 hours at the absolute latest.
+
+
+
 ##Quick Summary
 
 Each developer should fork the private core Ghost repo into a private repo of their own and clone this as their local repo.
