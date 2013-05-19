@@ -1,6 +1,6 @@
 **PLEASE NOTE:** All dates mentioned here are estimates and are by no means definitive. Version numbers are also estimates, we may or may not increment at these points.
 
-##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Est 14th Jun
+##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Developer access - Est 14th Jun
 
 * Static menu (filter only) - REQUIRES ISSUES
 * Add & edit post
@@ -18,7 +18,7 @@
 * Logout  - REQUIRES ISSUES
 * Image upload  
 
-##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Est 16th August
+##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th August* 
 
 * Dynamic Menu (ui to edit single menu)
 * Archives (Casper)
@@ -38,3 +38,34 @@
   * video
   * small
 * Comments (disqus)
+
+##[Version 0.4](https://github.com/TryGhost/Ghost/issues?milestone=3&state=open) - Public access - Est 2nd September
+* Schedule post
+* Mobile UI + Interactions
+* Importer
+  * WordPress
+  * Tumblr
+  * Blogger
+* Pages
+
+
+##[Version 0.5](https://github.com/TryGhost/Ghost/issues?milestone=4&state=open) - ? - Est 16th December
+* Version control / revisions
+* RSS & Pubsubhubbub
+* Dashboard
+  * full set (initial...)
+* Post queue
+* Auto save + offline
+* User management
+* Haunted markdown (full basic...)
+* Share to... 
+  * Twitter
+  * Facebook
+  * ADN
+* Theme-styled markdown/editor preview
+
+##Future Release
+* Public API
+* User roles
+* Multi Author
+* Advanced publish workflows
