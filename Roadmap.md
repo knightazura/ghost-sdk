@@ -1,4 +1,7 @@
-**PLEASE NOTE:** All dates mentioned here are estimates and are by no means definitive. Version numbers are also estimates, we may or may not increment at these points.
+**PLEASE NOTE:** 
+* All dates mentioned here are estimates and are by no means definitive. 
+* Version numbers are also estimates, we may or may not increment at these points.
+* This is still a work in progress in terms of features, some may be added, others may be removed or delayed
 
 ##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Developer access - Est 14th Jun
 
