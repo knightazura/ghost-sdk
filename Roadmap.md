@@ -7,9 +7,9 @@
 * Delete post
 * Save settings
 * Post list
-* Chronological  - REQUIRES ISSUES
-* Paginated
-* Filters  - REQUIRES ISSUES
+  * Chronological  - REQUIRES ISSUES
+  * Paginated
+  * Filters  - REQUIRES ISSUES
 * Groups  - REQUIRES ISSUES
 * Save & publish post  - REQUIRES ISSUES
 * Theme API  - REQUIRES ISSUES
@@ -25,16 +25,16 @@
 * Edit single user
 * Basic RSS feed
 * Dashboard
-* * Analytics
-* * Twitter
-* * Facebook
-* * App.net
-* * Internal
+  * Analytics
+  * Twitter
+  * Facebook
+  * App.net
+  * Internal
 * Tags on posts
 * Search
 * Install
 * Haunted Markdown
-**  image
-* * video
-* * small
+  * image
+  * video
+  * small
 * Comments (disqus)
