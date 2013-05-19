@@ -13,7 +13,7 @@
   * Chronological  - REQUIRES ISSUES
   * Paginated
   * Filters  - REQUIRES ISSUES
-* Groups  - REQUIRES ISSUES
+  * Groups  - REQUIRES ISSUES
 * Save & publish post  - REQUIRES ISSUES
 * Theme API  - REQUIRES ISSUES
 * Plugin API  - REQUIRES ISSUES
