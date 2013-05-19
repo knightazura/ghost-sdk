@@ -13,4 +13,4 @@ Be sure to pull from the core repo regularly :)
 
 ## Working with issues
 
-Feel free to start work on any issue which is not assigned. Please leave a comment on the issue to say you wish to pick it up, and it will get assigned to you.
+Feel free to pick up any issue which is not assigned. Please leave a comment on the issue to say you wish to pick it up, and it will get assigned to you.
