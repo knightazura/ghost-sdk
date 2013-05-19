@@ -5,7 +5,7 @@
 
 ##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Developer access - Est 14th Jun
 
-* Static menu (filter only) - REQUIRES ISSUES
+* Static menu (edit via filter only)
 * Add & edit post
 * Delete post
 * Save settings
