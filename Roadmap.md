@@ -18,7 +18,7 @@
 * Theme API  - REQUIRES ISSUES
 * Plugin API  - REQUIRES ISSUES
 * Login 
-* Logout  - REQUIRES ISSUES
+* Logout
 * Image upload  
 
 ##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th August* 
