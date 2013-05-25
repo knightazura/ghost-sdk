@@ -9,3 +9,4 @@ If you're reading this then you have been invited to contribute to Ghost in duri
 * [Tech architecture vision](wiki/Tech-architecture-vision)
 * [Roadmap](wiki/Roadmap)
 * [Feature details & discussion](wiki/Feature-details)
+* [Ghost theming](wiki/Ghost-Theming)
