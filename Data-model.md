@@ -7,7 +7,7 @@
 
 **Questions**: 
  * how much of this should stay on the post model? 
- * Should we have a secondary meta data table like WP? 
+ * Should we have a secondary meta data table like WP or allow plugins to actually add columns to the table? 
  * How can we allow for custom fields?
  * Do we need a 'type' field?
 
@@ -24,12 +24,12 @@ Advanced workflows are not on the roadmap for some time, but we need to leave th
 - status - one of: 'draft', 'complete', 'approved', 'scheduled' or 'published'
 - language String - not sure what the best format to use is, I was thinking en_GB/en_US?
 - author_id - author could be different to creator, not sure if this matters
-- created_at
-- created_by
-- updated_at
-- updated_by
-- published_at
-- published_by 
+- created_at - timestamp
+- created_by - timestamp
+- updated_at - timestamp
+- updated_by - timestamp
+- published_at - timestamp
+- published_by - timestamp
 
 ## Category / Tag
 
