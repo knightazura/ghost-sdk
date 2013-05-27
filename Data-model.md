@@ -75,14 +75,6 @@ many-to-many relations for Posts & Categories
 - updated_at
 - updated_by
 
--- ACL --
-## Roles
-## Permissions
-## UserRoles
-## UserPermissions
-## RolePermissions
-
-
 ## Settings
 
 Don't want this to become too much of a free for all. 
@@ -100,3 +92,21 @@ Question: is it useful to have a 'type' field? So that we could group certain se
 
 ##PostImage
       
+
+
+# ACL
+## Roles
+
+Quick version of initial roles would be:
+    - admin (all perms), 
+    - author (post related perms only), 
+    - guest (same as author, potentially can't publish, won't show in standard list of users), 
+    - subscriber (gets notifications - relies on email - perhaps should be done through 3rd party service or not count as a user but something else?). 
+    - none (someone who tried to register and never got accepted)
+    - not sure if there is a need for any other type of user right now? I'm not sure what a user or reader is, or where to draw the line between authors and editors... especially when considering more advanced workflows for the future
+
+## Permissions
+## UserRoles
+## UserPermissions
+## RolePermissions
+
