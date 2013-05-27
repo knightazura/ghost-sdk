@@ -1,8 +1,15 @@
 (This is very much a work in progress)
 
+**Global questions**: 
+ * Should everything have a uuid?
+
 ## Posts
 
-Questions: how much of this should stay on the post model? Should we have a secondary meta data table like WP? How can we allow for custom fields?
+**Questions**: 
+ * how much of this should stay on the post model? 
+ * Should we have a secondary meta data table like WP? 
+ * How can we allow for custom fields?
+ * Do we need a 'type' field?
 
 **Permissions**: create, edit, delete, view and various state changing permissions i.e. can change state to.. approved, published, etc. 
 Advanced workflows are not on the roadmap for some time, but we need to leave the doors open for implementing this.
@@ -32,10 +39,19 @@ Categoristion which supports hierarchies, multiples etc
 - name - String
 - slug - String (url)
 - parent
+- created_at
+- created_by
+- updated_at
+- updated_by
 
-## Post Category
+## PostCategory
 
 many-to-many relations for Posts & Categories
+
+** Questions:** 
+ * do we need timestamps here?
+
+**Permissions:** add # to post #, remove # from post #
 
 - post_id
 - category_id
@@ -59,7 +75,15 @@ many-to-many relations for Posts & Categories
 - updated_at
 - updated_by
 
-##Settings
+-- ACL --
+## Roles
+## Permissions
+## UserRoles
+## UserPermissions
+## RolePermissions
+
+
+## Settings
 
 Don't want this to become too much of a free for all. 
 Question: is it useful to have a 'type' field? So that we could group certain settings together, for example all the settings needed by the frontend on every page.
@@ -72,8 +96,7 @@ Question: is it useful to have a 'type' field? So that we could group certain se
 - updated_at
 - updated_by
 
-##Image
+## Image
 
-
-##Post Image
+##PostImage
       
