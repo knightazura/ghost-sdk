@@ -107,7 +107,18 @@ Quick version of initial roles would be:
 - not sure if there is a need for any other type of user right now? I'm not sure what a user or reader is, or where to draw the line between authors and editors... especially when considering more advanced workflows for the future
 
 ## Permissions
+
+X = user or role
+Y = object in question (post, category etc)
+Z = secondary object
+
+* X can browse posts Y - special case that there are no posts X can browse?
+* X can read post Y
+* X can create post
+* X can edit posts Y
+* X can change state of post Y to Z
+* X can delete post Y
+
 ## UserRoles
 ## UserPermissions
 ## RolePermissions
-
