@@ -6,7 +6,6 @@
 ## Posts
 
 **Questions**: 
- * how much of this should stay on the post model? 
  * Should we have a secondary meta data table like WP or allow plugins to actually add columns to the table? 
  * How can we allow for custom fields?
  * Do we need a 'type' field?
