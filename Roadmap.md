@@ -71,4 +71,6 @@
 * Public API
 * User roles
 * Multi Author
+* Upgrade to MySQL/PostGres
+* Switch to NoSQL
 * Advanced publish workflows
