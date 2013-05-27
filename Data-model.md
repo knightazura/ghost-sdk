@@ -2,6 +2,11 @@
 
 ## Posts
 
+Questions: how much of this should stay on the post model? Should we have a secondary meta data table like WP? How can we allow for custom fields?
+
+**Permissions**: create, edit, delete, view and various state changing permissions i.e. can change state to.. approved, published, etc. 
+Advanced workflows are not on the roadmap for some time, but we need to leave the doors open for implementing this.
+
 - id - incrementing primary key
 - title - String
 - slug - String (url)
@@ -30,7 +35,7 @@ Categoristion which supports hierarchies, multiples etc
 
 ## Post Category
 
-many - to - many relations for Posts & Categories
+many-to-many relations for Posts & Categories
 
 - post_id
 - category_id
@@ -66,4 +71,9 @@ Question: is it useful to have a 'type' field? So that we could group certain se
 - created_by
 - updated_at
 - updated_by
+
+##Image
+
+
+##Post Image
       
