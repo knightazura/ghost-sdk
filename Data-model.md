@@ -98,6 +98,7 @@ Question: is it useful to have a 'type' field? So that we could group certain se
 ## Roles
 
 Quick version of initial roles would be:
+
     - admin (all perms), 
     - author (post related perms only), 
     - guest (same as author, potentially can't publish, won't show in standard list of users), 
