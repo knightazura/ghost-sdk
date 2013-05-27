@@ -1,3 +1,8 @@
+* Login / Logout / Register
+	* User can register an email address & password
+        * User can login
+        * User can logout
+        * All /ghost/ routes (the admin) are auth-protected
 * Dashboard
 	* new post link
 * Admin menu
