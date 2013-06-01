@@ -19,7 +19,6 @@ Advanced workflows are not on the roadmap for some time, but we need to leave th
 - content - Text
 - content_html - Text
 - featured - Boolean
-- image - Currently we store reference to a single image on the post, but I think this needs to be moved 
 - status - one of: 'draft', 'complete', 'approved', 'scheduled' or 'published'
 - language String - not sure what the best format to use is, I was thinking en_GB/en_US?
 - author_id - author could be different to creator, not sure if this matters
@@ -82,6 +81,7 @@ Question: is it useful to have a 'type' field? So that we could group certain se
 - id - incrementing primary key
 - key - String
 - value - Text
+- group / type ? for caching / fetching groups of settings together - such as all the frontend settings
 - created_at
 - created_by
 - updated_at
@@ -89,7 +89,7 @@ Question: is it useful to have a 'type' field? So that we could group certain se
 
 ## Image
 
-##PostImage
+## PostImage
       
 
 
