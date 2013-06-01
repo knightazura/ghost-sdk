@@ -115,7 +115,7 @@ Z = secondary object
 * X can read post Y
 * X can create post
 * X can edit posts Y
-* X can change state of post Y to Z
+* X can change state of post Y to Z < this is quite complex and probably needs to be implemented as X can change state of post Y AND X can do action Z
 * X can delete post Y
 
 ## UserRoles
