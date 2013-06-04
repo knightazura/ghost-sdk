@@ -14,7 +14,7 @@
   * Paginated
   * Filters  - REQUIRES ISSUES
   * Groups  - REQUIRES ISSUES
-* Save & publish post  - REQUIRES ISSUES
+* Save & publish post 
 * Theme API  - REQUIRES ISSUES
 * Plugin API  - REQUIRES ISSUES
 * Login 
