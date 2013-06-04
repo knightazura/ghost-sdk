@@ -75,3 +75,9 @@ var myObj = function () {
 };
 ```
 Not OK :(
+
+## Frontend development standards
+
+All HTML and CSS should conform to the [Code Guide](http://github.com/mdo/code-guide), maintained by [Mark Otto](http://github.com/mdo).
+
+Make use of the js- prefix for classes which are used as JavaScript hooks, as per the [GitHub Style Guide](https://github.com/styleguide/javascript)
