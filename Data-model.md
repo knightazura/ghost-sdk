@@ -29,6 +29,15 @@ Advanced workflows are not on the roadmap for some time, but we need to leave th
 - published_at - timestamp
 - published_by - timestamp
 
+## Custom Fields
+
+## Post Custom Fields
+
+## Plugin data
+
+## Integrations?
+
+
 ## Category / Tag
 
 Categoristion which supports hierarchies, multiples etc
