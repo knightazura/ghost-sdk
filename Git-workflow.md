@@ -3,13 +3,54 @@ Full details
 
 **Please note:** I will always try to merge your pull request, or at least give a reason why your pull request has not been merged, within 24 hours at the absolute latest.
 
-##Quick Summary
+## Quick Summary
 
 Each developer should fork the private core Ghost repo into a private repo of their own and clone this as their local repo.
 
 Once a change is ready to be added back to the core repo, a pull request should be issued. For the immediate future only, all pull requests will be handled by Hannah Wolfe.
 
 Be sure to pull from the core repo regularly :)
+
+## Submitting Pull Requests
+
+The easier it is for me to merge a PR, the faster I'll be able to do it. Please take steps to make merging easy and keep the history clean and useful.
+
+Firstly, always work on a branch, it will make your life much easier - honest.
+
+*Note:* If you are not confortable with git & using rebase, make a special 'merge' branch of your branch to do these things on, then if something goes awry you can always go back to your working branch and try again.
+
+Whilst you're working on your branch on your own, you can do all the commits you like - lots of little ones are recommended. However, when you come to submit a PR, you should clean your history ready for public consumption.
+
+Run git log master..your-branch-name to see how many commits there are on your branch
+
+Run git rebase -i HEAD~# where # is the number of commits you have done on your branch.
+
+Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message.
+
+Write a useful commit message. Unless your change is very very small, your commit message should have a summary line, a blank line, and then more details. E.g.
+
+```
+Fixing bug in registration
+
+Switching over to abstracted data provider meant that email_address
+accidentally got passed to the model as email and therefore could not
+be found. This is now resolved.
+Also, added trailing slash to register route, which I believe should be there
+```
+
+Now that your history is nice and clean:
+git fetch
+git checkout master
+git rebase upstream/master
+git checkout your-branch-name
+git rebase master
+
+Now submit your PR with all the latest changes from master and a nice clean history with useful commit messages. Finish up by adding a description to the PR which details any interesting changes, any tools or libraries you've added and warnings for any breaking changes.
+
+Thanks!
+
+
+
 
 ## Working with issues
 
