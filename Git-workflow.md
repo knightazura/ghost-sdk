@@ -39,17 +39,21 @@ Also, added trailing slash to register route, which I believe should be there
 ```
 
 Now that your history is nice and clean:
-git fetch
-git checkout master
-git rebase upstream/master
-git checkout your-branch-name
-git rebase master
+ 1. git fetch
+ 1. git checkout master
+ 1. git rebase upstream/master
+ 1. git checkout your-branch-name
+ 1. git rebase master
 
 Now submit your PR with all the latest changes from master and a nice clean history with useful commit messages. Finish up by adding a description to the PR which details any interesting changes, any tools or libraries you've added and warnings for any breaking changes.
 
 Thanks!
 
+*Note:* - this is my way of getting everything neat and tidy, you may have another, as long as the result is nice easy-to-merge PRs.
 
+### What I do:
+
+I will read through your code, checkout your PR, merge master if it's out of date and run basic sanity / regression tests on the code & re-run grunt validate if needed. If you haven't followed the above steps, I will do my best to achieve the same results. If you have, I can just press the nice green button on github.
 
 
 ## Working with issues
