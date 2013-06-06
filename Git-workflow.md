@@ -25,9 +25,8 @@ Firstly, **always work on a branch**, it will make your life much easier - hones
 
 Whilst you're working on your branch on your own, you can do all the commits you like - lots of little ones are recommended. However, when you come to submit a PR, you should clean your history ready for public consumption.
 
-Run git log master..your-branch-name to see how many commits there are on your branch
-
-Run git rebase -i HEAD~# where # is the number of commits you have done on your branch.
+- Run `git log master..your-branch-name` to see how many commits there are on your branch
+- Run `git rebase -i HEAD~#` where # is the number of commits you have done on your branch
 
 Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message.
 
