@@ -147,7 +147,7 @@ we will have to manage database changes through migrations, meaning tying down t
 any filters in place must continue to work in the same or similar way
 features should not be removed
 
-We will have breaking changes, there is no doubt, but these will require a version bump
+*We will have breaking changes, there is little doubt, but these will require a version bump*
 
 
 ##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th August* 
