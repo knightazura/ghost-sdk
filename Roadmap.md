@@ -110,9 +110,52 @@ Any developer should be able to (this means there is a UI or tool provided and d
   * Static menu 
   * Plugin API basics
 
+Architectural Requirements
+Users / ACL - we will begin with the concept of a single admin user who has all permissions 
+Admin frontend - should be converted fully to Backbone
+
+Additional requirements
+In addition to features, we have the following requirements if it is to be possible for us to realistically run Ghost as a blog.
+Stability 
+Ghost shouldn’t crash unexpectedly
+We need to be reasonably certain that we are using error handling where necessary
+Well-tested 
+Ghost should have been running, as a blog, at several locations
+We should have as much test coverage as possible
+Upgradable & data safe 
+we need to be able to, at the bare minimum, export post data before an upgrade incase we break something terrible & lose data
+we will need a plan for how to upgrade Ghost without overwriting data, custom images, custom themes and custom plugins
+
+[Needs completing]
+Missing features required between 0.1.1 and 0.2.0
+
+**Ghost:**
+* Admin UI cleanup
+  * hide non-working features:
+    * post scheduling
+    * tagging
+    * etc
+  * remove unwanted features
+    * admin menu filter hook
+* Unpublish a post
+
+[TODO: complete this]
+
+**Casper:**
+* [TODO: fill this out]
+
+
+### Notes on compatibility from 0.2.0 onward:
+we will have to manage database changes through migrations, meaning tying down the data model is a high priority
+any filters in place must continue to work in the same or similar way
+features should not be removed
+
+We will have breaking changes, there is no doubt, but these will require a version bump
+
 
 ##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th August* 
 
+* Image upload
 * Dynamic Menu (ui to edit single menu)
 * Archives (Casper)
 * Edit single user
