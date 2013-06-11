@@ -75,22 +75,41 @@ A core dev should be able to (this means editing config files, or replacing imag
 
 The second version of Ghost is intended to be released to VIP KickStarter backers via weekly and nightly builds. This version should be the first version which is feature complete enough to be realistically used by folks to run a blog, and therefore will start to require some compatibility between versions. 
 
+### Expected features for 0.2.0:
+Any developer should be able to (this means there is a UI or tool provided and documented): 
+* download the code from a secure location, using their KS email address
+* setup and run a blog
+  * there should be some simple means to deploy a blog onto a platform, and growing/improving documentation on how to deploy it elsewhere.
+  * it should be easy to run the blog in such a way that is stable and long-running.
+* create themselves an admin user
+  * Single admin user registration
+  * Can login and logout
+  * Admin user owns all the things
+* configure their blog’s frontend settings via the settings panel
+  * title
+  * description
+* create and edit blog posts
+  * start a new post, save it as a draft which is not shown on the front end
+  * edit draft and published posts & save the changes
+  * publish draft post so it becomes visible on the frontend
+* delete any post
+  * post can be deleted from the manage posts screen
+* transition post to published
+  * post is marked as published
+  * post is given published at & published by properties
+  * from this point on, post appears in frontend, correctly ordered by its published date
+  * there is no scheduling available yet.
+* have their homepage display a list of published posts ordered by publish date
+  * displays their configured title / desc
+  * shows a list of n posts
+  * only published posts should be shown
+  * most recently published post should be first
+  * pagination should be available to view older posts
+* … TODO: complete … all of this is theme / plugin stuff which needs tying down
+  * Theme API basics
+  * Static menu 
+  * Plugin API basics
 
-* Static menu (edit via filter only)
-* Add & edit post
-* Delete post
-* Save settings
-* Post list
-  * Chronological  - REQUIRES ISSUES
-  * Paginated
-  * Filters  - REQUIRES ISSUES
-  * Groups  - REQUIRES ISSUES
-* Save & publish post 
-* Theme API  - REQUIRES ISSUES
-* Plugin API  - REQUIRES ISSUES
-* Login 
-* Logout
-* Image upload  
 
 ##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th August* 
 
