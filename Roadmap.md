@@ -69,8 +69,6 @@ A core dev should be able to (this means editing config files, or replacing imag
 * non working post footer stuff (share, what do you think) stuff should be removed
 * use configured title / desc / image / logo [mostly done]
 
-
-
 ##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Developer access - 23rd Jun
 
 The second version of Ghost is intended to be released to VIP KickStarter backers via weekly and nightly builds. This version should be the first version which is feature complete enough to be realistically used by folks to run a blog, and therefore will start to require some compatibility between versions. 
@@ -105,30 +103,30 @@ Any developer should be able to (this means there is a UI or tool provided and d
   * only published posts should be shown
   * most recently published post should be first
   * pagination should be available to view older posts
-* … TODO: complete … all of this is theme / plugin stuff which needs tying down
+* [TODO: finish tying down theme/plugin API stuff]
   * Theme API basics
-  * Static menu 
+    * Static menu 
   * Plugin API basics
 
-Architectural Requirements
-Users / ACL - we will begin with the concept of a single admin user who has all permissions 
-Admin frontend - should be converted fully to Backbone
+### Architectural Requirements
+* Users / ACL - we will begin with the concept of a single admin user who has all permissions 
+* Admin frontend - should be converted fully to Backbone
+* Function wrappers removed from node code
+* Ghost.js cleanup
 
-Additional requirements
+### Additional requirements
 In addition to features, we have the following requirements if it is to be possible for us to realistically run Ghost as a blog.
-Stability 
-Ghost shouldn’t crash unexpectedly
-We need to be reasonably certain that we are using error handling where necessary
-Well-tested 
-Ghost should have been running, as a blog, at several locations
-We should have as much test coverage as possible
-Upgradable & data safe 
-we need to be able to, at the bare minimum, export post data before an upgrade incase we break something terrible & lose data
-we will need a plan for how to upgrade Ghost without overwriting data, custom images, custom themes and custom plugins
+* Stability 
+  * Ghost shouldn’t crash unexpectedly
+  * We need to be reasonably certain that we are using error handling where necessary
+* Well-tested 
+  * Ghost should have been running, as a blog, at several locations
+  * We should have as much test coverage as possible
+* Upgradable & data safe 
+  * we need to be able to, at the bare minimum, export post data before an upgrade incase we break something terrible & lose data
+  * we will need a plan for how to upgrade Ghost without overwriting data, custom images, custom themes and custom plugins
 
-[Needs completing]
-Missing features required between 0.1.1 and 0.2.0
-
+### Missing features required between 0.1.1 and 0.2.0
 **Ghost:**
 * Admin UI cleanup
   * hide non-working features:
@@ -138,8 +136,7 @@ Missing features required between 0.1.1 and 0.2.0
   * remove unwanted features
     * admin menu filter hook
 * Unpublish a post
-
-[TODO: complete this]
+* [TODO: complete this]
 
 **Casper:**
 * [TODO: fill this out]
