@@ -57,10 +57,10 @@ A core dev should be able to (this means editing config files, or replacing imag
 ### Missing features required for 0.1.1
 **Ghost:**
 * basic deploy tools [#103](https://github.com/TryGhost/Ghost/issues/103)
+* data export & import [#115](https://github.com/TryGhost/Ghost/issues/115)
 * admin user safety (no default user, registration allows for creation of single admin) [#138](https://github.com/TryGhost/Ghost/issues/138)
 * set published by & published at [#117](https://github.com/TryGhost/Ghost/issues/117)
 * data model refinements [#101](https://github.com/TryGhost/Ghost/issues/101)
-* data export & import [#115](https://github.com/TryGhost/Ghost/issues/115)
 * upgrade plan (how to upgrade without harming db/data/images) [#139](https://github.com/TryGhost/Ghost/issues/139)
 * settings used for frontend config (nice to have) [#112](https://github.com/TryGhost/Ghost/issues/112)
 
