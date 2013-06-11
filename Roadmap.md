@@ -66,8 +66,8 @@ A core dev should be able to (this means editing config files, or replacing imag
 
 **Casper:**
 * pretty / featured first post (note there will be no featured image) [#1](https://github.com/TryGhost/Casper/issues/1)
-* non working post footer stuff (share, what do you think) stuff should be removed
-* use configured title / desc / image / logo [mostly done]
+* non working post footer stuff (share, what do you think) stuff should be removed [#3](https://github.com/TryGhost/Casper/issues/3)
+* use configured title / desc [#4](https://github.com/TryGhost/Casper/issues/4)
 
 ##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Developer access - 23rd Jun
 
