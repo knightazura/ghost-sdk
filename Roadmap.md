@@ -65,7 +65,7 @@ A core dev should be able to (this means editing config files, or replacing imag
 * settings used for frontend config (nice to have) [#112](https://github.com/TryGhost/Ghost/issues/112)
 
 **Casper:**
-* pretty / featured first post (note there will be no featured image)
+* pretty / featured first post (note there will be no featured image) [#1](https://github.com/TryGhost/Casper/issues/1)
 * non working post footer stuff (share, what do you think) stuff should be removed
 * use configured title / desc / image / logo [mostly done]
 
