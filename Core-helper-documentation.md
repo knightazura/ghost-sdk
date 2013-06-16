@@ -2,7 +2,7 @@
 
 By default the each helper in handlebars adds the private properties @index for arrays and @key for objects, which can be used inside the each loop. 
 
-foreach extends this and adds the additional private properties of @first, @last, @even and @odd to both arrays and objects. This can be used to produce more complex layouts for post lists and other content. Fore examples see below:
+foreach extends this and adds the additional private properties of @first, @last, @even and @odd to both arrays and objects. This can be used to produce more complex layouts for post lists and other content. For examples see below:
 
 ### @first & @last
 
