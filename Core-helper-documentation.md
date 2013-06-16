@@ -23,7 +23,7 @@ Nested if example:
             {{#if @last}}
                 <div>Last post</div>
             {{/if}}
-        {{if}}
+        {{/if}}
     {{/foreach}}
 
 ### @even & @odd
