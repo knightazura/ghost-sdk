@@ -11,3 +11,4 @@ If you're reading this then you have been invited to contribute to Ghost in duri
 * [Working features](wiki/Working-Features)
 * [Feature details & discussion](wiki/Feature-details)
 * [Ghost theming](wiki/Ghost-Theming)
+* [Widget Development](wiki/Widget-Documentation)
