@@ -19,7 +19,7 @@ divided the code into core and user content
 * a single plugin, hard-coded to load/not load
 * some notion of hooks for themes & plugins. 
 
-## [Version 0.1.1](https://github.com/TryGhost/Ghost/issues?milestone=5&state=open) - Deployed Ghost - 16th Jun
+## [Version 0.1.1](https://github.com/TryGhost/Ghost/issues?milestone=5&state=open) - Deployed Ghost - 18th Jun
 
 In order to ensure that the code we are delivering in the 0.2.0 milestone meets requirements, we’re introducing a new milestone: 0.1.1
 
