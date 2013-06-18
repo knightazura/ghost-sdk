@@ -32,3 +32,16 @@
   - ruby, ruby sass and ruby bourbon installed
   - ghostdeploy.pem saves in ~/.ssh
 1. Save the [ghost-deploy.sh](https://gist.github.com/ErisDS/6f32e9b75d08a1c81f9b) script in your empty directory
+1. Run the script. It takes a number of arguments:
+  * -f | --fork [TryGhost]   - which fork of Ghost to deploy. 
+  * -r | --refspec [master]  - which refspec (branch, tag, commit) to deploy. 
+  * -s | --server [test1]    - which server to deploy to. Options are staging, next, test1, test2, test3 or your own ec2 specified by the unique number and region like "ec2-54-214-216-43.us-west-2"
+  * -p | --pem [ghostdeploy] - name of the pem file to use to authenticate
+  * -c | --clean [false]     - delete the clone after deploying
+
+E.g. 
+``./ghost-deploy.sh --server ec2-54-218-37-106.us-west-2 --pem ec2key`` would deploy TryGhost master to my own ec2 instance with my key
+
+``./ghost-deploy.sh --server staging`` would deploy the latest master to staging, providing I have the ghostdeploy.pem file for the ghost servers in .ssh
+
+``./ghost-deploy.sh --fork ErisDS --refspec my-branch --server test1 --clean`` would deploy my-branch from my own fork to the test1 server and then delete the local clone on my machine, providing I have the ghostdeploy.pem file for the ghost servers in .ssh
