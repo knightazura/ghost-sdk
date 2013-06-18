@@ -12,17 +12,17 @@
   - on the Key-Value screen, enter a sensible name value
   - on the Key Pairs screen, choose the Key Pair you setup and saved earlier
   - on the Security Groups screen, choose the default security group that you updated earlier
-  - Hit Launch! You should now have an ec2 instance. You should have a public DNS something like ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com. Your username will be **ubuntu**
+  - Hit Launch! You should now have an ec2 instance. You should have a public DNS something like ``ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``. Your username will be **ubuntu**
 1. Check everything is ok by sshing to the ec2 instance with the following command, and then exit
-   -  ssh -i ~/.ssh/ghostdeploy.pem ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com
+   -  ``ssh -i ~/.ssh/ghostdeploy.pem ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``
 
 ## Configuring EC2 for Ghost
 1. Save the [config script](https://gist.github.com/ErisDS/b75be8bfe12c337a17bb) somewhere on your machine which is easy to find.
 1. Send the config file to ec2 with the following command:
-  -  scp -i ~/.ssh/ghostdeploy.pem /path/to/ghost-ec2-config.sh ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com
+  -  ``scp -i ~/.ssh/ghostdeploy.pem /path/to/ghost-ec2-config.sh ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``
 1. ssh into the ec2 instance again
 1. run:
-  - sudo ./ghost-ec2-config.sh
+  - ``sudo ./ghost-ec2-config.sh``
 1. create a file in /var/www/app.js - I used the default node.js hello world code: http://nodejs.org/#column1
 1. navigate to your ec2 in a browser (ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com) and you should see "Hello World"
 
@@ -33,11 +33,11 @@
   - ghostdeploy.pem saves in ~/.ssh
 1. Save the [ghost-deploy.sh](https://gist.github.com/ErisDS/6f32e9b75d08a1c81f9b) script in your empty directory
 1. Run the script. It takes a number of arguments:
-  * -f | --fork [TryGhost]   - which fork of Ghost to deploy. 
-  * -r | --refspec [master]  - which refspec (branch, tag, commit) to deploy. 
-  * -s | --server [test1]    - which server to deploy to. Options are staging, next, test1, test2, test3 or your own ec2 specified by the unique number and region like "ec2-54-214-216-43.us-west-2"
-  * -p | --pem [ghostdeploy] - name of the pem file to use to authenticate
-  * -c | --clean [false]     - delete the clone after deploying
+  * ``-f | --fork [TryGhost]``   - which fork of Ghost to deploy. 
+  * ``-r | --refspec [master]``  - which refspec (branch, tag, commit) to deploy. 
+  * ``-s | --server [test1]``    - which server to deploy to. Options are staging, next, test1, test2, test3 or your own ec2 specified by the unique number and region like "ec2-54-214-216-43.us-west-2"
+  * ``-p | --pem [ghostdeploy]`` - name of the pem file to use to authenticate
+  * ``-c | --clean [false]``     - delete the clone after deploying
 
 E.g. 
 ``./ghost-deploy.sh --server ec2-54-218-37-106.us-west-2 --pem ec2key`` would deploy TryGhost master to my own ec2 instance with my key
