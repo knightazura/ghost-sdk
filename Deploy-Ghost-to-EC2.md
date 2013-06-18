@@ -1,6 +1,7 @@
 ## How to setup an EC2 instance
 
 1. Create an AWS account if you don't already have one. This requires you to login to http://aws.amazon.com/ with your amazon username and password, and then enter credit card details. You shouldn't have to pay anything.
+1. Navigate through "My Account/Console" > "AWS Management Console" > "EC2", or just click here: https://console.aws.amazon.com/ec2/v2/home?region=us-west-2
 1. Configure your default security group to have ssh, http, and https for all incoming IPs (don't forget to press apply at the end): http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/getting-started-security-group.html
 1. Get your key (.pem file) and save it in ~/.ssh with the name ghostdeploy.pem http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/getting-started-create-key-pair.html
 1.  Hit "Launch Instance"
