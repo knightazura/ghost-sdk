@@ -17,7 +17,7 @@
    -  ssh -i ~/.ssh/ghostdeploy.pem ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com
 
 ## Configuring EC2 for Ghost
-1. Save the config script somewhere on your machine which is easy to find: https://gist.github.com/ErisDS/b75be8bfe12c337a17bb
+1. Save the [config script](https://gist.github.com/ErisDS/b75be8bfe12c337a17bb) somewhere on your machine which is easy to find.
 1. Send the config file to ec2 with the following command:
   -  scp -i ~/.ssh/ghostdeploy.pem /path/to/ghost-ec2-config.sh ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com
 1. ssh into the ec2 instance again
@@ -31,4 +31,4 @@
   - git cli installed with a github ssh key setup
   - ruby, ruby sass and ruby bourbon installed
   - ghostdeploy.pem saves in ~/.ssh
-1. Save the ghost-deploy.sh script in your empty directory
+1. Save the [ghost-deploy.sh](https://gist.github.com/ErisDS/6f32e9b75d08a1c81f9b) script in your empty directory
