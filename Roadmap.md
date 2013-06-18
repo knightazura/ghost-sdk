@@ -9,7 +9,7 @@ I’m pretty certain that this is going to be TLDR; for many people, so in summa
 * At 0.1.1 it will be required that every contributor to Ghost setup a blog using Ghost & write at least one post a week. It doesn’t need to be public, although we’d like access, and we’re not expecting works of literature, we just want all of the developers to be exercising the system regularly.
 * 0.2.0 is still the point at which VIP KickStarter access will happen, and we are hoping to only push it back by 7 days
 
-## [Version 0.1.0](https://github.com/TryGhost/Ghost/commit/17d421bfcc9a766ff1f09ca69677d7a6a978e885) - Initial Prototype - 11th May
+## [Version 0.1.0](https://github.com/TryGhost/Ghost/commit/17d421bfcc9a766ff1f09ca69677d7a6a978e885) - Initial Prototype - Completed 11th May
 
 The first version of Ghost was a prototype version opened up to a small group of contributors. It had:
 divided the code into core and user content
@@ -19,7 +19,7 @@ divided the code into core and user content
 * a single plugin, hard-coded to load/not load
 * some notion of hooks for themes & plugins. 
 
-## [Version 0.1.1](https://github.com/TryGhost/Ghost/issues?milestone=5&state=open) - Deployed Ghost - 18th Jun
+## [Version 0.1.1](https://github.com/TryGhost/Ghost/issues?milestone=5&state=open) - Deployed Ghost - Completed 18th Jun
 
 In order to ensure that the code we are delivering in the 0.2.0 milestone meets requirements, we’re introducing a new milestone: 0.1.1
 
