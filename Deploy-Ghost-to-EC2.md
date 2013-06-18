@@ -4,7 +4,7 @@
 1. Navigate through "My Account/Console" > "AWS Management Console" > "EC2", or just click here: https://console.aws.amazon.com/ec2/v2/home?region=us-west-2
 1. Configure your default security group to have ssh, http, and https for all incoming IPs (don't forget to press apply at the end): http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/getting-started-security-group.html
 ![Security Group Settings](http://i.imgur.com/W0IhW7x.png)
-1. Get your key (.pem file) and save it in ~/.ssh with the name ghostdeploy.pem http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/getting-started-create-key-pair.html
+1. Get your key (.pem file) and save it in ~/.ssh http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/getting-started-create-key-pair.html
 1.  Hit "Launch Instance"
   - use the classic wizard
   - choose Ubuntu Server 12.04.2 LTS
@@ -27,3 +27,8 @@
 1. navigate to your ec2 in a browser (ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com) and you should see "Hello World"
 
 ## Deploying Ghost to EC2
+1. You will need an empty directory somewhere on a machine with the following pre-requisites:
+  - git cli installed with a github ssh key setup
+  - ruby, ruby sass and ruby bourbon installed
+  - ghostdeploy.pem saves in ~/.ssh
+1. Save the ghost-deploy.sh script in your empty directory
