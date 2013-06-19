@@ -30,7 +30,7 @@
 1. You will need an empty directory somewhere on a machine with the following pre-requisites:
   - git cli installed with a github ssh key setup
   - ruby, ruby sass and ruby bourbon installed
-  - ghostdeploy.pem saves in ~/.ssh
+  - ghostdeploy.pem saved in ~/.ssh
 1. Save the [ghost-deploy.sh](https://gist.github.com/ErisDS/6f32e9b75d08a1c81f9b) script in your empty directory
 1. Run the script. It takes a number of arguments:
   * ``-f | --fork [TryGhost]``   - which fork of Ghost to deploy. 
