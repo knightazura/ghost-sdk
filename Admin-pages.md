@@ -13,7 +13,17 @@ If there is currently no plan for this it would be nice if this took you to eith
 
 * Settings -  takes to settings tab - working
 
-### John O'Nolan drop-down menu
+### User drop-down menu
+
+Who is the ugly git in the picture - should this be here. For now perhaps another small icon and rahther than "John O'Nolan" is could say User or something of that ilk.
+
+Expected behaviours:
+
+* Based on other parts of ghost, the arrow should spin round and point up when menu drops down and then revert to pointing down when closed
+
+* Clicking on anywhere away from menu should close the menu.
+
+
 
 * Your Profile - does nothing - should take you to a profile page or settings page
 
