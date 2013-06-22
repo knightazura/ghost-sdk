@@ -13,6 +13,7 @@ If there is currently no plan for this it would be nice if this took you to eith
 
 * Settings -  takes to settings tab - working
 
+
 ### User drop-down menu
 
 Who is the ugly git in the picture - should this be here. For now perhaps another small icon and rather than "John O'Nolan" is could say User or something of that ilk.
@@ -22,6 +23,7 @@ Expected behaviours:
 * Based on other parts of ghost, the arrow should spin round and point up when menu drops down and then revert to pointing down when closed
 
 * Clicking on anywhere away from menu should close the menu.
+
 
 Options in drop-down menu:
 
@@ -51,7 +53,33 @@ Green tick in bottom right corner of widgets do nothing, it should save the curr
 Refreshing page reverts back to initial configuration. i.e. the config is not being saved
 It would be nice if there was a button/widget that allowed you restore the config to default or another saved config
 
+
 # Content
+
+Clicking on 'All Posts' drops down a menu with the options:
+
+* All Posts - does nothing. 
+
+* Recently Edited - does nothing
+
+* By Author... - does nothing 
+
+* Search... - does nothing
+
+
+Expected behaviours:
+
+* As with user menu, the arrow should spin round and point up when menu drops down and then revert to pointing down when closed
+
+* Clicking on anywhere away from menu should close the menu.
+
+Query - This drop down menu highlights as blue - very nice and the user menu highlights (or downlights) to a blackish colour. Should this be more consistent - Blue looks nice!
+
+Green box with white addition symbol takes user to new post as expected.
+
+On post preview pane the the star is empty for first post and has a hover effect but does nothing when clicked. Other posts have a filled star and a hover effect and still do nothing when clicked. The Text next to star says "PUBLISHED by JOHN O'NOLAN"  - this should either be refactored to a user profile or givena  generic name for now such as 'Published by User'. Note only the P and U are capitalised - if the whole word is capitalised then 'by' should be as well - otherwise it looks odd.
+
+Selecting a post works.
 
 # New Post
 
