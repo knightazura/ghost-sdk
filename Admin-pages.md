@@ -105,6 +105,8 @@ Current options are:
 
 Title - obvious from placeholder text
 
+It takes 2 tabs to get from title to markdown - very irritating and simple to fix!
+
 Markdown - obvious
 The ? icon does nothing
 !image[] places the dropzone but you cannot add an image- for now would be nice to have the basic uploader js to give the VIPs an initial feeling with documented limitations (also makes it look like something that is road-mapped for later in year is well on its way!)
@@ -120,10 +122,19 @@ Settings Icon does nothing - Not sure it is needed here, seems like an overabund
 
 Update post menu (Blue!) - all working or with appropriate alerts. Alerts are ugly though - takes away from the user experience a little so when this is fully implemented a nicer messaging alert or drop up box would be good.
 
+
 # Settings
 
 
 ## General tab
+
+You can change :
+
+* Blog Title
+
+* Email Address
+
+*
 
 ## Content
 
