@@ -1,6 +1,8 @@
 Welcome to the Ghost wiki!
 
 ## Ghost Roadmap & Feature planning
+PLanning the future of Ghost and what that looks like
+
 * [Roadmap](wiki/Roadmap)
 * [Working features](wiki/Working-Features)
 * [Feature details & discussion](wiki/Feature-details)
@@ -17,4 +19,5 @@ The following documents are intended to provide all the information you need for
 * [Widget Development](wiki/Widget-Documentation)
 
 ## User Docs
+
 * [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
