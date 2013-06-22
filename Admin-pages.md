@@ -112,11 +112,17 @@ The ? icon does nothing
 Preview - obvious
 Word Count seems to work
 
-## Bottom nav bar
+### Bottom nav bar
+
+Pencil icon allow to type and enter saves word to toolbar with option to delete. Not sure what this is used for.
+
+Settings Icon does nothing - Not sure it is needed here, seems like an overabundance of these icons.
+
+Update post menu (Blue!) - all working or with appropriate alerts. Alerts are ugly though - takes away from the user experience a little so when this is fully implemented a nicer messaging alert or drop up box would be good.
 
 # Settings
 
- 
+
 ## General tab
 
 ## Content
