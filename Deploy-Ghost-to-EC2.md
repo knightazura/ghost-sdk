@@ -1,3 +1,9 @@
+The following document covers the entire process of setting up an EC2 instance and deploying Ghost. This is broken down into 3 stages:
+
+1. [How to setup an EC2 instance]()
+1. Configuring EC2 for Ghost
+1. Deploying Ghost to EC2
+
 ## How to setup an EC2 instance
 
 1. Create an AWS account if you don't already have one. This requires you to login to http://aws.amazon.com/ with your amazon username and password, and then enter credit card details. You shouldn't have to pay anything - we'll use a micro instance which is in the free tier.
