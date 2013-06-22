@@ -18,11 +18,13 @@ If there is currently no plan for this it would be nice if this took you to eith
 
 Who is the ugly git in the picture - should this be here. For now perhaps another small icon and rather than "John O'Nolan" is could say User or something of that ilk.
 
+
 Expected behaviours:
 
 * Based on other parts of ghost, the arrow should spin round and point up when menu drops down and then revert to pointing down when closed
 
 * Clicking on anywhere away from menu should close the menu.
+
 
 
 Options in drop-down menu:
@@ -46,17 +48,18 @@ A couple of widgets do not have a settings icon in bottom right corner so they c
 
 * Most Popular Posts
 
+
 The Ghost Settings widget is bigger than it should be - the background image can be seen in the negative space separating the widgets directly below it. Hovering on this widget brings up an ugly orientation selection box which doesn't seem to be the correct dimensions (there is a top border and it feels as though it should have a bottom one as well or none at all?).  
 
 Green tick in bottom right corner of widgets do nothing, it should save the current configuration and then close the settings box.
 
 Refreshing page reverts back to initial configuration. i.e. the config is not being saved
-It would be nice if there was a button/widget that allowed you restore the config to default or another saved config
+It would be nice if there was a button/widget that allowed you restore the config to default or another saved config.
 
 
 # Content
 
-Clicking on 'All Posts' drops down a menu with the options:
+### All Posts drop-down menu:
 
 * All Posts - does nothing. 
 
@@ -73,6 +76,7 @@ Expected behaviours:
 
 * Clicking on anywhere away from menu should close the menu.
 
+
 Query - This drop down menu highlights as blue - very nice and the user menu highlights (or downlights) to a blackish colour. Should this be more consistent - Blue looks nice!
 
 Green box with white addition symbol takes user to new post as expected.
@@ -81,7 +85,34 @@ On post preview pane the the star is empty for first post and has a hover effect
 
 Selecting a post works.
 
+Edit post icon works
+
+
+### Settings Icon (blue highlights again - yay!)
+
+Expected behaviours same as previous drop down menus
+
+Current options are:
+
+* URL - seems ambiguous - does nothing
+
+* Something - seems like we don't know what we want
+
+* Delete - works as expected
+
+
 # New Post
+
+Title - obvious from placeholder text
+
+Markdown - obvious
+The ? icon does nothing
+!image[] places the dropzone but you cannot add an image- for now would be nice to have the basic uploader js to give the VIPs an initial feeling with documented limitations (also makes it look like something that is road-mapped for later in year is well on its way!)
+
+Preview - obvious
+Word Count seems to work
+
+## Bottom nav bar
 
 # Settings
 
