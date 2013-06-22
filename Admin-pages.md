@@ -185,4 +185,6 @@ Clicking on connected Services seems to highlight plugins as well and vice versa
 11. Incorporate the basic image uploader JS - ready to go really.
 12. Hide pencil and settings icon on editor - bottom nav bar
 
-_Other important fixes would be to remove the alerts for all save buttons but I am not sure how involved that is so not a listed as a Quick Win_
+
+
+**_Other important fixes would be to remove the alerts for all save buttons but I am not sure how involved that is so not listed as a Quick Win_**
