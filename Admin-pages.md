@@ -1,5 +1,4 @@
 
-
 #Top Nav Bar
 
 * G - highlights nicely on hover - is this supposed to have some function? Currently does nothing.
@@ -121,13 +120,13 @@ Pencil icon allow to type and enter saves word to toolbar with option to delete.
 
 Settings Icon does nothing - Not sure it is needed here, seems like an overabundance of these icons.
 
-Update post menu (Blue!) - all working or with appropriate alerts. Alerts are ugly though - takes away from the user experience a little so when this is fully implemented a nicer messaging alert or drop up box would be good.
+Update post menu (Blue!) - all working or with appropriate alerts. Issues alerts [Issue #37](https://github.com/TryGhost/Ghost/issues/37)
 
 
 # Settings
 
 
-Save button issues alerts [Issue 174](https://github.com/TryGhost/Ghost/issues/174)
+Save button issues too many alerts  [Issue 174](https://github.com/TryGhost/Ghost/issues/174)
 
 
 ## General tab
