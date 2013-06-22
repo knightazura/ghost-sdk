@@ -1,6 +1,8 @@
 Welcome to the Ghost wiki!
 
-If you're reading this then you have been invited to contribute to Ghost in during the closed development phase. The following documents are intended to provide all the information you need for working with the Ghost code base.
+
+## Core Developer Docs
+The following documents are intended to provide all the information you need for working with the Ghost code base.
 
 * [Code standards](wiki/Code-standards) 
 * [Git workflow](wiki/Git-workflow)
@@ -12,3 +14,6 @@ If you're reading this then you have been invited to contribute to Ghost in duri
 * [Feature details & discussion](wiki/Feature-details)
 * [Ghost theming](wiki/Ghost-Theming)
 * [Widget Development](wiki/Widget-Documentation)
+
+## User Docs
+* [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
