@@ -67,6 +67,8 @@ It would be nice if there was a button/widget that allowed you restore the confi
 
 * Search... - does nothing
 
+All posts are displayed as 5 minutes ago **Quick Win 7**
+
 
 Expected behaviours:
 
@@ -75,11 +77,11 @@ Expected behaviours:
 * Clicking on anywhere away from menu should close the menu.
 
 
-Query - This drop down menu highlights as blue - very nice and the user menu highlights (or downlights) to a blackish colour. Should this be more consistent - Blue looks nice! **Quick Win 7**
+Query - This drop down menu highlights as blue - very nice and the user menu highlights (or downlights) to a blackish colour. Should this be more consistent - Blue looks nice! **Quick Win 8**
 
 Green box with white addition symbol takes user to new post as expected.
 
-On post preview pane the the star is empty for first post and has a hover effect but does nothing when clicked. Other posts have a filled star and a hover effect and still do nothing when clicked. The Text next to star says "PUBLISHED by JOHN O'NOLAN"  - this should either be refactored to a user profile or givena  generic name for now such as 'Published by User'. Note only the P and U are capitalised - if the whole word is capitalised then 'by' should be as well - otherwise it looks odd. **Quick Win 8**
+On post preview pane the the star is empty for first post and has a hover effect but does nothing when clicked. Other posts have a filled star and a hover effect and still do nothing when clicked. The Text next to star says "PUBLISHED by JOHN O'NOLAN"  - this should either be refactored to a user profile or givena  generic name for now such as 'Published by User'. Note only the P and U are capitalised - if the whole word is capitalised then 'by' should be as well - otherwise it looks odd. **Quick Win 9**
 
 Selecting a post works.
 
@@ -94,7 +96,7 @@ Current options are:
 
 * URL - seems ambiguous - does nothing
 
-* Something - seems like we don't know what we want - remove for now **Quick Win 9**
+* Something - seems like we don't know what we want - remove for now **Quick Win 10**
 
 * Delete - works as expected
 
@@ -104,18 +106,18 @@ Current options are:
 Title - obvious from placeholder text
 
 It takes 2 tabs to get from title to markdown - very irritating and simple to fix!
-[Issue 153](https://github.com/TryGhost/Ghost/issues/153) **Quick Win 10**
+[Issue 153](https://github.com/TryGhost/Ghost/issues/153) **Quick Win 11**
 
 Markdown - obvious
 The ? icon does nothing
-!image[] places the dropzone but you cannot add an image- for now would be nice to have the basic uploader js to give the VIPs an initial feeling with documented limitations (also makes it look like something that is road-mapped for later in year is well on its way!) **Quick Win 11**
+!image[] places the dropzone but you cannot add an image- for now would be nice to have the basic uploader js to give the VIPs an initial feeling with documented limitations (also makes it look like something that is road-mapped for later in year is well on its way!) **Quick Win 12**
 
 Preview - obvious
 Word Count seems to work
 
 ### Bottom nav bar
 
-Pencil icon allow to type and enter saves word to toolbar with option to delete. Not sure what this is used for and settings Icon does nothing - Not sure it is needed here, seems like an overabundance of these icons. We could hide these for now **Quick Win 12**
+Pencil icon allow to type and enter saves word to toolbar with option to delete. Not sure what this is used for and settings Icon does nothing - Not sure it is needed here, seems like an overabundance of these icons. We could hide these for now **Quick Win 13**
 
 Update post menu (Blue!) - all working or with appropriate alerts. Issues alerts [Issue #37](https://github.com/TryGhost/Ghost/issues/37) 
 
@@ -178,12 +180,13 @@ Clicking on connected Services seems to highlight plugins as well and vice versa
 4. Close Menus when you click anywhere other than menu
 5. Load a wiki page with shortcuts or a pop-up etc.
 6. Fix image in ghost widget
-7. Change User menu highlight to Blue - simple just depends on the personal choice of whether or not this is required
-8. Change static content of 'Published By' on content preview panel
-9. Remove the 'something' option from settings menu in content preview pane
-10. Fix tab-indexing on New Post page
-11. Incorporate the basic image uploader JS - ready to go really.
-12. Hide pencil and settings icon on editor - bottom nav bar
+7. Fix posts draft/published/edited 5 minthues ago text
+8. Change User menu highlight to Blue - simple just depends on the personal choice of whether or not this is required
+9. Change static content of 'Published By' on content preview panel
+10. Remove the 'something' option from settings menu in content preview pane
+11. Fix tab-indexing on New Post page
+12. Incorporate the basic image uploader JS - ready to go really.
+13. Hide pencil and settings icon on editor - bottom nav bar
 
 
 
