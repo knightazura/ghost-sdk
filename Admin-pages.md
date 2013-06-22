@@ -108,18 +108,16 @@ It takes 2 tabs to get from title to markdown - very irritating and simple to fi
 
 Markdown - obvious
 The ? icon does nothing
-!image[] places the dropzone but you cannot add an image- for now would be nice to have the basic uploader js to give the VIPs an initial feeling with documented limitations (also makes it look like something that is road-mapped for later in year is well on its way!)
+!image[] places the dropzone but you cannot add an image- for now would be nice to have the basic uploader js to give the VIPs an initial feeling with documented limitations (also makes it look like something that is road-mapped for later in year is well on its way!) **Quick Win 12**
 
 Preview - obvious
 Word Count seems to work
 
 ### Bottom nav bar
 
-Pencil icon allow to type and enter saves word to toolbar with option to delete. Not sure what this is used for.
+Pencil icon allow to type and enter saves word to toolbar with option to delete. Not sure what this is used for and settings Icon does nothing - Not sure it is needed here, seems like an overabundance of these icons. We could hide these for now **Quick Win 11**
 
-Settings Icon does nothing - Not sure it is needed here, seems like an overabundance of these icons.
-
-Update post menu (Blue!) - all working or with appropriate alerts. Issues alerts [Issue #37](https://github.com/TryGhost/Ghost/issues/37)
+Update post menu (Blue!) - all working or with appropriate alerts. Issues alerts [Issue #37](https://github.com/TryGhost/Ghost/issues/37) 
 
 
 # Settings
@@ -184,5 +182,8 @@ Clicking on connected Services seems to highlight plugins as well and vice versa
 8. Change static content of 'Published By' on content preview panel
 9. Remove the 'something' option from settings menu in content preview pane
 10. Fix tab-indexing on New Post page
+11. Hide pencil and settings icon on editor - bottom nav bar
+12. Incorporate the basic image uploader JS - ready to go really.
 
+_Other important fixes would be to remove the alerts for all save buttons but I am not sure how involved that is so not a listed as a Quick Win_
 
