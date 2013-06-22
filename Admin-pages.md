@@ -128,20 +128,45 @@ Update post menu (Blue!) - all working or with appropriate alerts. Alerts are ug
 
 ## General tab
 
-You can change :
+Save button issues alerts.
 
-* Blog Title
+Options
 
-* Email Address
+* Blog Title - saves and is used correctly
 
-*
+* Blog Logo - cannot change at the moment - a generic logo would be better for now
+
+* Blog Icon - same as above
+
+* Email Address - saves and is used correctly. "admin notifications" link nothing. Show my email address button does nothing at this stage.
+
+* URL Structure - does nothing
+
+* Time Zone - does nothing only 1 option
+
+
+
 
 ## Content
 
+Only homepage description saves and is used
+
 ## Users
+
+Too many O'Nolans
+
+Nothing works here yet
+
 
 ## Theme
 
-## Connected Services
+Horrid text not even english it may be klingon!
 
-## Plugins
+
+## Connected Services & Plugins
+
+
+Empty page
+
+Clicking on connected Services seems to highlight plugins as well and vice versa
+
