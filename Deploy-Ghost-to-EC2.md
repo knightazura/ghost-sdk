@@ -1,8 +1,8 @@
 The following document covers the entire process of setting up an EC2 instance and deploying Ghost. This is broken down into 3 stages:
 
-1. [How to setup an EC2 instance](/#how-to-setup-an-ec2-instance)
-1. Configuring EC2 for Ghost
-1. Deploying Ghost to EC2
+1. [How to setup an EC2 instance](#how-to-setup-an-ec2-instance)
+1. [Configuring EC2 for Ghost](#configuring-ec2-for-ghost)
+1. [Deploying Ghost to EC2](#deploying-ghost-to-ec2)
 
 ## How to setup an EC2 instance
 
