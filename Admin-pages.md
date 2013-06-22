@@ -1,8 +1,7 @@
-
 #Top Nav Bar
 
 * G - highlights nicely on hover - is this supposed to have some function? Currently does nothing.
-If there is currently no plan for this it would be nice if this took you to either the ghost website or a Ghost Foundation info page etc 
+If there is currently no plan for this it would be nice if this took you to either the ghost website or a Ghost Foundation info page etc **QUICK WIN 1**
 
 * Dashboard - takes to dashboard tab - working
 
@@ -15,14 +14,14 @@ If there is currently no plan for this it would be nice if this took you to eith
 
 ### User drop-down menu
 
-Who is the ugly git in the picture - should this be here. For now perhaps another small icon and rather than "John O'Nolan" is could say User or something of that ilk.
+Who is the ugly git in the picture - should this be here. For now perhaps another small icon and rather than "John O'Nolan" is could say User or something of that ilk. **Quick Win 2**
 
 
 Expected behaviours:
 
-* Based on other parts of ghost, the arrow should spin round and point up when menu drops down and then revert to pointing down when closed
+* Based on other parts of ghost, the arrow should spin round and point up when menu drops down and then revert to pointing down when closed **Quick Win 3**
 
-* Clicking on anywhere away from menu should close the menu.
+* Clicking on anywhere away from menu should close the menu. **Quick Win 4**
 
 
 
@@ -32,7 +31,7 @@ Options in drop-down menu:
 
 * Help/Support - does nothing - should take you to a help page or wiki
 
-* Keyboard Shortcuts - does nothing - should take you to a shortcuts page or pop-up menu etc
+* Keyboard Shortcuts - does nothing - should take you to a shortcuts page or pop-up menu etc **Quick Win 5**
 
 * Sign Out - works and takes you back to log-in page
 
@@ -48,7 +47,7 @@ A couple of widgets do not have a settings icon in bottom right corner so they c
 * Most Popular Posts
 
 
-The Ghost Settings widget is bigger than it should be - the background image can be seen in the negative space separating the widgets directly below it. Hovering on this widget brings up an ugly orientation selection box which doesn't seem to be the correct dimensions (there is a top border and it feels as though it should have a bottom one as well or none at all?).  
+The Ghost Settings widget is bigger than it should be - the background image can be seen in the negative space separating the widgets directly below it. **Quick Win 6**Hovering on this widget brings up an ugly orientation selection box which doesn't seem to be the correct dimensions (there is a top border and it feels as though it should have a bottom one as well or none at all?).  
 
 Green tick in bottom right corner of widgets do nothing, it should save the current configuration and then close the settings box.
 
@@ -76,11 +75,11 @@ Expected behaviours:
 * Clicking on anywhere away from menu should close the menu.
 
 
-Query - This drop down menu highlights as blue - very nice and the user menu highlights (or downlights) to a blackish colour. Should this be more consistent - Blue looks nice!
+Query - This drop down menu highlights as blue - very nice and the user menu highlights (or downlights) to a blackish colour. Should this be more consistent - Blue looks nice! **Quick Win 7**
 
 Green box with white addition symbol takes user to new post as expected.
 
-On post preview pane the the star is empty for first post and has a hover effect but does nothing when clicked. Other posts have a filled star and a hover effect and still do nothing when clicked. The Text next to star says "PUBLISHED by JOHN O'NOLAN"  - this should either be refactored to a user profile or givena  generic name for now such as 'Published by User'. Note only the P and U are capitalised - if the whole word is capitalised then 'by' should be as well - otherwise it looks odd.
+On post preview pane the the star is empty for first post and has a hover effect but does nothing when clicked. Other posts have a filled star and a hover effect and still do nothing when clicked. The Text next to star says "PUBLISHED by JOHN O'NOLAN"  - this should either be refactored to a user profile or givena  generic name for now such as 'Published by User'. Note only the P and U are capitalised - if the whole word is capitalised then 'by' should be as well - otherwise it looks odd. **Quick Win 8**
 
 Selecting a post works.
 
@@ -95,7 +94,7 @@ Current options are:
 
 * URL - seems ambiguous - does nothing
 
-* Something - seems like we don't know what we want
+* Something - seems like we don't know what we want - remove for now **Quick Win 9**
 
 * Delete - works as expected
 
@@ -105,7 +104,7 @@ Current options are:
 Title - obvious from placeholder text
 
 It takes 2 tabs to get from title to markdown - very irritating and simple to fix!
-[Issue 153](https://github.com/TryGhost/Ghost/issues/153)
+[Issue 153](https://github.com/TryGhost/Ghost/issues/153) **Quick Win 10**
 
 Markdown - obvious
 The ? icon does nothing
@@ -171,3 +170,19 @@ Horrid text not even english it may be klingon!
 Empty page
 
 Clicking on connected Services seems to highlight plugins as well and vice versa
+
+
+# Quick Wins
+
+1. Adding a link to the G in Nav Bar
+2. Replace User menu pic and name
+3. Make Menu icons spin
+4. Close Menus when you click anywhere other than menu
+5. Load a wiki page with shortcuts or a pop-up etc.
+6. Fix image in ghost widget
+7. Change User menu highlight to Blue - simple just depends on the personal choice of whether or not this is required
+8. Change static content of 'Published By' on content preview panel
+9. Remove the 'something' option from settings menu in content preview pane
+10. Fix tab-indexing on New Post page
+
+
