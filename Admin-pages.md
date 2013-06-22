@@ -47,7 +47,7 @@ A couple of widgets do not have a settings icon in bottom right corner so they c
 * Most Popular Posts
 
 
-The Ghost Settings widget is bigger than it should be - the background image can be seen in the negative space separating the widgets directly below it. **Quick Win 6**Hovering on this widget brings up an ugly orientation selection box which doesn't seem to be the correct dimensions (there is a top border and it feels as though it should have a bottom one as well or none at all?).  
+The Ghost Settings widget is bigger than it should be - the background image can be seen in the negative space separating the widgets directly below it. **Quick Win 6** Hovering on this widget brings up an ugly orientation selection box which doesn't seem to be the correct dimensions (there is a top border and it feels as though it should have a bottom one as well or none at all?).  
 
 Green tick in bottom right corner of widgets do nothing, it should save the current configuration and then close the settings box.
 
