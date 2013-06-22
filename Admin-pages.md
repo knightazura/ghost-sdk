@@ -23,6 +23,24 @@ If there is currently no plan for this it would be nice if this took you to eith
 
 * Sign Out - works and takes you back to log-in page
 
+
+# Dashboard
+
+Widgets drag and drop nicely although you cannot change your mind or undo your change, if that was possible it would be nice as resizing a box sometimes has side effects you aren't expecting and moves boxes you have previously styled. It would also be nice if you could 'fix' a box in place so that it cannot be affected by another box this way.
+
+A couple of widgets do not have a settings icon in bottom right corner so they cannot be adjusted - not sure if that is a bug or on purpose. These currently are:
+
+* Posts This Week (out of 20)
+
+* Most Popular Posts
+
+The Ghost Settings widget is bigger than it should be - the background image can be seen in the negative space separating the widgets directly below it. Hovering on this widget brings up an ugly orientation selection box which doesn't seem to be the correct dimensions (there is a top border and it feels as though it should have a bottom one as well or none at all?).  
+
+Green tick in bottom right corner of widgets do nothing, it should save the current configuration and then close the settings box.
+
+Refreshing page reverts back to initial configuration. i.e. the config is not being saved
+It would be nice if there was a button/widget that allowed you restore the config to default or another saved config
+
 # Content
 
 # New Post
