@@ -15,6 +15,14 @@ If there is currently no plan for this it would be nice if this took you to a ei
 
 ### John O'Nolan drop-down menu
 
+* Your Profile - does nothing - should take you to a profile page or settings page
+
+* Help/Support - does nothing - should take you to a help page or wiki
+
+* Keyboard Shortcuts - does nothing - should take you to a shortcuts page or pop-up menu etc
+
+* Sign Out - works and takes you back to log-in page
+
 # Content
 
 # New Post
