@@ -106,6 +106,7 @@ Current options are:
 Title - obvious from placeholder text
 
 It takes 2 tabs to get from title to markdown - very irritating and simple to fix!
+[Issue 153](https://github.com/TryGhost/Ghost/issues/153)
 
 Markdown - obvious
 The ? icon does nothing
@@ -126,9 +127,11 @@ Update post menu (Blue!) - all working or with appropriate alerts. Alerts are ug
 # Settings
 
 
+Save button issues alerts [Issue 174](https://github.com/TryGhost/Ghost/issues/174)
+
+
 ## General tab
 
-Save button issues alerts.
 
 Options
 
@@ -169,4 +172,3 @@ Horrid text not even english it may be klingon!
 Empty page
 
 Clicking on connected Services seems to highlight plugins as well and vice versa
-
