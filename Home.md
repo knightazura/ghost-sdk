@@ -21,3 +21,4 @@ The following documents are intended to provide all the information you need for
 ## User Docs
 
 * [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
+* [Themes: Core Helper docs](wiki/Core-helper-documentation)
