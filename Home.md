@@ -1,7 +1,7 @@
 Welcome to the Ghost wiki!
 
 ## Ghost Roadmap & Feature planning
-PLanning the future of Ghost and what that looks like
+Planning the future of Ghost and what that looks like
 
 * [Roadmap](wiki/Roadmap)
 * [Working features](wiki/Working-Features)
