@@ -1,7 +1,7 @@
 #Top Nav Bar
 
 * G - highlights nicely on hover - is this supposed to have some function? Currently does nothing.
-If there is currently no plan for this it would be nice if this took you to either the ghost website or a Ghost Foundation info page etc **QUICK WIN 1**
+If there is currently no plan for this it would be nice if this took you to either the ghost website or a Ghost Foundation info page etc **Quick Win 1**
 
 * Dashboard - takes to dashboard tab - working
 
