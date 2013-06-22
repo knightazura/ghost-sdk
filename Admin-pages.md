@@ -23,7 +23,7 @@ Expected behaviours:
 
 * Clicking on anywhere away from menu should close the menu.
 
-
+Options in drop-down menu:
 
 * Your Profile - does nothing - should take you to a profile page or settings page
 
