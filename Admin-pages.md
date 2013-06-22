@@ -15,7 +15,7 @@ If there is currently no plan for this it would be nice if this took you to eith
 
 ### User drop-down menu
 
-Who is the ugly git in the picture - should this be here. For now perhaps another small icon and rahther than "John O'Nolan" is could say User or something of that ilk.
+Who is the ugly git in the picture - should this be here. For now perhaps another small icon and rather than "John O'Nolan" is could say User or something of that ilk.
 
 Expected behaviours:
 
