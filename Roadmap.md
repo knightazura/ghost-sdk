@@ -136,9 +136,11 @@ In addition to features, we have the following requirements if it is to be possi
   * remove unwanted features
     * admin menu filter hook
 * Unpublish a post
+* Code cleanup: iifw: #58, ghost js ?
 * [TODO: complete this]
 
 **Casper:**
+* Pagination 
 * [TODO: fill this out]
 
 
