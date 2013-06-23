@@ -184,7 +184,7 @@ Clicking on connected Services seems to highlight plugins as well and vice versa
 8. Change User menu highlight to Blue - simple just depends on the personal choice of whether or not this is required
 9. Change static content of 'Published By' on content preview panel [#195](https://github.com/TryGhost/Ghost/issues/195)
 10. Remove the 'something' option from settings menu in content preview pane
-11. Fix tab-indexing on New Post page [#153](https://github.com/TryGhost/Ghost/issues/153)
+_11. Fix tab-indexing on New Post page [#153](https://github.com/TryGhost/Ghost/issues/153) - **done pending merge**_
 12. Hide pencil and settings icon on editor - bottom nav bar
 
 
