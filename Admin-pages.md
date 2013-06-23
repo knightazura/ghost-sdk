@@ -180,9 +180,9 @@ Clicking on connected Services seems to highlight plugins as well and vice versa
 4. Close Menus when you click anywhere other than menu
 5. Load a wiki page with shortcuts or a pop-up etc.
 6. Fix image in ghost widget
-7. Fix posts draft/published/edited 5 minthues ago text
+7. Fix posts draft/published/edited 5 minthues ago text [#195](https://github.com/TryGhost/Ghost/issues/195)
 8. Change User menu highlight to Blue - simple just depends on the personal choice of whether or not this is required
-9. Change static content of 'Published By' on content preview panel
+9. Change static content of 'Published By' on content preview panel [#195](https://github.com/TryGhost/Ghost/issues/195)
 10. Remove the 'something' option from settings menu in content preview pane
 11. Fix tab-indexing on New Post page
 12. Hide pencil and settings icon on editor - bottom nav bar
