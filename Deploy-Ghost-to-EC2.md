@@ -25,12 +25,12 @@ If you already know what you are doing and are just looking for the configure an
   - on the Security Groups screen, choose the default security group that you updated earlier
   - Hit Launch! You should now have an ec2 instance. You should have a public DNS something like ``ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``. Your username will be **ubuntu**
 1. Check everything is ok by sshing to the ec2 instance with the following command, and then exit
-   -  ``ssh -i ~/.ssh/ghostdeploy.pem ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``
+   -  ``ssh -i ~/.ssh/[yourkeyfile].pem ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``
 
 ## Configuring EC2 for Ghost
 1. Save the [config script](https://gist.github.com/ErisDS/3d7b5e2731f56f8617f8) somewhere on your machine which is easy to find.
 1. Send the config file to ec2 with the following command:
-  -  ``scp -i ~/.ssh/ghostdeploy.pem /path/to/ghost-ec2-config.sh ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com:~/``
+  -  ``scp -i ~/.ssh/[yourkeyfile].pem /path/to/ghost-ec2-config.sh ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com:~/``
 1. ssh into the ec2 instance again
 1. run:
   - ``sudo chmod u+x ghost-ec2-config.sh``
