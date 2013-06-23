@@ -97,6 +97,7 @@ Any developer should be able to (this means there is a UI or tool provided and d
   * post is given published at & published by properties
   * from this point on, post appears in frontend, correctly ordered by its published date
   * there is no scheduling available yet.
+  * a post can be unpublished
 * have their homepage display a list of published posts ordered by publish date
   * displays their configured title / desc
   * shows a list of n posts
