@@ -43,12 +43,12 @@ If you already know what you are doing and are just looking for the configure an
 1. You will need an empty directory somewhere on a machine with the following pre-requisites:
   - git cli installed with a github ssh key setup
   - ruby, ruby sass and ruby bourbon installed
-  - ghostdeploy.pem saved in ~/.ssh
+  - your .pem saved in ~/.ssh, you can also ask for the .pem for deploying to ghost servers 
 1. Save the [ghost-deploy.sh](https://gist.github.com/ErisDS/6f32e9b75d08a1c81f9b) script in your empty directory
 1. Run the script. It takes a number of arguments:
   * ``-f | --fork [TryGhost]``   - which fork of Ghost to deploy. 
   * ``-r | --refspec [master]``  - which refspec (branch, tag, commit) to deploy. 
-  * ``-s | --server [test1]``    - which server to deploy to. Options are staging, next, test1, test2, test3 or your own ec2 specified by the unique number and region like "ec2-54-214-216-43.us-west-2"
+  * ``-s | --server [test1]``    - which server to deploy to. Options are staging, next or your own ec2 specified by the unique number and region like "ec2-54-214-216-43.us-west-2"
   * ``-p | --pem [ghostdeploy]`` - name of the pem file to use to authenticate
   * ``-c | --clean [false]``     - delete the clone after deploying
 
