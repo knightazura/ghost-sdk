@@ -174,8 +174,8 @@ Clicking on connected Services seems to highlight plugins as well and vice versa
 
 # Quick Wins
 
-1. Adding a link to the G in Nav Bar
-2. Replace User menu pic and name
+1. Adding a link to the G in Nav Bar [done]
+2. Replace User menu pic and name [#208](https://github.com/TryGhost/Ghost/issues/195)
 3. Make Menu icons spin
 4. Close Menus when you click anywhere other than menu
 5. Load a wiki page with shortcuts or a pop-up etc.
