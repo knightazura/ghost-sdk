@@ -58,7 +58,7 @@ Example:
 
 This Widget type is exclusively for the settings pane of an individual Widget. It works for all Widget sizes.
 
-Simple apply the class `widget-settings` to the main Widget element and use the following HTML markup to build your settings pane.
+Simply apply the class `widget-settings` to the main Widget element and use the following HTML markup to build your settings pane.
 
 Example:
 
