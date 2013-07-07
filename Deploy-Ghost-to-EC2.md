@@ -36,7 +36,7 @@ If you already know what you are doing and are just looking for the configure an
   - ``sudo chmod u+x ghost-ec2-config.sh``
 1. run:
   - ``sudo ./ghost-ec2-config.sh``
-1. create a file in /var/www/app.js - I used the default node.js hello world code: http://nodejs.org/#column1
+1. create a file in /var/www/index.js - I used the default node.js hello world code: http://nodejs.org/#column1
 1. navigate to your ec2 in a browser (ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com) and you should see "Hello World"
 
 ## Deploying Ghost to EC2
