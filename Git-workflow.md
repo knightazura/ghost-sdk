@@ -1,6 +1,10 @@
 Full details
 [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)
 
+Other interesting reading:
+[GitHub Patterns](http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/)
+[Git Workflow](https://sandofsky.com/blog/git-workflow.html)
+
 **Please note:** I will always try to merge your pull request, or at least give a reason why your pull request has not been merged, within 24 hours at the absolute latest.
 
 ## Quick Summary
