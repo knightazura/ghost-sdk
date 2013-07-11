@@ -21,4 +21,5 @@ The following documents are intended to provide all the information you need for
 ## User Docs
 
 * [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
+* [Updating Deployed Ghost Instances](wiki/Updating-Deployed-Ghost-Instances)
 * [Themes: Core Helper docs](wiki/Core-helper-documentation)
