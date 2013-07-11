@@ -7,5 +7,5 @@
 * Update reference to casper
 * Version bump commit "Milestone * version bump & updated Casper reference to match"
 
-* git tag -a v*.*.* -m 'Milestone version *.*.*' on both Casper and Ghost
+* git tag -a *.*.* -m 'Milestone Version *.*.*' on both Casper and Ghost
 * git push origin master && git push --tags origin master on both Casper and Ghost
