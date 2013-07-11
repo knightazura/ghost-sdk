@@ -1,7 +1,7 @@
 If you are on a version of Ghost which is from before the import/export UI was introduced in https://github.com/TryGhost/Ghost/commit/2b7d0f054d59cfb47735fe3845f00515d1a0f036 (23rd June) you will first need to update to this version so that you can export your data.
 
 ## Getting the import/export UI:
-* Navigate to the place where you keep your deploy script, update the deploy script with the latest version: https://gist.github.com/ErisDS/6f32e9b75d08a1c81f9b
+* Navigate to the place where you keep your deploy script
 * run the deploy script with `--refspec 6f32e9b75` to deploy this exact commit. (You may have to run git fetch   first)
 * *Note* The deploy script tends to fail to restart ghost, if this happens, login to your EC2 and do it manually
 
@@ -14,7 +14,8 @@ If you are on a version of Ghost which is from before the import/export UI was i
 * Keep your exported and fixed json file somewhere safe
 
 ## Updating to the latest Ghost
-* Run the deploy script again, but this time with the default refspec (master). 
+* You will need to update the config on your EC2 instance to point to the new port no (2368) and also to run index.js instead of app.js. Use the config script as a guide for what to edit: https://gist.github.com/ErisDS/3d7b5e2731f56f8617f8 
+* Run the deploy script (you may need the latest version) 
 * Go to /ghost/login, register a new user as usual and login (note: this is your login from now on, it won't get overridden with the old data)
 * Delete any fixtures you don't want
 * Navigate to `ghost/debug`
