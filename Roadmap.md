@@ -139,6 +139,13 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
 * Advanced post features
 	* First and foremost this includes an archive page, post tagging and post SEO. 
     * Other potential features for this release include a simple RSS feed, image uploads, search, comments, custom field, scheduling, haunted markdown. We'll play it by ear and see which features we think are most important.
+* Dashboard
+    * The dashboard needs love. We need to start by designing the architecture behind 3rd party integration. For 0.3 we'd like to have the following widgets up and running:
+       * Analytics
+       * Twitter
+       * Facebook
+       * App.net
+       * Internal
 * Theme & Plugin API
 	* Roll out filters across the admin and api (see [Imagining Ghost Themes and Plugins](https://github.com/TryGhost/Ghost/wiki/Imagining-Ghost-Themes-and-Plugins)
     * Improvements and additions to helpers (kinda requires the advanced post features)
