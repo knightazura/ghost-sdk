@@ -126,9 +126,9 @@ features should not be removed
 *We will have breaking changes, there is little doubt, but these will require a version bump*
 
 
-##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th August* 
+##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th September* 
 
-Version 0.3 will be released to all 5,236 KickStarter backers in mid August. As such we want to focus on user experience and making Ghost feel like a real blogging application. We also want to ensure at this point that Ghost is reasonably stable.
+Version 0.3 will be released to all 5,236 KickStarter backers in mid September. As such we want to focus on user experience and making Ghost feel like a real blogging application. We also want to ensure at this point that Ghost is reasonably stable & feature rich.
 
 With this in mind, for 0.3 we'd like to focus on the following key areas:
 
@@ -137,10 +137,11 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
     * Add the user UI so that the details of the admin user can be changed
     * Get the concept of post author rolled out across the admin and frontend
 * Advanced post features
-	* First and foremost this includes an archive page, post tagging and post SEO. 
+    * First and foremost this includes an archive page, post tagging and post SEO.
     * Other potential features for this release include a simple RSS feed, image uploads, search, comments, custom field, scheduling, haunted markdown. We'll play it by ear and see which features we think are most important.
-* Dashboard
-    * The dashboard needs love. We need to start by designing the architecture behind 3rd party integration. For 0.3 we'd like to have the following widgets up and running:
+* 3rd Party Integrations
+    * We need to start by designing the architecture behind 3rd party integrations & connecting various services for various tasks: sharing, liking, and pulling data (for dashboard widgets)
+    * Additionally, the dashboard needs love. We need to plan out how internal widgets will work too and for 0.3 we'd like to have the following widgets up and running:
        * Analytics
        * Twitter
        * Facebook
