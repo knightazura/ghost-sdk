@@ -156,7 +156,7 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
     * Connect up with the tools for 3rd party services
     * Improvements and additions to helpers (kinda requires the advanced post features)
 * Theme & Plugin installing/registering/loading
-    * The UI for activating a plugin/theme will probably not be in this version
+    * The UI for activating a plugin and theme 
     * Add the concept of package.json to themes & plugins
     * Add the ability to register custom filters and helpers from plugins and themes
 * Internal - i.e all the things we need to do to ensure Ghost is awesome:
