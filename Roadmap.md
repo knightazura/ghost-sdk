@@ -128,6 +128,8 @@ features should not be removed
 
 ##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th September* 
 
+[Planning WIP]
+
 Version 0.3 will be released to all 5,236 KickStarter backers in mid September. As such we want to focus on user experience and making Ghost feel like a real blogging application. We also want to ensure at this point that Ghost is reasonably stable & feature rich.
 
 With this in mind, for 0.3 we'd like to focus on the following key areas:
