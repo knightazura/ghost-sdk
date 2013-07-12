@@ -165,22 +165,9 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
     
 
 
-What we were originally planning would be in 0.3
+What we were originally planning would also be in 0.3
 
 * Image upload
-* Dynamic Menu (ui to edit single menu)
-* Archives (Casper)
-* Edit single user
-* Basic RSS feed
-* Dashboard
-  * Analytics
-  * Twitter
-  * Facebook
-  * App.net
-  * Internal
-* Tags on posts
-* Search
-* Install
 * Haunted Markdown
   * image
   * video
@@ -188,6 +175,8 @@ What we were originally planning would be in 0.3
 * Comments (disqus)
 
 ##[Version 0.4](https://github.com/TryGhost/Ghost/issues?milestone=3&state=open) - Public access - Est 2nd September
+* Install
+* Dynamic Menu (ui to edit single menu)
 * Schedule post
 * Mobile UI + Interactions
 * Importer
