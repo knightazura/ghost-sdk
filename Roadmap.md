@@ -141,7 +141,7 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
 * Advanced post features
     * First and foremost this includes an archive page, post tagging and post SEO.
     * Image uploads, both in post and as a custom field
-    * Other potential features for this release include a simple RSS feed, image uploads, search, comments (disqus), custom field, scheduling, haunted markdown (image, video, small). We'll play it by ear and see which features we think are most important.
+    * Other potential features for this release include a simple RSS feed, search, comments (disqus), custom field, scheduling, haunted markdown (image, video, small). We'll play it by ear and see which features we think are most important.
 * 3rd Party Integrations
     * We need to start by designing the architecture behind 3rd party integrations & connecting various services for various tasks: sharing, liking, pulling data for dashboard widgets, and implementing services like comments which work on the blog. 
     * We need a set of core tools for authenticating and authorising with various schemes and for interacting with various kinds of API (most are REST or at least HTTP based)
