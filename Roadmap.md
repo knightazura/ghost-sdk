@@ -133,7 +133,7 @@ Version 0.3 will be released to all 5,236 KickStarter backers in mid September. 
 With this in mind, for 0.3 we'd like to focus on the following key areas:
 
 * Users
-	* Whilst we'll prob stick with the single-admin-user-owns-all-the-things for now, we should work on making the ownership explicit by rolling out the ACL system across the admin.
+    * Whilst we'll prob stick with the single-admin-user-owns-all-the-things for now, we should work on making the ownership explicit by rolling out the ACL system across the admin.
     * Add the user UI so that the details of the admin user can be changed
     * Get the concept of post author rolled out across the admin and frontend
 * Advanced post features
@@ -148,18 +148,17 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
        * App.net
        * Internal
 * Theme & Plugin API
-	* Roll out filters across the admin and api (see [Imagining Ghost Themes and Plugins](https://github.com/TryGhost/Ghost/wiki/Imagining-Ghost-Themes-and-Plugins)
+    * Roll out filters across the admin and api (see [Imagining Ghost Themes and Plugins](https://github.com/TryGhost/Ghost/wiki/Imagining-Ghost-Themes-and-Plugins)
     * Improvements and additions to helpers (kinda requires the advanced post features)
 * Theme & Plugin installing/registering/loading
-	* The UI for activating a plugin/theme will probably not be in this version
+    * The UI for activating a plugin/theme will probably not be in this version
     * Add the concept of package.json to themes & plugins
     * Add the ability to register custom filters and helpers from plugins and themes
-    
 * Internal - i.e all the things we need to do to ensure Ghost is awesome:
-	* finishing the conversion of the admin UI to backbone
+    * finishing the conversion of the admin UI to backbone
     * adding a build step for the masses of client scripts
     * sharing code between server and client where possible
-	* refactoring bits we aren't happy with (like ghost.js)
+    * refactoring bits we aren't happy with (like ghost.js)
     * improving unit test coverage for core inc adding unit tests for client
     * adding automated functional tests
     
