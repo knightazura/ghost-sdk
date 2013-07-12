@@ -138,9 +138,10 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
     * Get the concept of post author rolled out across the admin and frontend
 * Advanced post features
     * First and foremost this includes an archive page, post tagging and post SEO.
-    * Other potential features for this release include a simple RSS feed, image uploads, search, comments, custom field, scheduling, haunted markdown. We'll play it by ear and see which features we think are most important.
+    * Image uploads, both in post and as a custom field
+    * Other potential features for this release include a simple RSS feed, image uploads, search, comments (disqus), custom field, scheduling, haunted markdown (image, video, small). We'll play it by ear and see which features we think are most important.
 * 3rd Party Integrations
-    * We need to start by designing the architecture behind 3rd party integrations & connecting various services for various tasks: sharing, liking, and pulling data (for dashboard widgets)
+    * We need to start by designing the architecture behind 3rd party integrations & connecting various services for various tasks: sharing, liking, pulling data for dashboard widgets, and implementing services like comments which work on the blog
     * Additionally, the dashboard needs love. We need to plan out how internal widgets will work too and for 0.3 we'd like to have the following widgets up and running:
        * Analytics
        * Twitter
@@ -161,18 +162,6 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
     * refactoring bits we aren't happy with (like ghost.js)
     * improving unit test coverage for core inc adding unit tests for client
     * adding automated functional tests
-    
-    
-
-
-What we were originally planning would also be in 0.3
-
-* Image upload
-* Haunted Markdown
-  * image
-  * video
-  * small
-* Comments (disqus)
 
 ##[Version 0.4](https://github.com/TryGhost/Ghost/issues?milestone=3&state=open) - Public access - Est 2nd September
 * Install
