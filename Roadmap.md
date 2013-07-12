@@ -5,6 +5,7 @@
 
 # Summary
 I’m pretty certain that this is going to be TLDR; for many people, so in summary:
+
 * We are introducing a new 0.1.1 milestone which marks the point at which Ghost should be useful as a blog, this milestone replaces 0.2.0 for delivery mid-June.
 * At 0.1.1 it will be required that every contributor to Ghost setup a blog using Ghost & write at least one post a week. It doesn’t need to be public, although we’d like access, and we’re not expecting works of literature, we just want all of the developers to be exercising the system regularly.
 * 0.2.0 is still the point at which VIP KickStarter access will happen, and we are hoping to only push it back by 7 days
@@ -12,7 +13,8 @@ I’m pretty certain that this is going to be TLDR; for many people, so in summa
 ## [Version 0.1.0](https://github.com/TryGhost/Ghost/commit/17d421bfcc9a766ff1f09ca69677d7a6a978e885) - Initial Prototype - Completed 11th May
 
 The first version of Ghost was a prototype version opened up to a small group of contributors. It had:
-divided the code into core and user content
+
+* divided the code into core and user content
 * basic structure of admin vs frontend code mapped out inside of core
 * very basic save, edit and list features for posts
 * a single theme with very basic functionality
@@ -29,6 +31,7 @@ At this point, we want all contributors to deploy and run Ghost as a blog somewh
 
 ### Expected features for 0.1.1
 A core dev should be able to (this means editing config files, or replacing images manually is acceptable but not desired):
+
 * setup and run a blog
   * there should be some means to deploy a blog on ec2/nodejitsu/appfog or somewhere 
   * it should be easy to run the blog in such a way that is stable and long-running.
@@ -54,27 +57,13 @@ A core dev should be able to (this means editing config files, or replacing imag
   * possible to export (and import) all data as JSON
   * maybe have a grunt task to zip & store the custom content
 
-### Missing features required for 0.1.1
-**Ghost:**
-* basic deploy tools [#103](https://github.com/TryGhost/Ghost/issues/103)
-* data export & import [#115](https://github.com/TryGhost/Ghost/issues/115)
-* admin user safety (no default user, registration allows for creation of single admin) [#138](https://github.com/TryGhost/Ghost/issues/138)
-* set published by & published at [#117](https://github.com/TryGhost/Ghost/issues/117)
-* data model refinements [#101](https://github.com/TryGhost/Ghost/issues/101)
-* upgrade plan (how to upgrade without harming db/data/images) [#139](https://github.com/TryGhost/Ghost/issues/139)
-* settings used for frontend config (nice to have) [#112](https://github.com/TryGhost/Ghost/issues/112)
-
-**Casper:**
-* pretty / featured first post (note there will be no featured image) [#1](https://github.com/TryGhost/Casper/issues/1)
-* non working post footer stuff (share, what do you think) stuff should be removed [#3](https://github.com/TryGhost/Casper/issues/3)
-* use configured title / desc [#4](https://github.com/TryGhost/Casper/issues/4)
-
-##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Developer access - 23rd Jun
+##[Version 0.2](https://github.com/TryGhost/Ghost/issues?milestone=1&state=open) - Developer access - Completed 11th July
 
 The second version of Ghost is intended to be released to VIP KickStarter backers via weekly and nightly builds. This version should be the first version which is feature complete enough to be realistically used by folks to run a blog, and therefore will start to require some compatibility between versions. 
 
 ### Expected features for 0.2.0:
-Any developer should be able to (this means there is a UI or tool provided and documented): 
+Any developer should be able to (this means there is a UI or tool provided and documented):
+
 * download the code from a secure location, using their KS email address
 * setup and run a blog
   * there should be some simple means to deploy a blog onto a platform, and growing/improving documentation on how to deploy it elsewhere.
@@ -117,6 +106,7 @@ Any developer should be able to (this means there is a UI or tool provided and d
 
 ### Additional requirements
 In addition to features, we have the following requirements if it is to be possible for us to realistically run Ghost as a blog.
+
 * Stability 
   * Ghost shouldn’t crash unexpectedly
   * We need to be reasonably certain that we are using error handling where necessary
@@ -126,23 +116,6 @@ In addition to features, we have the following requirements if it is to be possi
 * Upgradable & data safe 
   * we need to be able to, at the bare minimum, export post data before an upgrade incase we break something terrible & lose data
   * we will need a plan for how to upgrade Ghost without overwriting data, custom images, custom themes and custom plugins
-
-### Missing features required between 0.1.1 and 0.2.0
-**Ghost:**
-* Admin UI cleanup
-  * hide non-working features:
-    * post scheduling
-    * tagging
-    * etc
-  * remove unwanted features
-    * admin menu filter hook
-* Unpublish a post
-* Code cleanup: iifw: #58, ghost js ?
-* [TODO: complete this]
-
-**Casper:**
-* Pagination 
-* [TODO: fill this out]
 
 
 ### Notes on compatibility from 0.2.0 onward:
@@ -154,6 +127,38 @@ features should not be removed
 
 
 ##[Version 0.3](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open) - Kickstarter access - Est 16th August* 
+
+Version 0.3 will be released to all 5,236 KickStarter backers in mid August. As such we want to focus on user experience and making Ghost feel like a real blogging application. We also want to ensure at this point that Ghost is reasonably stable.
+
+With this in mind, for 0.3 we'd like to focus on the following key areas:
+
+* Users
+	* Whilst we'll prob stick with the single-admin-user-owns-all-the-things for now, we should work on making the ownership explicit by rolling out the ACL system across the admin.
+    * Add the user UI so that the details of the admin user can be changed
+    * Get the concept of post author rolled out across the admin and frontend
+* Advanced post features
+	* First and foremost this includes an archive page, post tagging and post SEO. 
+    * Other potential features for this release include a simple RSS feed, image uploads, search, comments, custom field, scheduling, haunted markdown. We'll play it by ear and see which features we think are most important.
+* Theme & Plugin API
+	* Roll out filters across the admin and api (see [Imagining Ghost Themes and Plugins](https://github.com/TryGhost/Ghost/wiki/Imagining-Ghost-Themes-and-Plugins)
+    * Improvements and additions to helpers (kinda requires the advanced post features)
+* Theme & Plugin installing/registering/loading
+	* The UI for activating a plugin/theme will probably not be in this version
+    * Add the concept of package.json to themes & plugins
+    * Add the ability to register custom filters and helpers from plugins and themes
+    
+* Internal - i.e all the things we need to do to ensure Ghost is awesome:
+	* finishing the conversion of the admin UI to backbone
+    * adding a build step for the masses of client scripts
+    * sharing code between server and client where possible
+	* refactoring bits we aren't happy with (like ghost.js)
+    * improving unit test coverage for core inc adding unit tests for client
+    * adding automated functional tests
+    
+    
+
+
+What we were originally planning would be in 0.3
 
 * Image upload
 * Dynamic Menu (ui to edit single menu)
