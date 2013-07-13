@@ -93,7 +93,7 @@ Any developer should be able to (this means there is a UI or tool provided and d
   * only published posts should be shown
   * most recently published post should be first
   * pagination should be available to view older posts
-* [TODO: finish tying down theme/plugin API stuff]
+* Theme/plugin API stuff:
   * Theme API basics
     * Static menu 
   * Plugin API basics
