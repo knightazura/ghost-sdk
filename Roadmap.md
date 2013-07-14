@@ -168,6 +168,10 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
     * improving unit test coverage for core inc adding unit tests for client
     * adding automated functional tests
 
+#### Version 0.3 planning
+
+Interaction issues: #6
+
 ##[Version 0.4](https://github.com/TryGhost/Ghost/issues?milestone=3&state=open) - Public access - Est 2nd September
 * Custom field image uploads
 * Install
