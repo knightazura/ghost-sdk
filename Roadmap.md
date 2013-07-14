@@ -170,7 +170,11 @@ With this in mind, for 0.3 we'd like to focus on the following key areas:
 
 #### Version 0.3 planning
 
-Interaction issues: #6
+Interactions Epic: #268
+User Epic: 
+Post tags Epic: 
+Image upload Epic:
+Themes & Plugins Epic:
 
 ##[Version 0.4](https://github.com/TryGhost/Ghost/issues?milestone=3&state=open) - Public access - Est 2nd September
 * Custom field image uploads
