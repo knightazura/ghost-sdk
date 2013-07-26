@@ -1,6 +1,6 @@
 ### Building a Modal
 
-First you need to define your content in an content related named `.hbs` file. For example `markdown-help.hbs`.
+First you need to define the content in an content related named `.hbs` file. For example `markdown-help.hbs`.
 
 In this file place the contents of the modal.
 
@@ -69,7 +69,7 @@ this.addSubview(new Ghost.Views.Modal({
 }
 ```
 
-* `style`: These are extra classes that can be used to add visual styles across your modal. These can be specified in the SCSS by using:
+* `style`: These are extra classes that can be used to add visual styles across the modal. These can be specified in the SCSS by using:
 ```
 .modal-style-{{style}} {
     @extend %modal;
@@ -77,4 +77,4 @@ this.addSubview(new Ghost.Views.Modal({
 }
 ```
 
-* `animation`: These are animation for your modal to appear with. Currently there is only `fadeIn`.
+* `animation`: These are animations for the modal to appear with. Currently there is only `fadeIn`.
