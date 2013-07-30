@@ -17,6 +17,27 @@ Once a change is ready to be added back to the core repo, a pull request should 
 
 Be sure to pull from the core repo regularly :)
 
+## Notes on writing good commit messages
+
+* The first line of your commit message should be a short (80 chars) public description of what you have achieved with the commit. This is what appears in the change log. 
+* Leave a blank line after the first line
+* The 3rd line should reference the issue with `issue #000` if you just want to mention an issue or `closes #000` if your commit closes an issue.
+* Use bullet points on the following lines to explain what your changes achieve and in particular why you've used your approach
+
+E.g.
+
+```
+Show message and don't start on unsupported node versions
+
+closes #292
+- added engines and enginestrict properties to package.json
+- these provide warnings / errors when installing through npm
+- added our own check using this info on start, throws a useful error and stops the app if the node version is not supported
+- also switched sqlite3 to the latest version and checked it works with various node versions
+```
+
+[See the original](https://github.com/TryGhost/Ghost/commit/6dd753212f1b143f0e6729010ff14b914f1bf576)
+
 ## Submitting Pull Requests
 
 The easier it is for me to merge a PR, the faster I'll be able to do it. Please take steps to make merging easy and keep the history clean and useful.
@@ -33,19 +54,6 @@ Whilst you're working on your branch on your own, you can do all the commits you
 - Run `git rebase -i HEAD~#` where # is the number of commits you have done on your branch
 
 Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message.
-
-#### Write meaningful commit messages
-
-Write a useful commit message. Unless your change is very very small, your commit message should have a summary line, a blank line, and then more details. E.g.
-
-```
-Fixing bug in registration
-
-Switching over to abstracted data provider meant that email_address
-accidentally got passed to the model as email and therefore could not
-be found. This is now resolved.
-Also, added trailing slash to register route, which I believe should be there
-```
 
 #### Submit!
 
