@@ -42,6 +42,7 @@ If you already know what you are doing and are just looking for the configure an
 ## Deploying Ghost to EC2
 1. You will need an empty directory somewhere on a machine with the following pre-requisites:
   - git cli installed with a github ssh key setup
+  - grunt-cli intalled globally (`npm install -g grunt-cli`)
   - ruby, ruby sass and ruby bourbon installed
   - your .pem saved in ~/.ssh, you can also ask for the .pem for deploying to ghost servers 
 1. Save the [ghost-deploy.sh](https://gist.github.com/ErisDS/6f32e9b75d08a1c81f9b) script in your empty directory
