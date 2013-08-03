@@ -17,7 +17,8 @@ The following documents are intended to provide all the information you need for
 * [User stories](wiki/User-Stories)
 * [Tech architecture vision](wiki/Tech-architecture-vision)
 * [Widget Development](wiki/Widget-Documentation)
-
+* [Using Modals](wiki/Using-Modals)
+* [Using Notifications](wiki/Using-Notifications)
 ## User Docs
 
 * [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
