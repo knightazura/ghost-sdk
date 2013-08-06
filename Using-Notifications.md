@@ -18,7 +18,7 @@ msg = {
 
 ## How to add them
 ### Server side
-Assuming `object` is a notification (see above): `ghost.notifications.push(object);`
+Assuming `object` is a notification (see above): `api.notifications.add(object);`
 
 ## Client side
 
@@ -40,11 +40,7 @@ $(document).on('click', '.add-persistent-notification', function (event) {
         url: '/api/v0.1/notifications/',
         data: msg
     }).done(function (result) {
-        var fcv;
-        fcv = new Ghost.Views.FlashCollectionView({
-            model: [msg]
-        });
-        console.log(fcv);
+        Ghost.notifications.add(msg);
     });
 });
 ```
