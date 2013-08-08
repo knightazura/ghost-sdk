@@ -11,9 +11,8 @@ Each developer should fork the private core Ghost repo into a private repo of th
 
     git remote add upstream git@github.com:TryGhost/Ghost.git
 
-Once a change is ready to be added back to the core repo, a pull request should be issued. For the immediate future only, all pull requests will be handled by Hannah Wolfe.
+Changes should adhere to our [coding standards](https://github.com/TryGhost/Ghost/wiki/Code-standards), commit messages should follow our [notes below](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 
-Be sure to pull from the core repo regularly :)
 
 ## Notes on writing good commit messages
 
