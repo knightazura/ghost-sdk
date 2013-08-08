@@ -12,7 +12,7 @@ All code should conform, strictly, to the Ghost project [Code Standards](https:/
 
 All HTML and CSS should conform to the [Code Guide](http://github.com/mdo/code-guide), maintained by [Mark Otto](http://github.com/mdo).
 
-## Getting stuck in
+## Getting Stuck In
 
 Work is very much underway towards achieving version 0.3. You can find out the plan by reading the [Version 0.3 Roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap#version-03---kickstarter-access---est-16th-september) and also take a look at the [issue list](https://github.com/TryGhost/Ghost/issues?milestone=2&state=open). If you see any issue you are interested in working on, let Hannah know by leaving a comment or dropping her a message in IRC/Skype.
 
