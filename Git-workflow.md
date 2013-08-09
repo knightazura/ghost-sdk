@@ -54,6 +54,12 @@ Whilst you're working on your branch on your own, you can do all the commits you
 
 Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message. You commit message(s) should follow the pattern described in the [notes](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages) above. The first line of your commit message will appear in the change log which goes out to our VIPs with each pre-release, so please keep that in mind.
 
+#### Check it passes the tests
+
+Run `grunt validate` to check that your work passes JSLint and the server-side mocha unit tests. If this fails, your PR will throw an error when submitted.
+
+Our functional tests are not yet hooked up to grunt validate, but details on how to run them can be found in `core/test/functional/base.js` if you're making changes to the UI it's worth running these.
+
 #### Submit!
 
 Now that your history is nice and clean, fetch the latest updates from upstream. Assuming you haven't changed the master branch, do:
