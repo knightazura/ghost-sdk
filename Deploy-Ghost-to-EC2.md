@@ -59,3 +59,7 @@ E.g.
 ``./ghost-deploy.sh --server staging`` would deploy the latest master to staging, providing I have the ghostdeploy.pem file for the ghost servers in .ssh
 
 ``./ghost-deploy.sh --fork ErisDS --refspec my-branch --server test1 --clean`` would deploy my-branch from my own fork to the test1 server and then delete the local clone on my machine, providing I have the ghostdeploy.pem file for the ghost servers in .ssh
+
+## Redeploying
+
+Re-deploying should simply be a case of re-running the deploy scripts.
