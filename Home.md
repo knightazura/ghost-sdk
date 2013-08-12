@@ -16,12 +16,20 @@ The following documents are intended to provide all the information you need for
 * [Intro to the code base](wiki/Code-Structure)
 * [User stories](wiki/User-Stories)
 * [Tech architecture vision](wiki/Tech-architecture-vision)
+
+## Code / API documentation
+
 * [Widget Development](wiki/Widget-Documentation)
 * [Using Modals](wiki/Using-Modals)
 * [Using Notifications](wiki/Using-Notifications)
 
-## User Docs
+## Infrastructure Docs
 
+* [Installing PhantomJS and CasperJS](wiki/Installing-PhantomJS-and-CasperJS)
 * [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
 * [Updating Deployed Ghost Instances](wiki/Updating-Deployed-Ghost-Instances)
-* [Themes: Core Helper docs](wiki/Core-helper-documentation)
+
+## User docs
+
+* [Themes: Wiki Core Helper docs](wiki/Core-helper-documentation)
+* [Themes: VIP Helper/Theme docs](http://vip.tryghost.org/documentation/theme-docs/)
