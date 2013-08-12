@@ -6,6 +6,7 @@ Planning the future of Ghost and what that looks like
 * [Roadmap](wiki/Roadmap)
 * [Working features](wiki/Working-Features)
 * [Feature details & discussion](wiki/Feature-details)
+* [User stories](wiki/User-Stories)
 * [Ghost theming](wiki/Ghost-Theming)
 
 ## Core Developer Docs
@@ -14,7 +15,6 @@ The following documents are intended to provide all the information you need for
 * [Code standards](wiki/Code-standards) 
 * [Git workflow](wiki/Git-workflow)
 * [Intro to the code base](wiki/Code-Structure)
-* [User stories](wiki/User-Stories)
 * [Tech architecture vision](wiki/Tech-architecture-vision)
 
 ## Code / API documentation
