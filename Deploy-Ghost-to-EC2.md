@@ -60,6 +60,8 @@ E.g.
 
 ``./ghost-deploy.sh --fork ErisDS --refspec my-branch --server test1 --clean`` would deploy my-branch from my own fork to the test1 server and then delete the local clone on my machine, providing I have the ghostdeploy.pem file for the ghost servers in .ssh
 
+4\. **FINALLY** After running the script, you will need to ssh to your ec2 instance and run `sudo restart ghost`. I am currently working on finding a way to do this as part of the deploy script.
+
 ## Redeploying
 
 Re-deploying should simply be a case of re-running the deploy scripts... [more instructions here](Updating-Deployed-Ghost-Instances)
