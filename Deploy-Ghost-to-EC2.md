@@ -62,6 +62,10 @@ E.g.
 
 4\. **FINALLY** After running the script, you will need to ssh to your ec2 instance and run `sudo restart ghost`. I am currently working on finding a way to do this as part of the deploy script.
 
+## Casper
+
+If you want to deploy a different branch of casper... or want a template for deploying your own them, see the [casper deploy script](https://gist.github.com/ErisDS/1866c7a1914c93a31a6c)
+
 ## Redeploying
 
 Re-deploying should simply be a case of re-running the deploy scripts... [more instructions here](Updating-Deployed-Ghost-Instances)
