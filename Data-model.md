@@ -38,14 +38,14 @@ Advanced workflows are not on the roadmap for some time, but we need to leave th
 ## Integrations?
 
 
-## Category / Tag
+## Tag
 
 Categoristion which supports hierarchies, multiples etc
 
 - id - incrementing primary key
 - name - String
 - slug - String (url)
-- parent
+- parent_id
 - created_at
 - created_by
 - updated_at
@@ -95,11 +95,6 @@ Question: is it useful to have a 'type' field? So that we could group certain se
 - created_by
 - updated_at
 - updated_by
-
-## Image
-
-## PostImage
-      
 
 
 # ACL
