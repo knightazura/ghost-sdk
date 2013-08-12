@@ -1,17 +1,22 @@
-## Mac
+### Mac
 This is super-duper simple using brew
 
-### Phantomjs:
+#### Phantomjs:
 
 `brew update && brew install phantomjs`
 
-### Casperjs:
+#### Casperjs:
 
 *Note:* Use `--devel` to get v1.1 which we require
 
 `brew install casperjs --devel` 
 
+###Linux / Vagrant box
 
-Windows
+#### Phantomjs:
+#### Casperjs:
 
-Linux / Vagrant box
+###Windows
+
+#### Phantomjs:
+#### Casperjs:
