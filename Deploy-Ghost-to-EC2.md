@@ -62,4 +62,4 @@ E.g.
 
 ## Redeploying
 
-Re-deploying should simply be a case of re-running the deploy scripts.
+Re-deploying should simply be a case of re-running the deploy scripts.... [more instructions here](wiki/Updating-Deployed-Ghost-Instances)
