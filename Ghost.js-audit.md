@@ -7,3 +7,4 @@
 * `.paths()`
 * `.initTheme()` - the only place this is called.. it really should never have been in ghost.js
 * `.init()`
+* `.config()`
