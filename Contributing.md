@@ -22,4 +22,4 @@ If you have ideas for something you'd like to implement or improve which isn't o
 
 Please read the [Git workflow](https://github.com/TryGhost/Ghost/wiki/Git-workflow) documentation with regards to writing commit messages, opening Pull Requests, branching strategies and other general git process related stuff.
 
-When submitting Pull Requests or Issues, often screenshots or .gifs of the problem can be beneficial. We recommend [LICEcap](http://www.cockos.com/licecap/) as a tool to record .gifs of your screen (set your 'FPS' to '24' to get smooth results).
+When submitting Pull Requests or Issues, often screenshots or .gifs of the problem or new functionality can be beneficial. We recommend [LICEcap](http://www.cockos.com/licecap/) as a tool to record .gifs of your screen (set your 'FPS' to '24' to get smooth results).
