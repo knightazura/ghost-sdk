@@ -1,6 +1,6 @@
 [Work in progress]
 
-Good, clear and consistent code styles are pivotal in the success of any software project. Good use of style can reduce errors, consistency will enable us to work together efficiently. As there is an element of personal preference in style, I am certain that some people will not be happy with the code standards I've put into place. If this is the case for you, I ask that you take half an hour to listen to the first half of [Crockford on JavaScript - Section 8: Programming Style & Your Brain](http://www.youtube.com/watch?v=taaEzHI9xyY&feature=youtube_gdata_player) to help understand why I've made these choices.
+Good, clear and consistent code styles are pivotal in the success of any software project. Good use of style can reduce errors, consistency will enable us to work together efficiently. 
 
 ## The rules:
 
