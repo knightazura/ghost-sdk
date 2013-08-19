@@ -1,5 +1,3 @@
-[Work in progress]
-
 Good, clear and consistent code styles are pivotal in the success of any software project. Good use of style can reduce errors, consistency will enable us to work together efficiently. 
 
 ## The rules:
