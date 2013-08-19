@@ -39,7 +39,7 @@ closes #292
 
 ## Submitting Pull Requests
 
-The easier it is for me to merge a PR, the faster I'll be able to do it. Please take steps to make merging easy and keep the history clean and useful.
+The easier it is for us to merge a PR, the faster we'll be able to do it. Please take steps to make merging easy and keep the history clean and useful.
 
 Firstly, **always work on a branch**, it will make your life much easier - honest. Not touching the master branch will also simplify keeping your fork up-to-date.
 
