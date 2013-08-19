@@ -43,7 +43,7 @@ The easier it is for me to merge a PR, the faster I'll be able to do it. Please 
 
 Firstly, **always work on a branch**, it will make your life much easier - honest. Not touching the master branch will also simplify keeping your fork up-to-date.
 
-*Note:* If you are not confortable with git & using rebase, make a special 'merge' branch of your branch to do these things on, then if something goes awry you can always go back to your working branch and try again.
+*Note:* If you are not comfortable with git & using rebase, make a special 'merge' branch of your branch to do these things on, then if something goes awry you can always go back to your working branch and try again.
 
 #### Clean-up history
 
