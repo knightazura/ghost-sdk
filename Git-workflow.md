@@ -88,9 +88,9 @@ Thanks!
 
 *Note:* - this is my way of getting everything neat and tidy, you may have another, as long as the result is nice easy-to-merge PRs.
 
-### What I do:
+### What Happens Next
 
-Firstly, I will give your code a read through. Small changes usually get merged as soon as I've had chance to read through them. For more involved changes I will checkout your PR, rebase with master if required and then run basic sanity / regression tests on the code, run the casper tests and re-run grunt validate. If your PR has fallen behind master and can no longer be merged, I will in most cases rebase / merge master myself. In some cases with lots of small changes I will ask you to do this as you are more familiar with your changes than I will be.
+Firstly, we will give your code a read through. Small changes usually get merged as soon as we've had chance to read through them. For more involved changes one of us will checkout your PR, rebase with master if required and then run basic sanity / regression tests on the code, run the casper tests and re-run grunt validate. If your PR has fallen behind master and can no longer be merged, we will in most cases rebase / merge master. In some cases with lots of small changes we will ask you to do this as you are more familiar with your changes than we will be.
 
 ## Working with issues
 
