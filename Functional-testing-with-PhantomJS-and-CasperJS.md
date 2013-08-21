@@ -71,5 +71,4 @@ If you are running Ghost from localhost:2368:
 
 Full command with options if you have some other setup:
 
-`casperjs test admin/ --includes=base.js [--host=localhost --port=2368 --noPort=false --email=ghost@tryghost.org --password=Sl1m3r]`
-
+`casperjs test admin/ --includes=base.js [--host=localhost --port=2368 --noPort=false --email=YOUR_LOGIN_EMAIL --password=YOUR_LOGIN_PW]`
