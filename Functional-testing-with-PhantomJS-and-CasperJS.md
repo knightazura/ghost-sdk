@@ -1,3 +1,7 @@
+This is a [nice intro](http://dannycroft.co.uk/front-end-unit-testing-with-javascript/) to functional testing with [phantomjs](http://phantomjs.org/) & [casperjs](http://casperjs.org/)
+
+## Installation
+
 ### Mac
 This is super-duper simple using brew
 
@@ -29,7 +33,6 @@ Git method is recommended. Doesn't matter where you clone casper.
 * $ cd casperjs
 * $ ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs (may require sudo)
 
-
 ### Windows
 
 As always, Windows is a little tricky
@@ -53,3 +56,20 @@ Via a command line (to install at `C:\casperjs`):
 * `git clone git://github.com/n1k0/casperjs.git`
 
 2\. Add `;C:\casperjs\batchbin` (or the correct path if you installed somewhere different) to the end of your PATH environment variable (the System one). Adding `;C:\casperjs\bin` as well may be useful - I am managing to run casper without using the .bat, I assume because of git bash.
+
+## Running the tests
+
+On the command line, from the `core/tests/functional` directory run the following command..
+
+If you are on vagrant and your url is local.tryghost.org:
+
+`casperjs test admin/ --includes=base.js --host=local.tryghost.org --noPort=true --email=YOUR_LOGIN_EMAIL --password=YOUR_LOGIN_PW`
+
+If you are running Ghost from localhost:2368:
+
+`casperjs test admin/ --includes=base.js --email=YOUR_LOGIN_EMAIL --password=YOUR_LOGIN_PW`
+
+Full command with options if you have some other setup:
+
+`casperjs test admin/ --includes=base.js [--host=localhost --port=2368 --noPort=false --email=ghost@tryghost.org --password=Sl1m3r]`
+
