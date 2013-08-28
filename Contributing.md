@@ -4,13 +4,15 @@ This document is intended as a one-stop shop for getting started with contributi
 
 ## Getting Started with the Codebase
 
-You first port of call should probably be the [working on ghost core](https://github.com/TryGhost/Ghost#working-on-ghost-core) guide in the readme which details all the dependencies you need to build Ghost from the repo.
+You first port of call should probably be the [working on ghost core](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#working-on-ghost-core) guide in the CONTRIBUTING.md which details all the dependencies you need to build Ghost from the repo.
 
 ## Code Standards
 
 All code should conform, strictly, to the Ghost project [Code Standards](https://github.com/TryGhost/Ghost/wiki/Code-standards).
 
 All HTML and CSS should conform to the [Code Guide](http://github.com/mdo/code-guide), maintained by [Mark Otto](http://github.com/mdo).
+
+All code must also pass our unit and functional tests. You can check this by running `grunt validate`. We use Travis CI to run both a linter and our unit tests against all Pull Requests.
 
 ## Getting Stuck In
 
