@@ -14,6 +14,7 @@ The following documents are intended to provide all the information you need for
 
 * [Code standards](wiki/Code-standards) 
 * [Git workflow](wiki/Git-workflow)
+* [Grunt Toolkit](wiki/Grunt-Toolkit)
 * [Intro to the code base](wiki/Code-Structure)
 * [Tech architecture vision](wiki/Tech-architecture-vision)
 
