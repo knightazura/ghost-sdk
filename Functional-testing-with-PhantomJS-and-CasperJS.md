@@ -22,16 +22,16 @@ This is super-duper simple using brew
 Use `wget` to fetch the correct archive from http://phantomjs.org/download.html:
 
 E.g. for 64-bit (find out which architecture you're on with `arch`)
-* $ wget https://phantomjs.googlecode.com/files/phantomjs-1.9.1-linux-x86_64.tar.bz2
-* $ tar xvjf phantomjs-1.9.1-linux-x86_64.tar.bz2
-* $ ln -sf `pwd`/bin/phantomjs /usr/local/bin/phantomjs (may require sudo)
+* $ `wget https://phantomjs.googlecode.com/files/phantomjs-1.9.1-linux-x86_64.tar.bz2`
+* $ `tar xvjf phantomjs-1.9.1-linux-x86_64.tar.bz2`
+* $ `ln -sf bin/phantomjs /usr/local/bin/phantomjs (may require sudo)`
 
 #### Casperjs:
 
 Git method is recommended. Doesn't matter where you clone casper.
-* $ git clone git://github.com/n1k0/casperjs.git
-* $ cd casperjs
-* $ ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs (may require sudo)
+* $ `git clone git://github.com/n1k0/casperjs.git`
+* $ `cd casperjs`
+* $ `ln -sf bin/casperjs /usr/local/bin/casperjs (may require sudo)`
 
 ### Windows
 
