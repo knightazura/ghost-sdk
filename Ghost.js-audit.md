@@ -21,11 +21,16 @@
 
 ## api.js
 
-* `.dataProvider` (should just include models?)
-* `.notifications`
+* `.dataProvider` to get access to models (should just include models?)
+* `.notifications` 
 * `.settings()`
-* `.updateSettingsCache`
+* `.updateSettingsCache()`
 
+**Thoughts on index.js usage of ghost**:
+
+* dataProvider shouldn't be needed at all anymore I don't think?
+* notifications should probably be their own model, but stored in memory rather than bookshelf
+* settings/settingsCache/cachedSettingsRequestHandler should all be moved back onto the model itself
 
 Dependo: https://dl.dropboxusercontent.com/u/531857/dependo_report3.html
 
