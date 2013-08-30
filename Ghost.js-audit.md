@@ -47,6 +47,10 @@
 
 * This one's ok, need access to ghost to test it! Buuut the tests are pretty poor and only cover a fraction of certain bits of stuff that are in `ghost.js`
 
+### server_helpers_index_spec.js
+
+* requires `ghost` to pass to `helpers.loadCoreHelpers`
+
 ** Dependency Graphs **
 
 Dependo: https://dl.dropboxusercontent.com/u/531857/dependo_report3.html
