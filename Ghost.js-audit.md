@@ -16,7 +16,7 @@
 * inits and loads probably belong together / can be simplified
 * initTheme being in ghost.js is wrong
 * .settings(), .config(), .paths() .dbHash, .notifications are all 'global' properties - we should have one clear way to read them - see [#573](https://github.com/TryGhost/Ghost/issues/573)
-* doFilter is part of the plugin/theme API
+* doFilter is part of the plugin/theme API and should be a separate thing
 * ghost shouldn't be passed around
 
 ## api.js
