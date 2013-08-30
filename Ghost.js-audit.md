@@ -11,7 +11,7 @@
 * .dbHash - used as secret for sessions to invalidate on new db
 * `ghost` is passed to loadCoreFilters, loadCoreHelpers and initTheme and I18n.load
 
-Thoughts:
+**Thoughts on index.js usage of ghost**:
 * `.app()` was a stupid idea and needs to go away
 * inits and loads probably belong together / can be simplified
 * initTheme being in ghost.js is wrong
