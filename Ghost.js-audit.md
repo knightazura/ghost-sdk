@@ -11,6 +11,13 @@
 * .dbHash - used as secret for sessions to invalidate on new db
 * `ghost` is passed to loadCoreFilters, loadCoreHelpers and initTheme and I18n.load
 
+Thoughts:
+* `.app()` was a stupid idea and needs to go away
+* inits and loads probably belong together / can be simplified
+* initTheme being in ghost.js is wrong
+* .settings(), .config(), .paths() .dbHash, .notifications are all 'global' properties - we should have one clear way to read them - see [#573](https://github.com/TryGhost/Ghost/issues/573)
+* doFilter is part of the plugin/theme API
+* ghost shouldn't be passed around
 
 
 
