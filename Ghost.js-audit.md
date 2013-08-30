@@ -19,6 +19,12 @@
 * doFilter is part of the plugin/theme API
 * ghost shouldn't be passed around
 
+## api.js
+
+* `.dataProvider` (should just include models?)
+* `.notifications`
+* `.settings()`
+* `.updateSettingsCache`
 
 
 Dependo: https://dl.dropboxusercontent.com/u/531857/dependo_report3.html
