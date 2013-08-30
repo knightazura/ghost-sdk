@@ -14,10 +14,11 @@
 **Thoughts on index.js usage of ghost**:
 * `.app()` was a stupid idea and needs to go away
 * inits and loads probably belong together / can be simplified
-* initTheme being in ghost.js is wrong
-* .settings(), .config(), .paths() .dbHash, .notifications are all 'global' properties - we should have one clear way to read them - see [#573](https://github.com/TryGhost/Ghost/issues/573)
-* doFilter is part of the plugin/theme API and should be a separate thing
-* ghost shouldn't be passed around
+* `initTheme` being in ghost.js is wrong
+* `.settings()`, `.config()`, `.paths()`, `.dbHash` are all 'global' properties - we should have one clear way to read them - see [#573](https://github.com/TryGhost/Ghost/issues/573)
+* `.notifications` hould probably be their own model, but stored in memory rather than bookshelf
+* `doFilter` is part of the plugin/theme API and should be a separate thing
+* `ghost` shouldn't be passed around
 
 ## api.js
 
@@ -28,8 +29,8 @@
 
 **Thoughts on index.js usage of ghost**:
 
-* dataProvider shouldn't be needed at all anymore I don't think?
-* notifications should probably be their own model, but stored in memory rather than bookshelf
+* `dataProvider` shouldn't be needed at all anymore I don't think?
+* `notifications` should probably be their own model, but stored in memory rather than bookshelf
 * settings/settingsCache/cachedSettingsRequestHandler should all be moved back onto the model itself along with stuff to deal with the ideas here: [#567](https://github.com/TryGhost/Ghost/issues/567)
 
 ## admin.js 
