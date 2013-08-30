@@ -32,6 +32,23 @@
 * notifications should probably be their own model, but stored in memory rather than bookshelf
 * settings/settingsCache/cachedSettingsRequestHandler should all be moved back onto the model itself along with stuff to deal with the ideas here: [#567](https://github.com/TryGhost/Ghost/issues/567)
 
+## admin.js 
+
+
+## frontend.js
+
+
+## plugins/loader.js
+
+
+## tests
+
+### ghost_spec.js
+
+* This one's ok, need access to ghost to test it! Buuut the tests are pretty poor and only cover a fraction of certain bits of stuff that are in `ghost.js`
+
+** Dependency Graphs **
+
 Dependo: https://dl.dropboxusercontent.com/u/531857/dependo_report3.html
 
 ![ghost.js dependency graph](http://f.cl.ly/items/03150X0f0P050C1c0E0K/Image%202013.08.24%2010%3A28%3A54.png)
