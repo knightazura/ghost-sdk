@@ -30,7 +30,7 @@
 
 * dataProvider shouldn't be needed at all anymore I don't think?
 * notifications should probably be their own model, but stored in memory rather than bookshelf
-* settings/settingsCache/cachedSettingsRequestHandler should all be moved back onto the model itself
+* settings/settingsCache/cachedSettingsRequestHandler should all be moved back onto the model itself along with stuff to deal with the ideas here: [#567](https://github.com/TryGhost/Ghost/issues/567)
 
 Dependo: https://dl.dropboxusercontent.com/u/531857/dependo_report3.html
 
