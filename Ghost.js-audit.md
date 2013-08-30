@@ -33,13 +33,30 @@
 * settings/settingsCache/cachedSettingsRequestHandler should all be moved back onto the model itself along with stuff to deal with the ideas here: [#567](https://github.com/TryGhost/Ghost/issues/567)
 
 ## admin.js 
+* `.dataProvider` to get access to models (should just include api)
+* `.notifications` - push, and length neither of which should be necessary
 
+**Thoughts on admin.js usage of ghost**:
+* both of these should be fairly simple to get rid of
 
 ## frontend.js
+* `.doFilter()` for filtering posts before they reach the frontend
+* `.settings()`
 
+**Thoughts on frontend.js usage of ghost**:
+
+* `.doFilter()` should be part of a separate plugin/theme api thing
+* `.settings()` also needs to become it's own thing somewhere
 
 ## plugins/loader.js
+* `.paths()`
+* passed to `plugin.activate()` and `plugin.install()` which is purely for API access
 
+**Thoughts on plugins/loader.js usage of ghost**:
+
+* This is one of the more awkward bits of code around the ghost object, mainly because of the duplicity between obtaining useful state (paths) and the API (should be separated) 
+* It should be WAY easier to get hold of the set of paths
+* The object passed to the plugin should be a theme/plugin API only
 
 ## tests
 
