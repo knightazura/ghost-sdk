@@ -1,2 +1,2 @@
-[Issue Template](git@github.com:TryGhost/Ghost.wiki.git)
-[Developer Comment on Issue](git@github.com:TryGhost/Ghost.wiki.git)
+* [Issue Template](wiki/Issue-Template)
+* [Developer Comment on Issue](wiki/Developer-Comment-on-Issue)
