@@ -1,3 +1,5 @@
+add in notes one what is expected for each field
+
 ```
 
 Summary of Issue
