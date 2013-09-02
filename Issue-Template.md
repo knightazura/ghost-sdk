@@ -1,4 +1,4 @@
-add in notes one what is expected for each field
+When submitting a GitHub issue use the following format.  Be as specific as possible in the Steps to reproduce section so the developer can effectively recreate the issue and come up with solution quickly.  
 
 ```
 
