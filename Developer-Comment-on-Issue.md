@@ -1,4 +1,5 @@
-add in notes one what is expected for each field
+As a contributor when you have finished development for your issue please use the following format to comment on the issue.
+
 
 ```
 
