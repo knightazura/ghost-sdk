@@ -41,3 +41,31 @@ remote: npm
 remote:
 remote: Error - Changes committed to remote repository but deployment to website failed, please check log for further details.
 ```
+
+
+## Modulus.io https://modulus.io/
+
+Pros:
+
+ * Dead simple web-based deployments (just click 'Upload' and send the Ghost-build.zip). Weekly/Nightly builds work, too. Make sure the node_modules folder is **not** included though, unless your system is 64-bit linux.
+ * Nice Web interface for monitoring, stats, and viewing logs. 
+ * Really simple project setup (not bogged down with menus and stuff to click like EC2 or Azure)
+ * Persistent cloud storage that can be shared by Node instances
+ * Node environment variables can be set via the web interface. Also NODE_ENV is set to 'production' by default.
+
+Cons: 
+
+Only one really - no access to the filesystem.  Currently, deploys are all or nothing, and the entire deployment is dropped when a new one occurs. This means that by default, the 'content' folder and teh sqlite database get deleted any time a new deployment occurs. You can't just upload a new file or two and restart the application.
+
+There is, however, persistent file storage available in /app-storage (env. variable: CLOUD_DIR).  This would be an ideal location for the 'content' folder, as it could be shared among multiple instances of ghost, or a single instance scaled across multiple "Servos".  
+
+One would think the SQLite database file could also be placed in /app-storage, but for some reason it cannot.  It just causes a bunch of Node/SQLite errors to occur when Ghost runs for the first time.  Customer support didn't really have an answer as to why an SQLite DB could not be stored in /app-storage other than "It's not SQLite friendly". 
+
+** Possible Solutions**
+
+Modulus support did make mention of "graceful shutdown" events that could be used to take a backup of the database before re-deploying.  See https://modulus.io/codex/projects/graceful-shutdown
+It may be possible to hook into the Ghost API to do a site dump just before a 'stop' event, and then do an import after a 'deploy' event. Currently, there is a 2 second time limit between the 'stop' event and application shutdown. So if the site is large and requires more than 2 seconds for a dump, then the dump will get cut off.  Manually backing up and restoring appears to be the only real solution to the database issue at this time.
+
+As for the 'content' folder, Ghost would need to have a way to map it to /app-storage/content, or CLOUD-DIR/content.  
+
+Modulus support is available to chat in #modulus on Freenode.  They also made mention that incremental updates (changing files without a complete deploy) is on their roadmap, but did not specify when it would be ready.
