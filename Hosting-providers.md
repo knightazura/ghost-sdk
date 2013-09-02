@@ -55,11 +55,11 @@ Pros:
 
 Cons: 
 
-Only one really - no access to the filesystem.  Currently, deploys are all or nothing, and the entire deployment is dropped when a new one occurs. This means that by default, the 'content' folder and teh sqlite database get deleted any time a new deployment occurs. You can't just upload a new file or two and restart the application.
+Only one really - no access to the filesystem.  Currently, deploys are all or nothing, and the entire deployment is dropped when a new one occurs. This means that by default, the 'content' folder and the sqlite database get deleted any time a new version of Ghost is deployed. You can't just upload a file or two and restart the application.
 
-There is, however, persistent file storage available in /app-storage (env. variable: CLOUD_DIR).  This would be an ideal location for the 'content' folder, as it could be shared among multiple instances of ghost, or a single instance scaled across multiple "Servos".  
+There is, however, persistent file storage available in /app-storage (env. variable: CLOUD_DIR).  This would be an ideal location for the 'content' folder, as it could be shared among multiple instances of ghost, or a single instance scaled across multiple "Servos".  See https://modulus.io/codex/projects/file_storage
 
-One would think the SQLite database file could also be placed in /app-storage, but for some reason it cannot.  It just causes a bunch of Node/SQLite errors to occur when Ghost runs for the first time.  Customer support didn't really have an answer as to why an SQLite DB could not be stored in /app-storage other than "It's not SQLite friendly". 
+One would think the SQLite database file could also be placed in /app-storage, but for some reason it cannot.  Doing so just causes a bunch of Node/SQLite errors to occur when Ghost runs for the first time.  Customer support didn't really have an answer as to why an SQLite DB could not be stored in /app-storage other than "It's not SQLite friendly". 
 
 ** Possible Solutions**
 
