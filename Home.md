@@ -28,6 +28,7 @@ The following documents are intended to provide all the information you need for
 * [Functional testing with PhantomJS and CasperJS](wiki/Functional-testing-with-PhantomJS-and-CasperJS)
 * [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
 * [Updating Deployed Ghost Instances](wiki/Updating-Deployed-Ghost-Instances)
+* [Hosting Providers](wiki/Hosting-Providers)
 
 ## User docs
 
