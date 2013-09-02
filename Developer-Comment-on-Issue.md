@@ -6,7 +6,6 @@ As a contributor when you have finished development for your issue please use th
 Description
 -------------------------------
 
-
 Steps
 -------------------------------
 
