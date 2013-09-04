@@ -69,3 +69,7 @@ It may be possible to hook into the Ghost API to do a site dump just before a 's
 As for the 'content' folder, Ghost would need to have a way to map it to /app-storage/content, or CLOUD-DIR/content.  
 
 Modulus support is available to chat in #modulus on Freenode.  They also made mention that incremental updates (changing files without a complete deploy) is on their roadmap, but did not specify when it would be ready.
+
+### Nodejitsu
+
+Wipes the entire VM on redeploy with no way to access filesystem. Therefore will not work with Ghost & SQLite.
