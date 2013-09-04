@@ -27,6 +27,7 @@ The following documents are intended to provide all the information you need for
 ## Infrastructure Docs
 * [Functional testing with PhantomJS and CasperJS](wiki/Functional-testing-with-PhantomJS-and-CasperJS)
 * [Deploy Ghost to EC2](wiki/Deploy-Ghost-to-EC2)
+* [Deploy Ghost to WebFaction](wiki/Deploy-Ghost-to-WebFaction)
 * [Updating Deployed Ghost Instances](wiki/Updating-Deployed-Ghost-Instances)
 * [Hosting Providers](wiki/Hosting-Providers)
 
