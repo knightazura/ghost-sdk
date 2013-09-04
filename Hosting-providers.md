@@ -70,6 +70,14 @@ As for the 'content' folder, Ghost would need to have a way to map it to /app-st
 
 Modulus support is available to chat in #modulus on Freenode.  They also made mention that incremental updates (changing files without a complete deploy) is on their roadmap, but did not specify when it would be ready.
 
-### Nodejitsu
+## Nodejitsu
 
 Wipes the entire VM on redeploy with no way to access filesystem. Therefore will not work with Ghost & SQLite.
+
+Chance it might work with MySQL but we need to support file uploads to external storage.
+
+## Heroku
+
+Also wipes its 'ethereal' file system every 24 hours. 
+
+Chance it might work with MySQL/PostGres if we can get PostGres working but we need to support file uploads to external storage.
