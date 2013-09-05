@@ -6,7 +6,7 @@ Good, clear and consistent code styles are pivotal in the success of any softwar
 * Use strict mode
 * Protect the global scope
 * Indent with 4 spaces
-* Max line lenght 120
+* Max line length 120
 * Use unix line endings
 * Document as you go - we are using groc and jsdoc formats
 * Write tests, unit tests are in nodeunit, functional using casperjs
