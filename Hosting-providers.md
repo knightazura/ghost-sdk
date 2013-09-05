@@ -81,3 +81,15 @@ Chance it might work with MySQL but we need to support file uploads to external 
 Also wipes its 'ethereal' file system every 24 hours. 
 
 Chance it might work with MySQL/PostGres if we can get PostGres working but we need to support file uploads to external storage.
+
+## Engine Yard Cloud
+
+Does not yet support Node .10
+
+```
+Could not find a Node.js version to use.
+Requested in package.json: >=0.10.* <0.11.4
+Available on your instance: 0.6.21, 0.8.7, 0.8.8, 0.8.11
+Newer versions may be available if you Upgrade your environment.
+ERROR: Exception during deploy: #<EY::Serverside::RemoteFailure: The following command failed on server [ec2-23-21-156-195.compute-1.amazonaws.com(app_master)]
+```
