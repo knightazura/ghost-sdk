@@ -3,7 +3,7 @@ This is a [nice intro](http://dannycroft.co.uk/front-end-unit-testing-with-javas
 ## Installation
 
 ### Mac
-This is super-duper simple using brew
+This is super-duper simple using [Homebrew](http://brew.sh/)
 
 #### Phantomjs:
 
