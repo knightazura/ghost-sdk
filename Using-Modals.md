@@ -77,4 +77,4 @@ this.addSubview(new Ghost.Views.Modal({
 }
 ```
 
-* `animation`: These are animations for the modal to appear with. Currently there is only `fadeIn`.
+* `animation`: These are animations for the modal to appear with. Currently there is only `fade`.
