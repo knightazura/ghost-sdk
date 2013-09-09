@@ -14,8 +14,8 @@ this.addSubview(new Ghost.Views.Modal({
         options: {
             close: true, // Is the close icon visible
             type: "info", // * The type of modal
-            style: "wide", // * Additional modal styles
-            animation: 'fadeIn' // * The animation effects on the modal
+            style: ["wide"], // * Additional modal styles
+            animation: 'fade' // * The animation effects on the modal
         },
         content: {
             template: 'content-file', // The content file without the extension
@@ -48,7 +48,7 @@ this.addSubview(new Ghost.Views.Modal({
                 }
             },
             type: "action", // * The type of modal
-            animation: 'fadeIn'
+            animation: 'fade'
         },
         content: {
             template: 'content-file', // The content file without the extension
