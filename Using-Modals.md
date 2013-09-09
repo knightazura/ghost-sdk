@@ -32,7 +32,7 @@ this.addSubview(new Ghost.Views.Modal({
 this.addSubview(new Ghost.Views.Modal({
     model: {
         options: {
-            close: false, // Is the close icon visible
+            close: false, // Defaults to `false` on Action Modals. Is the close icon visible.
             confirm: {
                 accept: {
                     func: function () { // The function called on acceptance
