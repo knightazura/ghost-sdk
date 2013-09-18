@@ -19,11 +19,15 @@ In your WebFaction (WF) control panel, go to Domains/Websites > Websites. Click 
 * Domains - enter the domain you have pointed at WF
 * Contents - Add an application > Create a new application
 
+![step1-1](http://i.imgur.com/dqMGqWu.png)
+
 You will now get a modal/popup, enter the following details
 
 * Name - same as your blog name above, no spaces
 * App category - Custom
 * App type - Custom app (listening on port)
+
+![step1-1](http://i.imgur.com/9M492d2.png)
 
 Press Save to close the modal. Once it has closed, press save again to finish creating the website.
 
