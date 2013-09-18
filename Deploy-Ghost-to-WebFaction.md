@@ -83,11 +83,13 @@ Once that is eventually finished, you can check Node.js is working properly by t
 
     node -v
 
-It should return something like `v0.10.17`
+It should return something like `v0.10.18`
 
-Now it's time to install NPM! Wohoo. You know the drill:
+And you should also have npm, the package manager for node, type:
 
-    curl https://npmjs.org/install.sh | sh
+    npm -v
+
+It should return something like `v1.3.8` 
 
 And now we can use NPM to install Forever, a utility which will keep your Ghost blog running... forever.
 
@@ -103,7 +105,7 @@ Right! The good part. First make a place on your computer where you will keep yo
 
 Scroll down and ...
 
-Replace all references to `url: 'http://127.0.0.1:2368'` with `http://yourdomain.com` from **Step 0**
+Replace all references to `url: 'http://my-ghost-blog.com'` with `http://yourdomain.com` from **Step 0**
 
 Replace all references to port **2368** with the port number you wrote down in **Step 1** above. 
 
