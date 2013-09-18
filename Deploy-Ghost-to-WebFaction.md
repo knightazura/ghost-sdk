@@ -27,11 +27,13 @@ You will now get a modal/popup, enter the following details
 * App category - Custom
 * App type - Custom app (listening on port)
 
-![step1-1](http://i.imgur.com/9M492d2.png)
+![step1-2](http://i.imgur.com/9M492d2.png)
 
 Press Save to close the modal. Once it has closed, press save again to finish creating the website.
 
 You should now see an overview of your applications, and if you are setting up a blog on a subdomain, you should be able to see the IP Address which you need to point your subdomain to in **Step 0** above.
+
+![step1-3](http://i.imgur.com/ZYeM8xP.png)
 
 ### Get Your Port Number
 
