@@ -119,7 +119,7 @@ Open up a new terminal window. This one is your **Local Terminal** - don't get t
 
 Next we're going to install grunt, a tool which will help us get Ghost deployed
 
-    npm install -g grunt
+    npm install -g grunt-cli
 
 Now we're going to install Ghost locally
 
