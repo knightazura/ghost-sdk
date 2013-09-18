@@ -41,6 +41,8 @@ In your WF control panel, go to Domains/Websites > Applications.
 
 You will now see a list of your applications - beside your new application you will see "Custom app (listening on port) (port #####) - **write down this port number somewhere, you will need it again in a minute**
 
+![port](http://i.imgur.com/OkBOIGW.png)
+
 ## 2. Set Up Your Server
 
 This is probably the hardest part, if you can get past this - you're golden.
