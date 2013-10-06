@@ -10,8 +10,16 @@ Maintenance release,  see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag
 
 Maintenance release + importers
 
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
+
 ### Hosted Service Roll out
+
+
 
 ### Version 0.4.0
 
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
+
 ### Version 0.5.0
+
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
