@@ -1,10 +1,10 @@
 ## Milestone 3 - Version 0.3.0 - Kickstarter release
 
-Single user
+See [0.3.0](https://github.com/TryGhost/Ghost/releases/tag/0.3.0)
 
 ## Version 0.3.1
 
-Maintenance release
+Maintenance release,  see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag/0.3.1)
 
 ## Milestone 4 - Public release - Version 0.3.2
 
