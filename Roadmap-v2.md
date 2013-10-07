@@ -6,7 +6,7 @@ See [0.3.0](https://github.com/TryGhost/Ghost/releases/tag/0.3.0)
 
 Maintenance release,  see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag/0.3.1)
 
-### Milestone 4 - Public release - Version 0.3.2
+### Version 0.3.2 (9th Oct), followed by Public release (14th Oct)
 
 Maintenance release + importers
 
