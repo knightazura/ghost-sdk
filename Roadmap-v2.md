@@ -14,7 +14,9 @@ Maintenance release + importers
 
 ### Hosted Service Roll out
 
+The hosted service rollout is ongoing from October - January. 
 
+There are certain areas of the Ghost software which heavily impact on the hosted service. In particular caching and asset management, image uploads/media management, and the app start up.
 
 ### Version 0.4.0
 
