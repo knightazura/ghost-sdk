@@ -3,7 +3,7 @@ Welcome to the Ghost wiki!
 ## Ghost Roadmap & Feature planning
 Planning the future of Ghost and what that looks like
 
-* [Roadmap](wiki/Roadmap)
+* ~~[Roadmap](wiki/Roadmap)~~ [Roadmap v2](wiki/Roadmap-v2)
 * [Working features](wiki/Working-Features)
 * [Feature details & discussion](wiki/Feature-details)
 * [User stories](wiki/User-Stories)
