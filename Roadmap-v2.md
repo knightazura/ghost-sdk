@@ -20,8 +20,22 @@ There are certain areas of the Ghost software which heavily impact on the hosted
 
 ### Version 0.4.0
 
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
+The next minor version bump is set to happen a few weeks after the public launch
+
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
+
+This version focuses around the Plugin API and adding functionality which has been heavily requested during the launch phases.
+
+* Plugin API lock down
+* Static pages
+* Post SEO (via post settings menu)
+* Improvements to post settings menu
+* Image features, including cover images and different sizes
+* Infrastructural improvements
+    * Sub directory support
+    * Improved, more consistent API
+    * ability to require 'ghost'
 
 ### Version 0.5.0
 
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
