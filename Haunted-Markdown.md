@@ -5,8 +5,13 @@ Haunted Markdown is based on John Gruber's original Markdown project, and borrow
 ### Features
 
 Haunted Markdown should support the following features:
-
-* Strike through with `~`
+* Markdown paragraphs and line breaks
+* GFM style line breaking
+* Block quote with `>`
+* Emphasis & strong with `*`, `**`, `_`, `__`, characters but which allows spaces before the closing markdown character so that the style of the output doesn't change whilst typing.
+* Strike through with `~~`
+* Reference and inline links, with titles `[alt](http://ghost.org "optional title")` or `[ref]: http://ghost.org  "optional title"`
+* Reference and inline images, with titles/captions
+* Reference and inline video, with titles/captions (we don't know what this is gonna look like yet)
 
 ### Specification
-
