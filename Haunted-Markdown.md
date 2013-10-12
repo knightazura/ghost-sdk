@@ -5,6 +5,8 @@ Haunted Markdown is based on John Gruber's original Markdown project, and borrow
 ### Features
 
 Haunted Markdown should support the following features:
+
+* Markdown escaping of `&` and `<`
 * Markdown paragraphs and line breaks
 * Setext & atx style headings
 * GFM style line breaking
@@ -16,5 +18,6 @@ Haunted Markdown should support the following features:
 * Reference and inline images, with titles/captions
 * Reference and inline video, with titles/captions (we don't know what this is gonna look like yet)
 * Both Markdown and GFM style autolinking
+* Indented, fenced and inline code blocks
 
 ### Specification
