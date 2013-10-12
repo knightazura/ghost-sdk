@@ -32,5 +32,13 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * User role and permission management
 
 ### Plugins & integrations
+- basic plugin API / structure
+- hooks for interacting with Ghost
+- database API
+- routing API
+- dashboard widget API
+- admin UI hooks
+- authentication tools for working with 3rd parties
+- api tools for interacting with 3rd party apis
 
 
