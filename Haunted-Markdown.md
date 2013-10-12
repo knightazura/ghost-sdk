@@ -8,9 +8,9 @@ Haunted Markdown should support the following features:
 
 * Markdown escaping of `&` and `<`
 * Markdown paragraphs and line breaks
-* Setext & atx style headings
+* Setext & atx style headings i.e. headings prefixed with `#` or underlined with `_` or `=`
 * GFM style line breaking
-* Block quote with `>`
+* Blockquote with `>`, indented blockquotes 
 * Horizontal rules with `* * *`, `***`, `*****`, `- - -`, `----------------------`
 * Emphasis & strong with `*`, `**`, `_`, `__`, characters but which allows spaces before the closing markdown character so that the style of the output doesn't change whilst typing.
 * GFM style handling of underscores in words
