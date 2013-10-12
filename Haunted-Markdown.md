@@ -1,3 +1,3 @@
 Specification for Haunted Markdown
 
-[work in progress]  (obviously)
+[work in progress]...obviously
