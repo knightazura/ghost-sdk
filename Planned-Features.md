@@ -8,11 +8,15 @@ If you're looking for a short answer to whether or not a feature will be impleme
 - Is it something so large and complex that other companies have entire teams and infrastructures dedicated to it? Then it will probably be provided through 3rd party integrations. E.g. Comments, and media management.
 - Is it something that almost every blogger will need all the time? If no, it's probably plugin territory. E.g. XML-RPC, Import tools
 
-### Content Creation
+### Blog content creation
 
-### User Management
+### Site structure
+
+### User management
 Multiple users
 User management screen
 User role and permission management
+
+### Plugins & integrations
 
 
