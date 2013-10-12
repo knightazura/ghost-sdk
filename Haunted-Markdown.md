@@ -12,8 +12,8 @@ Haunted Markdown should support the following features:
 * GFM style line breaking
 * Blockquote with `>`, indented blockquotes 
 * Horizontal rules with `* * *`, `***`, `*****`, `- - -`, `----------------------`
-* Emphasis & strong with `*`, `**`, `_`, `__`, characters but which allows spaces before the closing markdown character so that the style of the output doesn't change whilst typing.
-* GFM style handling of underscores in words
+* Emphasis with `*` & `_`, and strong with `**` & `__` but which allows spaces at the end of the string between the markdown characters so that the style of the output doesn't change whilst typing.
+* GFM style handling of underscores inside words
 * Strike through with `~~`
 * Bulleted lists with `*` or `-`, numbered lists
 * Advanced list indenting (needs much consideration)
