@@ -25,6 +25,7 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 ### Site structure
 * Static Pages
 * Navigation menu UI
+* Different permalink structures
 
 ### User management
 * Multiple users
