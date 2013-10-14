@@ -1,3 +1,9 @@
+The Roadmap aims to set out when certain features will appear. It reduces in clarity the further we go into the future, and is constantly being added to as we move forward.
+
+If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
+
+## Milestone Roadmap
+
 ### Milestone 3 - Version 0.3.0 - Kickstarter release
 
 See [0.3.0](https://github.com/TryGhost/Ghost/releases/tag/0.3.0)
@@ -8,23 +14,17 @@ Maintenance release,  see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag
 
 ### Version 0.3.2 (9th Oct), followed by Public release (14th Oct)
 
-Maintenance release + importers
+Maintenance release 
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
 
-### Hosted Service Roll out
-
-The hosted service rollout is ongoing from October - January. 
-
-There are certain areas of the Ghost software which heavily impact on the hosted service. In particular caching and asset management, image uploads/media management, and the app start up.
-
-### Version 0.4.0
+### Milestone 4 - Version 0.4.0
 
 The next minor version bump is set to happen a few weeks after the public launch
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
 
-This version focuses around the Plugin API and adding functionality which has been heavily requested during the launch phases.
+This version focuses around the plugin API, import tools and adding functionality which has been heavily requested during the launch phases.
 
 * Plugin API lock down
 * Static pages
@@ -34,8 +34,11 @@ This version focuses around the Plugin API and adding functionality which has be
 * Infrastructural improvements
     * Sub directory support
     * Improved, more consistent API
-    * ability to require 'ghost'
+    * Ability to require 'ghost'
 
 ### Version 0.5.0
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
+
+
+### Future Releases
