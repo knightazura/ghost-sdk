@@ -1,4 +1,4 @@
-Welcome to the Ghost wiki! There's tonnes of documentation here on the wiki and if you don't find the info you're looking for below, then it maybe hiding somewhere in the list of [pages](wiki/_pages) or in the [Ghost Guide](http://docs.ghost.org). 
+Welcome to the Ghost Github wiki! There's tonnes of documentation here on the wiki and if you don't find the info you're looking for below, then it maybe hiding somewhere in the list of [pages](wiki/_pages) or in the [Ghost Guide](http://docs.ghost.org). 
 
 If you really can't find what you're looking for, then please drop us a note on the [Ghost forum](http://ghost.org/forum), where the Ghost staff & community are all on hand to answer your queries.
 
