@@ -32,6 +32,7 @@ This version will focus heavily on adding localisation, and more site features s
 
 ### Future Releases
 
+See [planned features](https://github.com/TryGhost/Ghost/wiki/Planned-Features) for an idea of what will be happening.
 
 ## Past Milestones
 
