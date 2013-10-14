@@ -1,15 +1,13 @@
 Welcome to the Ghost wiki!
 
-## Ghost Roadmap & Feature planning
-Planning the future of Ghost and what that looks like
+## What is this Ghost thing?
 
-* ~~[Roadmap](wiki/Roadmap)~~ [Roadmap v2](wiki/Roadmap-v2)
-* [Working features](wiki/Working-Features)
-* [Feature details & discussion](wiki/Feature-details)
-* [User stories](wiki/User-Stories)
-* [Ghost theming](wiki/Ghost-Theming)
+Ghost is a free, open and simple blogging platform. It aims to enable digital publishing for the masses, and it's built in Node.js.
 
-## Core Developer Docs
+You can find out more by taking a look at our [Roadmap](wiki/Roadmap) or the [planned features](wiki/Planned-Features) listing. Alternatively, take a look at the [features](http://ghost.org/features) page on our community site, or checkout the [Ghost Guide](http://docs.ghost.org).
+
+
+## How do I start contributing?
 The following documents are intended to provide all the information you need for working with the Ghost code base.
 
 * [Code standards](wiki/Code-standards) 
@@ -17,6 +15,8 @@ The following documents are intended to provide all the information you need for
 * [Grunt Toolkit](wiki/Grunt-Toolkit)
 * [Intro to the code base](wiki/Code-Structure)
 * [Tech architecture vision](wiki/Tech-architecture-vision)
+
+
 
 ## Code / API documentation
 
@@ -31,7 +31,6 @@ The following documents are intended to provide all the information you need for
 * [Updating Deployed Ghost Instances](wiki/Updating-Deployed-Ghost-Instances)
 * [Hosting Providers](wiki/Hosting-Providers)
 
-## User docs
+## How do I create themes or plugins?
 
-* [Themes: Wiki Core Helper docs](wiki/Core-helper-documentation)
-* [Themes: VIP Helper/Theme docs](http://vip.tryghost.org/documentation/theme-docs/)
+Get started with Ghost themes by reading the [theme documentation](http://docs.ghost.org/themes). The plugin API is not yet ready, we'll add the documentation here once we've finalised the API.
