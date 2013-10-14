@@ -38,12 +38,12 @@ See [0.3.0](https://github.com/TryGhost/Ghost/releases/tag/0.3.0)
 
 ### Version 0.3.1
 
-Maintenance release,  see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag/0.3.1)
+Maintenance release, see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag/0.3.1)
 
-### Version 0.3.2 (9th Oct), followed by Public release (14th Oct)
+### Version 0.3.2 (12th Oct), followed by Public release (14th Oct)
 
-Maintenance release 
+Maintenance release, see [0.3.2](https://github.com/TryGhost/Ghost/releases/tag/0.3.2)
 
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
+### History
 
 For more history, please see the [pre-release roadmap](https://github.com/TryGhost/Ghost/wiki/Pre-release-Roadmap)
