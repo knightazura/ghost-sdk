@@ -17,29 +17,37 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * multi-language blog posts
 
 ### Blog content creation
-* Extended markdown features (haunted markdown)
+* Extended markdown features (Haunted Markdown)
 * Post scheduling
 * Post queue
 * Auto-save & offline
+* Post cover / feature image
+* Multiple image sizes
+* Video embedding
+* Version control
 
 ### Site structure
 * Static Pages
 * Navigation menu UI
 * Different permalink structures
+* Support for installing Ghost in a subdomain
 
-### User management
+### Users
 * Multiple users
 * User management screen
 * User role and permission management
+* User profile pages
 
 ### Plugins & integrations
-- basic plugin API / structure
-- hooks for interacting with Ghost
-- database API
-- routing API
-- dashboard widget API
-- admin UI hooks
-- authentication tools for working with 3rd parties
-- api tools for interacting with 3rd party apis
+- Basic plugin API / structure
+- Hooks for interacting with Ghost
+- Database API
+- Routing API
+- Dashboard widget API
+- Admin UI hooks
+- Authentication tools for working with 3rd parties
+- API tools for interacting with 3rd party APIs
+- Importer hooks, & improved import workflow
+- Importer plugin (for WP, Tumblr, Blogger, etc)
 
 
