@@ -22,10 +22,13 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Improved, more consistent API
     * Ability to require 'ghost'
 
-### Version 0.5.0
+### Milestone 5 - Version 0.5.0
+
+Planned for Christmas time :)
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
+This version will focus heavily on adding localisation, and more site features such as tag, user and archive pages. We'll also hopefully roll out the dashboard, and start work on multi-user features.
 
 ### Future Releases
 
