@@ -2,21 +2,7 @@ The Roadmap aims to set out when certain features will appear. It reduces in cla
 
 If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
 
-## Milestone Roadmap
-
-### Milestone 3 - Version 0.3.0 - Kickstarter release
-
-See [0.3.0](https://github.com/TryGhost/Ghost/releases/tag/0.3.0)
-
-### Version 0.3.1
-
-Maintenance release,  see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag/0.3.1)
-
-### Version 0.3.2 (9th Oct), followed by Public release (14th Oct)
-
-Maintenance release 
-
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
+## Future Milestones
 
 ### Milestone 4 - Version 0.4.0
 
@@ -42,3 +28,22 @@ This version focuses around the plugin API, import tools and adding functionalit
 
 
 ### Future Releases
+
+
+## Past Milestones
+
+### Milestone 3 - Version 0.3.0 - Kickstarter release
+
+See [0.3.0](https://github.com/TryGhost/Ghost/releases/tag/0.3.0)
+
+### Version 0.3.1
+
+Maintenance release,  see [0.3.1](https://github.com/TryGhost/Ghost/releases/tag/0.3.1)
+
+### Version 0.3.2 (9th Oct), followed by Public release (14th Oct)
+
+Maintenance release 
+
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=8&state=open)
+
+For more history, please see the [pre-release roadmap](https://github.com/TryGhost/Ghost/wiki/Pre-release-Roadmap)
