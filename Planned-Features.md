@@ -8,6 +8,10 @@ If you're looking to figure out whether or not a feature will be implemented, th
 - Is it something so large and complex that other companies have entire teams and infrastructures dedicated to it? Then it will probably be provided through 3rd party integrations. E.g. Comments, and media management.
 - Is it something that is only relevant to a small group, or for a short time? If yes, it's probably plugin territory. E.g. XML-RPC, Import tools
 
+## Feature List
+
+Please note: This list is not complete and is being added to on a regular basis.
+
 ### Localisation
 Note: Ghost core will contain the tools for making Ghost work in various languages, but the languages and settings specific to different languages will be provided via a 'language pack'.
 * date localisation
