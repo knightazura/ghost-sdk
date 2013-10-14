@@ -19,6 +19,8 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 ### Blog content creation
 * Extended markdown features (Haunted Markdown)
 * Preview uses theme styles
+* Post SEO
+* Featured posts
 * Post scheduling
 * Post queue
 * Auto-save & offline
@@ -26,6 +28,7 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * Multiple image sizes
 * Video embedding
 * Version control
+* Post custom data
 
 ### Site structure
 * Static Pages
