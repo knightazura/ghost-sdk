@@ -29,10 +29,15 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * Post queue
 * Auto-save & offline
 * Post cover / feature image
-* Multiple image sizes
 * Video embedding
 * Version control
 * Post custom data
+
+### Admin UI
+* Better Markdown support / behaviour when live previewing
+* Editor -> Preview consistency
+* Advanced editor scrolling
+* Post list filtering and search
 
 ### Site structure
 * Static Pages
@@ -52,22 +57,28 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * Advanced publishing workflows
 
 ### Plugins & integrations
-- Basic plugin API / structure
-- Hooks for interacting with Ghost
-- Database API
-- Routing API
-- Dashboard widget API
-- Admin UI hooks
-- Authentication tools for working with 3rd parties
-- API tools for interacting with 3rd party APIs
-- Importer hooks, & improved import workflow
-- Importer plugin (for WP, Tumblr, Blogger, etc)
-- Public API for Ghost using OAuth
+* Basic plugin API / structure
+* Hooks for interacting with Ghost
+* Database API
+* Routing API
+* Dashboard widget API
+* Admin UI hooks
+* Authentication tools for working with 3rd parties
+* API tools for interacting with 3rd party APIs
+* Importer hooks, & improved import workflow
+* Importer plugin (for WP, Tumblr, Blogger, etc)
+* Public API for Ghost using OAuth
+* Integration options for analytics, comments, media etc
 
+### Themes
+* Advanced excerpts
+* Multiple image sizes
+* Feature / cover images
+* Previous & next post
+* Post lists on post pages - latest, related, etc
 
 ### Core / Infrastructure
-- Support for requiring Ghost
-- More modularisation
-- Command line tools
-- Support for no-SQL
-
+* Support for requiring Ghost
+* More modularisation
+* Command line tools
+* Support for no-SQL
