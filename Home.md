@@ -1,4 +1,8 @@
-Welcome to the Ghost wiki!
+Welcome to the Ghost wiki! There's plenty of documentation here on the wiki. If you don't find the info you're looking for below, then maybe it's hiding somewhere in the list of [pages](wiki/_pages) or in the [Ghost Guide](http://docs.ghost.org). 
+
+If you really can't find what you're looking for, then please drop us a note on the [Ghost forum](http://ghost.org/forum), where the Ghost staff & community are all on hand to answer your queries.
+
+If you find a bug, please report it here on Github by creating a [new issue](https://github.com/TryGhost/Ghost/issues/new).
 
 ## What is this Ghost thing?
 
