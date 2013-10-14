@@ -38,6 +38,8 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * User management screen
 * User role and permission management
 * User profile pages
+* Multi-author
+* Advanced publishing workflows
 
 ### Plugins & integrations
 - Basic plugin API / structure
@@ -50,5 +52,12 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 - API tools for interacting with 3rd party APIs
 - Importer hooks, & improved import workflow
 - Importer plugin (for WP, Tumblr, Blogger, etc)
+- Public API for Ghost using OAuth
 
+
+### Core / Infrastructure
+- Support for requiring Ghost
+- More modularisation
+- Command line tools
+- Support for no-SQL
 
