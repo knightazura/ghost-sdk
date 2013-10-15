@@ -2,7 +2,7 @@
 
 Haunted Markdown is based on John Gruber's original Markdown project, and borrows from Github Flavored Markdown and MultiMarkdown. It has a focus on producing consistent results whilst editing, so that the experience of live previewing is smooth.
 
-### Areas of Research
+### Current Implementations
 
 This section covers available implementations and current efforts to create a Markdown specification. Since the original Markdown Syntax proposed by John Gruber can be considered abandonware, the community started implementing various dialects of Markdown in order to fix flaws and provide additional features. 
 
