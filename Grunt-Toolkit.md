@@ -20,6 +20,12 @@ This can take a while, so it makes sense to run the individual sections if you'r
 - `grunt mochacli:all` will run all of the unit tests, `grunt mochacli:api` will run the data model unit tests which are incorrectly labeled api, see `mochacli` config in `Gruntfile.js` for a full set of the individual groups of tests which can be run and feel free to add your own.
 - `grunt test functional` will run the functional tests
 
+## Preparing to deploy with `grunt prod`
+
+The `grunt prod` task goes one step beyond the default `grunt` task and minifies the Ghost JavaScript source for production via an additional [uglify](https://github.com/mishoo/UglifyJS2) task.
+
+When you're ready to deploy to production, running `grunt prod` first is a wise choice.
+
 ## Developing with `grunt watch` or `grunt dev`
 
 ## Generating docs with `grunt docs`
