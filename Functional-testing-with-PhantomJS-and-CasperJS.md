@@ -31,7 +31,7 @@ E.g. for 64-bit (find out which architecture you're on with `arch`)
 Git method is recommended. Doesn't matter where you clone casper.
 * $ `git clone git://github.com/n1k0/casperjs.git`
 * $ `cd casperjs`
-* $ `ln -sf bin/casperjs /usr/local/bin/casperjs` (may require sudo)
+* $ ``ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs`` (may require sudo)
 
 ### Windows
 
