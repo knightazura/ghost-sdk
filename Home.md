@@ -1,4 +1,4 @@
-Welcome to the Ghost Github wiki! There's tonnes of documentation here on the wiki pertaining to the development, structure and functioning of Ghost. If you don't find the info you're looking for below, then it maybe hiding somewhere in the list of [pages](wiki/_pages) or in the [Ghost Guide](http://docs.ghost.org). 
+Welcome to the Ghost Github wiki! There's tonnes of documentation here on the wiki pertaining to the development, structure and functioning of Ghost. If you don't find the info you're looking for below, then it may be hiding somewhere in the list of [pages](wiki/_pages) or in the [Ghost Guide](http://docs.ghost.org). 
 
 If you really can't find what you're looking for, then please drop us a note on the [Ghost forum](http://ghost.org/forum), where the Ghost staff & community are all on hand to answer your queries.
 
@@ -8,7 +8,7 @@ If you find a bug, please report it here on Github by creating a [new issue](htt
 
 Ghost is a free, open and simple blogging platform. It aims to enable digital publishing for the masses, and it's built in Node.js.
 
-You can find out more by taking a look at our [Roadmap](wiki/Roadmap) or the [planned features](wiki/Planned-Features) listing. Alternatively, take a look at the [features](http://ghost.org/features) page on our community site, or checkout the [Ghost Guide](http://docs.ghost.org).
+You can find out more by taking a look at our [Roadmap](wiki/Roadmap) or the [planned features](wiki/Planned-Features) listing. Alternatively, take a look at the [features](http://ghost.org/features) page on our community site, or check out the [Ghost Guide](http://docs.ghost.org).
 
 ## How do I start contributing?
 The following documents are intended to provide all the information you need for working with the Ghost code base.
