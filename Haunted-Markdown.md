@@ -30,7 +30,7 @@ Haunted Markdown should support the following features:
 * Bulleted lists with `*` or `-`, numbered lists
 * Advanced list indenting (needs much consideration)
 * Reference and inline links, with titles `[alt](http://ghost.org "optional title")` or `[ref]: http://ghost.org  "optional title"`
-* Reference and inline images, with titles/captions
+* Reference and inline images, with titles/captions. Currently we only support image uploads where the image is on a new line on it's own. It would be nice to look at ways to improve that.
 * Reference and inline video, with titles/captions (we don't know what this is gonna look like yet)
 * Both Markdown and GFM style autolinking
 * Indented, fenced and inline code blocks
