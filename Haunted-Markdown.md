@@ -6,9 +6,11 @@ Haunted Markdown is based on John Gruber's original Markdown project, and borrow
 
 This section covers available implementations and current efforts to create a Markdown specification. Since the original Markdown Syntax proposed by John Gruber can be considered abandonware, the community started implementing various dialects of Markdown in order to fix flaws and provide additional features. 
 
-There is a [Markdown Group](http://www.w3.org/community/markdown/) at W3, inspired by a post from [Jeff Atwood](http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html), that was created in 2012 in order to create a specification for Markdown. The group seems dead as of December 2012 (last post in Wiki).
+There is a [Markdown Group](http://www.w3.org/community/markdown/) at W3C, inspired by a post from [Jeff Atwood](http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html), that was created in 2012 in order to create a specification for Markdown. The group seems dead as of December 2012 (last post in Wiki), as discussed on its mailing list in October 2013 [where Haunted Markdown is mentioned](http://lists.w3.org/Archives/Public/public-markdown/2013Oct/0004.html).
 
 Another community initiated project tries to collect [all available Markdown implementations](https://github.com/markdown/markdown.github.com/wiki/Implementations) but has also not received any update since March 2013 and can be considered abandoned.
+
+There is a fairly active [`markdown-discuss` mailing list](http://six.pairlist.net/pipermail/markdown-discuss/).
 
 The available NodeJS based Markdown implementations can be categorized into two groups: RegEx Converters ([showdown](https://github.com/coreyti/showdown), [marked](https://github.com/chjj/marked), [markdown-js](https://github.com/evilstreak/markdown-js)) and Wrappers ([node-multimarkdown](https://github.com/dtjm/node-multimarkdown), [node-markdown](https://github.com/andris9/node-markdown), [RoboSkirt](https://github.com/benmills/robotskirt), [node-discount](https://github.com/visionmedia/node-discount)). Wrappers would add new system dependent dependencies and RegEx based converters are hard to extend and not context aware.
 
