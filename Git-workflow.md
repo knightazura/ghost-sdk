@@ -5,8 +5,8 @@ Contents of this page:
 * [Submitting Pull Requests](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 * [Working with issues](https://github.com/TryGhost/Ghost/wiki/Git-workflow#working-with-issues)
 * [Branching Strategy](https://github.com/TryGhost/Ghost/wiki/Git-workflow#branching-strategy)
-
-
+* [Release Procedure](https://github.com/TryGhost/Ghost/wiki/Git-workflow#release-procedure)
+* [Database Changes](https://github.com/TryGhost/Ghost/wiki/Git-workflow#database-changes)
 
 Full details
 [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)
@@ -116,6 +116,8 @@ Along with the master branch, there is always a branch open for bug fixes that m
 There may be several patch releases in between minor versions. A patch release does not contain master, it contains the previous release + specific fixes that may have been applied directly, or cherry-picked from master.
 
 On your local repository, you should always work on a branch to make keeping up-to-date and submitting pull requests easier, but in most cases you should submit your pull requests to `master`. Where necessary, for example if multiple people are contributing on a large feature, or if a feature requires a database change, we make use of feature branches. If you are working on something which you feel needs to go into a feature branch, let Hannah know and she will create this for you.
+
+## Release Procedure
 
 The [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap) outlines the basic features that we want to get into a minor version release (i.e. 0.4, 0.5).
 
