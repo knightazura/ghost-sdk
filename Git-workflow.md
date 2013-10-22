@@ -98,7 +98,14 @@ Feel free to pick up any issue which is not assigned. Please leave a comment on 
 
 ## Branching Strategy
 
-`master` on the main repository always contains the latest changes. Stable versions are tagged using [semantic versioning](http://semver.org/). The main repository also has a `build` branch which is usually a couple of commits behind master and is the branch that our Jenkins server uses to deliver the nightly and weekly builds to VIPs.
+`master` on the main repository always contains the latest changes. This means that it is WIP for the next minor version and should NOT be considered stable.
+
+Stable versions are tagged using [semantic versioning](http://semver.org/). 
+
+Along with the master branch, there is always a branch open for bug fixes that might need to go into a patch release. For example if the current released version is 0.3.3, you'll find a branch called 0.3.4-wip.
+
+There may be several patch releases in between minor versions. A patch release does not contain master, it contains the previous release + specific fixes that may have been applied directly, or cherry-picked from master.
+
 On your local repository, you should always work on a branch to make keeping up-to-date and submitting pull requests easier, but in most cases you should submit your pull requests to `master`. Where necessary, for example if multiple people are contributing on a large feature, or if a feature requires a database change, we make use of feature branches. If you are working on something which you feel needs to go into a feature branch, let Hannah know and she will create this for you.
 
 ## Database Changes
