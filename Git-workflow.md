@@ -11,7 +11,7 @@ Each developer should fork the private core Ghost repo into a private repo of th
 
     git remote add upstream git@github.com:TryGhost/Ghost.git
 
-The main repository's master branch always contains the latest changes. For more info on branches, see the [branching strategy]() notes.
+The main repository's master branch always contains the latest changes. For more info on branches, see the [branching strategy](https://github.com/TryGhost/Ghost/wiki/Git-workflow#branching-strategy) notes.
 
 Changes should adhere to our [coding standards](https://github.com/TryGhost/Ghost/wiki/Code-standards), commit messages should follow our [notes below](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 
