@@ -108,6 +108,18 @@ There may be several patch releases in between minor versions. A patch release d
 
 On your local repository, you should always work on a branch to make keeping up-to-date and submitting pull requests easier, but in most cases you should submit your pull requests to `master`. Where necessary, for example if multiple people are contributing on a large feature, or if a feature requires a database change, we make use of feature branches. If you are working on something which you feel needs to go into a feature branch, let Hannah know and she will create this for you.
 
+The [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap) outlines the basic features that we want to get into a minor version release (i.e. 0.4, 0.5).
+
+Each release has an associated milestone in GitHub, against which issues are assigned. There are usually issues for each milestone feature, plus other bug fixes and enhancements that we would like to get done.
+
+Each Milestone has a due date. This date is usually a Monday, for example for 0.4 this is Monday 4th November. The due date is the last day on which PRs can be submitted for the milestone. Once we get to the end of the due date, any new PRs will not be considered.
+
+The following Tuesday and Wednesday will be used to merge all PRs which made it into the release and are ready, and for testing the whole package.
+
+On the Thursday, the release .zip will be generated and made available. We will ask that it be tested by as many people as possible! There will be 4 days (inc weekend) for testing. 
+
+Finally, on the following Tuesday, if all has gone well, we will provide the release zip as the new download on Ghost.org, and add it to the releases on GitHub. 
+
 ## Database Changes
 
-Database changes require quite a bit of work around migration, exports and imports. As it stands, we currently always deliver database changes along with a version bump. Therefore it is important that all database changes are made on a branch so that they can be merged at a time when version bumping is convenient.
+Database changes require quite a bit of work around migration, exports and imports. As it stands, we currently always deliver database changes along with a minor version bump. Therefore it is important that all database changes are made on a branch so that they can be merged at a time when version bumping is convenient.
