@@ -83,6 +83,8 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * More modularisation
 * Command line tools
 * Support for no-SQL
+* Upgrade/update tools
+* Auto-discover themes and plugins
 
 ### Haunted Markdown and the Editor
 * We plan to introduce [Haunted Markdown](https://github.com/TryGhost/Ghost/wiki/Haunted-Markdown) as an official 'flavor' of Markdown, see the [future of Markdown](https://github.com/TryGhost/Ghost/wiki/Future-of-Markdown) page for details.
