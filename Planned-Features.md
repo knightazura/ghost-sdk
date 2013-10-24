@@ -47,6 +47,7 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * Navigation menu UI
 * Different permalink structures
 * Support for installing Ghost in a subdomain
+* Sitemap & other SEO tools
 
 ### Users
 * Multiple users
