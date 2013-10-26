@@ -12,13 +12,13 @@ The next minor version bump is set to happen a few weeks after the public launch
 
 This version focuses around the plugin API, import tools and adding functionality which has been heavily requested during the launch phases.
 
-* Plugin API lock down
-* Static pages
-* Post SEO (via post settings menu)
+* Plugin API lock down #769
+* Static pages #969
+* Post SEO (via post settings menu) #1229
 * Improvements to post settings menu
 * Image features, including cover images and different sizes
 * Infrastructural improvements
-    * Sub directory support
+    * Sub directory support #527
     * Improved, more consistent API
     * Ability to require 'ghost'
 
