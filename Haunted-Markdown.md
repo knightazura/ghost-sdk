@@ -37,5 +37,6 @@ Haunted Markdown should support the following features:
 * Both Markdown and GFM style autolinking
 * Indented, fenced and inline code blocks
 * Full HTML support
+* MultiMarkdown features? TBC
 
 ### Specification
