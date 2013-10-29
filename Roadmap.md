@@ -28,6 +28,7 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Cache headers & static asset management [#932]
 * Miscellaneous
     * Notification improvements [#944], [#765]
+    * SSL support and docs [#1300]
 
 ### Milestone 5 - Version 0.5.0
 
