@@ -12,15 +12,15 @@ The next minor version bump is set to happen a few weeks after the public launch
 
 This version focuses around the plugin API, import tools and adding functionality which has been heavily requested during the launch phases.
 
-* Plugin API lock down #769
-* Static pages #969
-* Post SEO (via post settings menu) #1229
-* Improvements to post settings menu
-* Image features, including cover images and different sizes
-* Infrastructural improvements
-    * Sub directory support #527
-    * Improved, more consistent API
-    * Ability to require 'ghost'
+* Plugin API lock down [#769](https://github.com/TryGhost/Ghost/issues/769)
+* Static pages [#969](https://github.com/TryGhost/Ghost/issues/969)
+* Post SEO (via post settings menu) [#1229](https://github.com/TryGhost/Ghost/issues/1229)
+* Improvements to post settings menu [??]
+* Image features, including cover images and different sizes [??]
+* Infrastructure improvements
+    * Sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527)
+    * Improved, more consistent API [#1189](https://github.com/TryGhost/Ghost/issues/1189) [#755](https://github.com/TryGhost/Ghost/issues/755) [#173](https://github.com/TryGhost/Ghost/issues/173)
+    * Ability to require 'ghost' [#1326](https://github.com/TryGhost/Ghost/issues/1326), [#827](https://github.com/TryGhost/Ghost/issues/827)
 
 ### Milestone 5 - Version 0.5.0
 
