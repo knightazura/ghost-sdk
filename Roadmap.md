@@ -17,7 +17,7 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Import plugin support [#854](https://github.com/TryGhost/Ghost/issues/854), [#950](https://github.com/TryGhost/Ghost/issues/950)
 * Publishing Features:
     * Solve data loss problem [#553](https://github.com/TryGhost/Ghost/issues/553) or [#691](https://github.com/TryGhost/Ghost/issues/691) or [#1327](https://github.com/TryGhost/Ghost/issues/1327)
-    * Static pages [#969](https://github.com/TryGhost/Ghost/issues/969)
+    * Static pages ~~[#969](https://github.com/TryGhost/Ghost/issues/969)~~
     * SEO Improvements [??]
         * Post SEO (via post settings menu) [#1229](https://github.com/TryGhost/Ghost/issues/1229) < needs attention
     * Improvements to post settings menu [??]
