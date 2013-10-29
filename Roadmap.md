@@ -18,14 +18,14 @@ This version focuses around the plugin API, import tools and adding functionalit
 * Publishing Features:
     * Solve data loss problem [#553](https://github.com/TryGhost/Ghost/issues/553) or [#691](https://github.com/TryGhost/Ghost/issues/691) or [#1327](https://github.com/TryGhost/Ghost/issues/1327)
     * Static pages ~~[#969](https://github.com/TryGhost/Ghost/issues/969)~~
-    * SEO Improvements [??]
-        * Post SEO (via post settings menu) [#1229](https://github.com/TryGhost/Ghost/issues/1229) < needs attention
-    * Improvements to post settings menu [??]
+    * SEO Improvements 
+         * John's list goes here.
     * Image features, including cover images and different sizes [??]
 * Infrastructure improvements:
     * Sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527)
     * Improved, more consistent API [#1189](https://github.com/TryGhost/Ghost/issues/1189), [#755](https://github.com/TryGhost/Ghost/issues/755), [#173](https://github.com/TryGhost/Ghost/issues/173)
     * Ability to require 'ghost' [#1326](https://github.com/TryGhost/Ghost/issues/1326), [#827](https://github.com/TryGhost/Ghost/issues/827)
+    * Cache headers & static asset management [#932]
 
 ### Milestone 5 - Version 0.5.0
 
