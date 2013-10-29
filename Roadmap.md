@@ -20,7 +20,7 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Static pages ~~[#969](https://github.com/TryGhost/Ghost/issues/969)~~
     * SEO Improvements 
          * John's list goes here.
-    * Image features, including cover images and different sizes [??]
+    * Image features, including cover images and different sizes [#128] - more details soon
 * Infrastructure improvements:
     * Sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527)
     * Improved, more consistent API [#1189](https://github.com/TryGhost/Ghost/issues/1189), [#755](https://github.com/TryGhost/Ghost/issues/755), [#173](https://github.com/TryGhost/Ghost/issues/173)
