@@ -26,6 +26,8 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Improved, more consistent API [#1189](https://github.com/TryGhost/Ghost/issues/1189), [#755](https://github.com/TryGhost/Ghost/issues/755), [#173](https://github.com/TryGhost/Ghost/issues/173)
     * Ability to require 'ghost' [#1326](https://github.com/TryGhost/Ghost/issues/1326), [#827](https://github.com/TryGhost/Ghost/issues/827)
     * Cache headers & static asset management [#932]
+* Miscellaneous
+    * Notification improvements [#944], [#765]
 
 ### Milestone 5 - Version 0.5.0
 
