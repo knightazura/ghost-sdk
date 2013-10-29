@@ -11,7 +11,7 @@ The next minor version bump is set to happen a few weeks after the public launch
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
 
 This version focuses around the plugin API, import tools and adding functionality which has been heavily requested during the launch phases.
-* Plugins and Importing
+* Plugins and Importing:
     * Plugin API lock down [#769](https://github.com/TryGhost/Ghost/issues/769)
     * Move import to proper UI [#953](https://github.com/TryGhost/Ghost/issues/953)
     * Import plugin support [#854](https://github.com/TryGhost/Ghost/issues/854), [#950](https://github.com/TryGhost/Ghost/issues/950)
@@ -21,7 +21,7 @@ This version focuses around the plugin API, import tools and adding functionalit
         * Post SEO (via post settings menu) [#1229](https://github.com/TryGhost/Ghost/issues/1229) < needs attention
     * Improvements to post settings menu [??]
     * Image features, including cover images and different sizes [??]
-* Infrastructure improvements
+* Infrastructure improvements:
     * Sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527)
     * Improved, more consistent API [#1189](https://github.com/TryGhost/Ghost/issues/1189), [#755](https://github.com/TryGhost/Ghost/issues/755), [#173](https://github.com/TryGhost/Ghost/issues/173)
     * Ability to require 'ghost' [#1326](https://github.com/TryGhost/Ghost/issues/1326), [#827](https://github.com/TryGhost/Ghost/issues/827)
