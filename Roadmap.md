@@ -4,7 +4,7 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 ## Future Milestones
 
-### Milestone 4 - Version 0.4.0
+### Milestone 4 - Version 0.4.0 - Early / mid December
 
 The next minor version bump is set to happen a few weeks after the public launch
 
@@ -34,7 +34,7 @@ This version focuses around the plugin API, import tools and adding functionalit
 
 ### Milestone 5 - Version 0.5.0
 
-Planned for Christmas time :)
+Planned for early next year.
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
