@@ -18,7 +18,7 @@ This version focuses around the plugin API, import tools and adding functionalit
 * Publishing Features:
     * Static pages [#969](https://github.com/TryGhost/Ghost/issues/969)
     * SEO Improvements [??]
-    * ~~Post SEO (via post settings menu) [#1229](https://github.com/TryGhost/Ghost/issues/1229)~~
+        * Post SEO (via post settings menu) [#1229](https://github.com/TryGhost/Ghost/issues/1229) < needs attention
     * Improvements to post settings menu [??]
     * Image features, including cover images and different sizes [??]
 * Infrastructure improvements
