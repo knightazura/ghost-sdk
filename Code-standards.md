@@ -8,8 +8,8 @@ Good, clear and consistent code styles are pivotal in the success of any softwar
 * Indent with 4 spaces
 * Max line length 120
 * Use unix line endings
-* Document as you go - we are using groc and jsdoc formats
-* Write tests, unit tests are in nodeunit, functional using casperjs
+* Document as you go - we have groc although are not actively using it yet. Comments should be used to provide clarity.
+* Write tests, unit tests are written in Mocha using spec style, functional tests use Casper.js
 
 ##Guidance
 
