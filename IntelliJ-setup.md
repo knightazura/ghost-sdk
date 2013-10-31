@@ -14,3 +14,7 @@ IntelliJ is a fully-fledged IDE, you can use it for developing Java just as easi
 
 
 ### Run Configurations
+
+### Debugging
+
+http://themespectre.com/ghost-development-and-debugging-in-webstorm-step-by-step/
