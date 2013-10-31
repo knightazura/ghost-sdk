@@ -1,12 +1,12 @@
-## Setting up a Project
+### Setting up a Project
 
 
 
 
-## Plugins
+### Plugins
 
 
-## Keyboard shortcuts
+### Keyboard shortcuts
 
 
-## Run Configurations
+### Run Configurations
