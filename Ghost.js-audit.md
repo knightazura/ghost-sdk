@@ -1,17 +1,17 @@
-## index.js
+## server.js
 
 * access to express through `app()`
 * `.doFilter()` for nav items in locals
 * `.notifications` passed to locals, used in auth middleware & cleanNti
 * `.settings()` - settings to be passed to the client or theme through locals
 * `.paths()`
-* `.initTheme()` - the only place this is called.. it really should never have been in ghost.js
+* ~~`.initTheme()` - the only place this is called.. it really should never have been in ghost.js~~
 * `.init()`
 * `.config().env`
 * .dbHash - used as secret for sessions to invalidate on new db
 * `ghost` is passed to loadCoreFilters, loadCoreHelpers and initTheme and I18n.load
 
-**Thoughts on index.js usage of ghost**:
+**Thoughts on server.js usage of ghost**:
 * `.app()` was a stupid idea and needs to go away
 * inits and loads probably belong together / can be simplified
 * `initTheme` being in ghost.js is wrong
