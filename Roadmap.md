@@ -25,7 +25,10 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527)
     * Improved, more consistent API [#1189](https://github.com/TryGhost/Ghost/issues/1189), [#755](https://github.com/TryGhost/Ghost/issues/755), [#173](https://github.com/TryGhost/Ghost/issues/173)
     * Ability to require 'ghost' [#1326](https://github.com/TryGhost/Ghost/issues/1326), [#827](https://github.com/TryGhost/Ghost/issues/827)
-    * Cache headers & static asset management [#932](https://github.com/TryGhost/Ghost/issues/932)
+    * Cache headers & static asset management [#1405](https://github.com/TryGhost/Ghost/issues/1405)
+    * Customisable Permalinks [#1395](https://github.com/TryGhost/Ghost/issues/1395)
+    * Standardise getting paths and abs URLs [#1390](https://github.com/TryGhost/Ghost/issues/1390)
+    * Make the `content` directory configurable [#1364](https://github.com/TryGhost/Ghost/issues/1364)
 * Miscellaneous
     * Notification improvements [#944](https://github.com/TryGhost/Ghost/issues/944), [#765](https://github.com/TryGhost/Ghost/issues/765)
     * SSL support and docs [#1300](https://github.com/TryGhost/Ghost/issues/1300)
