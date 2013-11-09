@@ -40,3 +40,5 @@ Haunted Markdown should support the following features:
 * MultiMarkdown features? TBC
 
 ### Specification
+
+The goal is to create something like: https://github.com/mustache/spec
