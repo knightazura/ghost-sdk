@@ -74,8 +74,14 @@ var myObj = function () {
 ```
 Not OK :(
 
-## Frontend development standards
+## Frontend development standards (HTML & CSS)
 
-All HTML and CSS should conform to the [Code Guide](http://github.com/mdo/code-guide), maintained by [Mark Otto](http://github.com/mdo).
+- 4 spaces for HTML & CSS indentation. Never tabs.
+- Double quotes only, never single quotes.
+- Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags)
+- Adhere to the [Recess CSS property order](http://markdotto.com/2011/11/29/css-property-order/).
+- Always a space after a property's colon (.e.g, `display: block;` and not `display:block;`).
+- End all lines with a semi-colon.
+- For multiple, comma-separated selectors, place each selector on its own line.
 
-Make use of the js- prefix for classes which are used as JavaScript hooks, as per the [GitHub Style Guide](https://github.com/styleguide/javascript)
+For more in depth information please read [Mark Otto](http://github.com/mdo)'s excellent [Code Guide](http://github.com/mdo/code-guide)
