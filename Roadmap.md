@@ -24,7 +24,7 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Image features, including cover images and different sizes [#128] - more details soon
 * Infrastructure improvements:
     * Sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527)
-    * Improved, more consistent API [#1189](https://github.com/TryGhost/Ghost/issues/1189), [#755](https://github.com/TryGhost/Ghost/issues/755), [#173](https://github.com/TryGhost/Ghost/issues/173)
+    * Improved, more consistent API [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189), [#755](https://github.com/TryGhost/Ghost/issues/755), [#173](https://github.com/TryGhost/Ghost/issues/173)
     * Ability to require 'ghost' [#1326](https://github.com/TryGhost/Ghost/issues/1326), [#827](https://github.com/TryGhost/Ghost/issues/827)
     * Cache headers & static asset management [#1405](https://github.com/TryGhost/Ghost/issues/1405)
     * Customisable Permalinks [#1395](https://github.com/TryGhost/Ghost/issues/1395)
