@@ -66,10 +66,58 @@ This version focuses around the plugin API, import tools and adding functionalit
 
 #### Miscellaneous
 
-* Notification improvements [#944](https://github.com/TryGhost/Ghost/issues/944), [#765](https://github.com/TryGhost/Ghost/issues/765)
- SSL support and docs [#1300](https://github.com/TryGhost/Ghost/issues/1300)
+* No inline script for Ghost.init [#1268](https://github.com/TryGhost/Ghost/issues/1268)
+* Ugly debug upgrade tool [#1260](https://github.com/TryGhost/Ghost/issues/1260)
+* Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
+* More validation [#970](https://github.com/TryGhost/Ghost/issues/970)
+* Grunt deploy [#927](https://github.com/TryGhost/Ghost/issues/927)
+* Consider switching to javascript:void(0) for hrefs [#916](https://github.com/TryGhost/Ghost/issues/916)
+* Backbone: data binding libraries / tools? [#550](https://github.com/TryGhost/Ghost/issues/550)
+* Theme API: make `{{nextpost}}` `{{prevpost}}` available to themes [#529](https://github.com/TryGhost/Ghost/issues/529)
+
+
+
+
+
+
+#### Security Improvements
+
+* Users: Roll out the ACL/Permissions system [#357](https://github.com/TryGhost/Ghost/issues/357)
+* Enhancement: Remove "Insecure Content" warning for backend over SSL [#1300](https://github.com/TryGhost/Ghost/issues/1300)
+* XSS
+   * Investigate XSS filtering [#1378](https://github.com/TryGhost/Ghost/issues/1378)
+   * Upgrade validator to 2.*.* [#1379](https://github.com/TryGhost/Ghost/issues/1379)
+   * [BUG] Editor title removing spaces [#1328](https://github.com/TryGhost/Ghost/issues/1328)
 * Replace cookieSession with session [#1230](https://github.com/TryGhost/Ghost/issues/1230)
-* Various bug fixes (too many to list)
+* More login security [#499](https://github.com/TryGhost/Ghost/issues/499)
+* Content Security Policy - Report only mode [#1267](https://github.com/TryGhost/Ghost/issues/1267)
+
+#### Scrolling
+* Editor screen: Advanced scroll features [#22](https://github.com/TryGhost/Ghost/issues/22)
+* Be smarter about how we line up markdown code with the live preview [#704](https://github.com/TryGhost/Ghost/pull/704)
+* [BUG] Editor UI - Scroll events are not smooth [#481](https://github.com/TryGhost/Ghost/issues/481)
+* [BUG] Editor scrolling gets stuck when typing lots of text [#535](https://github.com/TryGhost/Ghost/issues/535)
+* [BUG] Fucked up scrolling behaviour when typing  [#958](https://github.com/TryGhost/Ghost/issues/958)
+
+#### Shortcuts
+
+* Display keyboard shortcut appropriate to OS [#348](https://github.com/TryGhost/Ghost/issues/348)
+* Shortcuts [#883](https://github.com/TryGhost/Ghost/issues/883)
+* [BUG] Select Word Keyboard Shortcut doesn't work [#1275](https://github.com/TryGhost/Ghost/issues/1275)
+* [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
+* [BUG] Shortcut.js assumes qwerty keyboard [#1148](https://github.com/TryGhost/Ghost/issues/1148)
+
+## Bug List
+
+Bugs which don't fit into the categories above
+
+* Editing publish date of unpublished post yields JavaScript error [#1332](https://github.com/TryGhost/Ghost/issues/1332)
+* /settings/user page buggy in firefox. [#1210](https://github.com/TryGhost/Ghost/issues/1210)
+* custom partial/pagination.hbs not cleared on theme switch [#1203](https://github.com/TryGhost/Ghost/issues/1203)
+* Select boxes look weird on Firefox [#1109](https://github.com/TryGhost/Ghost/issues/1109)
+* Login form is not present in the source [#652](https://github.com/TryGhost/Ghost/issues/652)
+* Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
+* Fancy quotes are borked [#534](https://github.com/TryGhost/Ghost/issues/534)
 
 ----------
 
