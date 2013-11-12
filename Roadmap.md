@@ -59,7 +59,7 @@ This version focuses around the plugin API, import tools and adding functionalit
 **Note:** This section needs an overhaul
 
 * Display keyboard shortcut appropriate to OS [#348](https://github.com/TryGhost/Ghost/issues/348)
-* Shortcuts [#883](https://github.com/TryGhost/Ghost/issues/883)
+* Action Shortcut Keys[#883](https://github.com/TryGhost/Ghost/issues/883)
 * [BUG] Select Word Keyboard Shortcut doesn't work [#1275](https://github.com/TryGhost/Ghost/issues/1275)
 * [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
 * [BUG] Shortcut.js assumes qwerty keyboard [#1148](https://github.com/TryGhost/Ghost/issues/1148)
