@@ -25,6 +25,7 @@ The main repository's master branch always contains the latest changes. For more
 
 Changes should adhere to our [coding standards](https://github.com/TryGhost/Ghost/wiki/Code-standards), commit messages should follow our [notes below](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 
+<a name="commit-messages"></a>
 ## Notes on writing good commit messages
 
 * The first line of your commit message should be a short (80 chars) public description of what you have achieved with the commit. This is what appears in the change log. 
@@ -54,6 +55,7 @@ Firstly, **always work on a branch**, it will make your life much easier - hones
 
 *Note:* If you are not comfortable with git & using rebase, make a special 'merge' branch of your branch to do these things on, then if something goes awry you can always go back to your working branch and try again.
 
+<a name="clean-history"></a>
 #### Clean-up history
 
 Whilst you're working on your branch on your own, you can do all the commits you like - lots of little commits are highly recommended. However, when you come to submit a PR, you should clean your history ready for public consumption.
@@ -63,6 +65,7 @@ Whilst you're working on your branch on your own, you can do all the commits you
 
 Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message. Your commit message(s) should follow the pattern described in the [notes](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages) above. The first line of your commit message will appear in the change log which goes out to our VIPs with each pre-release, so please keep that in mind.
 
+<a name="build-passes"></a>
 #### Check it passes the tests
 
 Run `grunt validate` to check that your work passes JSLint and the server-side mocha unit tests. If this fails, your PR will throw an error when submitted.
