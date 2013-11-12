@@ -18,7 +18,7 @@ This version focuses around the plugin API, import tools and adding functionalit
 * Publishing Features:
     * ~~Solve data loss problem~~ [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) 
     * ~~Featured posts~~ [~~1111~~](https://github.com/TryGhost/Ghost/issues/1111), [~~1112~~](https://github.com/TryGhost/Ghost/issues/1112)
-    * ~~Static pages~~ [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/pull/39)
+    * Static pages [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/pull/39), [#1350](https://github.com/TryGhost/Ghost/issues/969) 
     * SEO Improvements 
          * John's list goes here.
     * Image features, including cover images and different sizes [#128] - more details soon
