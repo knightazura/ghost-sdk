@@ -16,8 +16,8 @@ This version focuses around the plugin API, import tools and adding functionalit
 **Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
 
 * Proposal: Plugin Architecture Refactor [#769](https://github.com/TryGhost/Ghost/issues/769)
-* Ghost Importer: UI love [#953
-* Import plugin framework [#854](https://github.com/TryGhost/Ghost/issues/854)](https://github.com/TryGhost/Ghost/issues/953)
+* Ghost Importer: UI love [#953](https://github.com/TryGhost/Ghost/issues/953)
+* Import plugin framework [#854](https://github.com/TryGhost/Ghost/issues/854)
 * Ghost Import Plugins [#950](https://github.com/TryGhost/Ghost/issues/950)
 * Add "Delete All Content" Button [#1445](https://github.com/TryGhost/Ghost/issues/1445)
 * importing a bad database that fails to import still imports content [#837](https://github.com/TryGhost/Ghost/issues/837)
