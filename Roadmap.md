@@ -6,7 +6,7 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 ### Milestone 4 - Version 0.4.0 - Early / mid December
 
-The next minor version bump is set to happen a few weeks after the public launch
+The next minor version bump is set to happen a month or so after the public launch
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
 
@@ -16,8 +16,8 @@ This version focuses around the plugin API, import tools and adding functionalit
     * Move import to proper UI [#953](https://github.com/TryGhost/Ghost/issues/953)
     * Import plugin support [#854](https://github.com/TryGhost/Ghost/issues/854), [#950](https://github.com/TryGhost/Ghost/issues/950)
 * Publishing Features:
-    * Solve data loss problem [#553](https://github.com/TryGhost/Ghost/issues/553) or [#691](https://github.com/TryGhost/Ghost/issues/691) or [#1327](https://github.com/TryGhost/Ghost/issues/1327) and/or [#552](https://github.com/TryGhost/Ghost/issues/552)
-    * Static pages ~~[#969](https://github.com/TryGhost/Ghost/issues/969)~~, [#1329](https://github.com/TryGhost/Ghost/issues/1329), [Casper#39](https://github.com/TryGhost/Casper/pull/39)
+    * Solve data loss problem [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) 
+    * Static pages [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/pull/39)
     * SEO Improvements 
          * John's list goes here.
     * Image features, including cover images and different sizes [#128] - more details soon
