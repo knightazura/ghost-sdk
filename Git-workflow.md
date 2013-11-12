@@ -26,7 +26,7 @@ The main repository's master branch always contains the latest changes. For more
 Changes should adhere to our [coding standards](https://github.com/TryGhost/Ghost/wiki/Code-standards), commit messages should follow our [notes below](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 
 
-## Notes on writing good commit messages <a id="commit-messages"></a>
+<a id="commit-messages">## Notes on writing good commit messages </a>
 
 * The first line of your commit message should be a short (80 chars) public description of what you have achieved with the commit. This is what appears in the change log. 
 * Leave a blank line after the first line
