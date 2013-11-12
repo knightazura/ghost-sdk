@@ -24,12 +24,50 @@ This version focuses around the plugin API, import tools and adding functionalit
 
 #### Publishing Features
 
-* ~~Solve data loss problem~~ [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) 
-* ~~Featured posts~~ [~~1111~~](https://github.com/TryGhost/Ghost/issues/1111), [~~1112~~](https://github.com/TryGhost/Ghost/issues/1112)
-* Static pages [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/pull/39), [#1350](https://github.com/TryGhost/Ghost/issues/969) 
-* SEO Improvements 
-     * John's list goes here.
+* [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) (Solve data loss problem)
+* Featured posts
+    * [~~#1111~~](https://github.com/TryGhost/Ghost/issues/1111) 
+    * [~~#1112~~](https://github.com/TryGhost/Ghost/issues/1112) 
+* Static pages
+    * [~~#969~~] 
+    * [~~#1329~~] 
+    * [~~Casper#39~~]
+    * [BUG] Static page issues [#1350](https://github.com/TryGhost/Ghost/issues/1350)   
+* SEO Improvements
+	* Generate sitemap.xml [#623](https://github.com/TryGhost/Ghost/issues/623)
+    * next and prev rel links in head [#685](https://github.com/TryGhost/Ghost/issues/685)
 * Image features, including cover images and different sizes [#128] - more details soon
+    * Ghost Image Output [#128](https://github.com/TryGhost/Ghost/issues/128) 
+
+#### Editor and Admin UI Improvements
+
+* Responsive videos inside the Ghost editor [#1367](https://github.com/TryGhost/Ghost/issues/1367)
+* Improve image uploader UI [#1356](https://github.com/TryGhost/Ghost/issues/1356)
+* Post Settings UX [#1351](https://github.com/TryGhost/Ghost/issues/1351)
+* Set a sensible default sort order for post management admin [#1303](https://github.com/TryGhost/Ghost/issues/1303)
+* [BUG] Wrong notification on updating post [#1368](https://github.com/TryGhost/Ghost/issues/1368)
+* [BUG] Allow multiple underscores like: _________ [#1113](https://github.com/TryGhost/Ghost/issues/1113)
+* [BUG] Markdown bug: no new line inserted when quotes are used [#974](https://github.com/TryGhost/Ghost/issues/974)
+
+##### Scrolling
+This section needs an overhaul
+
+* Editor screen: Advanced scroll features [#22](https://github.com/TryGhost/Ghost/issues/22)
+* Be smarter about how we line up markdown code with the live preview [#704](https://github.com/TryGhost/Ghost/pull/704)
+* [BUG] Editor UI - Scroll events are not smooth [#481](https://github.com/TryGhost/Ghost/issues/481)
+* [BUG] Editor scrolling gets stuck when typing lots of text [#535](https://github.com/TryGhost/Ghost/issues/535)
+* [BUG] Fucked up scrolling behaviour when typing  [#958](https://github.com/TryGhost/Ghost/issues/958)
+
+##### Shortcuts
+
+This section needs an overhaul
+
+* Display keyboard shortcut appropriate to OS [#348](https://github.com/TryGhost/Ghost/issues/348)
+* Shortcuts [#883](https://github.com/TryGhost/Ghost/issues/883)
+* [BUG] Select Word Keyboard Shortcut doesn't work [#1275](https://github.com/TryGhost/Ghost/issues/1275)
+* [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
+* [BUG] Shortcut.js assumes qwerty keyboard [#1148](https://github.com/TryGhost/Ghost/issues/1148)
+
 
 #### Architecture
 
@@ -75,11 +113,6 @@ This version focuses around the plugin API, import tools and adding functionalit
 * Backbone: data binding libraries / tools? [#550](https://github.com/TryGhost/Ghost/issues/550)
 * Theme API: make `{{nextpost}}` `{{prevpost}}` available to themes [#529](https://github.com/TryGhost/Ghost/issues/529)
 
-
-
-
-
-
 #### Security Improvements
 
 * Users: Roll out the ACL/Permissions system [#357](https://github.com/TryGhost/Ghost/issues/357)
@@ -92,20 +125,6 @@ This version focuses around the plugin API, import tools and adding functionalit
 * More login security [#499](https://github.com/TryGhost/Ghost/issues/499)
 * Content Security Policy - Report only mode [#1267](https://github.com/TryGhost/Ghost/issues/1267)
 
-#### Scrolling
-* Editor screen: Advanced scroll features [#22](https://github.com/TryGhost/Ghost/issues/22)
-* Be smarter about how we line up markdown code with the live preview [#704](https://github.com/TryGhost/Ghost/pull/704)
-* [BUG] Editor UI - Scroll events are not smooth [#481](https://github.com/TryGhost/Ghost/issues/481)
-* [BUG] Editor scrolling gets stuck when typing lots of text [#535](https://github.com/TryGhost/Ghost/issues/535)
-* [BUG] Fucked up scrolling behaviour when typing  [#958](https://github.com/TryGhost/Ghost/issues/958)
-
-#### Shortcuts
-
-* Display keyboard shortcut appropriate to OS [#348](https://github.com/TryGhost/Ghost/issues/348)
-* Shortcuts [#883](https://github.com/TryGhost/Ghost/issues/883)
-* [BUG] Select Word Keyboard Shortcut doesn't work [#1275](https://github.com/TryGhost/Ghost/issues/1275)
-* [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
-* [BUG] Shortcut.js assumes qwerty keyboard [#1148](https://github.com/TryGhost/Ghost/issues/1148)
 
 ## Bug List
 
