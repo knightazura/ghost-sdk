@@ -14,6 +14,7 @@ This version focuses around the plugin API, import tools and adding functionalit
 #### Import & Plugins
 
 **Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
+
 * Proposal: Plugin Architecture Refactor [#769](https://github.com/TryGhost/Ghost/issues/769)
 * Ghost Importer: UI love [#953
 * Import plugin framework [#854](https://github.com/TryGhost/Ghost/issues/854)](https://github.com/TryGhost/Ghost/issues/953)
@@ -24,14 +25,9 @@ This version focuses around the plugin API, import tools and adding functionalit
 
 #### Publishing Features
 
-* [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) (Solve data loss problem)
-* Featured posts
-    * [~~#1111~~](https://github.com/TryGhost/Ghost/issues/1111) 
-    * [~~#1112~~](https://github.com/TryGhost/Ghost/issues/1112) 
-* Static pages
-    * [~~#969~~] 
-    * [~~#1329~~] 
-    * [~~Casper#39~~]
+* Add a warning message when leaving the page with unsaved post content. [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) (Solve data loss problem)
+* Featured posts: [~~#1111~~](https://github.com/TryGhost/Ghost/issues/1111), [~~#1112~~](https://github.com/TryGhost/Ghost/issues/1112) 
+* Static pages: [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/issues/39)
     * [BUG] Static page issues [#1350](https://github.com/TryGhost/Ghost/issues/1350)   
 * SEO Improvements
 	* Generate sitemap.xml [#623](https://github.com/TryGhost/Ghost/issues/623)
@@ -50,7 +46,7 @@ This version focuses around the plugin API, import tools and adding functionalit
 * [BUG] Markdown bug: no new line inserted when quotes are used [#974](https://github.com/TryGhost/Ghost/issues/974)
 
 ##### Scrolling
-This section needs an overhaul
+**Note:**  This section needs an overhaul
 
 * Editor screen: Advanced scroll features [#22](https://github.com/TryGhost/Ghost/issues/22)
 * Be smarter about how we line up markdown code with the live preview [#704](https://github.com/TryGhost/Ghost/pull/704)
@@ -60,7 +56,7 @@ This section needs an overhaul
 
 ##### Shortcuts
 
-This section needs an overhaul
+**Note:** This section needs an overhaul
 
 * Display keyboard shortcut appropriate to OS [#348](https://github.com/TryGhost/Ghost/issues/348)
 * Shortcuts [#883](https://github.com/TryGhost/Ghost/issues/883)
@@ -126,7 +122,7 @@ This section needs an overhaul
 * Content Security Policy - Report only mode [#1267](https://github.com/TryGhost/Ghost/issues/1267)
 
 
-## Bug List
+#### Bug List
 
 Bugs which don't fit into the categories above
 
