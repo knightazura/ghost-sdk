@@ -44,12 +44,11 @@ The GDTs will provide the tools for registering a widget and then defining its c
 
 Some of individual APIs and tools that we intend to provide include:
 
-- Ghost (data) API, for making requests to the Ghost data layer
+- Ghost (data) API, for making requests to the Ghost data layer, also allows for defining data to be stored
 - Filters API, for hooking directly into Ghost functionality
 - Theme API, for providing custom handlebars helpers & other theme-specific tools
 - Widget API, for creating dashboard mini-apps
 - Services API, for managing accounts/credentials for 3rd party services
-- Database API, for defining data to be stored
 - Routes API, for adding custom routes
 - Files API, for hooking into and overriding how Ghost stores files
 - UI Tools, for adding to the Ghost admin UI
@@ -66,3 +65,24 @@ The GDK is intended to provide powerful tools that developers can use in creativ
 If you build an app or theme which uses an unintended bug/feature please do 1) tell us about it and 2) expect it to go away at some point breaking your app / theme - where possible we'll try to replace it with something intended for the purpose.
 
 If you build an app which implements a feature exactly as it is planned on the Ghost roadmap, you do so at your own behest. We highly recommend instead being the person that commits the feature to core. We really don't want to upset developers by having their hard work completely written off because the feature appears in core, we'd much rather recognise your hard work through contribution to core.
+
+### Ghost (data) API
+
+Principles:
+
+- Data is either core data in the managed Ghost schema, or app data which is kept separately
+- Apps can modify Ghost data through the internal Ghost API
+- Apps can define new types of data, either related to existing tables, or stand alone - this is stored separately to core data tables
+- Apps can define settings, these are stored in an app settings table, not the core settings table
+
+#### App Settings
+
+The separation between the core settings and app settings tables helps with the long-term management of data which comes from apps. In WP land, the options table is a mish-mash of rows some from WP itself, others from plugins, others from themes. We want to make sure that app data is easy to identify and separate from Ghost data.
+
+Apps will be able to access the core settings table, but not add to it, or make changes to any setting marked 'core'. Those settings are for the core only. Any other setting may be modified but not deleted.
+
+#### Custom data
+
+As it stands, apps can require Knex and access the database directly. This works, but is laborious, and not the "one clear way to do things" approach we want app authors using.
+
+tbc...
