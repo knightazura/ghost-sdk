@@ -115,16 +115,16 @@ This version focuses around the plugin API, import tools and adding functionalit
 * Replace cookieSession with session [#1230](https://github.com/TryGhost/Ghost/issues/1230)
 * Content Security Policy - Report only mode [#1267](https://github.com/TryGhost/Ghost/issues/1267)
 
-### Accounts
+#### Accounts
 * Limit login attempts [#499](https://github.com/TryGhost/Ghost/issues/499)
 * Improved password reset tool [#1471](https://github.com/TryGhost/Ghost/issues/1471)
 * Account redirects [#1472](https://github.com/TryGhost/Ghost/issues/1472)
 * Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
 
 
-#### Bug List
+### Bug List
 
-Bugs which don't fit into the categories above
+Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 * Editing publish date of unpublished post yields JavaScript error [#1332](https://github.com/TryGhost/Ghost/issues/1332)
 * /settings/user page buggy in firefox. [#1210](https://github.com/TryGhost/Ghost/issues/1210)
