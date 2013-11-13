@@ -113,8 +113,13 @@ This version focuses around the plugin API, import tools and adding functionalit
    * Upgrade validator to 2.*.* [#1379](https://github.com/TryGhost/Ghost/issues/1379)
    * [BUG] Editor title removing spaces [#1328](https://github.com/TryGhost/Ghost/issues/1328)
 * Replace cookieSession with session [#1230](https://github.com/TryGhost/Ghost/issues/1230)
-* More login security [#499](https://github.com/TryGhost/Ghost/issues/499)
 * Content Security Policy - Report only mode [#1267](https://github.com/TryGhost/Ghost/issues/1267)
+
+### Accounts
+* Limit login attempts [#499](https://github.com/TryGhost/Ghost/issues/499)
+* Improved password reset tool [#1471](https://github.com/TryGhost/Ghost/issues/1471)
+* Account redirects [#1472](https://github.com/TryGhost/Ghost/issues/1472)
+* Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
 
 
 #### Bug List
@@ -125,8 +130,6 @@ Bugs which don't fit into the categories above
 * /settings/user page buggy in firefox. [#1210](https://github.com/TryGhost/Ghost/issues/1210)
 * custom partial/pagination.hbs not cleared on theme switch [#1203](https://github.com/TryGhost/Ghost/issues/1203)
 * Select boxes look weird on Firefox [#1109](https://github.com/TryGhost/Ghost/issues/1109)
-* Login form is not present in the source [#652](https://github.com/TryGhost/Ghost/issues/652)
-* Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
 * Fancy quotes are borked [#534](https://github.com/TryGhost/Ghost/issues/534)
 
 ----------
