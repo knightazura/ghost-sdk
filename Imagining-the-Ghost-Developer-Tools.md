@@ -71,7 +71,7 @@ If you build an app which implements a feature exactly as it is planned on the G
 Principles:
 
 - Data is either core data in the managed Ghost schema, or app data which is kept separately
-- Apps can modify Ghost data through the internal Ghost API
+- Apps can perform CRUD operations on Ghost data through the Ghost data API
 - Apps can define new types of data, either related to existing tables, or stand alone - this is stored separately to core data tables
 - Apps can define settings, these are stored in an app settings table, not the core settings table
 
