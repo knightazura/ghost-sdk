@@ -10,10 +10,9 @@ The next minor version bump is set to happen a month or so after the public laun
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
 
-This version focuses around the plugin API, import tools and adding functionality which has been heavily requested during the launch phases.
-#### Import & Apps
+This version focuses around the App API, import tools and adding functionality which has been heavily requested during the launch phases.
 
-**Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
+#### Import & Apps
 
 Getting Apps off the ground:
 * ~~Proposal: Plugin Architecture Refactor~~ [~~#769~~](https://github.com/TryGhost/Ghost/issues/769)
@@ -23,6 +22,8 @@ Getting Apps off the ground:
 ) 
 
 Import Apps:
+
+**Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
 
 * Ghost Importer: UI love [#953](https://github.com/TryGhost/Ghost/issues/953)
 * Add "Delete All Content" Button [#1445](https://github.com/TryGhost/Ghost/issues/1445)
