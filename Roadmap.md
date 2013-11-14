@@ -21,12 +21,14 @@ Getting Apps off the ground:
    * Ghost Developer Tools 'proxy' object for apps [#1478](https://github.com/TryGhost/Ghost/issues/1478)
    * API / data restrictions for apps / internal on settings model [#1473](https://github.com/TryGhost/Ghost/issues/1473
 ) 
-Import Apps
+
+Import Apps:
+
 * Ghost Importer: UI love [#953](https://github.com/TryGhost/Ghost/issues/953)
 * Add "Delete All Content" Button [#1445](https://github.com/TryGhost/Ghost/issues/1445)
 * importing a bad database that fails to import still imports content [#837](https://github.com/TryGhost/Ghost/issues/837)
 * De-duplicate posts and tags in importer [#806](https://github.com/TryGhost/Ghost/issues/806)
-* [BUG] Data imported notification shows after I've logged in [#1452]
+* [BUG] Data imported notification shows after I've logged in [#1452](https://github.com/TryGhost/Ghost/issues/1452)
 
 #### Publishing Features
 
@@ -101,6 +103,7 @@ Import Apps
 #### Miscellaneous
 
 * No inline script for Ghost.init [#1268](https://github.com/TryGhost/Ghost/issues/1268)
+* Automatic Update Available Notifications [#1464](https://github.com/TryGhost/Ghost/issues/1464)
 * Ugly debug upgrade tool [#1260](https://github.com/TryGhost/Ghost/issues/1260)
 * Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
 * More validation [#970](https://github.com/TryGhost/Ghost/issues/970)
