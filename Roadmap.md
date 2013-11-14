@@ -11,17 +11,22 @@ The next minor version bump is set to happen a month or so after the public laun
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
 
 This version focuses around the plugin API, import tools and adding functionality which has been heavily requested during the launch phases.
-#### Import & Plugins
+#### Import & Apps
 
 **Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
 
-* Proposal: Plugin Architecture Refactor [#769](https://github.com/TryGhost/Ghost/issues/769)
+Getting Apps off the ground:
+* ~~Proposal: Plugin Architecture Refactor~~ [~~#769~~](https://github.com/TryGhost/Ghost/issues/769)
+* Ghost Apps & the Ghost Developer Tools [#1474](https://github.com/TryGhost/Ghost/issues/1474)
+   * Ghost Developer Tools 'proxy' object for apps [#1478](https://github.com/TryGhost/Ghost/issues/1478)
+   * API / data restrictions for apps / internal on settings model [#1473](https://github.com/TryGhost/Ghost/issues/1473
+) 
+Import Apps
 * Ghost Importer: UI love [#953](https://github.com/TryGhost/Ghost/issues/953)
-* Import plugin framework [#854](https://github.com/TryGhost/Ghost/issues/854)
-* Ghost Import Plugins [#950](https://github.com/TryGhost/Ghost/issues/950)
 * Add "Delete All Content" Button [#1445](https://github.com/TryGhost/Ghost/issues/1445)
 * importing a bad database that fails to import still imports content [#837](https://github.com/TryGhost/Ghost/issues/837)
 * De-duplicate posts and tags in importer [#806](https://github.com/TryGhost/Ghost/issues/806)
+* [BUG] Data imported notification shows after I've logged in [#1452]
 
 #### Publishing Features
 
