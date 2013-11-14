@@ -54,7 +54,9 @@ Some of individual APIs and tools that we intend to provide include:
 - UI Tools, for adding to the Ghost admin UI
 - Auth Tools, for autenticating with 3rd parties
 - API Tools, for sending and receiving data from 3rd party APIs
-- Asset Management tools, for defining custom js, css, images and templates for your app
+- Asset Management tools, for defining custom js, css, and images for your app
+- Templating tools, so apps can define hbs templates making use of helpers
+- i18n tools, so apps can hook into all the language, date and other i18n/l10n tools in Ghost core
 
 It's pretty huge, and it is all going to start out pretty basic, and build in complexity and power over time.
 
