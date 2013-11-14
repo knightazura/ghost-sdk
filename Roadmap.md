@@ -16,6 +16,7 @@ This version focuses around the App API, import tools and adding functionality w
 
 Getting Apps off the ground:
 * ~~Proposal: Plugin Architecture Refactor~~ [~~#769~~](https://github.com/TryGhost/Ghost/issues/769)
+* Lock down the App Boilerplate: <https://github.com/TryGhost/Ghost-App>
 * Ghost Apps & the Ghost Developer Tools [#1474](https://github.com/TryGhost/Ghost/issues/1474)
    * Ghost Developer Tools 'proxy' object for apps [#1478](https://github.com/TryGhost/Ghost/issues/1478)
    * API / data restrictions for apps / internal on settings model [#1473](https://github.com/TryGhost/Ghost/issues/1473
