@@ -15,7 +15,7 @@ The GDTs adhere to the following principles:
 * sensible, manageable structure
 * defined interface guidelines 
 * easily extensible
-
+* secure, safe, and dependable
 
 Essentially, the core should provide the tools for apps to use in creative ways. The tools provide power and flexibility to be used in ways we cannot imagine - pretty much anything should be possible. Any restrictions should exist only where it serves the GDT principles or protects the core of Ghost. 
 
