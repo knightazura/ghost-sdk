@@ -104,7 +104,6 @@ Import Apps:
 
 #### Miscellaneous
 
-* No inline script for Ghost.init [#1268](https://github.com/TryGhost/Ghost/issues/1268)
 * Automatic Update Available Notifications [#1464](https://github.com/TryGhost/Ghost/issues/1464)
 * Ugly debug upgrade tool [#1260](https://github.com/TryGhost/Ghost/issues/1260)
 * Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
