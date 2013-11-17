@@ -19,7 +19,7 @@ This is super-duper simple using [Homebrew](http://brew.sh/)
 
 #### Phantomjs:
 
-Use `wget` to fetch the correct archive from http://phantomjs.org/download.html:
+Use `wget` to fetch the correct archive from http://phantomjs.org/download.html
 
 E.g. for 64-bit (find out which architecture you're on with `arch`)
 * $ `wget https://phantomjs.googlecode.com/files/phantomjs-1.9.1-linux-x86_64.tar.bz2`
