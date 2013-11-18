@@ -38,6 +38,7 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * Editor -> Preview consistency
 * Advanced editor scrolling
 * Post list filtering and search
+* Tag management
 
 ### Site structure
 * Static Pages
