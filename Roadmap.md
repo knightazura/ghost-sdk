@@ -92,8 +92,8 @@ Items which focus purely on the Ghost internals have been pulled out into their 
     * Settings creation [#736](https://github.com/TryGhost/Ghost/issues/736)
 * Migration Refactor
     * Currently the amount of work required to do a database migration makes this prohibitively hard. The goal of this work is to make the whole system easier to understand. This is made up of a number of issues: 
-        * Create schema.js [#1398](https://github.com/TryGhost/Ghost/issues/1398)
-        * Refactor migration [#1399](https://github.com/TryGhost/Ghost/issues/1399) && [#1400](https://github.com/TryGhost/Ghost/issues/1400)
+        * ~~Create schema.js~~ [~~#1398~~](https://github.com/TryGhost/Ghost/issues/1398)
+        * ~~Refactor migration~~ [~~#1399~~](https://github.com/TryGhost/Ghost/issues/1399) && [~~#1400~~](https://github.com/TryGhost/Ghost/issues/1400)
         * Add validation to models using schema attributes [#1401](https://github.com/TryGhost/Ghost/issues/1401)
         * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601) [TOP PRIORITY]
         * Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
