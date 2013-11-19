@@ -35,7 +35,7 @@ Getting Apps off the ground:
 * Add "Delete All Content" Button [#1445](https://github.com/TryGhost/Ghost/issues/1445)
 * importing a bad database that fails to import still imports content [#837](https://github.com/TryGhost/Ghost/issues/837)
 * De-duplicate posts and tags in importer [#806](https://github.com/TryGhost/Ghost/issues/806)
-* [BUG] Data imported notification shows after I've logged in [#1452](https://github.com/TryGhost/Ghost/issues/1452)
+
 
 ### Publishing Experience
 
@@ -46,10 +46,9 @@ Getting Apps off the ground:
 * Static pages: [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/issues/39)
     * [BUG] Static page issues [#1350](https://github.com/TryGhost/Ghost/issues/1350)   
 * SEO Improvements
-	* Generate sitemap.xml [#623](https://github.com/TryGhost/Ghost/issues/623)
+    * Generate sitemap.xml [#623](https://github.com/TryGhost/Ghost/issues/623)
     * next and prev rel links in head [#685](https://github.com/TryGhost/Ghost/issues/685)
-* Image features, including cover images and different sizes [#128] - more details soon
-    * Ghost Image Output [#128](https://github.com/TryGhost/Ghost/issues/128) 
+
 
 #### UI Improvements
 
@@ -74,6 +73,13 @@ Getting Apps off the ground:
 * Keyboard Shortcut Overhaul [#1463](https://github.com/TryGhost/Ghost/issues/1463)
 * [BUG] Select Word Keyboard Shortcut doesn't work [#1275](https://github.com/TryGhost/Ghost/issues/1275)
 * [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
+
+##### Notifications
+* [Draft] Refactor notifications  [#1454](https://github.com/TryGhost/Ghost/issues/1454)
+    * [BUG] Data imported notification shows after I've logged in [#1452](https://github.com/TryGhost/Ghost/issues/1452)
+    * [BUG] closing a few alert messages is ugly [#836](https://github.com/TryGhost/Ghost/issues/836)
+
+
 
 
 ### Architecture
@@ -103,9 +109,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
     * [BUG] If the theme is missing, admin crashes [#981](https://github.com/TryGhost/Ghost/issues/981)
     * Connect.multipart() deprecation warning  [#1227](https://github.com/TryGhost/Ghost/issues/1227) [TOP PRIORITY]
     * BIG FAT ghost.js & index.js refactor [#360](https://github.com/TryGhost/Ghost/issues/360)
-* [Draft] Refactor notifications  [#1454](https://github.com/TryGhost/Ghost/issues/1454)
-    * [BUG] Data imported notification shows after I've logged in [#1452](https://github.com/TryGhost/Ghost/issues/1452)
-    * [BUG] closing a few alert messages is ugly [#836](https://github.com/TryGhost/Ghost/issues/836)
+
 
 #### Testing
 
