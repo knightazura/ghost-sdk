@@ -32,7 +32,7 @@ Getting Apps off the ground:
 
 **Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
 
-* Ghost Importer: UI love [#953](https://github.com/TryGhost/Ghost/issues/953)
+* Ghost Importer: UI love [#953](https://github.com/TryGhost/Ghost/issues/953) [TOP PRIORITY]
 * Add "Delete All Content" Button [#1445](https://github.com/TryGhost/Ghost/issues/1445)
 * importing a bad database that fails to import still imports content [#837](https://github.com/TryGhost/Ghost/issues/837)
 * De-duplicate posts and tags in importer [#806](https://github.com/TryGhost/Ghost/issues/806)
@@ -96,13 +96,13 @@ Items which focus purely on the Ghost internals have been pulled out into their 
     * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601)
     * Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
 * Config & internal structure 
-	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527)
+	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) 
     * Make it possible to require ghost as a module [#1326](https://github.com/TryGhost/Ghost/issues/1326)
-    * Customisable Permalinks [#1395](https://github.com/TryGhost/Ghost/issues/1395)
+    * Customisable Permalinks [#1395](https://github.com/TryGhost/Ghost/issues/1395) [TOP PRIORITY]
 	* Standardise getting paths and abs URLs [#1390](https://github.com/TryGhost/Ghost/issues/1390)
     * Make the `content` directory configurable [#1364](https://github.com/TryGhost/Ghost/issues/1364)
     * [BUG] If the theme is missing, admin crashes [#981](https://github.com/TryGhost/Ghost/issues/981)
-    * Connect.multipart() deprecation warning  [#1227](https://github.com/TryGhost/Ghost/issues/1227)
+    * Connect.multipart() deprecation warning  [#1227](https://github.com/TryGhost/Ghost/issues/1227) [TOP PRIORITY]
     * BIG FAT ghost.js & index.js refactor [#360](https://github.com/TryGhost/Ghost/issues/360)
 * [Draft] Refactor notifications  [#1454](https://github.com/TryGhost/Ghost/issues/1454)
     * [BUG] Data imported notification shows after I've logged in [#1452](https://github.com/TryGhost/Ghost/issues/1452)
@@ -130,7 +130,7 @@ The following issues don't really fit into any other major Milestone 4 category,
 * Users: Roll out the ACL/Permissions system [#357](https://github.com/TryGhost/Ghost/issues/357)
 * Enhancement: Remove "Insecure Content" warning for backend over SSL [#1300](https://github.com/TryGhost/Ghost/issues/1300)
 * XSS
-   * Investigate XSS filtering [#1378](https://github.com/TryGhost/Ghost/issues/1378)
+   * Investigate XSS filtering [#1378](https://github.com/TryGhost/Ghost/issues/1378) [TOP PRIORITY]
    * Upgrade validator to 2.*.* [#1379](https://github.com/TryGhost/Ghost/issues/1379)
    * [BUG] Editor title removing spaces [#1328](https://github.com/TryGhost/Ghost/issues/1328)
 * Replace cookieSession with session [#1230](https://github.com/TryGhost/Ghost/issues/1230)
