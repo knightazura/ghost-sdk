@@ -2,15 +2,21 @@ The Roadmap aims to set out when certain features will appear. It reduces in cla
 
 If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
 
-## Future Milestones
+## Milestone 4 - Version 0.4.0 - Early / mid December
 
-### Milestone 4 - Version 0.4.0 - Early / mid December
-
-The next minor version bump is set to happen a month or so after the public launch
+Milestone 4 will result in version 0.4.0 of Ghost. This is the current milestone. 
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
 
-This version focuses around the App API, import tools and adding functionality which has been heavily requested during the launch phases.
+### Goals
+
+This version focuses around the App API, import tools and adding functionality which has been heavily requested during the launch phases. 
+
+Milestone 4 is the first milestone which is not only after the public launch, but also developed in the open allowing anyone to get involved. This means that Milestone 4 has a heavy focus on architecture, further improving the Ghost internals, making it easier to work with, and adding non-user-facing features that will help Ghost to grow new features quickly in the future.
+
+We also plan to make our Ghost Developer Tools, or the API for building Apps, available at the end of this milestone, so that developers can start building Apps to extend Ghost's functionality. This too requires a focus on the Ghost internals.
+
+There are also a number of important enhancements and features we want to add to the publishing experience, to reduce user frustration wherever possible.
 
 #### Import & Apps
 
@@ -143,7 +149,7 @@ Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 ----------
 
-### Milestone 5 - Version 0.5.0
+## Milestone 5 - Version 0.5.0
 
 Planned for early next year.
 
@@ -155,20 +161,20 @@ This version will focus heavily on adding localisation, and more site features s
 
 See [planned features](https://github.com/TryGhost/Ghost/wiki/Planned-Features) for an idea of what will be happening.
 
-## Past Milestones
+### Past Milestones
 
-### Milestone 3 - Version 0.3.0 - Kickstarter release
+#### Milestone 3 - Version 0.3.0 - Kickstarter release
 
 See [0.3.0](https://github.com/TryGhost/Ghost/commits/0.3.0)
 
-### Version 0.3.1
+#### Version 0.3.1
 
 Maintenance release, see [0.3.1](https://github.com/TryGhost/Ghost/commits/0.3.1)
 
-### Version 0.3.2 (12th Oct), followed by Public release (14th Oct)
+#### Version 0.3.2 (12th Oct), followed by Public release (14th Oct)
 
 Maintenance release, see [0.3.2](https://github.com/TryGhost/Ghost/commits/0.3.2)
 
-### History 
+#### History 
 
 For more history, please see the [pre-release roadmap](https://github.com/TryGhost/Ghost/wiki/Pre-release-Roadmap)
