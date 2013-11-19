@@ -86,6 +86,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 	* API Unit Tests [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189)
     * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755)
 	* API caching layer (enhancement) [#173](https://github.com/TryGhost/Ghost/issues/173)
+    * More validation [#970](https://github.com/TryGhost/Ghost/issues/970)
     * Settings creation [#736](https://github.com/TryGhost/Ghost/issues/736)
 * Migration Refactor
     * Create schema.js [#1398](https://github.com/TryGhost/Ghost/issues/1398)
@@ -112,12 +113,13 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 * Performance tests  [#1392](https://github.com/TryGhost/Ghost/issues/1392)
 * CasperJS tests for mobile interactions and views [#403](https://github.com/TryGhost/Ghost/issues/403)
 
-#### Miscellaneous
+### Miscellaneous
+
+The following issues don't really fit into any other major Milestone 4 category, but are still scheduled to get done in 0.4.
 
 * Automatic Update Available Notifications [#1464](https://github.com/TryGhost/Ghost/issues/1464)
 * Ugly debug upgrade tool [#1260](https://github.com/TryGhost/Ghost/issues/1260)
 * Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
-* More validation [#970](https://github.com/TryGhost/Ghost/issues/970)
 * Grunt deploy [#927](https://github.com/TryGhost/Ghost/issues/927)
 * Consider switching to javascript:void(0) for hrefs [#916](https://github.com/TryGhost/Ghost/issues/916)
 * Backbone: data binding libraries / tools? [#550](https://github.com/TryGhost/Ghost/issues/550)
@@ -141,7 +143,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 * [BUG] Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
 
 
-### Bug List
+## Bug List
 
 Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
