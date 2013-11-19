@@ -49,7 +49,6 @@ Getting Apps off the ground:
     * Generate sitemap.xml [#623](https://github.com/TryGhost/Ghost/issues/623)
     * next and prev rel links in head [#685](https://github.com/TryGhost/Ghost/issues/685)
 
-
 #### UI Improvements
 
 * Post Settings UX [#1351](https://github.com/TryGhost/Ghost/issues/1351) [TOP PRIORITY]
@@ -80,8 +79,6 @@ Getting Apps off the ground:
     * [BUG] closing a few alert messages is ugly [#836](https://github.com/TryGhost/Ghost/issues/836)
 
 
-
-
 ### Architecture
 
 Items which focus purely on the Ghost internals have been pulled out into their own category. Many of these are required in order to introduce required features and improvements.
@@ -89,7 +86,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 * Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY]
 * API Improvements
 	* API Unit Tests [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189)
-    * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755)
+    * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755) [TOP PRIORITY]
 	* API caching layer (enhancement) [#173](https://github.com/TryGhost/Ghost/issues/173)
     * More validation [#970](https://github.com/TryGhost/Ghost/issues/970)
     * Settings creation [#736](https://github.com/TryGhost/Ghost/issues/736)
@@ -98,7 +95,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
     * Refactor migration (database not yet created) [#1399](https://github.com/TryGhost/Ghost/issues/1399)
     * Refactor migration (database is out of date) [#1400](https://github.com/TryGhost/Ghost/issues/1400)
     * Add validation to models using schema attributes [#1401](https://github.com/TryGhost/Ghost/issues/1401)
-    * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601)
+    * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601) [TOP PRIORITY]
     * Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
 * Config & internal structure 
 	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) 
@@ -141,7 +138,7 @@ The following issues don't really fit into any other major Milestone 4 category,
 
 #### Accounts
 * Limit login attempts [#499](https://github.com/TryGhost/Ghost/issues/499)
-* Improved password reset tool [#1471](https://github.com/TryGhost/Ghost/issues/1471)
+* Improved password reset tool [#1471](https://github.com/TryGhost/Ghost/issues/1471) [TOP PRIORITY]
 * Account redirects [#1472](https://github.com/TryGhost/Ghost/issues/1472)
 * [BUG] Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
 
