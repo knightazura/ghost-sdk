@@ -91,12 +91,12 @@ Items which focus purely on the Ghost internals have been pulled out into their 
     * More validation [#970](https://github.com/TryGhost/Ghost/issues/970)
     * Settings creation [#736](https://github.com/TryGhost/Ghost/issues/736)
 * Migration Refactor
-    * Create schema.js [#1398](https://github.com/TryGhost/Ghost/issues/1398)
-    * Refactor migration (database not yet created) [#1399](https://github.com/TryGhost/Ghost/issues/1399)
-    * Refactor migration (database is out of date) [#1400](https://github.com/TryGhost/Ghost/issues/1400)
-    * Add validation to models using schema attributes [#1401](https://github.com/TryGhost/Ghost/issues/1401)
-    * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601) [TOP PRIORITY]
-    * Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
+    * Currently the amount of work required to do a database migration makes this prohibitively hard. The goal of this work is to make the whole system easier to understand. This is made up of a number of issues: 
+        * Create schema.js [#1398](https://github.com/TryGhost/Ghost/issues/1398)
+        * Refactor migration [#1399](https://github.com/TryGhost/Ghost/issues/1399) && [#1400](https://github.com/TryGhost/Ghost/issues/1400)
+        * Add validation to models using schema attributes [#1401](https://github.com/TryGhost/Ghost/issues/1401)
+        * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601) [TOP PRIORITY]
+        * Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
 * Config & internal structure 
 	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) 
     * Make it possible to require ghost as a module [#1326](https://github.com/TryGhost/Ghost/issues/1326)
