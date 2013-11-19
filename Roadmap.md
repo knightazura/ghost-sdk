@@ -25,7 +25,7 @@ Getting Apps off the ground:
 * Lock down the App Boilerplate: <https://github.com/TryGhost/Ghost-App/issues>
 * Ghost Apps & the Ghost Developer Tools [#1474](https://github.com/TryGhost/Ghost/issues/1474)
    * Ghost Developer Tools 'proxy' object for apps [#1478](https://github.com/TryGhost/Ghost/issues/1478)
-   * API / data restrictions for apps / internal on settings model [#1473] [TOP PRIORITY](https://github.com/TryGhost/Ghost/issues/1473) 
+   * API / data restrictions for apps / internal on settings model [#1473] (https://github.com/TryGhost/Ghost/issues/1473) [TOP PRIORITY]
 
 ##### Import Apps:
 
