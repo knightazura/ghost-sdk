@@ -134,7 +134,7 @@ Import Apps:
 * Limit login attempts [#499](https://github.com/TryGhost/Ghost/issues/499)
 * Improved password reset tool [#1471](https://github.com/TryGhost/Ghost/issues/1471)
 * Account redirects [#1472](https://github.com/TryGhost/Ghost/issues/1472)
-* Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
+* [BUG] Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
 
 
 ### Bug List
