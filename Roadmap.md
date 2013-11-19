@@ -54,9 +54,9 @@ Getting Apps off the ground:
 
 #### UI Improvements
 
+* Post Settings UX [#1351](https://github.com/TryGhost/Ghost/issues/1351) [TOP PRIORITY]
 * Responsive videos inside the Ghost editor [#1367](https://github.com/TryGhost/Ghost/issues/1367)
 * Improve image uploader UI [#1356](https://github.com/TryGhost/Ghost/issues/1356)
-* Post Settings UX [#1351](https://github.com/TryGhost/Ghost/issues/1351)
 * Set a sensible default sort order for post management admin [#1303](https://github.com/TryGhost/Ghost/issues/1303)
 * [BUG] Wrong notification on updating post [#1368](https://github.com/TryGhost/Ghost/issues/1368)
 * [BUG] Allow multiple underscores like: _________ [#1113](https://github.com/TryGhost/Ghost/issues/1113)
@@ -77,9 +77,11 @@ Getting Apps off the ground:
 * [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
 
 
-#### Architecture
+### Architecture
 
-* Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405)
+Items which focus purely on the Ghost internals have been pulled out into their own category. Many of these are required in order to introduce required features and improvements.
+
+* Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY]
 * API Improvements
 	* API Unit Tests [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189)
     * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755)
