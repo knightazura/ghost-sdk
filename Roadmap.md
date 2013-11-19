@@ -18,7 +18,7 @@ We also plan to make our Ghost Developer Tools, or the API for building Apps, av
 
 There are also a number of important enhancements and features we want to add to the publishing experience, to reduce user frustration wherever possible.
 
-#### Import & Apps
+### Apps & Import
 
 Getting Apps off the ground:
 * ~~Proposal: Plugin Architecture Refactor~~ [~~#769~~](https://github.com/TryGhost/Ghost/issues/769)
@@ -28,7 +28,7 @@ Getting Apps off the ground:
    * API / data restrictions for apps / internal on settings model [#1473](https://github.com/TryGhost/Ghost/issues/1473
 ) 
 
-Import Apps:
+##### Import Apps:
 
 **Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
 
@@ -38,7 +38,9 @@ Import Apps:
 * De-duplicate posts and tags in importer [#806](https://github.com/TryGhost/Ghost/issues/806)
 * [BUG] Data imported notification shows after I've logged in [#1452](https://github.com/TryGhost/Ghost/issues/1452)
 
-#### Publishing Features
+### Publishing Experience
+
+#### New Features
 
 * Add a warning message when leaving the page with unsaved post content. [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) (Solve data loss problem)
 * Featured posts: [~~#1111~~](https://github.com/TryGhost/Ghost/issues/1111), [~~#1112~~](https://github.com/TryGhost/Ghost/issues/1112) 
@@ -50,7 +52,7 @@ Import Apps:
 * Image features, including cover images and different sizes [#128] - more details soon
     * Ghost Image Output [#128](https://github.com/TryGhost/Ghost/issues/128) 
 
-#### Editor and Admin UI Improvements
+#### UI Improvements
 
 * Responsive videos inside the Ghost editor [#1367](https://github.com/TryGhost/Ghost/issues/1367)
 * Improve image uploader UI [#1356](https://github.com/TryGhost/Ghost/issues/1356)
