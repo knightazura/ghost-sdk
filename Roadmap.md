@@ -88,7 +88,6 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 	* API Unit Tests [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189)
     * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755) [TOP PRIORITY]
 	* API caching layer (enhancement) [#173](https://github.com/TryGhost/Ghost/issues/173)
-    * More validation [#970](https://github.com/TryGhost/Ghost/issues/970)
     * Settings creation [#736](https://github.com/TryGhost/Ghost/issues/736)
 * Migration Refactor
     * Currently the amount of work required to do a database migration makes this prohibitively hard. The goal of this work is to make the whole system easier to understand. This is made up of a number of issues: 
