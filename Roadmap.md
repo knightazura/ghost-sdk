@@ -72,6 +72,7 @@ Getting Apps off the ground:
 * Keyboard Shortcut Overhaul [#1463](https://github.com/TryGhost/Ghost/issues/1463)
 * [BUG] Select Word Keyboard Shortcut doesn't work [#1275](https://github.com/TryGhost/Ghost/issues/1275)
 * [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
+* ~~New cmd+enter shortcut to go to a new paragraph without modifying the current line~~ [~~#645~~](https://github.com/TryGhost/Ghost/issues/645)
 
 ##### Notifications
 * [Draft] Refactor notifications  [#1454](https://github.com/TryGhost/Ghost/issues/1454)
@@ -122,7 +123,10 @@ The following issues don't really fit into any other major Milestone 4 category,
 * Grunt deploy [#927](https://github.com/TryGhost/Ghost/issues/927)
 * Consider switching to javascript:void(0) for hrefs [#916](https://github.com/TryGhost/Ghost/issues/916)
 * Backbone: data binding libraries / tools? [#550](https://github.com/TryGhost/Ghost/issues/550)
+
+#### Theme API
 * Theme API: make `{{nextpost}}` `{{prevpost}}` available to themes [#529](https://github.com/TryGhost/Ghost/issues/529)
+* ~~Create prefix and suffix attribute for {{tags}} helper~~ [~~#607~~](https://github.com/TryGhost/Ghost/issues/607)
 
 #### Security Improvements
 
