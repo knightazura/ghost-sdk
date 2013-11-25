@@ -53,11 +53,11 @@ Getting Apps off the ground:
 
 * Post Settings UX [#1351](https://github.com/TryGhost/Ghost/issues/1351) [TOP PRIORITY]
 * Responsive videos inside the Ghost editor [#1367](https://github.com/TryGhost/Ghost/issues/1367)
-* Improve image uploader UI [#1356](https://github.com/TryGhost/Ghost/issues/1356)
+* ~~Improve image uploader UI~~ [~~#1356~~](https://github.com/TryGhost/Ghost/issues/1356)
 * Set a sensible default sort order for post management admin [#1303](https://github.com/TryGhost/Ghost/issues/1303)
 * [BUG] Wrong notification on updating post [#1368](https://github.com/TryGhost/Ghost/issues/1368)
-* [BUG] Allow multiple underscores like: _________ [#1113](https://github.com/TryGhost/Ghost/issues/1113)
-* [BUG] Markdown bug: no new line inserted when quotes are used [#974](https://github.com/TryGhost/Ghost/issues/974)
+* ~~[BUG] Allow multiple underscores like: _________~~ [~~#1113~~](https://github.com/TryGhost/Ghost/issues/1113)
+* ~~[BUG] Markdown bug: no new line inserted when quotes are used~~ [~~#974~~](https://github.com/TryGhost/Ghost/issues/974)
 
 ##### Scrolling
 **Note:**  This section needs an overhaul
@@ -85,7 +85,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 
 * Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY]
 * API Improvements
-	* API Unit Tests [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189)
+	* ~~API Unit Tests~~ [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189)
     * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755) [TOP PRIORITY]
 	* API caching layer (enhancement) [#173](https://github.com/TryGhost/Ghost/issues/173)
     * Settings creation [#736](https://github.com/TryGhost/Ghost/issues/736)
@@ -97,10 +97,10 @@ Items which focus purely on the Ghost internals have been pulled out into their 
         * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601) [TOP PRIORITY]
         * Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
 * Config & internal structure 
-	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) 
-    * Make it possible to require ghost as a module [#1326](https://github.com/TryGhost/Ghost/issues/1326)
-    * Customisable Permalinks [#1395](https://github.com/TryGhost/Ghost/issues/1395) [TOP PRIORITY]
-	* Standardise getting paths and abs URLs [#1390](https://github.com/TryGhost/Ghost/issues/1390)
+	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) [TOP PRIORITY] [IN PROGRESS]
+    * Make it possible to require ghost as a module [#1326](https://github.com/TryGhost/Ghost/issues/1326) [IN PROGRESS]
+    * Customisable Permalinks [#1395](https://github.com/TryGhost/Ghost/issues/1395) [TOP PRIORITY] [IN PROGRESS]
+	* Standardise getting paths and abs URLs [#1390](https://github.com/TryGhost/Ghost/issues/1390) [IN PROGRESS]
     * Make the `content` directory configurable [#1364](https://github.com/TryGhost/Ghost/issues/1364)
     * [BUG] If the theme is missing, admin crashes [#981](https://github.com/TryGhost/Ghost/issues/981)
     * Connect.multipart() deprecation warning  [#1227](https://github.com/TryGhost/Ghost/issues/1227) [TOP PRIORITY]
@@ -132,12 +132,12 @@ The following issues don't really fit into any other major Milestone 4 category,
    * Investigate XSS filtering [#1378](https://github.com/TryGhost/Ghost/issues/1378) [TOP PRIORITY]
    * Upgrade validator to 2.*.* [#1379](https://github.com/TryGhost/Ghost/issues/1379)
    * [BUG] Editor title removing spaces [#1328](https://github.com/TryGhost/Ghost/issues/1328)
-* Replace cookieSession with session [#1230](https://github.com/TryGhost/Ghost/issues/1230)
+* ~~Replace cookieSession with session~~ [~~#1230~~](https://github.com/TryGhost/Ghost/issues/1230)
 * Content Security Policy - Report only mode [#1267](https://github.com/TryGhost/Ghost/issues/1267)
 
 #### Accounts
 * Limit login attempts [#499](https://github.com/TryGhost/Ghost/issues/499)
-* Improved password reset tool [#1471](https://github.com/TryGhost/Ghost/issues/1471) [TOP PRIORITY]
+* ~~Improved password reset tool~~ [~~#1471~~](https://github.com/TryGhost/Ghost/issues/1471) [TOP PRIORITY]
 * Account redirects [#1472](https://github.com/TryGhost/Ghost/issues/1472)
 * [BUG] Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/ [#596](https://github.com/TryGhost/Ghost/issues/596)
 
