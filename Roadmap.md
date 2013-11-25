@@ -41,6 +41,7 @@ Getting Apps off the ground:
 
 #### New Features
 
+* ~~Post settings menu: published time~~ [~~#907~~](https://github.com/TryGhost/Ghost/issues/907)
 * ~~Add a warning message when leaving the page with unsaved post content~~. [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) (Solve data loss problem)
 * ~~Featured posts~~: [~~#1111~~](https://github.com/TryGhost/Ghost/issues/1111), [~~#1112~~](https://github.com/TryGhost/Ghost/issues/1112) 
 * Static pages: [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/issues/39)
@@ -110,6 +111,10 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 
 #### Testing
 
+* ~~Infra: Run unit tests against sqlite and mysql~~ [~~#921~~](https://github.com/TryGhost/Ghost/issues/921)
+* ~~Infra: Test Fixtures~~ [~~#362~~](https://github.com/TryGhost/Ghost/issues/362)
+* ~~Add postgres build and allow it to fail.~~ [~~#1555~~](https://github.com/TryGhost/Ghost/pull/1555)
+* ~~Infra: Code coverage~~ [~~#361~~](https://github.com/TryGhost/Ghost/issues/361)
 * Performance tests  [#1392](https://github.com/TryGhost/Ghost/issues/1392)
 * CasperJS tests for mobile interactions and views [#403](https://github.com/TryGhost/Ghost/issues/403)
 
@@ -126,6 +131,8 @@ The following issues don't really fit into any other major Milestone 4 category,
 
 #### Theme API
 * Theme API: make `{{nextpost}}` `{{prevpost}}` available to themes [#529](https://github.com/TryGhost/Ghost/issues/529)
+* ~~In {{excerpt}} convert new lines to spaces~~ [~~#531~~](https://github.com/TryGhost/Ghost/issues/531)
+* ~~Added new helper to escape URIs called {{encode}}~~ [~~#1092~~](https://github.com/TryGhost/Ghost/pull/1092)
 * ~~Create prefix and suffix attribute for {{tags}} helper~~ [~~#607~~](https://github.com/TryGhost/Ghost/issues/607)
 
 #### Security Improvements
