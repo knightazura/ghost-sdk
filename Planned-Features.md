@@ -32,6 +32,7 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * Video embedding
 * Version control
 * Post custom data
+* Configurable post meta_title/meta_description
 
 ### Admin UI
 * Better Markdown support / behaviour when live previewing
