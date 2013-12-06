@@ -20,18 +20,26 @@ This can take a while, so it makes sense to run the individual sections if you'r
 - `grunt test-unit` - run all of the unit tests, see `mochacli` config in `Gruntfile.js` for a full set of the individual groups of unit tests which can be run and feel free to add your own.
 - `grunt test-integration` - run the database integration tests
 - `grunt test-api` - run the api functional tests
-- `grunt test-functional` - run the interface functional tests (both admin and theme). You can further specify which folder or file of functional tests you want to ring by specifying a `--target`, e.g. `grunt test-functional --target=admin/`
+- `grunt test-functional` - run the interface functional tests (both admin and theme). You can further specify which folder or file of functional tests you want to run by specifying a `--target`, e.g. `grunt test-functional --target=admin/`
 
-## Preparing to deploy with `grunt prod`
+## Preparing to deploy into production with `grunt prod`
 
-The `grunt prod` task goes one step beyond the default `grunt` task and minifies the Ghost JavaScript source for production via an additional [uglify](https://github.com/mishoo/UglifyJS2) task.
-
-When you're ready to deploy to production, running `grunt prod` first is a wise choice.
+The `grunt prod` task goes one step beyond the default `grunt` task and minifies the Ghost JavaScript source for production via an additional [uglify](https://github.com/mishoo/UglifyJS2) task. The production assets are included in releases, this task is only needed for people running directly from GitHub 
 
 ## Developing with `grunt watch` or `grunt dev`
 
+Grunt watch and grunt dev are tools which will help to build Ghost assets whilst you are making changes to the files.
+
+[More info needed...]
+
 ## Generating docs with `grunt docs`
 
-## Creating builds with `grunt build`
+Ghost has some inline documentation using markdown comments which can be generated using `grunt docs` definitive formatting / style have not yet been determined / documented.
+
+## Creating releases with `grunt release`
+
+The release task exists for the creation of correctly build and formatted release zips, this is used when releasing a new version of Ghost, but may also be used by packaging tools. The task ensures that all the assets are built and prepared, and that no extraneous files such as tests, configurations or customisations are included.
 
 ## Creating changelogs with `grunt changelog`
+
+The changelog is generated using git tags and commit messages. A new tag must be added prior to running `grunt release` - a correctly formatted changelog will then be included in the release.
