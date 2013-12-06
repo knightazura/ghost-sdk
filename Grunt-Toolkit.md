@@ -10,6 +10,10 @@ These are commonly needed after pulling changes from master, so it's recommended
 
 If you have a fresh repo and are running `grunt` for the first time, you'll need to run `grunt init` rather than just `grunt` as this also installs bourbon. This only has to be done once on a repo.
 
+## Preparing to deploy into production with `grunt prod`
+
+The `grunt prod` task goes one step beyond the default `grunt` task and minifies the Ghost JavaScript source for production via an additional [uglify](https://github.com/mishoo/UglifyJS2) task. The production assets are included in releases, this task is only needed for people running directly from GitHub 
+
 ## Testing with `grunt validate`
 
 `grunt validate` runs all of Ghost's test suites: jsLint, unit tests (mocha), integration tests (mocha with DB access), api functional tests (mocha) and interface functional tests (CasperJS).
@@ -22,9 +26,9 @@ This can take a while, so it makes sense to run the individual sections if you'r
 - `grunt test-api` - run the api functional tests
 - `grunt test-functional` - run the interface functional tests (both admin and theme). You can further specify which folder or file of functional tests you want to run by specifying a `--target`, e.g. `grunt test-functional --target=admin/`
 
-## Preparing to deploy into production with `grunt prod`
+## Generating a test coverage report with `grunt coverage`
 
-The `grunt prod` task goes one step beyond the default `grunt` task and minifies the Ghost JavaScript source for production via an additional [uglify](https://github.com/mishoo/UglifyJS2) task. The production assets are included in releases, this task is only needed for people running directly from GitHub 
+A coverage report can be generated which takes into account all of the tests which run using mocha. The coverage report is not hooked into in Travis or any other automatic systems at present, but is used to regularly check the progress of testing in Ghost.
 
 ## Developing with `grunt watch` or `grunt dev`
 
