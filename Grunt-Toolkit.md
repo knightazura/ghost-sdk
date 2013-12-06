@@ -1,4 +1,4 @@
-[coming soon]
+Ghost has a number of tasks which are automated via Grunt. The following document explains what each thing does. You can also get help when running grunt by typing `grunt --help`
 
 ## Building assets with `grunt` & `grunt init`
 
