@@ -12,13 +12,15 @@ If you have a fresh repo and are running `grunt` for the first time, you'll need
 
 ## Testing with `grunt validate`
 
-`grunt validate` runs 3 sets of tests: jsLint, mocha unit tests and casperjs functional tests.
+`grunt validate` runs all of Ghost's test suites: jsLint, unit tests (mocha), integration tests (mocha with DB access), api functional tests (mocha) and interface functional tests (CasperJS).
 
 This can take a while, so it makes sense to run the individual sections if you're working on specific things.
 
-- `grunt jslint` will run just the linter
-- `grunt test-unit` will run all of the unit tests, `grunt test-api` will run the data model unit tests which are incorrectly labeled api, see `mochacli` config in `Gruntfile.js` for a full set of the individual groups of tests which can be run and feel free to add your own.
-- `grunt test-functional` will run the functional tests
+- `grunt jslint` - run just the linter
+- `grunt test-unit` - run all of the unit tests, see `mochacli` config in `Gruntfile.js` for a full set of the individual groups of unit tests which can be run and feel free to add your own.
+- `grunt test-integration` - run the database integration tests
+- `grunt test-api` - run the api functional tests
+- `grunt test-functional` - run the interface functional tests (both admin and theme). You can further specify which folder or file of functional tests you want to ring by specifying a `--target`, e.g. `grunt test-functional --target=admin/`
 
 ## Preparing to deploy with `grunt prod`
 
