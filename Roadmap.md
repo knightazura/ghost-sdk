@@ -2,6 +2,8 @@ The Roadmap aims to set out when certain features will appear. It reduces in cla
 
 If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
 
+**Update:** In order to deliver 0.4 this year, we have decided to cull a large body of work and focus on closing the milestone. This includes culling all work to do with the App API. We are going to aim to deliver a shorter cycle for 0.5 which focuses solely on the App API, and all of the work around i18n and multi-user that was scheduled for 0.5 will now be moved to 0.6.
+
 ## Milestone 4 - Version 0.4.0 - Early / mid December
 
 Milestone 4 will result in version 0.4.0 of Ghost. This is the current milestone. 
