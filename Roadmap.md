@@ -38,31 +38,26 @@ Getting Apps off the ground:
 #### UI Improvements
 
 * Post Settings UX [#1351](https://github.com/TryGhost/Ghost/issues/1351) [TOP PRIORITY]
+* ~~New cmd+enter shortcut to go to a new paragraph without modifying the current line~~ [~~#645~~](https://github.com/TryGhost/Ghost/issues/645)
 * ~~Improve image uploader UI~~ [~~#1356~~](https://github.com/TryGhost/Ghost/issues/1356)
-* [BUG] Wrong notification on updating post [#1368](https://github.com/TryGhost/Ghost/issues/1368)
+* ~~[BUG] Wrong notification on updating post~~ [~~#1368~~](https://github.com/TryGhost/Ghost/issues/1368)
 * ~~[BUG] Allow multiple underscores like: _________~~ [~~#1113~~](https://github.com/TryGhost/Ghost/issues/1113)
 * ~~[BUG] Markdown bug: no new line inserted when quotes are used~~ [~~#974~~](https://github.com/TryGhost/Ghost/issues/974)
 
-##### Shortcuts
-
-* ~~New cmd+enter shortcut to go to a new paragraph without modifying the current line~~ [~~#645~~](https://github.com/TryGhost/Ghost/issues/645)
 
 ### Architecture
 
 Items which focus purely on the Ghost internals have been pulled out into their own category. Many of these are required in order to introduce required features and improvements.
 
 * Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY]
+* Cache Control Headers [#1470]https://github.com/TryGhost/Ghost/issues/1470)
 * API Improvements
 	* ~~API Unit Tests~~ [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189)
     * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755) [TOP PRIORITY]
-	* API caching layer (enhancement) [#173](https://github.com/TryGhost/Ghost/issues/173)
-    * Settings creation [#736](https://github.com/TryGhost/Ghost/issues/736)
 * Migration Refactor
     * Currently the amount of work required to do a database migration makes this prohibitively hard. The goal of this work is to make the whole system easier to understand. This is made up of a number of issues: 
         * ~~Create schema.js~~ [~~#1398~~](https://github.com/TryGhost/Ghost/issues/1398)
         * ~~Refactor migration~~ [~~#1399~~](https://github.com/TryGhost/Ghost/issues/1399) && [~~#1400~~](https://github.com/TryGhost/Ghost/issues/1400)
-        * Add validation to models using schema attributes [#1401](https://github.com/TryGhost/Ghost/issues/1401)
-        * Migrations: Column modification [#601](https://github.com/TryGhost/Ghost/issues/601) [TOP PRIORITY]
 
 * Config & internal structure 
 	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) [TOP PRIORITY] [IN PROGRESS]
