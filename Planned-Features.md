@@ -8,6 +8,27 @@ If you're looking to figure out whether or not a feature will be implemented, th
 - Is it something so large and complex that other companies have entire teams and infrastructures dedicated to it? Then it will probably be provided through 3rd party integrations. E.g. Comments, and media management.
 - Is it something that is only relevant to a small group, or for a short time? If yes, it's probably plugin territory. E.g. XML-RPC, Import tools
 
+## Planned Projects
+
+There are some bugs and features which clearly belong together as a group, and some which are dependent on each other. These have formed into natural projects that we are planning to complete in various milestones.
+
+### Apps
+
+Ghost Apps (plugins) is the next big project that we will take on. This includes tying down the boilerplate & tools which are available for building Ghost Apps in the Ghost-App repository, as well as introducing a vast toolset in the Ghost internals. The first steps will include the ability to install and activate an App via the Ghost UI, and introducing more access control so that Ghost users can be sure what a Ghost App is able to do. Ghost will have filter hooks added at various points, and we'll start to build the tools for working with 3rd parties and the dashboard. At this time it is intended that Ghost Apps will be the sole focus of the 0.5.
+
+### Multi User
+
+Multi User is a pretty sizeable project. Ghost is inherently multi-user under the bonnet, but the UI has been locked down to a single user because it adds a level of complexity to every feature in terms of security. As part of the multi-user (and also as part of the Apps project), Ghost will have a complete ACL layer added, so that it is possible to control users, roles and permissions across every action in the Ghost admin. We will also add a stronger focus on XSS protection and ensuring that users cannot cause problems for other users.
+ 
+
+### i18n & l10n
+
+### Markdown2
+
+### Ghost Editor
+
+
+
 ## Feature List
 
 Please note: This list is not complete and is being added to on a regular basis.
