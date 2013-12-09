@@ -32,8 +32,7 @@ Getting Apps off the ground:
 * ~~Post settings menu: published time~~ [~~#907~~](https://github.com/TryGhost/Ghost/issues/907)
 * ~~Add a warning message when leaving the page with unsaved post content~~. [~~#1327~~](https://github.com/TryGhost/Ghost/issues/1327) (Solve data loss problem)
 * ~~Featured posts~~: [~~#1111~~](https://github.com/TryGhost/Ghost/issues/1111), [~~#1112~~](https://github.com/TryGhost/Ghost/issues/1112) 
-* ~~Static pages:~~ [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/issues/39)
-    * ~~[BUG] Static page issues~~ [~~#1350~~](https://github.com/TryGhost/Ghost/issues/1350)   
+* ~~Static pages:~~ [~~#969~~](https://github.com/TryGhost/Ghost/issues/969), [~~#1329~~](https://github.com/TryGhost/Ghost/issues/1329), [~~Casper#39~~](https://github.com/TryGhost/Casper/issues/39), [~~#1350~~](https://github.com/TryGhost/Ghost/issues/1350)   
 
 #### UI Improvements
 
