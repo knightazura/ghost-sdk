@@ -48,7 +48,7 @@ Getting Apps off the ground:
 
 Items which focus purely on the Ghost internals have been pulled out into their own category. Many of these are required in order to introduce required features and improvements.
 
-* Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY]
+* Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY][IN PROGRESS]
 * Cache Control Headers [#1470]https://github.com/TryGhost/Ghost/issues/1470)
 * API Improvements [~~1249~~](https://github.com/TryGhost/Ghost/issues/1249), [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189), [~~#755~~](https://github.com/TryGhost/Ghost/issues/755)
 * Migration Refactor
@@ -56,8 +56,8 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 
 * Config & internal structure 
 	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) [TOP PRIORITY] [IN PROGRESS]
-    * ~~Make it possible to require ghost as a module~~ [~~#1326~~](https://github.com/TryGhost/Ghost/issues/1326) [IN PROGRESS]
-    * ~~Customisable Permalinks~~ [~~#1395~~](https://github.com/TryGhost/Ghost/issues/1395) [TOP PRIORITY] [IN PROGRESS]
+    * ~~Make it possible to require ghost as a module~~ [~~#1326~~](https://github.com/TryGhost/Ghost/issues/1326)
+    * ~~Customisable Permalinks~~ [~~#1395~~](https://github.com/TryGhost/Ghost/issues/1395)
 	* Standardise getting paths and abs URLs [#1390](https://github.com/TryGhost/Ghost/issues/1390) [IN PROGRESS]
     * [BUG] If the theme is missing, admin crashes [#981](https://github.com/TryGhost/Ghost/issues/981)
     * Connect.multipart() deprecation warning  [#1227](https://github.com/TryGhost/Ghost/issues/1227) [TOP PRIORITY]
@@ -85,7 +85,7 @@ The following issues don't really fit into any other major Milestone 4 category,
 
 #### Accounts
 * ~~Limit login attempts~~ [~~#499~~](https://github.com/TryGhost/Ghost/issues/499)
-* ~~Improved password reset tool~~ [~~#1471~~](https://github.com/TryGhost/Ghost/issues/1471) [TOP PRIORITY]
+* ~~Improved password reset tool~~ [~~#1471~~](https://github.com/TryGhost/Ghost/issues/1471) 
 * ~~Account redirects~~ [~~#1472~~](https://github.com/TryGhost/Ghost/issues/1472)
 * ~~[BUG] Signing in and then pressing the back button takes you to /ghost/signin/ instead of /ghost/~~ [~~#596~~](https://github.com/TryGhost/Ghost/issues/596)
 
