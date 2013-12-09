@@ -51,9 +51,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
 
 * Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY]
 * Cache Control Headers [#1470]https://github.com/TryGhost/Ghost/issues/1470)
-* API Improvements
-	* ~~API Unit Tests~~ [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189), 
-    * Refactor to use API for data access [#755](https://github.com/TryGhost/Ghost/issues/755) [TOP PRIORITY]
+* API Improvements [~~1249~~](https://github.com/TryGhost/Ghost/issues/1249), [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189), [~~#755~~](https://github.com/TryGhost/Ghost/issues/755)
 * Migration Refactor
     * Currently the amount of work required to do a database migration makes this prohibitively hard. The goal of this work is to make the whole system easier to understand. This is made up of issues [~~#1398~~](https://github.com/TryGhost/Ghost/issues/1398), [~~#1399~~](https://github.com/TryGhost/Ghost/issues/1399) & [~~#1400~~](https://github.com/TryGhost/Ghost/issues/1400)
 
@@ -67,7 +65,7 @@ Items which focus purely on the Ghost internals have been pulled out into their 
     * BIG FAT ghost.js & index.js refactor [#360](https://github.com/TryGhost/Ghost/issues/360)
 
 #### Testing
-Vast improvements to Ghost's test suite include: running unit tests against sqlite, mysql [~~#921~~](https://github.com/TryGhost/Ghost/issues/921) and postgres (Allowed failure) [~~#1555~~](https://github.com/TryGhost/Ghost/pull/1555). Separating the test fixtures out from Ghost's installation fixtures [~~#362~~](https://github.com/TryGhost/Ghost/issues/362) and adding a code overage tool [~~#361~~](https://github.com/TryGhost/Ghost/issues/361)
+Vast improvements to Ghost's test suite include: running unit tests against sqlite, mysql [~~#921~~](https://github.com/TryGhost/Ghost/issues/921) and postgres (Allowed failure) [~~#1555~~](https://github.com/TryGhost/Ghost/pull/1555). Separating the test fixtures out from Ghost's installation fixtures [~~#362~~](https://github.com/TryGhost/Ghost/issues/362), proper tests for the API [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189) and adding a code overage tool [~~#361~~](https://github.com/TryGhost/Ghost/issues/361)
 
 ### Miscellaneous
 
