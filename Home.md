@@ -13,6 +13,7 @@ You can find out more by taking a look at our [Roadmap](wiki/Roadmap) or the [pl
 ## How do I start contributing?
 The following documents are intended to provide all the information you need for working with the Ghost code base.
 
+* [Contributing Guide](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md)
 * [Code standards](wiki/Code-standards) 
 * [Git workflow](wiki/Git-workflow)
 * [Grunt Toolkit](wiki/Grunt-Toolkit)
