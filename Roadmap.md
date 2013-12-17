@@ -138,7 +138,7 @@ Planned for Spring/Early Summer next year.
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
-This version will focus heavily on adding localisation, and more site features such as tag, user and archive pages. We'll also hopefully roll out the dashboard, and start work on multi-user features.
+This version will focus heavily on adding localization, and more site features such as tag, user and archive pages. We'll also hopefully roll out the dashboard, and start work on multi-user features.
 
 Milestone 0.6 Mini Projects:
 
