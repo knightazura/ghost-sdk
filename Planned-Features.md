@@ -33,7 +33,7 @@ Multi User is a pretty sizeable project. Ghost is inherently multi-user under th
 
 Please note: This list is not complete and is being added to on a regular basis.
 
-### Localisation
+### Localization
 Note: Ghost core will contain the tools for making Ghost work in various languages, but the languages and settings specific to different languages will be provided via a 'language pack'.
 * date localisation
 * advanced character sets
