@@ -11,15 +11,14 @@ I would suggest that every app should have it's own `config.js` file that holds 
 
 	// App permissions
 	permissions: {
-		api.posts: ['edit'],
+		api.posts: ['create', 'edit'],
 		api.settings: ['read'],
 		helpers: ['create']
-
-		api.posts: 'enabled'
 	}
 
 	// App certification
-	certification: base64(hash + date + signature)
+        checksum: <hash of all app files>
+	certification: base64(signature(<config.js values> + date))
 }
 ```
 
@@ -44,8 +43,8 @@ When an App successfully passes the review process a signature by the review aut
 
 Process to sign an App:
 
-- Calculate a hash for all app files, date and selected values from `config.js`
-- Sign the hash with a private key and store hash and signature in `config.js`
+- Calculate a hash for all app files and store it in `config.js`
+- Sign the values of `config.js` with a private key and store the signature in `config.js`
 - Every Ghost installation can verify the signature using a public key
 
 To make sure that the Ghost installation is holding the correct public key we should provide a checksum for official releases. This would lower the chance that the user is using a bogus distribution with a public key that would show harmful Apps as certified. 
