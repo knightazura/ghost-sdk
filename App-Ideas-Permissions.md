@@ -51,4 +51,4 @@ To make sure that the Ghost installation is holding the correct public key we sh
 
 ## Routes
 
-I think, that App routes should only live under /ghost/apps/<app-id>/ where <app-id> is the indentifier from `config.js`. This would provide a unique namespace for every App and prevent unnecessary clutter.
+I think, that App routes should only live under `/ghost/apps/<app-id>/` where `<app-id>` is the identifier from `config.js`. This would provide a unique namespace for every App and prevent unnecessary clutter.
