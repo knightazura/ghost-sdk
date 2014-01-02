@@ -29,7 +29,7 @@ Changes should adhere to our [coding standards](https://github.com/TryGhost/Ghos
 ##### Commit Messages
 * The first line of your commit message should be a short (80 chars) public description of what you have achieved with the commit. This is what appears in the change log. 
 * Leave a blank line after the first line
-* The 3rd line should reference the issue with `issue #000` if you just want to mention an issue or `closes #000` if your commit closes an issue.
+* The 3rd line should reference the issue with `issue #000` if you just want to mention an issue or `closes #000` if your commit closes an issue. If you don't have an issue to reference or close, think carefully about whether you need to [raise one](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#raising-issues) before opening a PR.
 * Use bullet points on the following lines to explain what your changes achieve and in particular why you've used your approach
 
 E.g.
@@ -50,7 +50,9 @@ closes #292
 
 The easier it is for us to merge a PR, the faster we'll be able to do it. Please take steps to make merging easy and keep the history clean and useful.
 
-Firstly, **always work on a branch**, it will make your life much easier - honest. Not touching the master branch will also simplify keeping your fork up-to-date.
+**always work on a branch**, it will make your life much easier - honest. Not touching the master branch will also simplify keeping your fork up-to-date.
+
+**use issues properly**, we have a whole set of [guidelines on how to raise an issue](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#raising-issues). Bugs, changes and features are all different and should be treated differently. Use your commit message to close or reference issues. The more information you provide, the more likely it is your PR will get merged.
 
 *Note:* If you are not comfortable with git & using rebase, make a special 'merge' branch of your branch to do these things on, then if something goes awry you can always go back to your working branch and try again.
 
