@@ -49,7 +49,7 @@ Getting Apps off the ground:
 Items which focus purely on the Ghost internals have been pulled out into their own category. Many of these are required in order to introduce required features and improvements.
 
 * Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY][IN PROGRESS]
-* Cache Control Headers [#1470]https://github.com/TryGhost/Ghost/issues/1470)
+* Cache Control Headers [#1470](https://github.com/TryGhost/Ghost/issues/1470)
 * API Improvements [~~1249~~](https://github.com/TryGhost/Ghost/issues/1249), [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189), [~~#755~~](https://github.com/TryGhost/Ghost/issues/755)
 * Migration Refactor
     * Currently the amount of work required to do a database migration makes this prohibitively hard. The goal of this work is to make the whole system easier to understand. This is made up of issues [~~#1398~~](https://github.com/TryGhost/Ghost/issues/1398), [~~#1399~~](https://github.com/TryGhost/Ghost/issues/1399) & [~~#1400~~](https://github.com/TryGhost/Ghost/issues/1400)
