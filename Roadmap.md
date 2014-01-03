@@ -101,7 +101,7 @@ Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 ----------
 
-## Milestone 5 - Version 0.5.0
+## Milestone 5 - Version 0.5.0 - Spring
 
 ### Apps & Import
 
@@ -134,9 +134,7 @@ The following issues don't really fit in with the Milestone 5 focus on Apps, but
 * Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
 
 ----------
-## Milestone 6 - Version 0.6.0
-
-Planned for Spring/Early Summer next year.
+## Milestone 6 - Version 0.6.0 - Early Summer 
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
@@ -158,6 +156,20 @@ Milestone 0.6 Mini Projects:
 * [BUG] Editor scrolling gets stuck when typing lots of text [#535](https://github.com/TryGhost/Ghost/issues/535)
 * [BUG] Fucked up scrolling behaviour when typing  [#958](https://github.com/TryGhost/Ghost/issues/958)
 
+----------
+## Milestone 7 - Version 0.7.0 - Early Autumn
+
+Rough Plan: "Editor overhaul" - will focus on rebuilding the editor, bringing full mobile support, markdown & media improvements etc
+
+----------
+## Milestone 8 - Version 0.8.0 - Late Autumn
+
+Rough Plan: "Magazine" - will focus on advanced publishing workflows, and more advanced advanced theme features
+
+----------
+## Milestone 9 - Version 0.9.0 - Winter
+
+Rough Plan: "Cleanup" - open ended opportunity to refactor, tidy up, finish off feature, add finishing touches etc etc before we reach 1.0.0
 
 ### Future Releases
 
