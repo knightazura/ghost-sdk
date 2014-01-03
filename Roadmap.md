@@ -82,7 +82,7 @@ The following issues don't really fit into any other major Milestone 4 category,
 
 #### Security Improvements
 
-* Enhancement: Remove "Insecure Content" warning for backend over SSL [#1300](https://github.com/TryGhost/Ghost/issues/1300)
+* ~~Enhancement: Remove "Insecure Content" warning for backend over SSL~~ [~~#1300~~](https://github.com/TryGhost/Ghost/issues/1300)
 * ~~Replace cookieSession with session~~ [~~#1230~~](https://github.com/TryGhost/Ghost/issues/1230)
 
 #### Accounts
