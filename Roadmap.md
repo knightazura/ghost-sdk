@@ -52,20 +52,18 @@ Getting Apps off the ground:
 
 Items which focus purely on the Ghost internals have been pulled out into their own category. Many of these are required in order to introduce required features and improvements.
 
-* Static Asset Management [#1405](https://github.com/TryGhost/Ghost/issues/1405) [TOP PRIORITY][IN PROGRESS]
-* Cache Control Headers [#1470](https://github.com/TryGhost/Ghost/issues/1470)
-* API Improvements [~~1249~~](https://github.com/TryGhost/Ghost/issues/1249), [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189), [~~#755~~](https://github.com/TryGhost/Ghost/issues/755)
+* ~~Cache Control Headers~~ [~~#1470~~](https://github.com/TryGhost/Ghost/issues/1470)
+* ~~API Improvements~~ [~~1249~~](https://github.com/TryGhost/Ghost/issues/1249), [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189), [~~#755~~](https://github.com/TryGhost/Ghost/issues/755)
 * Migration Refactor
     * Currently the amount of work required to do a database migration makes this prohibitively hard. The goal of this work is to make the whole system easier to understand. This is made up of issues [~~#1398~~](https://github.com/TryGhost/Ghost/issues/1398), [~~#1399~~](https://github.com/TryGhost/Ghost/issues/1399) & [~~#1400~~](https://github.com/TryGhost/Ghost/issues/1400)
 
 * Config & internal structure 
-	* Ghost install in sub directory support [#527](https://github.com/TryGhost/Ghost/issues/527) [TOP PRIORITY] [IN PROGRESS]
+	* ~~Ghost install in sub directory support~~ [~~#527~~](https://github.com/TryGhost/Ghost/issues/527) 
     * ~~Make it possible to require ghost as a module~~ [~~#1326~~](https://github.com/TryGhost/Ghost/issues/1326)
     * ~~Customisable Permalinks~~ [~~#1395~~](https://github.com/TryGhost/Ghost/issues/1395)
-	* Standardise getting paths and abs URLs [#1390](https://github.com/TryGhost/Ghost/issues/1390) [IN PROGRESS]
-    * [BUG] If the theme is missing, admin crashes [#981](https://github.com/TryGhost/Ghost/issues/981)
-    * Connect.multipart() deprecation warning  [#1227](https://github.com/TryGhost/Ghost/issues/1227) [TOP PRIORITY]
-    * BIG FAT ghost.js & index.js refactor [#360](https://github.com/TryGhost/Ghost/issues/360)
+	* ~~Standardise getting paths and abs URLs~~ [~~#1390~~](https://github.com/TryGhost/Ghost/issues/1390) 
+    * ~~[BUG] If the theme is missing, admin crashes~~ [~~#981~~](https://github.com/TryGhost/Ghost/issues/981)
+    * ~~Connect.multipart() deprecation warning~~  [~~#1227~~](https://github.com/TryGhost/Ghost/issues/1227) 
 
 #### Testing
 Vast improvements to Ghost's test suite include: running unit tests against sqlite, mysql [~~#921~~](https://github.com/TryGhost/Ghost/issues/921) and postgres (Allowed failure) [~~#1555~~](https://github.com/TryGhost/Ghost/pull/1555). Separating the test fixtures out from Ghost's installation fixtures [~~#362~~](https://github.com/TryGhost/Ghost/issues/362), proper tests for the API [~~#1189~~](https://github.com/TryGhost/Ghost/issues/1189) and adding a code overage tool [~~#361~~](https://github.com/TryGhost/Ghost/issues/361)
