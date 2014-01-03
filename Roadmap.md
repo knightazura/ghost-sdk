@@ -4,9 +4,13 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 **Update:** In order to deliver 0.4 this year, we have decided to cull a large body of work and focus on closing the milestone. This includes culling all work to do with the App API. We are going to aim to deliver a shorter cycle for 0.5 which focuses solely on the App API, and all of the work around i18n and multi-user that was scheduled for 0.5 will now be moved to 0.6.
 
-## Milestone 4 - Version 0.4.0 - December
+## Milestone 4 - Version 0.4.0 - December-ish
 
 Milestone 4 will result in version 0.4.0 of Ghost. This is the current milestone. 
+
+### Where is 0.4.0? It says December.
+
+0.4.0 is currently in the process of being tested, triaged, tested, patched, and tested some more. Due to the large number of refactoring and architectural changes, this process is taking considerably longer than expected. The time we're taking right now is being used to ensure that 0.4.0 is as bug free as possible. We're not sure how much longer it's going to take, but you can see how much we have left to do by looking at the open issues:
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=open)
 
