@@ -16,17 +16,13 @@ If no export tools exist for your current blogging system you'll need to create 
 	{
 		"meta":{
 			"exported_on":1388805572000,
+			"version":"000"
 			// epoch time in milliseconds
-			"version":"000" // That's not a placeholder. The current version is 000
 		},
 		"data":{
 			"posts":[
 				// a list of hashes, each describing 
-				// a post. Author id information is bogus in 
-				// version 000 because there's 
-				// no author data to tie it to.
-				// Also, ghost only supports one author
-				// per site.
+				// a post.
 				{
 					"id":5,
 					"title":"my blog post title",
@@ -34,27 +30,27 @@ If no export tools exist for your current blogging system you'll need to create 
 					"markdown":"the *markdown* formatted post body",
 					"html":"the <i>html</i> formatted post body",
 					"image":null
-					"featured":0, // boolean indicating featured post status?
-					"page":0, // boolean indicating if this is a page or post?
+					"featured":0, // boolean indicating featured status?
+					"page":0, // boolean indicating if this is a page or post
 					"status":"published",
 					"language":"en_US",
 					"meta_title":null,
 					"meta_description":null,
-					"author_id":1, // doesn't correspond to anything
+					"author_id":1, // the first use created has an id of 1
 					"created_at":1283780649000,
 								// epoch time in millis
-					"created_by":1, // doesn't correspond to anything
+					"created_by":1, // the first use created has an id of 1
 					"updated_at":1286958624000,
 								// epoch time in millis
-					"updated_by":1, // doesn't correspond to anything
+					"updated_by":1, // the first use created has an id of 1
 					"published_at":1283780649000,
 								// epoch time in millis
-					"published_by":1 // doesn't correspond to anything
+					"published_by":1 // the first use created has an id of 1
 				}
 			],
 			"tags":[
 				// an array of hashes describing each 
-				// tag in the system. 
+				// tag in the system.
 				{
 					"id":3, 
 					"name":"Colorado Ho!", 
@@ -77,5 +73,10 @@ If no export tools exist for your current blogging system you'll need to create 
 				{"tag_id":3, "post_id":2}
 				{"tag_id":4, "post_id":24}
 			]
+			
+			// Ghost also has support for importing
+			// users, roles, roles_users, permissions, 
+			// permissions_users, permissions_roles
+			// but none of these are required 
 		}
 	}
