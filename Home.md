@@ -26,6 +26,7 @@ The following documents are intended to provide all the information you need for
 * [Widget Development](wiki/Widget-Documentation)
 * [Using Modals](wiki/Using-Modals)
 * [Using Notifications](wiki/Using-Notifications)
+* [Importing from other blogs](wiki/import-format)
 
 ## How do I create themes or plugins?
 
