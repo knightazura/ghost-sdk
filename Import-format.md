@@ -2,7 +2,10 @@ Ghost imports from existing blogs by having them export a JSON file and then rea
 
 ## Existing Plugins to Automate this:
 
-* WordPress users can use the [Ghost WordPress Plugin](http://wordpress.org/plugins/ghost/) to export their data. 
+### Official
+* WordPress users can use the [Ghost WordPress Plugin](http://wordpress.org/plugins/ghost/) to export their data.
+
+### Non-official
 * Jekyll users can use the [Jekyll to Ghost Plugin](https://github.com/redwallhp/Jekyll-to-Ghost)
 
 ## Importing the JSON
