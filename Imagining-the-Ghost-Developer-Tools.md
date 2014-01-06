@@ -62,7 +62,7 @@ It's pretty huge, and it is all going to start out pretty basic, and build in co
 
 ### Little recommendations for budding app (and theme) developers
 
-The GDK is intended to provide powerful tools that developers can use in creative ways to modify and build on top of in creative ways. We ask that developers be responsible, and do not abuse these powers.
+The GDT is intended to provide powerful tools that developers can use in creative ways to modify and build on top of in creative ways. We ask that developers be responsible, and do not abuse these powers.
 
 If you build an app or theme which uses an unintended bug/feature please do 1) tell us about it and 2) expect it to go away at some point breaking your app / theme - where possible we'll try to replace it with something intended for the purpose.
 
