@@ -189,11 +189,11 @@ Rough Plan: focus on anything which is still missing and required for 1.0.0. Thi
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=15&page=1&state=open)
 
-### Future Releases
+## Future Releases
 
 See [planned features](https://github.com/TryGhost/Ghost/wiki/Planned-Features) for an idea of what will be happening.
 
-### Past Milestones
+## Past Milestones
 
 #### Milestone 3 - Version 0.3.0 - Kickstarter release
 
