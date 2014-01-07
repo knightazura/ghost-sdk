@@ -121,11 +121,11 @@ On your local repository, you should always work on a branch to make keeping up-
 
 ## Release Procedure
 
-The [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap) outlines the basic features that we want to get into a minor version release (i.e. 0.4, 0.5).
+The [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap) outlines the basic features that we want to get into a minor version release (i.e. 0.4, 0.5, 0.6).
 
 Each release has an associated milestone in GitHub, against which issues are assigned. There are usually issues for each milestone feature, plus other bug fixes and enhancements that we would like to get done.
 
-Each Milestone has a due date. This date is usually a Monday, for example for 0.4 this is Monday 4th November. The due date is the last day on which PRs can be submitted for the milestone. Once we get to the end of the due date, any new PRs will not be considered.
+Each Milestone has a due date. This date is usually a Monday, for example for 0.4 this is Monday 9th December. The due date is the last day on which PRs can be submitted for the milestone. Once we get to the end of the due date, any new PRs will not be considered.
 
 The following Tuesday and Wednesday will be used to merge all PRs which made it into the release and are ready, and for testing the whole package.
 
