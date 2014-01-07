@@ -169,7 +169,7 @@ Milestone 0.6 Mini Projects:
 
 Rough Plan: - focus on overhauling and rebuilding the editor, bringing full mobile/multi-device support, markdown & media improvements etc
 
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=13&page=1&state=open)
 
 ----------
 ## Milestone 8 - Version 0.8.0 - Magazine Features
@@ -178,7 +178,7 @@ Rough Plan: - focus on overhauling and rebuilding the editor, bringing full mobi
 
 Rough Plan: focus on advanced publishing workflows, catering for bigger, more complex teams and also on more advanced theme features aimed at building magazine style blogs. 
 
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=14&page=1&state=open)
 
 ----------
 ## Milestone 9 - Version 0.9.0 - Cleanup 
@@ -187,7 +187,7 @@ Rough Plan: focus on advanced publishing workflows, catering for bigger, more co
 
 Rough Plan: focus on anything which is still missing and required for 1.0.0. This is currently an open ended opportunity to refactor, tidy up, finish off features, add finishing touches etc etc 
 
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=15&page=1&state=open)
 
 ### Future Releases
 
