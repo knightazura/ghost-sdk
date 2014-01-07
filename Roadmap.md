@@ -40,7 +40,7 @@ Getting Apps off the ground:
 
 #### UI Improvements
 
-* Post Settings UX [#1351](https://github.com/TryGhost/Ghost/issues/1351) [TOP PRIORITY]
+* ~~Post Settings UX~~ [~~#1351~~](https://github.com/TryGhost/Ghost/issues/1351) [TOP PRIORITY]
 * ~~New cmd+enter shortcut to go to a new paragraph without modifying the current line~~ [~~#645~~](https://github.com/TryGhost/Ghost/issues/645)
 * ~~Improve image uploader UI~~ [~~#1356~~](https://github.com/TryGhost/Ghost/issues/1356)
 * ~~[BUG] Wrong notification on updating post~~ [~~#1368~~](https://github.com/TryGhost/Ghost/issues/1368)
@@ -97,7 +97,7 @@ The following issues don't really fit into any other major Milestone 4 category,
 Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 * ~~Editing publish date of unpublished post yields JavaScript error~~ [~~#1332~~](https://github.com/TryGhost/Ghost/issues/1332)
-* custom partial/pagination.hbs not cleared on theme switch [#1203](https://github.com/TryGhost/Ghost/issues/1203)
+* ~~custom partial/pagination.hbs not cleared on theme switch~~ [~~#1203~~](https://github.com/TryGhost/Ghost/issues/1203)
 
 ----------
 
