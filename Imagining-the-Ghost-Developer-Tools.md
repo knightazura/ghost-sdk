@@ -52,7 +52,7 @@ Some of individual APIs and tools that we intend to provide include:
 - Routes API, for adding custom routes
 - Files API, for hooking into and overriding how Ghost stores files
 - UI Tools, for adding to the Ghost admin UI
-- Auth Tools, for autenticating with 3rd parties
+- Auth Tools, for authenticating with 3rd parties
 - API Tools, for sending and receiving data from 3rd party APIs
 - Asset Management tools, for defining custom js, css, and images for your app
 - Templating tools, so apps can define hbs templates making use of helpers
@@ -66,7 +66,7 @@ The GDT is intended to provide powerful tools that developers can use in creativ
 
 If you build an app or theme which uses an unintended bug/feature please do 1) tell us about it and 2) expect it to go away at some point breaking your app / theme - where possible we'll try to replace it with something intended for the purpose.
 
-If you build an app which implements a feature exactly as it is planned on the Ghost roadmap, you do so at your own behest. We highly recommend instead being the person that commits the feature to core. We really don't want to upset developers by having their hard work completely written off because the feature appears in core, we'd much rather recognise your hard work through contribution to core.
+If you build an app which implements a feature exactly as it is planned on the Ghost roadmap, you do so at your own behest. We highly recommend instead being the person that commits the feature to core. We really don't want to upset developers by having their hard work completely written off because the feature appears in core, we'd much rather recognize your hard work through contribution to core.
 
 ### Ghost (data) API
 
