@@ -101,9 +101,9 @@ Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 ----------
 
-## Milestone 5 - Version 0.5.0 - Spring
+## Milestone 5 - Version 0.5.0 - Apps & Import
 
-### Apps & Import
+### Spring 2014
 
 Focuses on the app boilerplates, API, filters, importers, permissions, security and other app related things, to bring the first iteration of Ghost Apps to the public.
 
@@ -138,9 +138,9 @@ The following issues don't really fit in with the Milestone 5 focus on Apps, but
 * Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
 
 ----------
-## Milestone 6 - Version 0.6.0 - Early Summer 
+## Milestone 6 - Version 0.6.0 - Multi-user and Localisation
 
-### Multi-user and Localisation
+### Early Summer 2014
 
 Focuses firstly on adding multi-user functionality, so that you can run a multi-author blog, along with addressing the security concerns this introduces. Secondly, on providing the tools for l10n & i18n - making it possible for you to use Ghost in your language, and to publish blogs in any language. 
 
@@ -163,27 +163,27 @@ Milestone 0.6 Mini Projects:
 * [BUG] Fucked up scrolling behaviour when typing  [#958](https://github.com/TryGhost/Ghost/issues/958)
 
 ----------
-## Milestone 7 - Version 0.7.0 - Early Autumn
+## Milestone 7 - Version 0.7.0 - Editor & Mobile
 
-### Editor & Mobile
+### Late Summer 2014
 
 Rough Plan: - focus on overhauling and rebuilding the editor, bringing full mobile/multi-device support, markdown & media improvements etc
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
 ----------
-## Milestone 8 - Version 0.8.0 - Late Autumn
+## Milestone 8 - Version 0.8.0 - Magazine Features
 
-### Magazine Features
+### Autumn 2014 
 
 Rough Plan: focus on advanced publishing workflows, catering for bigger, more complex teams and also on more advanced theme features aimed at building magazine style blogs. 
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
 ----------
-## Milestone 9 - Version 0.9.0 - Winter
+## Milestone 9 - Version 0.9.0 - Cleanup 
 
-### Cleanup
+### Winter 2014
 
 Rough Plan: focus on anything which is still missing and required for 1.0.0. This is currently an open ended opportunity to refactor, tidy up, finish off features, add finishing touches etc etc 
 
