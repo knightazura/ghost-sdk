@@ -105,13 +105,17 @@ Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 ### Apps & Import
 
-Getting Apps off the ground:
+Focuses on the app boilerplates, API, filters, importers, permissions, security and other app related things, to bring the first iteration of Ghost Apps to the public.
+
+[open issues](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
+
+#### Getting Apps off the ground:
 * Lock down the App Boilerplate: <https://github.com/TryGhost/Ghost-App/issues>
 * Ghost Apps & the Ghost Developer Tools [#1474](https://github.com/TryGhost/Ghost/issues/1474)
    * Ghost Developer Tools 'proxy' object for apps [#1478](https://github.com/TryGhost/Ghost/issues/1478)
    * API / data restrictions for apps / internal on settings model [#1473] (https://github.com/TryGhost/Ghost/issues/1473) [TOP PRIORITY]
 
-##### Import Apps:
+#### Import Apps:
 
 **Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
 
@@ -120,12 +124,12 @@ Getting Apps off the ground:
 * importing a bad database that fails to import still imports content [#837](https://github.com/TryGhost/Ghost/issues/837)
 * De-duplicate posts and tags in importer [#806](https://github.com/TryGhost/Ghost/issues/806)
 
-### Features and refactors required for Apps
+#### Features and refactors required for Apps
 
 * Users: Roll out the ACL/Permissions system [#357](https://github.com/TryGhost/Ghost/issues/357)
 * Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
 
-### Misc for 0.5
+#### Misc for 0.5
 
 The following issues don't really fit in with the Milestone 5 focus on Apps, but are still scheduled to get done in 0.5.
 
@@ -136,9 +140,11 @@ The following issues don't really fit in with the Milestone 5 focus on Apps, but
 ----------
 ## Milestone 6 - Version 0.6.0 - Early Summer 
 
-[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
+### Multi-user and Localisation
 
-This version will focus heavily on adding localisation, and more site features such as tag, user and archive pages. We'll also hopefully roll out the dashboard, and start work on multi-user features.
+Focuses firstly on adding multi-user functionality, so that you can run a multi-author blog, along with addressing the security concerns this introduces. Secondly, on providing the tools for l10n & i18n - making it possible for you to use Ghost in your language, and to publish blogs in any language. 
+
+[Open issues](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
 Milestone 0.6 Mini Projects:
 
