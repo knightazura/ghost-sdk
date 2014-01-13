@@ -122,7 +122,8 @@ Maintenance release, see [0.3.2](https://github.com/TryGhost/Ghost/commits/0.3.2
 
 #### Milestone 4 - Version 0.4.0 (13th Jan)
 
-See [Milestone 4 Version 0.4.0](https://github.com/TryGhost/Ghost/wiki/Roadmap-History:-Milestone-4---Version-0.4.0)
+See [Milestone 4 Version 0.4.0 History](https://github.com/TryGhost/Ghost/wiki/Roadmap-History:-Milestone-4---Version-0.4.0) or the [Release Notes](https://github.com/TryGhost/Ghost/wiki/Release-Notes:-0.4.0)
+
 #### History 
 
 For more history, please see the [pre-release roadmap](https://github.com/TryGhost/Ghost/wiki/Pre-release-Roadmap)
