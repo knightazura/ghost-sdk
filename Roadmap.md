@@ -2,6 +2,15 @@ The Roadmap aims to set out when certain features will appear. It reduces in cla
 
 If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
 
+## Version 0.4.1
+
+### Early February
+
+It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs
+
+See [open issues](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
+
+-----
 
 ## Milestone 5 - Version 0.5.0 - Apps & Import
 
