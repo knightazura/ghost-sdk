@@ -1,4 +1,4 @@
-*This release represents a total of **374** commits across **178** issues from **88** incredible contributors all over the world.*
+_This release represents a total of **374** commits across **178** issues from **88** incredible contributors all over the world._
 
 This version has focused heavily on refactoring Ghost, with a large number of non-user facing changes. These release notes detail only the features, fixes and changes that we consider will be of interest to most Ghost users. For those who are interested, the [full changelog](https://gist.github.com/ErisDS/8397171) is  available as a gist.
 
