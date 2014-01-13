@@ -4,11 +4,9 @@ Milestone 4 resulted in version 0.4.0 of Ghost.
 
 ### Goals
 
-This version focuses around the App API, import tools and adding functionality which has been heavily requested during the launch phases. 
-
 Milestone 4 is the first milestone which is not only after the public launch, but also developed in the open allowing anyone to get involved. This means that Milestone 4 has a heavy focus on architecture, further improving the Ghost internals, making it easier to work with, and adding non-user-facing features that will help Ghost to grow new features quickly in the future.
 
-We had also planned to make our Ghost Developer Tools, or the API for building Apps, available at the end of this milestone, so that developers can start building Apps to extend Ghost's functionality. This too required a focus on the Ghost internals and so has been moved to it's own project in 0.5.
+We had also planned to make our Ghost Developer Tools, or the API for building Apps, available at the end of this milestone, so that developers can start building Apps to extend Ghost's functionality. This too required a focus on the Ghost internals and so has been moved to its own project in 0.5.
 
 There are also a number of important enhancements and features we want to add to the publishing experience, to reduce user frustration wherever possible.
 
