@@ -1,5 +1,3 @@
-## Milestone 4 - Version 0.4.0 - December-ish
-
 Milestone 4 resulted in version 0.4.0 of Ghost. 
 
 [Open issues](https://github.com/TryGhost/Ghost/issues?milestone=3&page=1&state=closed)
