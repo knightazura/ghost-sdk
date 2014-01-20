@@ -83,5 +83,6 @@ Not OK :(
 - Always a space after a property's colon (.e.g, `display: block;` and not `display:block;`).
 - End all lines with a semi-colon.
 - For multiple, comma-separated selectors, place each selector on its own line.
+- Use `js-` prefixed classes for JavaScript hooks into the DOM, and never use these in CSS as per [slightly obtrusive JavaSript](http://ozmm.org/posts/slightly_obtrusive_javascript.html)
 
 For more in depth information please read [Mark Otto](http://github.com/mdo)'s excellent [Code Guide](http://github.com/mdo/code-guide)
