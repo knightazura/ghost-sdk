@@ -48,7 +48,7 @@ Some of individual APIs and tools that we intend to provide include:
 - Filters API, for hooking directly into Ghost functionality
 - Theme API, for providing custom handlebars helpers & other theme-specific tools
 - Widget API, for creating dashboard mini-apps
-- Accounts API, for managing accounts/credentials for 3rd party accounts and services
+- [Accounts API](https://github.com/TryGhost/Ghost/wiki/Accounts-API/), for managing accounts/credentials for 3rd party accounts and services
 - Routes API, for adding custom routes
 - Files API, for hooking into and overriding how Ghost stores files
 - UI Tools, for adding to the Ghost admin UI
