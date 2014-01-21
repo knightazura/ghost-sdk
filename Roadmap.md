@@ -22,6 +22,15 @@ Focuses on the app boilerplates, API, filters, importers, permissions, security 
 
 [open issues](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
 
+In order to deliver the first iterations of Ghost Apps in 0.5, we need to focus on the following areas:
+
+- installation, activation, and other management actions
+- settings for apps, including the database, models, and UIs
+- acl for the api, app permissions, the proxy object and other security concerns
+- providing hooks and filters, along with documentation for them
+
+We also want to deliver the official Ghost Importer App, which will allow importing from WordPress and other platforms.
+
 #### Getting Apps off the ground:
 * Lock down the App Boilerplate: <https://github.com/TryGhost/Ghost-App/issues>
 * Ghost Apps & the Ghost Developer Tools [#1474](https://github.com/TryGhost/Ghost/issues/1474)
