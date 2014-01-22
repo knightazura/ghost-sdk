@@ -57,7 +57,7 @@ The following issues don't really fit in with the Milestone 5 focus on Apps, but
 
 * Theme API: make `{{nextpost}}` `{{prevpost}}` available to themes [#529](https://github.com/TryGhost/Ghost/issues/529)
 * Ugly debug upgrade tool [#1260](https://github.com/TryGhost/Ghost/issues/1260)
-* Add '' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
+* Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
 
 ----------
 ## Milestone 6 - Version 0.6.0 - Multi-user and Localisation
