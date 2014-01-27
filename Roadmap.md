@@ -39,7 +39,7 @@ By far the largest area of work, Apps encompasses work across both the [Ghost](h
 **Tasks**:
 
 * Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
-* Add `package.json` support for themes, enabling developers to define key data about apps, and also define their own dependencies.
+* Add `package.json` support for apps, enabling developers to define key data about apps, and also define their own dependencies.
 * Roll out ACL across the Ghost admin, ensuring all objects and routes are correctly permissioned.
 * Introduce App permissions system to ensure that apps can only do the things for which they have permission.
 * Create the App UIs for installation, activation and management.
@@ -83,7 +83,7 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 
 **Goal**: Every version of Ghost should deliver new features for themes, improving the overall blogging experience and providing new opportunities for theme developers to create fantastic themes.
 
-**Tasls**:
+**Tasks**:
 
 * Add `package.json` support for themes, providing theme developers with a simple way to define key data about their themes.
 * Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
@@ -102,6 +102,7 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 
 * Develop a brand new installation screen to be used instead of signup at first run.
 * Introduce upgrade tools to bring us one step closer to 1-click upgrades.
+* Improvements towards using Ghost as a module, publish to npm
 * Add a timezone setting, which is used to display dates relative to the admin-user across the admin and theme.
 
 #### Note on the dashboard
