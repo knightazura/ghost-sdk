@@ -23,7 +23,7 @@ Each developer should fork the private core Ghost repo into a private repo of th
 
 The main repository's master branch always contains the latest changes. For more info on branches, see the [branching strategy](#branching-strategy) notes.
 
-Changes should adhere to our [coding standards](Code-standards), commit messages should follow our [notes below](#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
+Changes should adhere to our [coding standards](Code-standards), commit messages should follow our [notes below](#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](#submitting-pull-requests)
 
 ## Notes on writing good commit messages
 ##### Commit Messages
@@ -63,7 +63,7 @@ Whilst you're working on your branch on your own, you can do all the commits you
 - Run `git log master..your-branch-name` to see how many commits there are on your branch
 - Run `git rebase -i HEAD~#` where # is the number of commits you have done on your branch
 
-Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message. Your commit message(s) should follow the pattern described in the [notes](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages) above. The first line of your commit message will appear in the change log which goes out to our VIPs with each pre-release, so please keep that in mind.
+Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message. Your commit message(s) should follow the pattern described in the [notes](#notes-on-writing-good-commit-messages) above. The first line of your commit message will appear in the change log which goes out to our VIPs with each pre-release, so please keep that in mind.
 
 #### Check it passes the tests
 
@@ -121,7 +121,7 @@ On your local repository, you should always work on a branch to make keeping up-
 
 ## Release Procedure
 
-The [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap) outlines the basic features that we want to get into a minor version release (i.e. 0.4, 0.5, 0.6).
+The [roadmap](Roadmap) outlines the basic features that we want to get into a minor version release (i.e. 0.4, 0.5, 0.6).
 
 Each release has an associated milestone in GitHub, against which issues are assigned. There are usually issues for each milestone feature, plus other bug fixes and enhancements that we would like to get done.
 
