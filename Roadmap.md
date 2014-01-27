@@ -10,7 +10,7 @@ It is anticipated that there will be a 0.4.1 maintenance release a few weeks aft
 
 The 0.4.1 maintenance release closes to PRs at midnight 27th January. Release is scheduled for later this week.
 
-See [open issues](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
+Open issues: [0.4.1](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
 
 -----
 
@@ -22,12 +22,11 @@ This is the current Milestone
 
 Focuses on the app boilerplates, API, filters, importers, permissions, security and other app related things, to bring the first iteration of Ghost Apps to the public.
 
-Open issues in [0.5](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
+Open issues: [0.5](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
 
 Delivering the app platform for Ghost is a truly enormous project. To get a full grasp of what this entails, it is recommended that you read [Imagining-the-Ghost-Developer-Tools](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Tools). The roadmap here documents which aspects of the Ghost Developer Tools (GDT) we intend to deliver in 0.5, along with other areas of work that are required in order to deliver this first iteration of Apps.
 
 There are 4 main areas of work that will take place in 0.5, known as [Apps](#apps), [Importer](#importer), [Themes](#themes) and [Other](#other). Each area and its individual goals are described below.
-
 
 ### Apps
 
@@ -118,7 +117,7 @@ Instead, the idea is to plan the work for the dashboard during 0.5, and see if w
 
 Focuses firstly on adding multi-user functionality, so that you can run a multi-author blog, along with addressing the security concerns this introduces. Secondly, on providing the tools for l10n & i18n - making it possible for you to use Ghost in your language, and to publish blogs in any language. 
 
-Open issues in [0.6](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
+Open issues: [0.6](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
 
 Milestone 0.6 Mini Projects:
 
@@ -143,7 +142,7 @@ Milestone 0.6 Mini Projects:
 
 Rough Plan: - focus on overhauling and rebuilding the editor, bringing full mobile/multi-device support, markdown & media improvements etc
 
-Open issues in [0.7](https://github.com/TryGhost/Ghost/issues?milestone=13&page=1&state=open)
+Open issues: [0.7](https://github.com/TryGhost/Ghost/issues?milestone=13&page=1&state=open)
 
 ----------
 ## Milestone 8 - Version 0.8.0 - Magazine Features
@@ -152,7 +151,7 @@ Open issues in [0.7](https://github.com/TryGhost/Ghost/issues?milestone=13&page=
 
 Rough Plan: focus on advanced publishing workflows, catering for bigger, more complex teams and also on more advanced theme features aimed at building magazine style blogs. 
 
-Open issues in [0.8](https://github.com/TryGhost/Ghost/issues?milestone=14&page=1&state=open)
+Open issues: [0.8](https://github.com/TryGhost/Ghost/issues?milestone=14&page=1&state=open)
 
 ----------
 ## Milestone 9 - Version 0.9.0 - Cleanup 
@@ -161,7 +160,7 @@ Open issues in [0.8](https://github.com/TryGhost/Ghost/issues?milestone=14&page=
 
 Rough Plan: focus on anything which is still missing and required for 1.0.0. This is currently an open ended opportunity to refactor, tidy up, finish off features, add finishing touches etc etc 
 
-Open issues in [0.9](https://github.com/TryGhost/Ghost/issues?milestone=15&page=1&state=open)
+Open issues: [0.9](https://github.com/TryGhost/Ghost/issues?milestone=15&page=1&state=open)
 
 ## Future Releases
 
