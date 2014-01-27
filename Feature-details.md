@@ -1,3 +1,4 @@
 This is a collection of useful discussions & write ups that have happened on various channels
 
 * [i18n implementation](Polyglot-i18n)
+* [Widget docs](Widget-Documentation)
