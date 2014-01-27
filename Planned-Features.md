@@ -42,16 +42,23 @@ One feature which is particularly key, Timezone support, may be introduced in 0.
 
 ### Markdown2
 
-
+Markdown is a fabulous tool and it comes in many different flavours. Ghost intends to develop a JavaScript parser for markdown which pulls in the best features from the greatest flavors (like GFM and MultiMarkdown). The features and how they work will be tightly spec'd and unit tested, and will be called 'Markdown2'. The Markdown2 JS parser will be available both as a node module and a browser script, and will replace the use of Showdown in Ghost. 
 
 ### Ghost Editor
 
+With the Markdown2 parser in place, we will overhal the Ghost Editor to use it in both the editor and preview windows, rather than using CodeMirror's parser in the editor and showdown in the preview. This should instantly irradicate all of the tiny bugs and inconsistencies across the two panes.
 
 ### Magazine
 
+"Magazine" is the name of the project that is currently scheduled for milestone 0.8. It encompasses all the features you'd need to run a larger, magazine style blog, including scheduling/queuing posts, managing complex teams with advanced publishing workflows, and features for building magazine style themes.
+
+### Admin overhaul
+
+Ghost's current admin interface is build using Backbone, originally rendered server-side, but partially moved over to rendering client side. It is a half-way house and desperately needs love. We are planning a project to rebuild the admin interface, using one of many potential technologies such as Rendr, Ember, or Angular. This project isn't currently scheduled for a milestone, instead it will likely run as a side project starting in 0.5 and getting released in whatever milestone it is completed. 
 
 ### Dashboard
 
+The Dashboard project encompasses creating the dashboard framework, building the default Widgets which live within it, and creating all of the tools needed for apps to register and define their own widgets. It is an advanced one-page javascript application all of its own, and will likely be built in Ember or Angular, rather than Backbone. The dashboard project is scheduled to be planned and begin during the 0.5 milestone, but is not expected to ship until later.
 
 
 ## Feature List
