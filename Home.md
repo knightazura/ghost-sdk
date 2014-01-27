@@ -28,6 +28,6 @@ The following documents are intended to provide all the information you need for
 * [Using Notifications](wiki/Using-Notifications)
 * [Importing from other blogs](wiki/import-format)
 
-## How do I create themes or plugins?
+## How do I create themes or apps (plugins)?
 
-Get started with Ghost themes by reading the [theme documentation](http://docs.ghost.org/themes). The plugin API is not yet ready, we'll add the documentation here once we've finalized the API.
+Get started with Ghost themes by reading the [theme documentation](http://docs.ghost.org/themes). The app API is not yet ready, we'll add the documentation here once we've finalised the API.
