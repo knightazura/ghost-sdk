@@ -1,6 +1,6 @@
 ### (when) will Ghost do X?
 
-We have a list of features that we plan to implement which is as long as a gorilla's arm, and it is pretty hard to communicate. This list attempts to quantify that list, detail the finer points where we know them, and will be expanded upon as it becomes clearer how a feature will fit into Ghost, and the [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap). 
+We have a list of features that we plan to implement which is as long as a gorilla's arm, and it is pretty hard to communicate. This page attempts to quantify that list, detail the finer points where we know them, and will be expanded upon as it becomes clearer how a feature will fit into Ghost, and the [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap). 
 
 ### what makes it into Ghost core?
 
