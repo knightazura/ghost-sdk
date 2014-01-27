@@ -23,7 +23,7 @@ Each developer should fork the private core Ghost repo into a private repo of th
 
 The main repository's master branch always contains the latest changes. For more info on branches, see the [branching strategy](#branching-strategy) notes.
 
-Changes should adhere to our [coding standards](wiki/Code-standards), commit messages should follow our [notes below](#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
+Changes should adhere to our [coding standards](Code-standards), commit messages should follow our [notes below](#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 
 ## Notes on writing good commit messages
 ##### Commit Messages
