@@ -1,6 +1,6 @@
 Contents of this page:
 
-* [Quick Summary](https://github.com/TryGhost/Ghost/wiki/Git-workflow#quick-summary)
+* [Quick Summary](#quick-summary)
 * [Notes on writing good commit messages](https://github.com/TryGhost/Ghost/wiki/Git-workflow#Notes-on-writing-good-commit-messages)
 * [Submitting Pull Requests](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 * [Working with issues](https://github.com/TryGhost/Ghost/wiki/Git-workflow#working-with-issues)
