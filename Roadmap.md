@@ -4,9 +4,11 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 ## Version 0.4.1
 
-### Early February
+### Late January
 
-It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs
+It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs.
+
+The 0.4.1 maintenance release closes to PRs at midnight 27th January. Release is scheduled for later this week.
 
 See [open issues](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
 
