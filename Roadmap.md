@@ -24,42 +24,92 @@ Focuses on the app boilerplates, API, filters, importers, permissions, security 
 
 [open issues](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
 
-In order to deliver the first iterations of Ghost Apps in 0.5, we need to focus on the following areas:
+Delivering the app platform for Ghost is a truly enormous project. To get a full grasp of what this entails, it is recommended that you read [Imagining-the-Ghost-Developer-Tools](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Tools). The roadmap here documents which aspects of the Ghost Developer Tools (GDT) we intend to deliver in 0.5, along with other areas of work that are required in order to deliver this first iteration of Apps.
 
-- installation, activation, and other management actions
-- settings for apps, including the database, models, and UIs
-- acl for the api, app permissions, the proxy object and other security concerns
-- providing hooks and filters, along with documentation for them
+There are 4 main areas of work that will take place in 0.5, known as [Apps](#apps), [Importer](#importer), [Themes](#themes) and [Other](#other). Each area and its individual goals are described below.
 
-We also want to deliver the official Ghost Importer App, which will allow importing from WordPress and other platforms.
 
-#### Getting Apps off the ground:
-* Lock down the App Boilerplate: <https://github.com/TryGhost/Ghost-App/issues>
-* Ghost Apps & the Ghost Developer Tools [#1474](https://github.com/TryGhost/Ghost/issues/1474)
-   * Ghost Developer Tools 'proxy' object for apps [#1478](https://github.com/TryGhost/Ghost/issues/1478)
-   * API / data restrictions for apps / internal on settings model [#1473] (https://github.com/TryGhost/Ghost/issues/1473) [TOP PRIORITY]
+### Apps
 
-#### Import Apps:
+Issue label: [apps](https://github.com/TryGhost/Ghost/issues?direction=desc&labels=apps&milestone=12&page=1&sort=updated&state=open)
 
-**Note** This section needs (and will shortly be receiving) an overhaul and should mostly be ignored in the short-term.
+By far the largest area of work, Apps encompasses work across both the [Ghost](https://github.com/TryGhost/Ghost) and [Ghost-App](https://github.com/TryGhost/Ghost-App) repositories. Work on this area is tracked through an [epic issue](https://github.com/TryGhost/Ghost/issues/1474) in the [Ghost](https://github.com/TryGhost/Ghost) repository. Watching this issue should allow any one interested to keep up-to-date on the progress of Ghost apps.
 
-* Ghost Importer: UI love [#953](https://github.com/TryGhost/Ghost/issues/953) [TOP PRIORITY]
-* Add "Delete All Content" Button [#1445](https://github.com/TryGhost/Ghost/issues/1445)
-* importing a bad database that fails to import still imports content [#837](https://github.com/TryGhost/Ghost/issues/837)
-* De-duplicate posts and tags in importer [#806](https://github.com/TryGhost/Ghost/issues/806)
+**Goal**: In Ghost version 0.5, it is expected that developers would be able to create simple apps for Ghost that achieve the most obvious additions, like comments, analytics custom helpers, and media handling improvements. App developers should *not* expect to have full access to all tools documented in the GDT in 0.5. Further updates will ship more advanced features.
 
-#### Features and refactors required for Apps
+**Tasks**:
 
-* Users: Roll out the ACL/Permissions system [#357](https://github.com/TryGhost/Ghost/issues/357)
-* Utilize Transactions in Data Operations [#586](https://github.com/TryGhost/Ghost/issues/586)   
+* Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
+* Add `package.json` support for themes, enabling developers to define key data about apps, and also define their own dependencies.
+* Roll out ACL across the Ghost admin, ensuring all objects and routes are correctly permissioned.
+* Introduce App permissions system to ensure that apps can only do the things for which they have permission.
+* Create the App UIs for installation, activation and management.
+* Update the schema to include tables for App settings, and create a way for Apps to define, access and provide UIs their own settings.
+* Develop the App install process, which presents users with permissions, manages dependencies, etc etc.
+* Create an intial set of filters which provides for overriding Ghost's behaviour via the Filter API.
+* Ensure that error handling for Apps is top-notch, and introduce features for debugging.
+* Finish up work to make the internal JSON data API consistent, and label it v1.0.
+* Use the App proxy to provide access to an v1.0 of the Data API, Theme API and Filters API.
 
-#### Misc for 0.5
+**If we have time**:
 
-The following issues don't really fit in with the Milestone 5 focus on Apps, but are still scheduled to get done in 0.5.
+* Start work on the following parts of the GDT:
+	* Routes API
+    * Files API
+    * Accounts API
+    * The various toolsets
+* Begin work on the dashboard, which is being planned separately from 0.5. See [note on the dashboard](#note-on-the-dashboard)
 
-* Theme API: make `{{nextpost}}` `{{prevpost}}` available to themes [#529](https://github.com/TryGhost/Ghost/issues/529)
-* Ugly debug upgrade tool [#1260](https://github.com/TryGhost/Ghost/issues/1260)
-* Add 'ghost' CLI tool for installing from npm [#1001](https://github.com/TryGhost/Ghost/issues/1001)
+
+### Importer
+
+Issue label: [importer](https://github.com/TryGhost/Ghost/issues?direction=desc&labels=importer&milestone=12&page=1&sort=updated&state=open)
+
+
+**Goal**: In Ghost version 0.5, it should be possible to easily import a blog from a WXR or RSS file, by installing and using the official [Ghost Importer](https://github.com/TryGhost/Ghost-Importer) App. This App should serve as an example app, and also be easily extended to support more import formats.
+
+**Tasks**:
+
+* Develop a sexy new UI for the import tool, and move it to a new home.
+* Make it possible for Apps to hook into and extend the import UI.
+* Add support for more permalink structures, configured by the importer if possible.
+* Build the Importer App, with initial support for WXR and RSS imports.
+* Turn importing from a one-step do-or-die operation, into a several step process with opportunities to fix or discard invalid data.
+
+
+### Themes
+
+Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&labels=themes&milestone=12&page=1&sort=updated&state=open)
+
+
+**Goal**: Every version of Ghost should deliver new features for themes, improving the overall blogging experience and providing new opportunities for theme developers to create fantastic themes.
+
+**Tasls**:
+
+* Add `package.json` support for themes, providing theme developers with a simple way to define key data about their themes.
+* Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
+* Create a set of placeholder style helpers which work together with filters for Apps, such as `{{comments}}` or `{{social}}`.
+* Add the much-awaited tag pages feature.
+* Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
+* Improve error handling and debugging for themes.
+
+
+
+### Other
+
+**Goal**: Ghost 0.5 should significantly improve the ease of creating and customising a blog.
+
+**Tasks**:
+
+* Develop a brand new installation screen to be used instead of signup at first run.
+* Introduce upgrade tools to bring us one step closer to 1-click upgrades.
+* Add a timezone setting, which is used to display dates relative to the admin-user across the admin and theme.
+
+#### Note on the dashboard
+
+It was originally hoped / planned that the first version of the dashboard would be developed during 0.5, although it would be disabled by default until 0.6. However, at the moment, there are very few frontend developers involved with the Ghost project, and it doesn't seem realistic to include it.
+
+Instead, the idea is to plan the work for the dashboard during 0.5, and see if we can put together a team of people to work on it as a sideproject during 0.5 and 0.6. For more information see [where is the dashboard?](https://github.com/TryGhost/Ghost/wiki/Planned-Features#wiki-where-is-the-dashboard)
 
 ----------
 ## Milestone 6 - Version 0.6.0 - Multi-user and Localisation
