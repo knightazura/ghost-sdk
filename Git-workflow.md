@@ -1,12 +1,12 @@
 Contents of this page:
 
 * [Quick Summary](#quick-summary)
-* [Notes on writing good commit messages](https://github.com/TryGhost/Ghost/wiki/Git-workflow#Notes-on-writing-good-commit-messages)
-* [Submitting Pull Requests](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
-* [Working with issues](https://github.com/TryGhost/Ghost/wiki/Git-workflow#working-with-issues)
-* [Branching Strategy](https://github.com/TryGhost/Ghost/wiki/Git-workflow#branching-strategy)
-* [Release Procedure](https://github.com/TryGhost/Ghost/wiki/Git-workflow#release-procedure)
-* [Database Changes](https://github.com/TryGhost/Ghost/wiki/Git-workflow#database-changes)
+* [Notes on writing good commit messages](#Notes-on-writing-good-commit-messages)
+* [Submitting Pull Requests](#submitting-pull-requests)
+* [Working with issues](#working-with-issues)
+* [Branching Strategy](#branching-strategy)
+* [Release Procedure](#release-procedure)
+* [Database Changes](#database-changes)
 
 Full details
 [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)
@@ -21,9 +21,9 @@ Each developer should fork the private core Ghost repo into a private repo of th
 
     git remote add upstream git@github.com:TryGhost/Ghost.git
 
-The main repository's master branch always contains the latest changes. For more info on branches, see the [branching strategy](https://github.com/TryGhost/Ghost/wiki/Git-workflow#branching-strategy) notes.
+The main repository's master branch always contains the latest changes. For more info on branches, see the [branching strategy](#branching-strategy) notes.
 
-Changes should adhere to our [coding standards](https://github.com/TryGhost/Ghost/wiki/Code-standards), commit messages should follow our [notes below](https://github.com/TryGhost/Ghost/wiki/Git-workflow#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
+Changes should adhere to our [coding standards](wiki/Code-standards), commit messages should follow our [notes below](#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](https://github.com/TryGhost/Ghost/wiki/Git-workflow#submitting-pull-requests)
 
 ## Notes on writing good commit messages
 ##### Commit Messages
