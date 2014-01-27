@@ -6,5 +6,5 @@ Ghost is made up of two main folders:
 * **core** - contains the core files which make up Ghost
 
 Root directory files:
-* index.js is the main file for ghost.
-* config.js contains the environment configuration
+* **index.js** is the main file for ghost.
+* **config.js** contains the environment configuration
