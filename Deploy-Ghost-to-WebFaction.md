@@ -1,4 +1,4 @@
-## **Note:** These instructions are pre 0.3 and no longer work.
+### **Note:** These instructions are pre 0.3 and no longer work.
 
 Setup a new account on http://webfaction.com - it needs to be a paid account, the free trial does not have access to the features which you will need to deploy Ghost.
 
