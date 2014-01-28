@@ -132,7 +132,7 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 * API tools for interacting with 3rd party APIs *future*
 * Importer hooks, & improved import workflow *importer/0.5*
 * Importer app (for WP, Tumblr, Blogger, etc) *importer/0.5*
-* Public API for Ghost using OAuth *apps/0.5*
+* Public API for Ghost using OAuth *magazine/0.8*
 * Integration options for analytics, comments, media etc *apps/0.5*
 * Name, version, other info support via `package.json` *apps/0.5*
 
