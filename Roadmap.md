@@ -57,7 +57,6 @@ By far the largest area of work, Apps encompasses work across both the [Ghost](h
     * Files API
     * Accounts API
     * The various toolsets
-* Open up the JSON API to external access, with authentication via OAuth
 * Begin work on the dashboard, which is being planned separately from 0.5. See [note on the dashboard](#note-on-the-dashboard)
 
 
