@@ -92,8 +92,6 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 * Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
 * Improve error handling and debugging for themes.
 
-
-
 ### Other
 
 **Goal**: Ghost 0.5 should significantly improve the ease of creating and customising a blog.
