@@ -39,16 +39,16 @@ If no export tools exist for your current blogging system you'll need to create 
 					"language":"en_US",
 					"meta_title":null,
 					"meta_description":null,
-					"author_id":1, // the first use created has an id of 1
+					"author_id":1, // the first user created has an id of 1
 					"created_at":1283780649000,
 								// epoch time in millis
-					"created_by":1, // the first use created has an id of 1
+					"created_by":1, // the first user created has an id of 1
 					"updated_at":1286958624000,
 								// epoch time in millis
-					"updated_by":1, // the first use created has an id of 1
+					"updated_by":1, // the first user created has an id of 1
 					"published_at":1283780649000,
 								// epoch time in millis
-					"published_by":1 // the first use created has an id of 1
+					"published_by":1 // the first user created has an id of 1
 				}
 			],
 			"tags":[
