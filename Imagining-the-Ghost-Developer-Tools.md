@@ -26,7 +26,6 @@ Essentially, the core should provide the tools for apps to use in creative ways.
 * Compromise user data or privacy
 * Do anything to damage the Ghost brand or trademark
 
-
 ## App fundamentals
 
 The first principle of creating a Ghost app is creating consistency in the code and in the end user experience. To do this, all apps will start out with a set of meta data provided through a package.json file, including a name, description, keywords, an icon etc.
