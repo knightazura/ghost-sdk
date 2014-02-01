@@ -1,5 +1,3 @@
-# Installing Ghost on FreeBSD
-
 Let me first of all point out that I am not a member of the Ghost project team, anything I found out may be incorrect or there may be a smarter way to do it, also I do not really use FreeBSD, this guide is everything I have done yet. If it doesn't work for you, I probably cannot help you any further.
 
 Installing Ghost on FreeBSD should work exactly as on Linux (and on MacOS X probably), however due to some minor differences in the node.js packages, it doesn't.
