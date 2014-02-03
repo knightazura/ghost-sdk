@@ -35,7 +35,7 @@ Multi User is a pretty sizeable project. Ghost is inherently multi-user under th
 
 ### Localisation / i18n 
 
-Ghost is currently pretty much UK-based English-language only, and has barely any features to account for timezones, locales, languages, alphabets, keyboard layouts or anything else that isn't UTC/English in either the admin or in themes. Even the USA folks luck out, sorry! All this is set to change with full support for multiple locales and languages across the admin and your blog posts. Throughout the Ghost GitHub, support for all of these sorts of features is refered to as `i18n` (internationalisation), and this is scheduled to be done along with multi-user in milestone 0.6.
+Ghost is currently pretty much UK-based English-language only, and has barely any features to account for timezones, locales, languages, alphabets, keyboard layouts or anything else that isn't UTC/English in either the admin or in themes. Even the USA folks luck out, sorry! All this is set to change with full support for multiple locales and languages across the admin and your blog posts. Throughout the Ghost GitHub, support for all of these sorts of features is referred to as `i18n` (internationalisation), and this is scheduled to be done along with multi-user in milestone 0.6.
 
 One feature which is particularly key, Timezone support, may be introduced in 0.5.
 
@@ -46,7 +46,7 @@ Markdown is a fabulous tool and it comes in many different flavours. Ghost inten
 
 ### Ghost Editor
 
-With the Markdown2 parser in place, we will overhal the Ghost Editor to use it in both the editor and preview windows, rather than using CodeMirror's parser in the editor and showdown in the preview. This should instantly irradicate all of the tiny bugs and inconsistencies across the two panes.
+With the Markdown2 parser in place, we will overhaul the Ghost Editor to use it in both the editor and preview windows, rather than using CodeMirror's parser in the editor and showdown in the preview. This should instantly eradicate all of the tiny bugs and inconsistencies across the two panes.
 
 ### Magazine
 
