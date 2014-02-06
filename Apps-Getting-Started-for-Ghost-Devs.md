@@ -50,7 +50,7 @@ this.app.api.posts.read(1).then(function (post) {
 
 Open up your database, and add the name of your app to `activeApps` in the settings table. 
 
-For example, if your app's folder name is `example-app`, the value of `activeApps` should be `["active-apps"]`. Double quotes are required.
+For example, if your app's folder name is `example-app`, the value of `activeApps` should be `["example-apps"]`. Double quotes are required.
 
 Once added, restart Ghost and your app will be installed & loaded.
 
