@@ -57,6 +57,8 @@ Via a command line (to install at `C:\casperjs`):
 * `cd \`
 * `git clone git://github.com/n1k0/casperjs.git`
 
+or use TortoiseGIT
+
 2\. Add `;C:\casperjs\batchbin` (or the correct path if you installed somewhere different) to the end of your PATH environment variable (the System one). Adding `;C:\casperjs\bin` as well may be useful - I am managing to run casper without using the .bat, I assume because of git bash.
 
 ## Running the tests
