@@ -42,7 +42,7 @@ As always, Windows is a little tricky
 
 1. Download the zip from phantomjs: http://phantomjs.org/download.html
 2. Unzip it to a safe/sensible location. I would recommend C:\phantomjs
-3. Add `;C:\phantomjs\bin` (or the correct path if you unzipped somewhere different) to the end of your PATH environment variable (the System one). If you're not familiar with finding your environment variables in Windows, [this should help](http://www.computerhope.com/issues/ch000549.htm).
+3. Add `;C:\phantomjs` (or the correct path if you unzipped somewhere different) to the end of your PATH environment variable (the System one). If you're not familiar with finding your environment variables in Windows, [this should help](http://www.computerhope.com/issues/ch000549.htm).
 
 #### Casperjs:
 
