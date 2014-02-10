@@ -38,7 +38,7 @@ By far the largest area of work, Apps encompasses work across both the [Ghost](h
 
 **Tasks**:
 
-* Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
+* [ ] Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
 * Add `package.json` support for apps, enabling developers to define key data about apps, and also define their own dependencies.
 * Roll out ACL across the Ghost admin, ensuring all objects and routes are correctly permissioned.
 * Introduce App permissions system to ensure that apps can only do the things for which they have permission.
