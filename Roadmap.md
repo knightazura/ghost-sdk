@@ -39,25 +39,25 @@ By far the largest area of work, Apps encompasses work across both the [Ghost](h
 **Tasks**:
 
 * [ ] Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
-* Add `package.json` support for apps, enabling developers to define key data about apps, and also define their own dependencies.
-* Roll out ACL across the Ghost admin, ensuring all objects and routes are correctly permissioned.
-* Introduce App permissions system to ensure that apps can only do the things for which they have permission.
-* Create the App UIs for installation, activation and management.
-* Update the schema to include tables for App settings, and create a way for Apps to define, access and provide UIs their own settings.
-* Develop the App install process, which presents users with permissions, manages dependencies, etc etc.
-* Create an intial set of filters which provides for overriding Ghost's behaviour via the Filter API.
-* Ensure that error handling for Apps is top-notch, and introduce features for debugging.
-* Finish up work to make the internal JSON data API consistent, and label it v1.0.
-* Use the App proxy to provide access to an v1.0 of the Data API, Theme API and Filters API.
+* [ ] Add `package.json` support for apps, enabling developers to define key data about apps, and also define their own dependencies.
+* [ ] Roll out ACL across the Ghost admin, ensuring all objects and routes are correctly permissioned.
+* [ ] Introduce App permissions system to ensure that apps can only do the things for which they have permission.
+* [ ] Create the App UIs for installation, activation and management.
+* [ ] Update the schema to include tables for App settings, and create a way for Apps to define, access and provide UIs their own settings.
+* [ ] Develop the App install process, which presents users with permissions, manages dependencies, etc etc.
+* [ ] Create an intial set of filters which provides for overriding Ghost's behaviour via the Filter API.
+* [ ] Ensure that error handling for Apps is top-notch, and introduce features for debugging.
+* [ ] Finish up work to make the internal JSON data API consistent, and label it v1.0.
+* [ ] Use the App proxy to provide access to an v1.0 of the Data API, Theme API and Filters API.
 
 **If we have time**:
 
 * Start work on the following parts of the GDT:
-	* Routes API
-    * Files API
-    * Accounts API
-    * The various toolsets
-* Begin work on the dashboard, which is being planned separately from 0.5. See [note on the dashboard](#note-on-the-dashboard)
+    * [ ] Routes API
+    * [ ] Files API
+    * [ ] Accounts API
+    * [ ] The various toolsets
+* [ ] Begin work on the dashboard, which is being planned separately from 0.5. See [note on the dashboard](#note-on-the-dashboard)
 
 
 ### Importer
@@ -69,11 +69,11 @@ Issue label: [importer](https://github.com/TryGhost/Ghost/issues?direction=desc&
 
 **Tasks**:
 
-* Develop a sexy new UI for the import tool, and move it to a new home.
-* Make it possible for Apps to hook into and extend the import UI.
-* Add support for more permalink structures, configured by the importer if possible.
-* Build the Importer App, with initial support for WXR and RSS imports.
-* Turn importing from a one-step do-or-die operation, into a several step process with opportunities to fix or discard invalid data.
+* [ ] Develop a sexy new UI for the import tool, and move it to a new home.
+* [ ] Make it possible for Apps to hook into and extend the import UI.
+* [ ] Add support for more permalink structures, configured by the importer if possible.
+* [ ] Build the Importer App, with initial support for WXR and RSS imports.
+* [ ] Turn importing from a one-step do-or-die operation, into a several step process with opportunities to fix or discard invalid data.
 
 
 ### Themes
@@ -85,12 +85,12 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 
 **Tasks**:
 
-* Add `package.json` support for themes, providing theme developers with a simple way to define key data about their themes.
-* Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
-* Create a set of placeholder style helpers which work together with filters for Apps, such as `{{comments}}` or `{{social}}`.
-* Add the much-awaited tag pages feature.
-* Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
-* Improve error handling and debugging for themes.
+* [ ] Add `package.json` support for themes, providing theme developers with a simple way to define key data about their themes.
+* [ ] Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
+* [ ] Create a set of placeholder style helpers which work together with filters for Apps, such as `{{comments}}` or `{{social}}`.
+* [ ] Add the much-awaited tag pages feature.
+* [ ] Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
+* [ ] Improve error handling and debugging for themes.
 
 ### Other
 
@@ -98,10 +98,10 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 
 **Tasks**:
 
-* Develop a brand new installation screen to be used instead of signup at first run.
-* Introduce upgrade tools to bring us one step closer to 1-click upgrades.
-* Improvements towards using Ghost as a module, publish to npm
-* Add a timezone setting, which is used to display dates relative to the admin-user across the admin and theme.
+* [ ] Develop a brand new installation screen to be used instead of signup at first run.
+* [ ] Introduce upgrade tools to bring us one step closer to 1-click upgrades.
+* [ ] Improvements towards using Ghost as a module, publish to npm
+* [ ] Add a timezone setting, which is used to display dates relative to the admin-user across the admin and theme.
 
 #### Note on the dashboard
 
