@@ -1,6 +1,10 @@
 This guide is a description of the set of APIs and tools which are currently in a state of constant change as we work through the Ghost Apps project solidifying and standardising how things will work. This documentation exists so that those developers who are working on the project can keep up to date and are able to build demo Apps for the purpose of building & testing the App Platform. This is *not* intended as a guide for App developers just yet. We may scrap the whole lot and start again at any moment :wink:
 
+----
+
 **Note** Updated for Ghost-App 0.0.2 - breaking changes 
+
+----
 
 ### Creating
 
