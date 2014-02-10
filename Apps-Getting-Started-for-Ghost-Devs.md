@@ -1,4 +1,6 @@
-This guide is a description of a set of APIs and tools which are constantly changing so that Ghost devs can get stuck in with building the App Platform. This is *not* intended as a guide for App developers. We may scrap the whole lot and start again at any moment :wink:
+This guide is a description of the set of APIs and tools which are currently in a state of constant change as we work through the Ghost Apps project solidifying and standardising how things will work. This documentation exists so that those developers who are working on the project can keep up to date and are able to build demo Apps for the purpose of building & testing the App Platform. This is *not* intended as a guide for App developers just yet. We may scrap the whole lot and start again at any moment :wink:
+
+**Note** Updated for Ghost-App 0.0.2 - breaking changes 
 
 ### Creating
 
@@ -12,14 +14,14 @@ Inside the folder, create a `package.json` and an `index.js` file.
 
 ```
 "dependencies": {
-    "ghost-app": "~0.0.1",
+    "ghost-app": "0.0.2",
 }
 ```
 
 `index.js` should look like:
 
 ```
-var App = require('ghost-app').App,
+var App = require('ghost-app'),
 
     MyApp;
 
@@ -38,6 +40,8 @@ MyApp = App.extend({
 module.exports = MyApp;
 ```
 
+#### Proxy
+
 The proxy object is available inside any lifecycle function as `this.app` for example you could do the following in the activate method and see the title 'Welcome to Ghost' output on startup.
 
 ```
@@ -46,6 +50,22 @@ this.app.api.posts.read(1).then(function (post) {
 });
 ```
 
+#### Filters
+
+Filters are available via the proxy, or via a special syntax as part of the app lifecycle:
+
+```
+MyApp = App.extend({
+    filters: {
+       ghost_head: 'handleGhostHead',
+       ghost_foot: [9, 'handleGhostFoot']
+    },
+    handleGhostHead: function () {},
+    handleGhostFoot: function () {}
+});
+
+The array syntax can be used to provide an optional priority, the default is 5.
+
 ### Installing
 
 Open up your database, and add the name of your app to `activeApps` in the settings table. 
@@ -53,9 +73,3 @@ Open up your database, and add the name of your app to `activeApps` in the setti
 For example, if your app's folder name is `example-app`, the value of `activeApps` should be `["example-app"]`. Double quotes are required.
 
 Once added, restart Ghost and your app will be installed & loaded.
-
-### Things that have already changed under your feet
-
-> `var App = require('ghost-app').App`
-
-^ the `.App` will be gone as soon as I publish the next version to npm
