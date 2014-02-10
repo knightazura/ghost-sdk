@@ -2,7 +2,7 @@ This guide is a description of the set of APIs and tools which are currently in 
 
 ----
 
-**Note** Updated for Ghost-App 0.0.2 - breaking changes 
+**Note:** This has been updated for Ghost-App 0.0.2 - breaking changes 
 
 ----
 
@@ -77,3 +77,13 @@ Open up your database, and add the name of your app to `activeApps` in the setti
 For example, if your app's folder name is `example-app`, the value of `activeApps` should be `["example-app"]`. Double quotes are required.
 
 Once added, restart Ghost and your app will be installed & loaded.
+
+### Changelog
+
+0.0.2
+- Removed `.App` from boilerplate signature
+- Added new filter syntax inc using `deregister` instead of `unregister`
+- Switched underscore to lodash
+
+0.0.1 
+Initial publish
