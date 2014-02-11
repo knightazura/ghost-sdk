@@ -67,6 +67,7 @@ MyApp = App.extend({
     handleGhostHead: function () {},
     handleGhostFoot: function () {}
 });
+```
 
 The array syntax can be used to provide an optional priority, the default is 5.
 
