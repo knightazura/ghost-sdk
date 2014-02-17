@@ -7,7 +7,7 @@ Ghost imports from existing blogs by having them export a JSON file and then rea
 
 ### Non-official
 * Jekyll users can use the [Jekyll to Ghost Plugin](https://github.com/redwallhp/Jekyll-to-Ghost)
-* Blogger users can try [blogger2ghost](https://github.com/bebraw/blogger2ghost)
+* Blogger users can try [blogger2ghost](https://github.com/bebraw/blogger2ghost). Also available as a [web service](http://blogger2ghost.com/).
 
 ## Importing the JSON
 Once you've generated the JSON go to `/ghost/debug` on your blog to access the import form.
