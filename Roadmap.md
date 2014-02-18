@@ -86,9 +86,9 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 **Tasks**:
 
 * [x] Add `package.json` support for themes, providing theme developers with a simple way to define key data about their themes.
-* [~] Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
+* [x] Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
 * [ ] Create a set of placeholder style helpers which work together with filters for Apps, such as `{{comments}}` or `{{social}}`.
-* [~] Add the much-awaited tag pages feature.
+* [x] Add the much-awaited tag pages feature.
 * [ ] Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
 * [~] Improve error handling and debugging for themes.
 
