@@ -129,7 +129,7 @@ Each Milestone has a due date. This date is usually a Monday, for example for 0.
 
 The following Tuesday and Wednesday will be used to merge all PRs which made it into the release and are ready, and for testing the whole package.
 
-On the Thursday, the release .zip will be generated and made available. We will ask that it be tested by as many people as possible! There will be 4 days (inc weekend) for testing. 
+On the Thursday, the release candidate .zip will be generated and made available. We will ask that it be tested by as many people as possible! There will be 4 days (inc weekend) for testing. 
 
 Finally, on the following Tuesday, if all has gone well, we will provide the release zip as the new download on Ghost.org, and add it to the releases on GitHub. 
 
