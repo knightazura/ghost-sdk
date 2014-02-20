@@ -38,13 +38,15 @@ this.addSubview(new Ghost.Views.Modal({
                     func: function () { // The function called on acceptance
                         console.log("accepted");
                     },
-                    text: "Yes" // The accept button text
+                    text: "Yes", // The accept button text,
+                    buttonClass: "button-add" // button class defaults to button-add
                 },
                 reject: {
                     func: function () { // The function called on rejection
                         console.log("rejected");
                     },
-                    text: "No" // The reject button text
+                    text: "No", // The reject button text
+                    buttonClass: "button-delete" // button class defaults to button-delete
                 }
             },
             type: "action", // * The type of modal
