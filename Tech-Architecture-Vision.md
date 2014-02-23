@@ -1,4 +1,4 @@
-![Ghost Architecture Overview](http://erisds.co.uk/ghost/GhostArchNoText.png)
+![Ghost Architecture Overview](http://erisds.co.uk/files/ghost/GhostArchNoText.png)
 
 This represents a rough overview of the vision for the core architecture of Ghost. The most important point being that the data model should:
 
