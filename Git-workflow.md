@@ -183,6 +183,10 @@ The [milestones](https://github.com/TryGhost/Ghost/issues/milestones) page in Gi
 
 Sometimes we also run side projects which have a milestone to keep all the issues together, such as the current [Ember.js](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open) project.
 
+
+
+<img alt="labels" src="http://puu.sh/7bBlE.png" align="left" />
+
 ### Labels
 
 Ghost tries to use labels to indicate what aspect of the code base an issue belongs to, and we try to avoid workflow labels. We do have a `[TOP PRIORITY]` label that is used to indicate when an issue is required to close a milestone, and a `[QA]` label to tell QA engineers about any issues which require particular testing attention.
@@ -190,8 +194,6 @@ Ghost tries to use labels to indicate what aspect of the code base an issue belo
 `[epic]` issues are intended for managing groups of issues. The are not a unit of work, but rather used for managing smaller projects within a milestone.
 
 We also have a special label `[beginner]` which is used to indicate that an issue may be good for people who are new to the Ghost code base (as opposed to new to development), this is to help new contributors get their first commit :)
-
-![labels](http://puu.sh/7bBlE.png)
 
 The `[client]` and `[server]` labels are intended to show which 'side' of the code base an issue belongs, with client issues referring to the ember app, and server issues referring to serving blogs, or core functions like middleware.
 
@@ -202,6 +204,5 @@ The `[data]` label refers to anything in the models or schema - the data layer u
 The `[ghost-ui]` label is a place holder marking issues that may be moved to or solved by development on the [Ghost UI](https://github.com/TryGhost/Ghost-UI) framework.
 
 All the other labels should be self-explanatory.
-
 
 
