@@ -168,7 +168,7 @@ Pull requests (PRs) for Ghost tend to fall into four loose categories:
 
 1. Works in progress - something that is partly finished, or may have a problem and hasn't been worked on in a while. These are marked with [WIP].
 2. PRs marked [Docs] are PRs to the `gh-pages` branch which include general updates / fixes to docs.ghost.org
-3. [Translations :/??] indicates that this is a pr to the gh-pages branch which contains translations for a given language, these are often long-lived PRs
+3. [Translations :/??] indicates that this is a PR to the gh-pages branch which contains translations for a given language, these are often long-lived PRs
 4. Everything else is a standard PR waiting to be merged.
 
 There is a Chrome Extension available that will filter the PRs into those Groups, which is useful if you find the docs PRs clutter your view: https://github.com/ErisDS/ghost-github-chrome-extension *note:* it doesn't work very well when there are a LOT of PRs :( but it's open source! So please feel free to fix it :)
@@ -191,7 +191,7 @@ Sometimes we also run side projects which have a milestone to keep all the issue
 
 Ghost tries to use labels to indicate what aspect of the code base an issue belongs to, and we try to avoid workflow labels. We do have a `[TOP PRIORITY]` label that is used to indicate when an issue is required to close a milestone, and a `[QA]` label to tell QA engineers about any issues which require particular testing attention.
 
-`[epic]` issues are intended for managing groups of issues. The are not a unit of work, but rather used for managing smaller projects within a milestone.
+`[epic]` issues are intended for managing groups of issues. They are not a unit of work, but rather used for managing smaller projects within a milestone.
 
 We also have a special label `[beginner]` which is used to indicate that an issue may be good for people who are new to the Ghost code base (as opposed to new to development), this is to help new contributors get their first commit :)
 
