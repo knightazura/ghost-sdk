@@ -7,6 +7,7 @@ Contents of this page:
 * [Branching Strategy](#branching-strategy)
 * [Release Procedure](#release-procedure)
 * [Database Changes](#database-changes)
+* [Navigating GitHub](#navigating-github)
 
 Full details
 [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)
@@ -136,3 +137,72 @@ Finally, on the following Tuesday, if all has gone well, we will provide the rel
 ## Database Changes
 
 Database changes require quite a bit of work around migration, exports and imports. As it stands, we currently always deliver database changes along with a minor version bump. Therefore it is important that all database changes are made on a branch so that they can be merged at a time when version bumping is convenient.
+
+## Navigating GitHub
+
+Ghost's GitHub is full of useful information if you know how to find it, this page is a quick guide to the conventions and hidden stuff you'll find.
+
+### Branches
+
+In addition to the [Branching Strategy](#branching-strategy) documented above, you may find the following branches:
+
+**gh-pages** - this branch contains all of the code and content for http://docs.ghost.org. This is open to contributions.
+
+**###-data-updates** - a branch starting with 3 numbers is probably to do with schema changes that require us to bump the database version number.
+
+**ember** - a branch we're currently using to rewrite our admin UI in ember
+
+### Open Issues
+
+Open issues on GitHub are a combination of things we're actively working on, or will be working on soon and bugs. Our [contributing guidelines](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md) contain lots of information about raising an issue. 
+
+Some issues start with [Discussion] which means there is no active work to be done, we're just deciding what to do or how to do something.
+
+Others start with [Draft] indicating the issue is a placeholder for some work we know we need to do, but we aren't 100% sure what it looks like yet.
+
+You may also see [Investigation] which is our equivalent of a spike, it usually means that the work to be done does not require a PR, but rather some testing or learning around how a particular approach might solve a problem.
+
+### Pull Requests
+
+Pull requests (PRs) for Ghost tend to fall into four loose categories:
+
+1) Works in progress - something that is partly finished, or may have a problem and hasn't been worked on in a while. These are marked with [WIP].
+2) PRs marked [Docs] are PRs to the `gh-pages` branch which include general updates / fixes to docs.ghost.org
+3) [Translations :/??] indicates that this is a pr to the gh-pages branch which contains translations for a given language, these are often long-lived PRs
+4) Everything else is a standard PR waiting to be merged.
+
+There is a Chrome Extension available that will filter the PRs into those Groups, which is useful if you find the docs PRs clutter your view: https://github.com/ErisDS/ghost-github-chrome-extension *note:* it doesn't work very well when there are a LOT of PRs :( but it's open source! So please feel free to fix it :)
+
+PRs generally get assigned to either @erisds or @sebgie, this indicates who will test the PR and make sure it is ready to be merged.
+
+### Milestones
+
+The [milestones](https://github.com/TryGhost/Ghost/issues/milestones) page in GitHub lists out all the milestones with open issues against them, in order of delivery date. Ghost milestones are usually tied to minor version releases for Ghost, such as 0.5 or 0.6 which means the milestone page closely mirrors our [Roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap). 
+
+![milestones](http://puu.sh/7bzhv.png)
+
+Sometimes we also run side projects which have a milestone to keep all the issues together, such as the current [Ember.js](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open) project.
+
+### Labels
+
+Ghost tries to use labels to indicate what aspect of the code base an issue belongs to, and we try to avoid workflow labels. We do have a `[TOP PRIORITY]` label that is used to indicate when an issue is required to close a milestone, and a `[QA]` label to tell QA engineers about any issues which require particular testing attention.
+
+`[epic]` issues are intended for managing groups of issues. The are not a unit of work, but rather used for managing smaller projects within a milestone.
+
+We also have a special label `[beginner]` which is used to indicate that an issue may be good for people who are new to the Ghost code base (as opposed to new to development), this is to help new contributors get their first commit :)
+
+![labels](http://puu.sh/7byJw.png)
+
+The `[client]` and `[server]` labels are intended to show which 'side' of the code base an issue belongs, with client issues referring to the ember app, and server issues referring to serving blogs, or core functions like middleware.
+
+The `[api]` label refers to the JSON data api
+
+The `[data]` label refers to anything in the models or schema - the data layer underneath the api.
+
+The `[ghost-ui]` label is a place holder marking issues that may be moved to or solved by development on the [Ghost UI](https://github.com/TryGhost/Ghost-UI) framework.
+
+All the other labels should be self-explanatory.
+
+
+
+
