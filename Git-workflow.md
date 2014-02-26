@@ -185,7 +185,7 @@ Sometimes we also run side projects which have a milestone to keep all the issue
 
 
 
-<img alt="labels" src="http://puu.sh/7bBlE.png" align="left" />
+<img alt="labels" src="http://puu.sh/7bBlE.png" align="right" />
 
 ### Labels
 
