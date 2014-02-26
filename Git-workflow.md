@@ -203,7 +203,7 @@ The `[data]` label refers to anything in the models or schema - the data layer u
 
 The `[ghost-ui]` label is a place holder marking issues that may be moved to or solved by development on the [Ghost UI](https://github.com/TryGhost/Ghost-UI) framework.
 
-[importer] is a project-specific label intended for the 0.5 milestone only
+`[importer]` is a project-specific label intended for the 0.5 milestone only
 
 All the other labels should be self-explanatory.
 
