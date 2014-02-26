@@ -185,7 +185,7 @@ Sometimes we also run side projects which have a milestone to keep all the issue
 
 
 
-<img alt="labels" src="http://puu.sh/7bBlE.png" align="right" />
+<img alt="labels" src="http://puu.sh/7bBlE.png" align="left" />
 
 ### Labels
 
@@ -202,6 +202,8 @@ The `[api]` label refers to the JSON data api
 The `[data]` label refers to anything in the models or schema - the data layer underneath the api.
 
 The `[ghost-ui]` label is a place holder marking issues that may be moved to or solved by development on the [Ghost UI](https://github.com/TryGhost/Ghost-UI) framework.
+
+[importer] is a project-specific label intended for the 0.5 milestone only
 
 All the other labels should be self-explanatory.
 
