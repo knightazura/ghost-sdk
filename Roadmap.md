@@ -2,21 +2,11 @@ The Roadmap aims to set out when certain features will appear. It reduces in cla
 
 If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
 
-## Version 0.4.1
-
-### Late January
-
-It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs.
-
-The 0.4.1 maintenance release closes to PRs at midnight 27th January. Release is scheduled for later this week.
-
-Open issues: [0.4.1](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
-
------
+----
 
 ## Milestone 5 - Version 0.5.0 - Apps & Import
 
-### Spring 2014
+### Q2 2014
 
 This is the current Milestone
 
@@ -112,7 +102,7 @@ Instead, the idea is to plan the work for the dashboard during 0.5, and see if w
 ----------
 ## Milestone 6 - Version 0.6.0 - Multi-user and Localisation
 
-### Early Summer 2014
+### Late Q2 / Early Q3 2014
 
 Focuses firstly on adding multi-user functionality, so that you can run a multi-author blog, along with addressing the security concerns this introduces. Secondly, on providing the tools for l10n & i18n - making it possible for you to use Ghost in your language, and to publish blogs in any language. 
 
@@ -137,7 +127,7 @@ Milestone 0.6 Mini Projects:
 ----------
 ## Milestone 7 - Version 0.7.0 - Editor & Mobile
 
-### Late Summer 2014
+### Q3 2014
 
 Rough Plan: - focus on overhauling and rebuilding the editor, bringing full mobile/multi-device support, markdown & media improvements etc
 
@@ -146,7 +136,7 @@ Open issues: [0.7](https://github.com/TryGhost/Ghost/issues?milestone=13&page=1&
 ----------
 ## Milestone 8 - Version 0.8.0 - Magazine Features
 
-### Autumn 2014 
+### Late Q3 / Early Q4 2014 
 
 Rough Plan: focus on advanced publishing workflows, catering for bigger, more complex teams and also on more advanced theme features aimed at building magazine style blogs. 
 
@@ -155,7 +145,7 @@ Open issues: [0.8](https://github.com/TryGhost/Ghost/issues?milestone=14&page=1&
 ----------
 ## Milestone 9 - Version 0.9.0 - Cleanup 
 
-### Winter 2014
+### Q4 2014
 
 Rough Plan: focus on anything which is still missing and required for 1.0.0. This is currently an open ended opportunity to refactor, tidy up, finish off features, add finishing touches etc etc 
 
@@ -182,6 +172,16 @@ Maintenance release, see [0.3.2](https://github.com/TryGhost/Ghost/commits/0.3.2
 #### Milestone 4 - Version 0.4.0 (13th Jan)
 
 See [Milestone History](https://github.com/TryGhost/Ghost/wiki/Roadmap-History:-Milestone-4---Version-0.4.0) or the [Release Notes](https://github.com/TryGhost/Ghost/wiki/Release-Notes:-0.4.0)
+
+## Version 0.4.1
+
+### Late January
+
+It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs.
+
+The 0.4.1 maintenance release closes to PRs at midnight 27th January. Release is scheduled for later this week.
+
+Open issues: [0.4.1](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
 
 #### History 
 
