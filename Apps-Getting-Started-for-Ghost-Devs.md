@@ -14,11 +14,14 @@ Create a new folder in your `content/apps` folder, for now the folder name is yo
 
 Inside the folder, create a `package.json` and an `index.js` file.
 
-`package.json` should include:
+`package.json` should include `version` and `dependencies`:
 
 ```
-"dependencies": {
+{
+  "version": "0.x",
+  "dependencies": {
     "ghost-app": "0.0.2",
+  }
 }
 ```
 
