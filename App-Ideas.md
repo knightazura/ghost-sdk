@@ -11,7 +11,8 @@ If you have an idea, please add it to the list no need to break it down into fea
    * Have access to a `{{comments}}` helper
 * Modify RSS feeds
    * Be able to filter rss.feed and rss.item   
-
+* Way to supply additional headers
+   * Add `X-Content-Duration` for .ogg files for example. (see [http://expressjs.com/3x/api.html#res.set](http://expressjs.com/3x/api.html#res.set))
 
 Places to go for inspiration:
 
