@@ -17,6 +17,9 @@ If you have an idea, please add it to the list no need to break it down into fea
    * Integration into IFTTT (compare https://ifttt.com/wordpress)
 * Github project daily/weekly/release summary post
    * Use Github Webhooks ([git-at-me](https://github.com/jgable/git-at-me)) to compile a summary of commits/PR/issues for a specified time range
+* Way to specify a path for receiving REST data
+   * Have a server POST data a ghost path that the app can then store and use (like usage statistics every 2 hours from a server)
+
 
 Places to go for inspiration:
 
