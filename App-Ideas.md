@@ -21,6 +21,8 @@ If you have an idea, please add it to the list no need to break it down into fea
    * Have a server POST data to a ghost path that the app can then store and use (like usage statistics every 2 hours from a server)
 * Hook into the login process to add 2FA
    * https://ghost.org/forum/plugins/877-two-factor-auth/
+* Hook into existing routes
+   * https://keen.io/blog/78561215787/how-to-install-keen-io-analytics-into-your-node-js-app
 
 
 Places to go for inspiration:
