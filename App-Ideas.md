@@ -19,6 +19,8 @@ If you have an idea, please add it to the list no need to break it down into fea
    * Use Github Webhooks ([git-at-me](https://github.com/jgable/git-at-me)) to compile a summary of commits/PR/issues for a specified time range
 * Way to specify a path for receiving REST data
    * Have a server POST data to a ghost path that the app can then store and use (like usage statistics every 2 hours from a server)
+* Hook into the login process to add 2FA
+   * https://ghost.org/forum/plugins/877-two-factor-auth/
 
 
 Places to go for inspiration:
