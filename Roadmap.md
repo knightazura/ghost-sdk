@@ -12,8 +12,7 @@ The work towards Milestone 5 has already delivered significant new features, bug
 
 0.4.2 will deliver many of the theme changes that were planned for 0.5, and some that were planned for 0.6! It will also fix a number of particularly hairy bugs, and significant improvements to the editor.
 
-The Roadmap will be updated shortly to provide more details of what's in 0.4.2
-
+Take a look at the [closed issue list](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=18&page=1&sort=created&state=closed) to see what will be in 0.4.2
 
 
 ----
