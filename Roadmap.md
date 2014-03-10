@@ -4,6 +4,20 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 ----
 
+## Version 0.4.2 - Theme Updates & Major fixes
+
+### Q1 2014
+
+The work towards Milestone 5 has already delivered significant new features, bug fixes, and awesome infrastructural changes that make Ghost easier to work with. At the same time, there is a very long way to go still before we can deliver 0.5, and that is being extended because of the switch-over to Ember. Therefore the Ghost team has decided to take advantage of being pre-1.0 and deliver a patch release with new features.
+
+0.4.2 will deliver many of the theme changes that were planned for 0.5, and some that were planned for 0.6! It will also fix a number of particularly hairy bugs, and significant improvements to the editor.
+
+The Roadmap will be updated shortly to provide more details of what's in 0.4.2
+
+
+
+----
+
 ## Milestone 5 - Version 0.5.0 - Apps & Import
 
 ### Q2 2014
