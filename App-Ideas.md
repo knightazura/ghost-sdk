@@ -23,6 +23,10 @@ If you have an idea, please add it to the list no need to break it down into fea
    * https://ghost.org/forum/plugins/877-two-factor-auth/
 * Hook into existing routes
    * https://keen.io/blog/78561215787/how-to-install-keen-io-analytics-into-your-node-js-app
+* Extend core helpers
+   * It would be awesome to extend native helpers like `{{#has ..}}` to check for attributes in custom fields (`{{#has audio='true'}}`)
+* Modify HTML before rendering from markdown
+   * Could be used by syntax highlighters to recognise the extended fenced code blocks notation.
 
 
 Places to go for inspiration:
