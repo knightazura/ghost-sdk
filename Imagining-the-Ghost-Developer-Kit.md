@@ -42,7 +42,7 @@ A key example of how all this will work is dashboard widgets. A button on the da
 The GDK will provide the tools for registering a widget and then defining its content, interactions, available sizes and settings in the most straightforward way possible whilst maintaining all the flexibility of effectively providing a mini-app all in itself.
 
 
-## The toolkit
+## The (Tool)Kit
 
 Some of individual APIs and tools that we intend to provide include:
 
