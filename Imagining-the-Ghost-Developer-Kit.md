@@ -1,4 +1,4 @@
-![GDK Logo](https://s3-eu-west-1.amazonaws.com/ghost-website-cdn/gdk-logo_2x.png)
+![GDK Logo](https://s3-eu-west-1.amazonaws.com/ghost-website-cdn/gdk-logo.png)
 
 
 The Ghost Developer Tools (GDTs) are a set of APIs which allow developers to build apps on top of the Ghost platform.
