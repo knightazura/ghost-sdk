@@ -1,7 +1,7 @@
 ![GDK Logo](https://s3-eu-west-1.amazonaws.com/ghost-website-cdn/gdk-logo.png)
 
 
-The Ghost Developer Tools (GDTs) are a set of APIs which allow developers to build apps on top of the Ghost platform.
+The Ghost Developer Kit(GDK) is a set of APIs which allow developers to build apps on top of the Ghost platform.
 
 Communicating the vision for something as broad and all-encompassing as the plan we have for the Ghost Developer Tools is a difficult task. This document attempts to explain the ideas we have for how it should work and how the different parts fit together.
 
@@ -10,7 +10,7 @@ These apps can do many things, from making minor adjustments to the functionalit
 
 ## Principles
 
-The GDTs adhere to the following principles:
+The GDK adheres to the following principles:
 
 * consistency, consistency, consistency
 * providing 1 clear way to do things
@@ -20,7 +20,7 @@ The GDTs adhere to the following principles:
 * easily extensible
 * secure, safe, and dependable
 
-Essentially, the core should provide the tools for apps to use in creative ways. The tools provide power and flexibility to be used in ways we cannot imagine - pretty much anything should be possible. Any restrictions should exist only where it serves the GDT principles or protects the core of Ghost. 
+Essentially, the core should provide the tools for apps to use in creative ways. The tools provide power and flexibility to be used in ways we cannot imagine - pretty much anything should be possible. Any restrictions should exist only where it serves the GDK principles or protects the core of Ghost. 
 
 ### Apps should not
 
@@ -39,7 +39,7 @@ Apps will be able to register other entities which may be managed elsewhere, suc
 
 A key example of how all this will work is dashboard widgets. A button on the dashboard will take you to a list of available widgets, whether they are part of core or provided by an app. A widget can be added to the dashboard, and then customised with its own set of settings. Widgets can be dragged around, resized and removed from the dashboard.
 
-The GDTs will provide the tools for registering a widget and then defining its content, interactions, available sizes and settings in the most straightforward way possible whilst maintaining all the flexibility of effectively providing a mini-app all in itself.
+The GDK will provide the tools for registering a widget and then defining its content, interactions, available sizes and settings in the most straightforward way possible whilst maintaining all the flexibility of effectively providing a mini-app all in itself.
 
 
 ## The toolkit
@@ -64,7 +64,7 @@ It's pretty huge, and it is all going to start out pretty basic, and build in co
 
 ### Little recommendations for budding app (and theme) developers
 
-The GDT is intended to provide powerful tools that developers can use in creative ways to modify and build on top of in creative ways. We ask that developers be responsible, and do not abuse these powers.
+The GDK is intended to provide powerful tools that developers can use in creative ways to modify and build on top of in creative ways. We ask that developers be responsible, and do not abuse these powers.
 
 If you build an app or theme which uses an unintended bug/feature please do 1) tell us about it and 2) expect it to go away at some point breaking your app / theme - where possible we'll try to replace it with something intended for the purpose.
 
