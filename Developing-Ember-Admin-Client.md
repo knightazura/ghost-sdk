@@ -9,7 +9,7 @@ grunt clean
 grunt dev
 ```
 
-URL of Ember admin: 127.0.0.1:2368/ghost/ember/
+URL of Ember admin: http://127.0.0.1:2368/ghost/ember/
 
 **If you're having issues:**
 
