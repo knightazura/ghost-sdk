@@ -1,5 +1,8 @@
-*This is still a work in progress, [with an active issue under development.](https://github.com/TryGhost/Ghost/issues/2078)*
+*This document is still a work in progress*
 
+There is a beta version of Ghost on NPM which can be installed via:
+
+`npm install ghost@0.4.2-rc1`
 
 ***
 
