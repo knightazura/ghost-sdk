@@ -1,96 +1,46 @@
-*This document is still a work in progress*
+You can now use Ghost as a NPM module!
 
-There is a beta version of Ghost on NPM which can be installed via:
+1.  Include Ghost as a dependency in your `package.json` file
 
-`npm install ghost@0.4.2-rc1`
-
-***
-
-
-Here's a simple boilerplate for using Ghost as a NPM module with the `content` folder existing outside of the npm module.
-
-Create a new directory with the following structure:
-
-
-```
-content/
-package.json
-config.js
-index.js
-```
-
-
-### content/
-
-The `content/` folder is a direct copy of Ghost's content folder.  At the moment this is not created automatically for you, so for the time being you need to manually copy and paste the contents of `Ghost/content/` into the location you want.  This is required only once.
-
-*Note:* make sure you copy over `Casper`, the default theme for Ghost.  Without Casper Ghost will not start.
-
-
-
-### package.json
-
-This is where you define Ghost as a npm module.
-
-**NOTE:** Ghost is not yet published to NPM.  As a result you need to define the version as a git url.
-
-Here's how your `dependencies` object should look:
-
-```
+  ```
 "dependencies": {
-    "ghost": "git://github.com/TryGhost/Ghost.git#master"
+    "ghost": "0.4.2-rc1"
 }
-```
+  ```
 
+2.  Run `npm install` to install Ghost.
 
-### config.js
+3.  Include the Ghost module where desired and then invoke it to start ghost.
 
-The `config.js` file is a copy of the config.example.js file.
+  ```
+var ghost = require('ghost');
+ghost();
+  ```
 
-To set where Ghost expects the content directory to live you need to amend your `config.js` file to add an additional property.
+At this point Ghost should be running!
 
+## Further customizations
 
-```
-production: {
-  paths: {
-      contentPath: path.join(__dirname, '/content/'),
-  }
-}
-```
+### Decide where the `content/` directory should exist
 
-*Note:* Be sure to include nodejs' `path` module for the above code to work. i.e. `var path = require('path');`.
+By default Ghost will use the `content/` directory that exists inside the module.  To modify where Ghost's `content/` directory should exist you can pass in a JSON object into the `ghost()` function.  For sake of easy maintenance you can also pass in a JSON file:
 
-
-### index.js
-
-The `index.js` is where you bootup and instantiate Ghost.
-
-In this file you can pass where Ghost should expect the `config.js` to exist.
-
-An example:
-
-```
-var ghost = require('ghost'),
-    path  = require('path');
-
+  ```
 ghost({
   config: path.join(__dirname, 'config.js')
 });
-```
+  ```
 
+An example `config.js` is based off the [config.example.js](https://github.com/TryGhost/Ghost/blob/master/config.example.js).
 
-
-
-## Notes
-Ghost requires the compilation of its assets.  This is currently not supported out of the box and requires some manual work.
-
-Run the following in your terminal:
+The configuration property that changes the `content/` location is:
 
 ```
-cd node_modules/ghost/
-grunt production
+paths: {
+  contentPath: path.join(__dirname, '/content/'),
+}
 ```
 
+Modify that to change where the `content/` directory should exist.
 
-
-After all that you should be able to run `node index.js` and Ghost should be up and running!
+**NOTE**:  If you change the location of the `content/` directory Ghost expects to find the same directory structure that exists in the module.  To get started copy the [default content directory structure](https://github.com/TryGhost/Ghost/tree/master/content) as the bases for your custom `content/` location.
