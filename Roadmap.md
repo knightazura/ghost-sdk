@@ -92,7 +92,7 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 * [x] Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
 * [ ] Create a set of placeholder style helpers which work together with filters for Apps, such as `{{comments}}` or `{{social}}`.
 * [x] Add the much-awaited tag pages feature.
-* [ ] Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
+* [X] Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
 * [~] Improve error handling and debugging for themes.
 
 ### Other
