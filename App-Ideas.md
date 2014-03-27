@@ -29,6 +29,8 @@ If you have an idea, please add it to the list no need to break it down into fea
    * Could be used by syntax highlighters to recognise the extended fenced code blocks notation.
 * Intercept image uploads to generate thumbnails/etc.
    * Will need a separate permission that doesn't belong to a model.
+* Multilingual blogs
+   * Each post could be annotated with an AppField `language` - would require post filtering by AppField value (only posts with app_field language = `en`)
 
 
 Places to go for inspiration:
