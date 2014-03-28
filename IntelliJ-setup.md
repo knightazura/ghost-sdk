@@ -9,12 +9,17 @@ IntelliJ is a fully-fledged IDE, you can use it for developing Java just as easi
 
 ### Plugins
 
-* You'll want Nodejs & Handlebars/Mustache plugins
+Under settings (win) / preferences (mac) -> plugins -> browse repositories
+
+Select and install Nodejs & Handlebars/Mustache plugins
 
 ### Keyboard shortcuts
 
+Under settings (win) / preferences (mac) -> Keymap -> 
 
 ### Run Configurations
+
+http://stackoverflow.com/questions/17043484/grunt-debugging-from-webstorm/17452803#17452803
 
 ### Debugging
 
