@@ -13,9 +13,21 @@ Under settings (win) / preferences (mac) -> plugins -> browse repositories
 
 Select and install Nodejs & Handlebars/Mustache plugins
 
-### Keyboard shortcuts
+### Keyboard / Mouse shortcuts
 
-Under settings (win) / preferences (mac) -> Keymap -> 
+IntelliJ has awesome shortcuts, take some time to get to know them. 
+
+Under settings (win) / preferences (mac) -> Keymap 
+
+In the search/find box: Type 'go'
+
+You'll see entries for `Declaration` and `Implementation` which allow you to click on variables/functions & take you to the declaration or implementation. These are super useful for JS. Learn them or reassign them to something you'll remember.
+
+In the search/find box: Type 'usage'
+
+Assign 'Find Usages' to something like Cmd/Ctrl + Button2 Click by right-clicking on it and choosing 'Add mouse shortcut'. Cmd/Ctrl + Button 2 click on any variable or function name will then open a find box with all usages of that variable/function.
+
+IntelliJ is a power tool - take some time to learn the keybindings and discover what they do!
 
 ### Run Configurations
 
