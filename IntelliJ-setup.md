@@ -37,7 +37,7 @@ http://stackoverflow.com/questions/17043484/grunt-debugging-from-webstorm/174528
 
 http://themespectre.com/ghost-development-and-debugging-in-webstorm-step-by-step/
 
-### Toolbars and windows
+### Toolbars and Menus
 
 I prefer to have no toolbar (View -> Toolbar), and instead have just the navigation bar (View -> Navigation Bar) with the few buttons I use (mainly run/debug buttons) on the Navigation Bar Toolbar. 
 
