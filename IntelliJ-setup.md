@@ -9,6 +9,7 @@ IntelliJ is a fully-fledged IDE, you can use it for developing Java just as easi
 
 ### Plugins
 
+* You'll want Nodejs & Handlebars/Mustache plugins
 
 ### Keyboard shortcuts
 
