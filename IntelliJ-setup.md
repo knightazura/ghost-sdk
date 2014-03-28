@@ -36,3 +36,26 @@ http://stackoverflow.com/questions/17043484/grunt-debugging-from-webstorm/174528
 ### Debugging
 
 http://themespectre.com/ghost-development-and-debugging-in-webstorm-step-by-step/
+
+### Toolbars and windows
+
+I prefer to have no toolbar (View -> Toolbar), and instead have just the navigation bar (View -> Navigation Bar) with the few buttons I use (mainly run/debug buttons) on the Navigation Bar Toolbar. 
+
+Everything is configurable under:
+
+Under settings (win) / preferences (mac) -> Menus and Toolbars
+
+View -> Toolbar = Main Toolbar
+View -> Navigation Bar = Navigation Bar + Navigation Bar Toolbar
+
+By adding just the buttons you want to the Navigation Bar Toolbar you end up with one less row of 'stuff' under the File menu bar, and a bit more screen real estate.
+
+### Databases
+
+It is possible to connect IntelliJ to your SQLite3 databases
+
+Pro tip: Use Xerial, not Zentus
+
+
+
+
