@@ -25,7 +25,7 @@ You'll see entries for `Declaration` and `Implementation` which allow you to cli
 
 In the search/find box: Type 'usage'
 
-Assign `Find Usages` to something like Cmd/Ctrl + Button2 Click by right-clicking on it and choosing 'Add mouse shortcut'. Cmd/Ctrl + Button 2 click on any variable or function name will then open a find box with all usages of that variable/function.
+Assign `Find usages` to something like Cmd/Ctrl + Button2 Click by right-clicking on it and choosing 'Add mouse shortcut'. Cmd/Ctrl + Button 2 click on any variable or function name will then open a find box with all usages of that variable/function. Depending on your preferences, you may find `Show usages` or `Find usages in file` to be useful instead or as well as `Find usages`
 
 IntelliJ is a power tool - take some time to learn the keybindings and discover what they do!
 
