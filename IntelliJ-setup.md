@@ -54,7 +54,19 @@ By adding just the buttons you want to the Navigation Bar Toolbar you end up wit
 
 It is possible to connect IntelliJ to your SQLite3 databases
 
-Pro tip: Use Xerial, not Zentus
+**Pro tip**: Use **Xerial**, not Zentus
+
+* You need to be in the 'Database' tool window (View -> Tool Windows -> Database)
+* Click the plus button -> Data Source -> SQLite3 -> Xerial
+* Give it a name
+* Find the database file in content/data
+* Drop down the 'Driver files' arrow & click the install link
+* Click Test connection, Apply, OK
+* You may need to right click on your new data source and press 'synchronize'
+* You can now navigate, query and edit your database directly in IntelliJ
+
+
+
 
 
 
