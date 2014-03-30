@@ -4,7 +4,7 @@ You can now use Ghost as a NPM module!
 
   ```
 "dependencies": {
-      "ghost": "0.4.2-rc1"
+      "ghost": "0.4.2"
 }
   ```
 
