@@ -43,4 +43,4 @@ paths: {
 
 Modify that to change where the `content/` directory should exist.
 
-**NOTE**:  If you change the location of the `content/` directory Ghost expects to find the same directory structure that exists in the module.  To get started copy the [default content directory structure](https://github.com/TryGhost/Ghost/tree/master/content) as the bases for your custom `content/` location.
+**NOTE**:  If you change the location of the `content/` directory Ghost expects to find the same directory structure that exists in the module.  To get started copy the [default content directory structure](https://github.com/TryGhost/Ghost/tree/master/content) as the basis for your custom `content/` location.
