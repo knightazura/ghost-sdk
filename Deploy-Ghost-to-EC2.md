@@ -26,6 +26,8 @@ If you already know what you are doing and are just looking for the configure an
   - Hit Launch! You should now have an ec2 instance. You should have a public DNS something like ``ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``. Your username will be **ubuntu**
 1. Check everything is ok by sshing to the ec2 instance with the following command, and then exit
    -  ``ssh -i ~/.ssh/[yourkeyfile].pem ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``
+   - if you get the "WARNING: UNPROTECTED PRIVATE KEY FILE!" alert, you may have to make the .pem file read-only by running this in ~/.ssh: ``chmod 400 [yourkeyfile].pem``
+   - or you may have to include your username: ``ssh -l [yourusername] -i ~/.ssh/[yourkeyfile].pem ubuntu@ec2-xx-xxx-xx-xx.[region].compute.amazonaws.com``
 
 ## Configuring EC2 for Ghost
 1. Save the [config script](https://gist.github.com/ErisDS/3d7b5e2731f56f8617f8) somewhere on your machine which is easy to find.
