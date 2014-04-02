@@ -154,7 +154,9 @@ See [planned features](https://github.com/TryGhost/Ghost/wiki/Planned-Features) 
 
 #### Version 0.4.2
 
-https://github.com/TryGhost/Ghost/wiki/Roadmap-History:-Milestone-4---Version-0.4.0#version-042---theme-updates--major-fixes
+Maintenance release with many new features
+
+See [Milestone History](https://github.com/TryGhost/Ghost/wiki/Roadmap-History:-Milestone-4---Version-0.4.0#version-042---theme-updates--major-fixes) or the [release post](http://blog.ghost.org/ghost-0-4-2-maintenance-release/)
 
 #### Version 0.4.1 (30th Jan)
 
