@@ -4,19 +4,6 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 ----
 
-## Version 0.4.2 - Theme Updates & Major fixes
-
-### Q1 2014
-
-The work towards Milestone 5 has already delivered significant new features, bug fixes, and awesome infrastructural changes that make Ghost easier to work with. At the same time, there is a very long way to go still before we can deliver 0.5, and that is being extended because of the switch-over to Ember. Therefore the Ghost team has decided to take advantage of being pre-1.0 and deliver a patch release with new features.
-
-0.4.2 will deliver many of the theme changes that were planned for 0.5, and some that were planned for 0.6! It will also fix a number of particularly hairy bugs, and significant improvements to the editor.
-
-Take a look at the [closed issue list](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=18&page=1&sort=created&state=closed) to see what will be in 0.4.2
-
-
-----
-
 ## Milestone 5 - Version 0.5.0 - Apps & Import
 
 ### Q2 2014
@@ -88,11 +75,7 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 
 **Tasks**:
 
-* [x] Add `package.json` support for themes, providing theme developers with a simple way to define key data about their themes.
-* [x] Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
 * [ ] Create a set of placeholder style helpers which work together with filters for Apps, such as `{{comments}}` or `{{social}}`.
-* [x] Add the much-awaited tag pages feature.
-* [X] Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
 * [~] Improve error handling and debugging for themes.
 
 ### Other
@@ -103,7 +86,6 @@ Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&la
 
 * [ ] Develop a brand new installation screen to be used instead of signup at first run.
 * [ ] Introduce upgrade tools to bring us one step closer to 1-click upgrades.
-* [~] Improvements towards using Ghost as a module, publish to npm
 * [ ] Add a timezone setting, which is used to display dates relative to the admin-user across the admin and theme.
 
 #### Note on the dashboard
