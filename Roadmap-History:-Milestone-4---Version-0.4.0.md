@@ -87,18 +87,6 @@ Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 ----
 
-## Version 0.4.1
-
-### Late January
-
-It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs.
-
-The 0.4.1 maintenance release closes to PRs at midnight 27th January. Release is scheduled for later this week.
-
-Open issues: [0.4.1](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
-
-----
-
 ## Version 0.4.2 - Theme Updates & Major fixes
 
 ### Q1 2014
