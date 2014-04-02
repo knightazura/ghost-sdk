@@ -84,3 +84,43 @@ Bugs which don't fit into the categories above. PLEASE KILL THESE WITH FIRE.
 
 * ~~Editing publish date of unpublished post yields JavaScript error~~ [~~#1332~~](https://github.com/TryGhost/Ghost/issues/1332)
 * ~~custom partial/pagination.hbs not cleared on theme switch~~ [~~#1203~~](https://github.com/TryGhost/Ghost/issues/1203)
+
+----
+
+## Version 0.4.1
+
+### Late January
+
+It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs.
+
+The 0.4.1 maintenance release closes to PRs at midnight 27th January. Release is scheduled for later this week.
+
+Open issues: [0.4.1](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
+
+----
+
+## Version 0.4.2 - Theme Updates & Major fixes
+
+### Q1 2014
+
+The work towards Milestone 5 has already delivered significant new features, bug fixes, and awesome infrastructural changes that make Ghost easier to work with. At the same time, there is a very long way to go still before we can deliver 0.5, and that is being extended because of the switch-over to Ember. Therefore the Ghost team has decided to take advantage of being pre-1.0 and deliver a patch release with new features.
+
+0.4.2 will deliver many of the theme changes that were planned for 0.5, and some that were planned for 0.6! It will also fix a number of particularly hairy bugs, and significant improvements to the editor.
+
+Take a look at the [closed issue list](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=18&page=1&sort=created&state=closed) to see what will be in 0.4.2
+
+**Tasks**:
+
+* [x] Add `package.json` support for themes, providing theme developers with a simple way to define key data about their themes.
+* [x] Develop the advanced `has` helper to provide more options for customising themes dependent on what data is available.
+* [x] Add the much-awaited tag pages feature.
+* [X] Introduce support for custom page and tag templates, allowing individual pages or tags to have a different templates.
+
+### Other
+
+**Goal**: Ghost 0.5 should significantly improve the ease of creating and customising a blog.
+
+**Tasks**:
+
+* [x] Improvements towards using Ghost as a module, publish to npm
+
