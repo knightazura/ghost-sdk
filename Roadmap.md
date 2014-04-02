@@ -152,31 +152,35 @@ See [planned features](https://github.com/TryGhost/Ghost/wiki/Planned-Features) 
 
 ## Past Milestones
 
-#### Milestone 3 - Version 0.3.0 - Kickstarter release
+#### Version 0.4.2
 
-See [0.3.0](https://github.com/TryGhost/Ghost/commits/0.3.0)
+https://github.com/TryGhost/Ghost/wiki/Roadmap-History:-Milestone-4---Version-0.4.0#version-042---theme-updates--major-fixes
 
-#### Version 0.3.1
+#### Version 0.4.1 (30th Jan)
 
-Maintenance release, see [0.3.1](https://github.com/TryGhost/Ghost/commits/0.3.1)
-
-#### Version 0.3.2 (12th Oct), followed by Public release (14th Oct)
-
-Maintenance release, see [0.3.2](https://github.com/TryGhost/Ghost/commits/0.3.2)
+Maintenance release, see [0.4.1](https://github.com/TryGhost/Ghost/commits/0.4.1)
 
 #### Milestone 4 - Version 0.4.0 (13th Jan)
 
 See [Milestone History](https://github.com/TryGhost/Ghost/wiki/Roadmap-History:-Milestone-4---Version-0.4.0) or the [Release Notes](https://github.com/TryGhost/Ghost/wiki/Release-Notes:-0.4.0)
 
-## Version 0.4.1
+#### Version 0.3.3 (18th of Oct)
 
-### Late January
+Maintenance & security release, see [0.3.3](https://github.com/TryGhost/Ghost/commits/0.3.3)
 
-It is anticipated that there will be a 0.4.1 maintenance release a few weeks after 0.4 purely to iron out some bugs.
+#### Version 0.3.2 (12th Oct), followed by Public release (14th Oct)
 
-The 0.4.1 maintenance release closes to PRs at midnight 27th January. Release is scheduled for later this week.
+Maintenance release, see [0.3.2](https://github.com/TryGhost/Ghost/commits/0.3.2)
 
-Open issues: [0.4.1](https://github.com/TryGhost/Ghost/issues?milestone=16&state=open)
+#### Version 0.3.1
+
+Maintenance release, see [0.3.1](https://github.com/TryGhost/Ghost/commits/0.3.1)
+
+#### Milestone 3 - Version 0.3.0 - Kickstarter release
+
+See [0.3.0](https://github.com/TryGhost/Ghost/commits/0.3.0)
+
+
 
 #### History 
 
