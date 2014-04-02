@@ -172,7 +172,7 @@ Maintenance & security release, see [0.3.3](https://github.com/TryGhost/Ghost/co
 
 Maintenance release, see [0.3.2](https://github.com/TryGhost/Ghost/commits/0.3.2)
 
-#### Version 0.3.1
+#### Version 0.3.1 (27th Sep)
 
 Maintenance release, see [0.3.1](https://github.com/TryGhost/Ghost/commits/0.3.1)
 
