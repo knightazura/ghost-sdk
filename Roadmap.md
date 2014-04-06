@@ -14,7 +14,7 @@ Focuses on the app boilerplates, API, filters, importers, permissions, security 
 
 Open issues: [0.5](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
 
-Delivering the app platform for Ghost is a truly enormous project. To get a full grasp of what this entails, it is recommended that you read [Imagining-the-Ghost-Developer-Tools](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Tools). The roadmap here documents which aspects of the Ghost Developer Tools (GDT) we intend to deliver in 0.5, along with other areas of work that are required in order to deliver this first iteration of Apps.
+Delivering the app platform for Ghost is a truly enormous project. To get a full grasp of what this entails, it is recommended that you read [Imagining-the-Ghost-Developer-Tools](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Kit). The roadmap here documents which aspects of the Ghost Developer Tools (GDT) we intend to deliver in 0.5, along with other areas of work that are required in order to deliver this first iteration of Apps.
 
 There are 4 main areas of work that will take place in 0.5, known as [Apps](#apps), [Importer](#importer), [Themes](#themes) and [Other](#other). Each area and its individual goals are described below.
 
