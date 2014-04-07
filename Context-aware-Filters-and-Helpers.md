@@ -72,5 +72,12 @@ filters.doFilter('post.render', html, {
 
 ## Context Table
 
-
-
+|           | / | /single-post | /page/2 | /tag/ghost | /tag/ghost/page/2 |
+|-----------|:-:|:------------:|:-------:|:----------:|:-----------------:|
+| home      | x |              |    x    |            |                   |
+| single    |   |       x      |         |            |                   |
+| tag       |   |              |         |      x     |         x         |
+| paged     |   |              |    x    |            |         x         |
+| list      |   |              |    x    |            |         x         |
+| home-list | x |              |    x    |            |                   |
+| tag-list  |   |              |         |      x     |         x         |
