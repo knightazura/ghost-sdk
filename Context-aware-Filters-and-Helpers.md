@@ -44,8 +44,7 @@ this.ghost.filters.register('rss.feed', function (data, context) {
 
 ```javascript
 filters.doFilter('rss.feed', feed, {
-    names: ['rss'] // Context name
-    paged: true
+    names: ['rss', 'paged'] // Context names
 });
 ```
 
