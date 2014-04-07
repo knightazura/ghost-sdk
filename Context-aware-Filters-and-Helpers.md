@@ -29,6 +29,44 @@ Special:
 
 An app can use filters by providing a callback function. A filter can modify data that is passed to it. 
 
-Example:
+### Example 1: Change feed title on paged feed
 
+```javascript
+this.ghost.filters.register('rss.feed', function (data, context) {
+    if (context.paged) {
+        // Changes feed title based on context
+        data.title = data.title + " archive";
+    }
+
+    return data;
+});
 ```
+
+```javascript
+filters.doFilter('rss.feed', feed, {
+    names: ['rss'] // Context name
+    paged: true
+});
+```
+
+### Example 2: Add `<audio>` player when rendering post on frontend
+
+```javascript
+this.ghost.filters.register('post.render', function (html, context) {
+    if (_.contains(context.name, 'home-list')) {
+        // Fetch app_fields for post.id
+        audioFile = appFields.fetch(post.id, 'audioFile');
+        html = "<audio>" + audioFile + "</audio>" + html;
+    }
+
+    return html;
+});
+```
+
+```javascript
+filters.doFilter('post.render', html, {
+    names: ['home', 'home-list'],
+    post: post
+});
+```
+
