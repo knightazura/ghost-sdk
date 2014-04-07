@@ -27,7 +27,7 @@ Special:
 
 ## Context in filters
 
-An app can use filters by providing a callback function. A filter can modify data that is passed to it. 
+An app can use filters by providing a callback function. A filter can modify data that is passed to it. In addition to the data, filters also get a second parameter that provides contextual information. The `names` key contains the list of currently active contexts.
 
 ### Example 1: Change feed title on paged feed
 
@@ -69,4 +69,8 @@ filters.doFilter('post.render', html, {
     post: post
 });
 ```
+
+## Context Table
+
+
 
