@@ -33,7 +33,7 @@ An app can use filters by providing a callback function. A filter can modify dat
 
 ```javascript
 this.ghost.filters.register('rss.feed', function (data, context) {
-    if (context.paged) {
+    if (_.contains(context.name, 'paged')) {
         // Changes feed title based on context
         data.title = data.title + " archive";
     }
