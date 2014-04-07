@@ -8,7 +8,7 @@ Example: `post.hbs` and `index.hbs` can use a `_single.hbs` partial to render ea
 
 ## Context in helpers
 
-The `{{#is}}` block helper provides a means to ask for the current context. It can be used to render posts 
+The `{{#is}}` block helper provides a means to ask for the current context. 
  
 * `{{#is "home"}}` -> true if we’re on the homepage, false on any other page
 * `{{#is "single"}}` -> true if we're on a post or static page
