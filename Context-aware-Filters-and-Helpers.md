@@ -99,9 +99,9 @@ filters.doFilter('post.render', html, {
 | **coming in ??** | (maybe) | - | - | - | - | - | - |
 | users | /users/ | F | F | users | n/a | | [users] | [{users}], {pagination} |
 | users paged| /users/page/2/ | F | T | users | n/a | | [users, paged] | [{users}], {pagination} |
-| tags | /tags/ | F | F | tags | n/a | | | [tags], [{tags}], {pagination} |
-| tags | /tags/page/2 | F | F | tags | n/a | | | [{tags}], {pagination} |
-| archive | /archive/ | F | F | archive or index | n/a | | | [{posts}], {pagination} |
-| archive paged| /archive/page/2/ | F | F | archive or index | n/a | | | [{posts}], {pagination} |
+| tags | /tags/ | F | F | tags | n/a | | [tags] | [{tags}], {pagination} |
+| tags | /tags/page/2 | F | F | tags | n/a | | [tags, paged] | [{tags}], {pagination} |
+| archive | /archive/ | F | F | archive or index | n/a | | [archive] | [{posts}], {pagination} |
+| archive paged| /archive/page/2/ | F | F | archive or index | n/a | | [archive, paged] | [{posts}], {pagination} |
 
 ? - The concept of 'single' vs 'list' breaks down for tag pages as they represent a single tag, but a list of posts... or are 
