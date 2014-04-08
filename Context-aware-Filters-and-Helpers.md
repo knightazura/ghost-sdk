@@ -10,19 +10,13 @@ Example: `post.hbs` and `index.hbs` can use a `_single.hbs` partial to render ea
 
 The `{{#is}}` block helper provides a means to ask for the current context. 
  
-* `{{#is "home"}}` -> true if we’re on the homepage, false on any other page
-* `{{#is "single"}}` -> true if we're on a post or static page
-* `{{#is "tag"}}` -> true if we’re on a tag page
-
-Lists: 
-
-* `{{#is "home-list"}}` -> true if we’re on the normal post listing (`homepage` + `paged`)
-* `{{#is "tag-list"}}` -> true if we’re on a tag page (`tag` + `paged`)
+* `{{#is "index"}}` -> true if we’re on the default post listing (`/`, `/page/2`, ...)
+* `{{#is "post"}}` -> true if we're on a post or static page
+* `{{#is "tag"}}` -> true if we’re on a tag page (including paged)
 
 Special:
 
-* `{{#is "paged"}}` -> true if we’re on page 2, 3, etc of the home or tag listings
-* `{{#is "list"}}` -> true if we’re on any home, tag, or paginated listing page
+* `{{#is "paged"}}` -> true if we’re on page 2, 3, etc of the home, tag, user listings
 
 
 ## Context in filters
@@ -33,7 +27,7 @@ An app can use filters by providing a callback function. A filter can modify dat
 
 ```javascript
 this.ghost.filters.register('rss.feed', function (data, context) {
-    if (_.contains(context.name, 'paged')) {
+    if (_.contains(context.names, 'paged')) {
         // Changes feed title based on context
         data.title = data.title + " archive";
     }
@@ -48,11 +42,11 @@ filters.doFilter('rss.feed', feed, {
 });
 ```
 
-### Example 2: Add `<audio>` player when rendering post on frontend
+### Example 2: Add `<audio>` player when rendering post on frontend (Note: `post.render` doesn’t actually exist)
 
 ```javascript
 this.ghost.filters.register('post.render', function (html, context) {
-    if (_.contains(context.name, 'home-list')) {
+    if (_.contains(context.names, 'index')) {
         // Fetch app_fields for post.id
         audioFile = appFields.fetch(post.id, 'audioFile');
         html = "<audio>" + audioFile + "</audio>" + html;
@@ -64,24 +58,12 @@ this.ghost.filters.register('post.render', function (html, context) {
 
 ```javascript
 filters.doFilter('post.render', html, {
-    names: ['home', 'home-list'],
+    names: ['index'],
     post: post
 });
 ```
 
 ## Context Table
-
-|           | / | /single-post | /page/2 | /tag/ghost | /tag/ghost/page/2 |
-|-----------|:-:|:------------:|:-------:|:----------:|:-----------------:|
-| home      | x |              |    x    |            |                   |
-| single    |   |       x      |         |            |                   |
-| tag       |   |              |         |      x     |         x         |
-| paged     |   |              |    x    |            |         x         |
-| list      |   |              |    x    |            |         x         |
-| home-list | x |              |    x    |            |                   |
-| tag-list  |   |              |         |      x     |         x         |
-
-## Alternative Context Table
 
 | name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| context | data |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
