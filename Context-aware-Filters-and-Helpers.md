@@ -103,5 +103,3 @@ filters.doFilter('post.render', html, {
 | tags | /tags/page/2 | F | F | tags.hbs | n/a | | [tags, paged] | [{tags}], {pagination} |
 | archive | /archive/ | F | F | archive.hbs or index.hbs | n/a | | [archive] | [{posts}], {pagination} |
 | archive paged| /archive/page/2/ | F | F | archive.hbs or index.hbs | n/a | | [archive, paged] | [{posts}], {pagination} |
-
-? - The concept of 'single' vs 'list' breaks down for tag pages as they represent a single tag, but a list of posts... or are 
