@@ -87,10 +87,10 @@ filters.doFilter('post.render', html, {
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | home | / | F | F | index.hbs | home-template | *home-template* | [{posts}], {pagination} |
 | home archive | /page/2 | F | T | index.hbs | archive-template  | *home-template, paged* | [{posts}], {pagination} |
-| single post | /my-post | T | F | post.hbs | post-template, tag-* |  | {post}
-| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | | {post}
-| tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | | [{posts}], {pagination}, {tag} |
-| tag archive | /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | | [{posts}], {pagination}, {tag} |
+| single post | /my-post | T | F | post.hbs | post-template, tag-\* | *post-template, tag-\** | {post}
+| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-\* | *page-template, tag-\** | {post}
+| tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-\* | *tag-template, tag-\** | [{posts}], {pagination}, {tag} |
+| tag archive | /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-\* | *tag-template, tag-\*, paged* | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | F | n/a | n/a | n/a | rss feed XML
 | rss archive | /rss/2/ | F | T | n/a | n/a | n/a | rss feed XML
 | **coming in 0.6** | (maybe) | - | - | - | - | - | - |
