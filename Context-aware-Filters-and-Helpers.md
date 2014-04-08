@@ -97,7 +97,7 @@ filters.doFilter('post.render', html, {
 | user | /user/my-user/ | F | F | user.hbs or index.hbs | n/a | _user-template, user-*_ | [{posts}], {pagination}, {user} |
 | user archive | /user/my-user/page/2 | F | T | user.hbs or index.hbs | n/a | _user-template, user-*, paged_ | [{posts}], {pagination}, {user} |
 | **coming in ??** | (maybe) | - | - | - | - | - | - |
-| users | /users/ | F? | F | users.hbs | n/a | | [{users}], {pagination} |
+| users | /users/ | F | F | users.hbs | n/a | | [{users}], {pagination} |
 | users archive | /users/page/2/ | F | T | users.hbs | n/a | | [{users}], {pagination} |
 | tags | /tags/ | F | F | tags.hbs | n/a | | [{tags}], {pagination} |
 | tags | /tags/page/2 | F | F | tags.hbs | n/a | | [{tags}], {pagination} |
