@@ -18,4 +18,4 @@ This is an overview of how the Ghost API is structured and how the different mod
 
 - Handlebars helpers (`/core/server/helpers/`): Handlebars helpers are used to provide functionality to the templates rendered by the front end. JSON API is used to get data used by the templates.
 
-- Front end: The front end is rendered using the theme and content from the database is added using the Handlebars templates.
+- Front end (`/core/server/controllers/frontend.js`): The front end is rendered using the theme and content from the database is added using the Handlebars templates.  All rendered content also passes through Express middleware functions.
