@@ -89,9 +89,19 @@ filters.doFilter('post.render', html, {
 | home archive | /page/2 | F | T | index.hbs | archive-template  | | [{posts}], {pagination} |
 | single post | /my-post | T | F | post.hbs | post-template, tag-* | | {post}
 | single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template page | | {post}
-| tag | /tag/my-tag/ | ? | F | tag.hbs or index.hbs | tag-template, tag-* | | [{posts}], {pagination}, {tag} |
-| tag archive | /tag/my-tag/page/2/ | ? | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | | [{posts}], {pagination}, {tag} |
+| tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | | [{posts}], {pagination}, {tag} |
+| tag archive | /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | F | - | - | - | rss feed XML
 | rss archive | /rss/2/ | F | T | - | - | - | rss feed XML
+| **coming in 0.6** | (maybe) | - | - | - | - | - | - |
+| user | /user/my-user/ | F | F | user.hbs or index.hbs | n/a | | [{posts}], {pagination}, {user} |
+| user archive | /user/my-user/page/2 | F | T | user.hbs or index.hbs | n/a | | [{posts}], {pagination}, {user} |
+| **coming in ??** | (maybe) | - | - | - | - | - | - |
+| users | /users/ | F? | F | users.hbs | n/a | | [{users}], {pagination} |
+| users archive | /users/page/2/ | F | T | users.hbs | n/a | | [{users}], {pagination} |
+| tags | /tags/ | F | F | tags.hbs | n/a | | [{tags}], {pagination} |
+| tags | /tags/page/2 | F | F | tags.hbs | n/a | | [{tags}], {pagination} |
+| archive | /archive/ | F | F | archive.hbs or index.hbs | n/a | | [{posts}], {pagination} |
+| archive archive | /archive/page/2/ | F | F | archive.hbs or index.hbs | n/a | | [{posts}], {pagination} |
 
 ? - The concept of 'single' vs 'list' breaks down for tag pages as they represent a single tag, but a list of posts... or are 
