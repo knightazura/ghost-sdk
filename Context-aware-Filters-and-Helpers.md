@@ -42,7 +42,9 @@ filters.doFilter('rss.feed', feed, {
 });
 ```
 
-### Example 2: Add `<audio>` player when rendering post on frontend (Note: `post.render` doesn’t actually exist)
+### Example 2: Add `<audio>` player when rendering post on frontend 
+
+Note: `post.render` doesn’t actually exist.
 
 ```javascript
 this.ghost.filters.register('post.render', function (html, context) {
