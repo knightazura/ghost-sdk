@@ -83,8 +83,8 @@ filters.doFilter('post.render', html, {
 
 ## Alternative Context Table
 
-| name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| data  |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| {{#is}} | data  |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | home, default | / | F | F | index.hbs | home-template | _home-template, default-template_ | [{posts}], {pagination} |
 | default paged| /page/2 | F | T | index.hbs | archive-template  | _default-template, paged_ | [{posts}], {pagination} |
 | single post | /my-post | T | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | {post}
