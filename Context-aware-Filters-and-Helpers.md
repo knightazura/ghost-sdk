@@ -91,8 +91,8 @@ filters.doFilter('post.render', html, {
 | single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template page | | {post}
 | tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | | [{posts}], {pagination}, {tag} |
 | tag archive | /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | | [{posts}], {pagination}, {tag} |
-| rss | /rss/ | F | F | - | - | - | rss feed XML
-| rss archive | /rss/2/ | F | T | - | - | - | rss feed XML
+| rss | /rss/ | F | F | n/a | n/a | n/a | rss feed XML
+| rss archive | /rss/2/ | F | T | n/a | n/a | n/a | rss feed XML
 | **coming in 0.6** | (maybe) | - | - | - | - | - | - |
 | user | /user/my-user/ | F | F | user.hbs or index.hbs | n/a | | [{posts}], {pagination}, {user} |
 | user archive | /user/my-user/page/2 | F | T | user.hbs or index.hbs | n/a | | [{posts}], {pagination}, {user} |
