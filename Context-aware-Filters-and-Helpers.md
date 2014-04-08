@@ -80,3 +80,18 @@ filters.doFilter('post.render', html, {
 | list      |   |              |    x    |            |         x         |
 | home-list | x |              |    x    |            |                   |
 | tag-list  |   |              |         |      x     |         x         |
+
+## Alternative Context Table
+
+| name | url (default) | single | paged | template | body classes (current) | body classes (proposed) | data  |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| home | / | F | F | index.hbs | home-template | | [{posts}], {pagination} |
+| home archive | /page/2 | F | T | index.hbs | archive-template  | | [{posts}], {pagination} |
+| single post | /my-post | T | F | post.hbs | post-template, tag-* | | {post}
+| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template page | | {post}
+| tag | /tag/my-tag/ | ? | F | tag.hbs or index.hbs | tag-template, tag-* | | [{posts}], {pagination}, {tag} |
+| tag archive | /tag/my-tag/page/2/ | ? | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | | [{posts}], {pagination}, {tag} |
+| rss | /rss/ | F | F | - | - | - | rss feed XML
+| rss archive | /rss/2/ | F | T | - | - | - | rss feed XML
+
+? - The concept of 'single' vs 'list' breaks down for tag pages as they represent a single tag, but a list of posts... or are 
