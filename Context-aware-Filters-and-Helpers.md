@@ -85,8 +85,8 @@ filters.doFilter('post.render', html, {
 
 | name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| data  |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| home | / | F | F | index.hbs | home-template | _home-template_ | [{posts}], {pagination} |
-| home paged| /page/2 | F | T | index.hbs | archive-template  | _home-template, paged_ | [{posts}], {pagination} |
+| home, default | / | F | F | index.hbs | home-template | _home-template, default-template_ | [{posts}], {pagination} |
+| default paged| /page/2 | F | T | index.hbs | archive-template  | _default-template, paged_ | [{posts}], {pagination} |
 | single post | /my-post | T | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | {post}
 | single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | _page-template, tag-*_ | {post}
 | tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [{posts}], {pagination}, {tag} |
