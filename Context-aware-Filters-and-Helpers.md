@@ -85,10 +85,10 @@ filters.doFilter('post.render', html, {
 
 | name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| context | {{#is}}  | data  |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| index (home) | / | F | F | index.hbs | home-template | _home-template_ | | [index, home] | [{posts}], {pagination} |
-| index paged| /page/2 | F | T | index.hbs | archive-template  | _paged_ | | [{posts}], {pagination} |
-| single post | /my-post | T | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | | {post}
-| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | _page-template, tag-*_ | | {post}
+| index (home) | / | F | F | index | home-template | _home-template_ | {{#is "index"}} | [index, home] | [{posts}], {pagination} |
+| index paged| /page/2 | F | T | index | archive-template  | _paged_ | | [{posts}], {pagination} |
+| single post | /my-post | T | F | post | post-template, tag-* | _post-template, tag-*_ | | {post}
+| single page | /my-page | T | F | page-{{slug}} or page or post | post-template, page, tag-* | _page-template, tag-*_ | | {post}
 | tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | | [{posts}], {pagination}, {tag} |
 | tag paged| /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | F | n/a | n/a | n/a | | rss feed XML
