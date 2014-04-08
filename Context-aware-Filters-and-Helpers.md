@@ -83,25 +83,25 @@ filters.doFilter('post.render', html, {
 
 ## Alternative Context Table
 
-| name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| {{#is}} | data  |
+| name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| context | {{#is}}  | data  |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| home, default | / | F | F | index.hbs | home-template | _home-template, default-template_ | [{posts}], {pagination} |
-| default paged| /page/2 | F | T | index.hbs | archive-template  | _default-template, paged_ | [{posts}], {pagination} |
-| single post | /my-post | T | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | {post}
-| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | _page-template, tag-*_ | {post}
-| tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [{posts}], {pagination}, {tag} |
-| tag paged| /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [{posts}], {pagination}, {tag} |
-| rss | /rss/ | F | F | n/a | n/a | n/a | rss feed XML
-| rss paged| /rss/2/ | F | T | n/a | n/a | n/a | rss feed XML
+| home, default | / | F | F | index.hbs | home-template | _home-template, default-template_ | | [{posts}], {pagination} |
+| default paged| /page/2 | F | T | index.hbs | archive-template  | _default-template, paged_ | | [{posts}], {pagination} |
+| single post | /my-post | T | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | | {post}
+| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | _page-template, tag-*_ | | {post}
+| tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | | [{posts}], {pagination}, {tag} |
+| tag paged| /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | | [{posts}], {pagination}, {tag} |
+| rss | /rss/ | F | F | n/a | n/a | n/a | | rss feed XML
+| rss paged| /rss/2/ | F | T | n/a | n/a | n/a | | rss feed XML
 | **coming in 0.6** | (maybe) | - | - | - | - | - | - |
 | user | /user/my-user/ | F | F | user.hbs or index.hbs | n/a | _user-template, user-*_ | [{posts}], {pagination}, {user} |
 | user paged| /user/my-user/page/2 | F | T | user.hbs or index.hbs | n/a | _user-template, user-*, paged_ | [{posts}], {pagination}, {user} |
 | **coming in ??** | (maybe) | - | - | - | - | - | - |
 | users | /users/ | F | F | users.hbs | n/a | | [{users}], {pagination} |
 | users paged| /users/page/2/ | F | T | users.hbs | n/a | | [{users}], {pagination} |
-| tags | /tags/ | F | F | tags.hbs | n/a | | [{tags}], {pagination} |
-| tags | /tags/page/2 | F | F | tags.hbs | n/a | | [{tags}], {pagination} |
-| archive | /archive/ | F | F | archive.hbs or index.hbs | n/a | | [{posts}], {pagination} |
-| archive paged| /archive/page/2/ | F | F | archive.hbs or index.hbs | n/a | | [{posts}], {pagination} |
+| tags | /tags/ | F | F | tags.hbs | n/a | | | [{tags}], {pagination} |
+| tags | /tags/page/2 | F | F | tags.hbs | n/a | | | [{tags}], {pagination} |
+| archive | /archive/ | F | F | archive.hbs or index.hbs | n/a | | | [{posts}], {pagination} |
+| archive paged| /archive/page/2/ | F | F | archive.hbs or index.hbs | n/a | | | [{posts}], {pagination} |
 
 ? - The concept of 'single' vs 'list' breaks down for tag pages as they represent a single tag, but a list of posts... or are 
