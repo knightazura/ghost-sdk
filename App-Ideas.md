@@ -32,6 +32,26 @@ If you have an idea, please add it to the list no need to break it down into fea
 * Multilingual blogs
    * Each post could be annotated with an AppField `language` - would require post filtering by AppField value (only posts with app_field language = `en`)
 
+Quick List from looking around GitHub / Forum:
+
+* Editor stuff
+  * Hemmingway app
+  * Markdown Flavors
+  * Mathjax
+  * Vim bindings
+* Media
+  * oEmbed
+* Login
+  * 2FA
+  * OAuth / Google/FB logins
+* Blog output
+  * RSS with excerpt
+  * Meta data
+  * Reading time
+  * bookmarklets
+* Infra
+  * 301 redirects
+  * output flat files 
 
 Places to go for inspiration:
 
