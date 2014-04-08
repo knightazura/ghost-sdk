@@ -87,8 +87,8 @@ filters.doFilter('post.render', html, {
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | index (home) | / | F | F | index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} |
 | index paged| /page/2 | F | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} |
-| single post | /my-post | T | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post}
-| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | _page-template, tag-*_ | [post] | {post}
+| post | /my-post | T | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post}
+| page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | _page-template, tag-*_ | [post] | {post}
 | tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [tag] | [{posts}], {pagination}, {tag} |
 | tag paged| /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | F | n/a | n/a | n/a | [rss] | rss feed XML
