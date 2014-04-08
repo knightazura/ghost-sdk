@@ -83,12 +83,12 @@ filters.doFilter('post.render', html, {
 
 ## Alternative Context Table
 
-| name | url (default) | single | paged | template | body classes (current) | body classes (proposed) | data  |
+| name | url (default) | single | paged | template | body classes (current) | body classes (proposed) [WIP]| data  |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| home | / | F | F | index.hbs | home-template | | [{posts}], {pagination} |
-| home archive | /page/2 | F | T | index.hbs | archive-template  | | [{posts}], {pagination} |
-| single post | /my-post | T | F | post.hbs | post-template, tag-* | | {post}
-| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template page | | {post}
+| home | / | F | F | index.hbs | home-template | *home-template* | [{posts}], {pagination} |
+| home archive | /page/2 | F | T | index.hbs | archive-template  | *home-template, paged* | [{posts}], {pagination} |
+| single post | /my-post | T | F | post.hbs | post-template, tag-* |  | {post}
+| single page | /my-page | T | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-* | | {post}
 | tag | /tag/my-tag/ | F | F | tag.hbs or index.hbs | tag-template, tag-* | | [{posts}], {pagination}, {tag} |
 | tag archive | /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | F | n/a | n/a | n/a | rss feed XML
