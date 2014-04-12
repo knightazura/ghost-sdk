@@ -57,3 +57,27 @@ Places to go for inspiration:
 
 * https://github.com/TryGhost/Ghost/search?q=app+territory&ref=cmdform&type=Issues
 * https://ghost.org/forum/plugins/
+
+----
+
+## App Profiles
+
+### Disqus Plugin
+
+### Disqus App
+(comments)
+
+Quite possibly the most frequent change made to Casper, or any other theme, is to add comments. Disqus has emerged as a clear favourite of all the services available for adding comments to your blog.
+
+The Disqus App adds Disqus to the bottom of every post. It also provides a way to output the comment count.
+
+#### Version 1:
+* I want to embed data into post.hbs, either via a filter, or via a helper.
+* I want to have a settings page where users can enter their disqus code
+* I want to provide a custom helper for comment_count on the blog frontend
+
+#### Version 2:
+* I wan to display comment_count in the admin UI
+
+#### Version 3:
+* I want to register dashboard widgets
