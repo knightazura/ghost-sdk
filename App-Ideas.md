@@ -62,8 +62,6 @@ Places to go for inspiration:
 
 ## App Profiles
 
-### Disqus Plugin
-
 ### Disqus App
 (comments)
 
