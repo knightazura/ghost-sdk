@@ -63,19 +63,24 @@ Places to go for inspiration:
 ## App Profiles
 
 ### Disqus App
-(comments)
+Type: comments
 
-Quite possibly the most frequent change made to Casper, or any other theme, is to add comments. Disqus has emerged as a clear favourite of all the services available for adding comments to your blog.
+Quite possibly the most frequent change made to Casper, or any other theme, is to add comments. Disqus has emerged as a clear favourite of all the services available for adding comments to your blog, already available as a built-in part of many themes.
 
-The Disqus App adds Disqus to the bottom of every post. It also provides a way to output the comment count.
+An App for Disqus would allow users to add Disqus comments to their blog without having to touch theme files or code. The only unique piece of configuration for Disqus would be the shortname. Therefore a setting would be needed for users to enter this.
 
-#### Version 1:
+A Disqus App may also wish to provide a comment count, which themes can also use if it is available. 
+
+As an advanced feature, the App may also wish to add an extra field for posts, so that users can turn comments on or off at a post level.
+
+As an interim, until the `{{comments}}` helper becomes widely used, the theme might want to provide a checkbox allowing the user to 'force' comments - which the theme might use some other way.
+
+#### Basic features (should be available in 0.5):
 * I want to embed data into post.hbs, either via a filter, or via a helper.
 * I want to have a settings page where users can enter their disqus code
 * I want to provide a custom helper for comment_count on the blog frontend
 
-#### Version 2:
-* I wan to display comment_count in the admin UI
-
-#### Version 3:
+#### Advanced features (may not become available until later):
+* I want to display comment_count in the admin UI
+* I want to provide post-level configuration for comments
 * I want to register dashboard widgets
