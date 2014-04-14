@@ -84,3 +84,13 @@ As an interim, until the `{{comments}}` helper becomes widely used, the theme mi
 * I want to display comment_count in the admin UI
 * I want to provide post-level configuration for comments
 * I want to register dashboard widgets
+
+#### Lifecycle
+
+The app gets added to the filesystem and marked as active.
+This causes the app to be installed, which means that the custom 'shortname' setting is registered with the database with a default value of null. 
+Because the shortname is null, there should be no impact at this stage - filters and helpers are not registered.
+User visits the app settings screen, enters their shortname and presses save
+This causes the app to register its filters and helpers, as they are now usable.
+Any restarts of Ghost will cause the app to be reactivated, and activating will now trigger filters and helpers to be registered because the shortname is now present
+
