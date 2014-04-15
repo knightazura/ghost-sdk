@@ -2,31 +2,86 @@ The Roadmap aims to set out when certain features will appear. It reduces in cla
 
 If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
 
+**Update: 15th April 2014**
+
+The roadmap has been changed to become proect focused, rather than milestone focused to help the team deliver. Each project listed here in the Roadmap is listed in the order they will be done. Projects don't get a Ghost version in advance, but they do have an estimated delivery date. As we pick up each project, we'll assign a number of weeks / end date for the project - no project should last more than 4 weeks.
+
+The first project, API, is a dependency for the Ember project, Apps project and Multi-user project, which is why it is the first priority. The Ember project is required to deliver any features which require amends or additions to the admin UI. The Multi-user project has been brought forward as it is a highly requested feature, and the majority of the work is done by the API & Ember changes.
+
+---
+
+## API
+
+### Est. Q2 2014
+
+The API project is a dependency for the Ember, Multi-user and Apps projects. It involves changing the request and response formats of the internal data API to be clear and consistent, adding missing API endpoints, and implementing permissions across the API.
+
+See the [Epic](https://github.com/TryGhost/Ghost/issues/2124) for an overview of the project, what is required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?labels=&milestone=19&page=1&state=open) to pick up issues and monitor progress.
+
+#### Goals:
+
+* To standardise the Ghost data API by introducing a standard format which closely matches JSON-API
+* To introduce new API endpoints needed for Apps, Themes and other core parts of Ghost.
+* To introduce permissions / access control across the entire API
+* To produce structure documentation of each endpoint, the expected response and any errors that may result
+
+---
+
+## Ember
+
+### Est. Q2 2014
+
+The Ghost Admin will be rewritten in Ember.js as a full client side SPA, consuming the Ghost data API. This is a dependency for all features which depend on UI changes.
+
+See the [Epic](https://github.com/TryGhost/Ghost/issues/2271) for an overview of the project, what is required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open) to pick up issues and monitor progress.
+
+#### Goals
+
+* To rebuild the entire Ghost admin in Ember.js
+* To resolve as many UI bugs/issues as possible
+* To create a framework for rapid development of user interfaces in Ghost
+* To lay the groundwork to deliver significant improvements for mobile
+* ?To introduce a more holistic solution for managing keyboard shortcuts?
+
+---
+
+## Multi-user
+
+### Est. Q2 2014
+
+Ghost will get the option to add multiple users, with differing roles and permissions. 
+
+#### Goals
+* To make it possible to have a multi-user blog
+* To ensure that the admin UI is safe from XSS and other security issues
+* To improve the first run/install and introducton experience for users
+
+---
+
+## Upgrades
+### Est. Q3 2014
+
+Introduce an internal tool for upgrading Ghost
+
 ----
 
-## Milestone 5 - Version 0.5.0 - Apps & Import
-
-### Q2 2014
-
-This is the current Milestone
-
+## Apps Part 1
+### Est. Q3 2014
 Focuses on the app boilerplates, API, filters, importers, permissions, security and other app related things, to bring the first iteration of Ghost Apps to the public.
+
+
 
 Open issues: [0.5](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
 
-Delivering the app platform for Ghost is a truly enormous project. To get a full grasp of what this entails, it is recommended that you read [Imagining-the-Ghost-Developer-Kit](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Kit). The roadmap here documents which aspects of the Ghost Developer Tools (GDT) we intend to deliver in 0.5, along with other areas of work that are required in order to deliver this first iteration of Apps.
+Delivering the app platform for Ghost is a truly enormous project. To get a full grasp of what this entails, it is recommended that you read [Imagining-the-Ghost-Developer-Kit](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Kit). The roadmap here documents which aspects of the Ghost Developer Kit (GDK) we intend to deliver in 0.5, along with other areas of work that are required in order to deliver this first iteration of Apps.
 
-There are 4 main areas of work that will take place in 0.5, known as [Apps](#apps), [Importer](#importer), [Themes](#themes) and [Other](#other). Each area and its individual goals are described below.
+Apps encompasses work across both the [Ghost](https://github.com/TryGhost/Ghost) and [Ghost-App](https://github.com/TryGhost/Ghost-App) repositories. Work on this area is tracked through an [epic issue](https://github.com/TryGhost/Ghost/issues/1474) in the [Ghost](https://github.com/TryGhost/Ghost) repository. Watching this issue should allow any one interested to keep up-to-date on the progress of Ghost apps.
 
-### Apps
+#### Goals
+* app developers willbe able to create simple apps for Ghost that achieve the most obvious additions, like comments, analytics custom helpers, and media handling improvements. 
+* app developers should *not* expect to have full access to all tools documented in the GDK. Further updates will ship more advanced features.
 
-Issue label: [apps](https://github.com/TryGhost/Ghost/issues?direction=desc&labels=apps&milestone=12&page=1&sort=updated&state=open)
-
-By far the largest area of work, Apps encompasses work across both the [Ghost](https://github.com/TryGhost/Ghost) and [Ghost-App](https://github.com/TryGhost/Ghost-App) repositories. Work on this area is tracked through an [epic issue](https://github.com/TryGhost/Ghost/issues/1474) in the [Ghost](https://github.com/TryGhost/Ghost) repository. Watching this issue should allow any one interested to keep up-to-date on the progress of Ghost apps.
-
-**Goal**: In Ghost version 0.5, it is expected that developers would be able to create simple apps for Ghost that achieve the most obvious additions, like comments, analytics custom helpers, and media handling improvements. App developers should *not* expect to have full access to all tools documented in the GDT in 0.5. Further updates will ship more advanced features.
-
-**Tasks**:
+#### Tasks
 
 * [ ] Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
 * [~] Add `package.json` support for apps, enabling developers to define key data about apps, and also define their own dependencies.
@@ -49,15 +104,18 @@ By far the largest area of work, Apps encompasses work across both the [Ghost](h
     * [ ] The various toolsets
 * [ ] Begin work on the dashboard, which is being planned separately from 0.5. See [note on the dashboard](#note-on-the-dashboard)
 
+---
 
-### Importer
+## Importer Part 1
+
+### Est. ?? 2014
 
 Issue label: [importer](https://github.com/TryGhost/Ghost/issues?direction=desc&labels=importer&milestone=12&page=1&sort=updated&state=open)
 
+#### Goals
+* make it possible to easily import a blog from a WXR or RSS file, by installing and using the official [Ghost Importer](https://github.com/TryGhost/Ghost-Importer) App. This App should serve as an example app, and also be easily extended to support more import formats.
 
-**Goal**: In Ghost version 0.5, it should be possible to easily import a blog from a WXR or RSS file, by installing and using the official [Ghost Importer](https://github.com/TryGhost/Ghost-Importer) App. This App should serve as an example app, and also be easily extended to support more import formats.
-
-**Tasks**:
+#### Tasks
 
 * [ ] Develop a sexy new UI for the import tool, and move it to a new home.
 * [ ] Make it possible for Apps to hook into and extend the import UI.
@@ -65,82 +123,45 @@ Issue label: [importer](https://github.com/TryGhost/Ghost/issues?direction=desc&
 * [ ] Build the Importer App, with initial support for WXR and RSS imports.
 * [ ] Turn importing from a one-step do-or-die operation, into a several step process with opportunities to fix or discard invalid data.
 
+---
 
-### Themes
+## Localisation
 
-Issue label: [themes](https://github.com/TryGhost/Ghost/issues?direction=desc&labels=themes&milestone=12&page=1&sort=updated&state=open)
-
-
-**Goal**: Every version of Ghost should deliver new features for themes, improving the overall blogging experience and providing new opportunities for theme developers to create fantastic themes.
-
-**Tasks**:
-
-* [ ] Create a set of placeholder style helpers which work together with filters for Apps, such as `{{comments}}` or `{{social}}`.
-* [~] Improve error handling and debugging for themes.
-
-### Other
-
-**Goal**: Ghost 0.5 should significantly improve the ease of creating and customising a blog.
-
-**Tasks**:
-
-* [ ] Develop a brand new installation screen to be used instead of signup at first run.
-* [ ] Introduce upgrade tools to bring us one step closer to 1-click upgrades.
-* [ ] Add a timezone setting, which is used to display dates relative to the admin-user across the admin and theme.
-
-#### Note on the dashboard
-
-It was originally hoped / planned that the first version of the dashboard would be developed during 0.5, although it would be disabled by default until 0.6. However, at the moment, there are very few frontend developers involved with the Ghost project, and it doesn't seem realistic to include it.
-
-Instead, the idea is to plan the work for the dashboard during 0.5, and see if we can put together a team of people to work on it as a sideproject during 0.5 and 0.6. For more information see [where is the dashboard?](https://github.com/TryGhost/Ghost/wiki/Planned-Features#wiki-where-is-the-dashboard)
-
-----------
-## Milestone 6 - Version 0.6.0 - Multi-user and Localisation
-
-### Late Q2 / Early Q3 2014
+### Est. ?? 2014
 
 Focuses firstly on adding multi-user functionality, so that you can run a multi-author blog, along with addressing the security concerns this introduces. Secondly, on providing the tools for l10n & i18n - making it possible for you to use Ghost in your language, and to publish blogs in any language. 
 
-Open issues: [0.6](https://github.com/TryGhost/Ghost/issues?milestone=4&page=1&state=open)
+---
 
-Milestone 0.6 Mini Projects:
+## Dashboard
 
-##### Shortcuts
-* Keyboard Shortcut Overhaul [#1463](https://github.com/TryGhost/Ghost/issues/1463)
-* [BUG] Select Word Keyboard Shortcut doesn't work [#1275](https://github.com/TryGhost/Ghost/issues/1275)
-* [BUG] markdown help popup is truncated on small screens [#1273](https://github.com/TryGhost/Ghost/issues/1273)
+### Est. ?? 2014
 
-##### Scrolling
-**Note:**  This section needs an overhaul
+For more information see [where is the dashboard?](https://github.com/TryGhost/Ghost/wiki/Planned-Features#wiki-where-is-the-dashboard)
 
-* Editor screen: Advanced scroll features [#22](https://github.com/TryGhost/Ghost/issues/22)
-* Be smarter about how we line up markdown code with the live preview [#704](https://github.com/TryGhost/Ghost/pull/704)
-* [BUG] Editor UI - Scroll events are not smooth [#481](https://github.com/TryGhost/Ghost/issues/481)
-* [BUG] Editor scrolling gets stuck when typing lots of text [#535](https://github.com/TryGhost/Ghost/issues/535)
-* [BUG] Fucked up scrolling behaviour when typing  [#958](https://github.com/TryGhost/Ghost/issues/958)
+---
 
-----------
-## Milestone 7 - Version 0.7.0 - Editor & Mobile
+## Milestone 7 - Version 0.7.0 - Editor
 
-### Q3 2014
+### Est. ?? 2014
 
 Rough Plan: - focus on overhauling and rebuilding the editor, bringing full mobile/multi-device support, markdown & media improvements etc
 
 Open issues: [0.7](https://github.com/TryGhost/Ghost/issues?milestone=13&page=1&state=open)
 
-----------
+---
 ## Milestone 8 - Version 0.8.0 - Magazine Features
 
-### Late Q3 / Early Q4 2014 
+### Est. ?? 2014 
 
 Rough Plan: focus on advanced publishing workflows, catering for bigger, more complex teams and also on more advanced theme features aimed at building magazine style blogs. 
 
 Open issues: [0.8](https://github.com/TryGhost/Ghost/issues?milestone=14&page=1&state=open)
 
-----------
+---
 ## Milestone 9 - Version 0.9.0 - Cleanup 
 
-### Q4 2014
+### Est. ?? 2014 
 
 Rough Plan: focus on anything which is still missing and required for 1.0.0. This is currently an open ended opportunity to refactor, tidy up, finish off features, add finishing touches etc etc 
 
