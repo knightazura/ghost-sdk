@@ -85,14 +85,12 @@ Apps encompasses work across both the [Ghost](https://github.com/TryGhost/Ghost)
 
 * [ ] Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
 * [~] Add `package.json` support for apps, enabling developers to define key data about apps, and also define their own dependencies.
-* [ ] Roll out ACL across the Ghost admin, ensuring all objects and routes are correctly permissioned.
 * [ ] Introduce App permissions system to ensure that apps can only do the things for which they have permission.
 * [ ] Create the App UIs for installation, activation and management.
 * [ ] Update the schema to include tables for App settings, and create a way for Apps to define, access and provide UIs their own settings.
 * [ ] Develop the App install process, which presents users with permissions, manages dependencies, etc etc.
 * [ ] Create an intial set of filters which provides for overriding Ghost's behaviour via the Filter API.
 * [ ] Ensure that error handling for Apps is top-notch, and introduce features for debugging.
-* [ ] Finish up work to make the internal JSON data API consistent, and label it v1.0.
 * [ ] Use the App proxy to provide access to an v1.0 of the Data API, Theme API and Filters API.
 
 **If we have time**:
