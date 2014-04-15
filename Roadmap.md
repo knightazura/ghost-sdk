@@ -4,7 +4,7 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 **Update: 15th April 2014**
 
-The roadmap has been changed to become proect focused, rather than milestone focused to help the team deliver. Each project listed here in the Roadmap is listed in the order they will be done. Projects don't get a Ghost version in advance, but they do have an estimated delivery date. As we pick up each project, we'll assign a number of weeks / end date for the project - no project should last more than 4 weeks.
+The roadmap has been changed to become project focused, rather than milestone focused to help the team deliver. Each project listed here in the Roadmap is listed in the order they will be done. Projects don't get a Ghost version in advance, but they do have an estimated delivery date. As we pick up each project, we'll assign a number of weeks / end date for the project - no project should last more than 4 weeks.
 
 The first project, API, is a dependency for the Ember project, Apps project and Multi-user project, which is why it is the first priority. The Ember project is required to deliver any features which require amends or additions to the admin UI. The Multi-user project has been brought forward as it is a highly requested feature, and the majority of the work is done by the API & Ember changes.
 
