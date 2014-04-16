@@ -75,13 +75,11 @@ includeable when implemented
 
 ## Retrieve an existing post
 
+Retrieves an existing post that has been created. In order to get a post the `id` or `slug` are needed to identify the post. The same information is returned when creating, updating or deleting a post.
+
 ### Arguments
-- **id: required**<br/>
+- **id or slug: required**<br/>
 ID of the post you would like to retrieve.
-- **status: optional**<br/>
-Possible values are `draft`, `published` and `all`.
-- **staticPages: optional**<br/>
-Include posts where the `page` attribute is `true`. Possible values are `true`, `false` and `all`.
 
 ### Permissions
 
@@ -93,3 +91,27 @@ read all posts | read all posts | read posts with status `published` <br> or tha
 - `api.posts.read({id: id})`
 - `GET /ghost/api/v0.1/posts/{id}/`
 
+## List existing posts
+
+Retrieves a list of existing posts you have created.
+
+### Arguments
+- **status: optional**<br/>
+Possible values are `draft`, `published` and `all`.
+- **staticPages: optional**<br/>
+Include posts where the `page` attribute is `true`. Possible values are `true`, `false` and `all`.
+
+
+### Permissions
+
+ Admin         | Editor         | Author          | NoAuth 
+---------------|----------------|-----------------|---------------
+read all posts | read all posts | read posts with status `published` <br> or that were created by the user | read posts with status `published
+
+### Usage
+- `api.posts.browse({status: 'draft'})`
+- `GET /ghost/api/v0.1/posts/?status=draft`
+
+## Create a new post
+## Update an existing post
+## Delete a post
