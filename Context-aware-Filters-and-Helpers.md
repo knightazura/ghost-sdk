@@ -77,7 +77,7 @@ filters.doFilter('post.render', html, {
 | tag paged| /tag/my-tag/page/2/ | F | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | F | n/a | n/a | n/a | [rss] | rss feed XML
 | rss paged| /rss/2/ | F | T | n/a | n/a | n/a | [rss, paged] | rss feed XML
-| **coming in 0.6** | (maybe) | - | - | - | - | - | - |
+| **coming with multi-user** | (maybe) | - | - | - | - | - | - |
 | user | /user/my-user/ | F | F | user.hbs or index.hbs | n/a | _user-template, user-*_ | [user] | [{posts}], {pagination}, {user} |
 | user paged | /user/my-user/page/2 | F | T | user.hbs or index.hbs | n/a | _user-template, user-*, paged_ | [user, paged] | [{posts}], {pagination}, {user} |
 | **coming in ??** | (maybe) | - | - | - | - | - | - |
