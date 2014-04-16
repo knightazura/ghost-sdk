@@ -1,4 +1,4 @@
-I use this script instead of a `git pull --all` mainly so that it will generate the github compare URL for me.  One the github compare url is generated I open that up and see if any of the commits are big issues that are worth taking a look at.
+I use this script instead of a `git pull --all` mainly so that it will generate the github compare URL for me.  Once the github compare url is generated I open that up and see if any of the commits are big issues that are worth taking a look at.
 
 ```
 #!/bin/bash
