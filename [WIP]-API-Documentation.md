@@ -115,3 +115,58 @@ read all posts | read all posts | read posts with status `published` <br> or tha
 ## Create a new post
 ## Update an existing post
 ## Delete a post
+
+# Tag
+
+## The Tag Object
+
+### Attributes
+
+- **id: increments**<br/>
+- **uuid: string**<br/>
+Unique identifier generated automatically as UUIDv4.
+- **name: string**<br/>
+Name of the tag.
+- **slug: string**<br/>
+Automatically generated unique slug that is based on the name of your tag (e.g.: 'Test Tag' will become 'test-tag').
+- **description: string**<br/>
+Not currently used.
+- **parent_id: integer**<br/>
+Not currently used.
+- **meta_title: string**<br/>
+Not currently used.
+- **meta_description: string**<br/>
+Not currently used.
+- **created_at: dateTime**<br/>
+Remark about date/time
+- **created_by: integer**<br/>
+Includeable when implemented
+- **updated_at: dateTime**<br/>
+Remark about last updated date/time.
+- **updated_by: integer**<br/>
+User id of last update author.
+
+### Example Tag Object
+
+```
+{
+      tags: [{
+            "id": 1,
+            "uuid": "c912cb47-fe10-4120-aca3-19feb1a931d6",
+            "name": "Getting Started",
+            "slug": "getting-started",
+            "description": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-03-12T17:04:00.819Z",
+            "created_by": 1,
+            "updated_at": "2014-03-12T17:04:00.819Z",
+            "updated_by": 1
+      }]
+}
+```
+
+### Usage
+- `api.tags.browse()`
+- `GET /ghost/api/v0.1/tags/`
