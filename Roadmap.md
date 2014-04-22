@@ -14,6 +14,8 @@ The first project, API, is a dependency for the Ember project, Apps project and 
 
 ### Est. Q2 2014
 
+**This is the currently active project, please help us by picking up an [API issue](https://github.com/TryGhost/Ghost/issues?labels=&milestone=19&page=1&state=open), Thanks!**
+
 The API project is a dependency for the Ember, Multi-user and Apps projects. It involves changing the request and response formats of the internal data API to be clear and consistent, adding missing API endpoints, and implementing permissions across the API.
 
 See the [Epic](https://github.com/TryGhost/Ghost/issues/2124) for an overview of the project, what is required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?labels=&milestone=19&page=1&state=open) to pick up issues and monitor progress.
@@ -31,7 +33,11 @@ See the [Epic](https://github.com/TryGhost/Ghost/issues/2124) for an overview of
 
 ### Est. Q2 2014
 
-The Ghost Admin will be rewritten in Ember.js as a full client side SPA, consuming the Ghost data API. This is a dependency for all features which depend on UI changes.
+The Ghost Admin will be rewritten in Ember.js as a full client side SPA, consuming the Ghost data API. This is a dependency for all features which depend on UI changes. This project was started several weeks ago, but has been put on hold so that everyone can focus on the refactoring work to the API which is a dependency if the Ember admin is ever going to work. We should be back to this project before the end of April.
+
+If you are interested in helping out with the Ember work, please take a look at the [ember](https://github.com/TryGhost/Ghost/tree/ember) branch. 
+
+The old admin is still located at `/ghost/` and the new Ember admin lives at `/ghost/ember/`
 
 See the [Epic](https://github.com/TryGhost/Ghost/issues/2271) for an overview of the project, what is required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open) to pick up issues and monitor progress.
 
