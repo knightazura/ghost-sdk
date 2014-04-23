@@ -17,6 +17,7 @@ As of April 23, 2014, they are:
 * pages
 * post
 * posts
+* public
 * register
 * rss
 * signin
