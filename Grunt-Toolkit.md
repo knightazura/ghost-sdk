@@ -16,17 +16,17 @@ The `grunt prod` task goes one step beyond the default `grunt` task and minifies
 
 ## Testing with `grunt validate`
 
-`grunt validate` runs all of Ghost's test suites: jsLint, unit tests (mocha), integration tests (mocha with DB access), api functional tests (mocha) and interface functional tests (CasperJS).
+`grunt validate` runs all of Ghost's test suites: jshint, unit tests (mocha), integration tests (mocha with DB access), api functional tests (mocha) and interface functional tests (CasperJS).
 
 This can take a while, so it makes sense to run the individual sections if you're working on specific things.
 
-- `grunt jslint` - run just the linter
+- `grunt jshint` - run just the linter
 - `grunt test-unit` - run all of the unit tests, see `mochacli` config in `Gruntfile.js` for a full set of the individual groups of unit tests which can be run and feel free to add your own.
 - `grunt test-integration` - run the database integration tests
 - `grunt test-api` - run the api functional tests
 - `grunt test-functional` - run the interface functional tests (both admin and theme). You can further specify which folder or file of functional tests you want to run by specifying a `--target`, e.g. `grunt test-functional --target=admin/`
 
-## Generating a test coverage report with `grunt coverage`
+## Generating a test coverage report with `grunt test-coverage`
 
 A coverage report can be generated which takes into account all of the tests which run using mocha. The coverage report is not hooked into in Travis or any other automatic systems at present, but is used to regularly check the progress of testing in Ghost.
 
