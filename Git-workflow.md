@@ -18,7 +18,7 @@ Other interesting reading:
 
 ## Quick Summary
 
-Each developer should fork the private core Ghost repo into a private repo of their own and clone this as their local repo. Remember to add the main repo as a remote:
+Each developer should fork the core Ghost repo into a repo of their own and clone this as their local repo. Remember to add the main repo as a remote:
 
     git remote add upstream git@github.com:TryGhost/Ghost.git
 
