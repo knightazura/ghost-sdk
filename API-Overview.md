@@ -4,7 +4,7 @@ This is an overview of how the Ghost API is structured and how the different mod
 
 - JSON API (`/core/server/api/`): Is meant as the core abstraction layer to provide clear interfaces for all access to Ghosts internal data. The JSON API takes care of enforcing permissions and returns a JSON response for every call. Formatting and removal of security relevant data is done within the JSON API.
 
-- Data Models (`/core/server/models/`): Access to the database uses bookshelf.js as ORM. Bookshelf enables the use of MySql, SQLite and postreSQL. The data models add data (author, created_by, ...) to the data objects that are finally saved to the database. As a rule of thumb, only operations that are related to data that is being stored should be executed within the data models.
+- Data Models (`/core/server/models/`): Access to the database uses bookshelf.js as ORM. Bookshelf enables the use of MySql, SQLite and postgreSQL. The data models add data (author, created_by, ...) to the data objects that are finally saved to the database. As a rule of thumb, only operations that are related to data that is being stored should be executed within the data models.
 
 - Email (`/core/server/mail.js`): Email functionality in Ghost is implemented using the nodemailer module. Emails can be sent using the JSON API.
 
