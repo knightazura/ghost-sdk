@@ -178,3 +178,22 @@ User id of last update author.
 - `GET /ghost/api/v0.1/tags/`
 
 # User
+
+## The User Object
+
+### Attributes
+- **id: integer**
+- **uuid: string**  
+Unique identifier generated automatically as UUIDv4.
+
+
+### Example User Object
+```
+{
+    users: [
+        {
+            
+        }
+    ]
+}
+```
