@@ -1,3 +1,9 @@
+Skip to:
+
+* [Post](#post)
+* [Tag](#tag)
+* [User](#user)
+
 # Post
 
 ## The Post Object
