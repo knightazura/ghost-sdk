@@ -170,3 +170,5 @@ User id of last update author.
 ### Usage
 - `api.tags.browse()`
 - `GET /ghost/api/v0.1/tags/`
+
+# User
