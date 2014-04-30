@@ -23,7 +23,7 @@ This can take a while, so it makes sense to run the individual sections if you'r
 - `grunt jshint` - run just the linter
 - `grunt test-unit` - run all of the unit tests, see `mochacli` config in `Gruntfile.js` for a full set of the individual groups of unit tests which can be run and feel free to add your own.
 - `grunt test-integration` - run the database integration tests
-- `grunt test-api` - run the api functional tests
+- `grunt test-route` - run the route functional tests
 - `grunt test-functional` - run the interface functional tests (both admin and theme). You can further specify which folder or file of functional tests you want to run by specifying a `--target`, e.g. `grunt test-functional --target=admin/`
 
 ## Generating a test coverage report with `grunt test-coverage`
