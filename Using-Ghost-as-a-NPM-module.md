@@ -1,0 +1,1 @@
+Moved to [Using Ghost as an NPM module](https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-NPM-module)
