@@ -4,13 +4,13 @@ Currently, the Ember admin UI is being built on the `ember` branch as a whole-sa
 
 For an understanding of what the project involves, have a read of the [epic overview issue](https://github.com/TryGhost/Ghost/issues/2271) which will be updated with more info and progress as the project goes on.
 
-### The ember branch
+### The ember admin
 
-The `ember` branch contains the current state of the Ember rewrite. This exists alongside the old admin UI, so don't be fooled by going to `/ghost/` and thinking it all looks done - that is the old admin!
+**NOTE:** The ember version of the admin lives at `/ghost/ember/`. 
 
-The ember version lives at `/ghost/ember/`. 
+This exists alongside the old admin UI, so don't be fooled by going to `/ghost/` and thinking it all looks done - that is the old admin!
 
-We keep both versions in the branch because we believed that the ember rewrite would encourage new contributors who would therefore benefit from having the old version on hand to compare and contrast when rebuilding components.
+We are keeping both versions in the master branch for now because we believed that the ember rewrite would encourage new contributors who would therefore benefit from having the old version on hand to compare and contrast when rebuilding components.
 
 ### The API
 
