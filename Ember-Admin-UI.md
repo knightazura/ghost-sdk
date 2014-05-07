@@ -1,14 +1,12 @@
 This page is intended as a starting point for anyone getting involved in the Ember admin UI. It covers important details about how the Ember version works.
 
-Currently, the Ember admin UI exists at `/ghost/ember/` and is a whole-sale rewrite of the old admin UI. As we move towards switching over, this document should evolve from covering the quirks of the rewrite to informing developers about how the Ember admin UI is structured and why.
-
 For an understanding of what the project involves, have a read of the [epic overview issue](https://github.com/TryGhost/Ghost/issues/2271) which will be updated with more info and progress as the project goes on.
 
-### The ember admin
+### The ember admin vs the old admin
 
-**NOTE:** The ember version of the admin lives at `/ghost/ember/`. 
-
-This exists alongside the old admin UI, so don't be fooled by going to `/ghost/` and thinking it all looks done - that is the old admin!
+**NOTE:**  
+The **ember** version of the admin lives at the URL `/ghost/ember/`, the code lives in the folder `core/client/`  
+The **old** version of the admin still lives at the URL `/ghost/`, the code lives in the folder `core/clientold/` 
 
 We are keeping both versions in the master branch for now because we believed that the ember rewrite would encourage new contributors who would therefore benefit from having the old version on hand to compare and contrast when rebuilding components.
 
