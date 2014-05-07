@@ -5,8 +5,8 @@ For an understanding of what the project involves, have a read of the [epic over
 ### The ember admin vs the old admin
 
 **NOTE:**  
-The **ember** version of the admin lives at the URL `/ghost/ember/`, the code lives in the folder `core/client/`  
-The **old** version of the admin still lives at the URL `/ghost/`, the code lives in the folder `core/clientold/` 
+The **ember** admin lives at the URL `/ghost/ember/`, the code lives in the folder `core/client/`  
+The **old** admin still lives at the URL `/ghost/`, the code lives in the folder `core/clientold/` 
 
 We are keeping both versions in the master branch for now because we believed that the ember rewrite would encourage new contributors who would therefore benefit from having the old version on hand to compare and contrast when rebuilding components.
 
