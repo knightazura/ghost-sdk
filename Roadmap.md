@@ -14,7 +14,7 @@ The first project, API, is a dependency for the Ember project, Apps project and 
 
 ### Est. Q2 2014
 
-**This is the currently active project, please help us by picking up an [API issue](https://github.com/TryGhost/Ghost/issues?labels=&milestone=19&page=1&state=open), Thanks!**
+This project is now wrapping up.
 
 The API project is a dependency for the Ember, Multi-user and Apps projects. It involves changing the request and response formats of the internal data API to be clear and consistent, adding missing API endpoints, and implementing permissions across the API.
 
