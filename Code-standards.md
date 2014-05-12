@@ -49,7 +49,7 @@ Dangling underscores are permitted to allow for the following use cases:
 Please do not use underscores to denote private properties or methods.
 
 ```
-_ = require("underscore")
+_ = require('underscore')
 _.each()
 ```
 OK :)
