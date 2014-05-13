@@ -1,8 +1,57 @@
 Skip to:
 
+* [Endpoints](#endpoints)
 * [Post](#post)
 * [Tag](#tag)
 * [User](#user)
+
+## Endpoints
+
+### Posts
+
+* `GET /ghost/api/v0.1/posts` - get all posts
+* `POST /ghost/api/v0.1/posts` - add new post
+    * Options:
+        * page - pagination (default: 1)
+        * limit - number of posts per page (default: 15)
+        * status - status of the page (`all`, `published`, `draft`)
+        * staticPages - include static pages (default: false)
+* `GET /ghost/api/v0.1/posts/:id` - get post with id
+* `GET /ghost/api/v0.1/posts/:slug` - get post with slug
+* `PUT /ghost/api/v0.1/posts/:id` - update post with id
+* `DELETE /ghost/api/v0.1/posts/:id` - delete post with id
+* `GET /ghost/api/v0.1/posts/getSlug/:title` - get slug from title
+
+### DB
+
+* `GET /ghost/api/v0.1/db/` - export database
+* `POST /ghost/api/v0.1/db/` - import database
+* `DELETE /ghost/api/v0.1/db/` - delete content from database
+
+### Notifications
+
+* `DELETE /ghost/api/v0.1/notifications/:id` - delete notification
+* `POST /ghost/api/v0.1/notifications/` - add new notification
+
+### Settings
+
+* `GET /ghost/api/v0.1/settings/` - get all settings
+    * Options:
+        * type (`blog`, `app`, `theme`) 
+* `GET /ghost/api/v0.1/settings/:key/` - get setting with key
+* `PUT /ghost/api/v0.1/settings/` - update settings
+
+### Tags
+
+* `GET /ghost/api/v0.1/tags/` - get all tags
+
+### Users
+
+* `GET /ghost/api/v0.1/users/` - get all users
+* `GET /ghost/api/v0.1/users/:id/` - get user with id (`id=me` would be the current user)
+* `PUT /ghost/api/v0.1/users/:id/` - update user with id
+
+
 
 # Post
 
