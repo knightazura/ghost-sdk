@@ -1,4 +1,4 @@
-The current reserved slugs (that is, `/locations` you can't use because Ghost uses them), can be seen in [`core/server/models/base.js`](https://github.com/TryGhost/Ghost/blob/master/core/server/models/base.js#L265).
+The current reserved slugs (that is, `/locations` you can't use because Ghost uses them), can be seen in [`core/server/models/base.js`](https://github.com/TryGhost/Ghost/blob/master/core/server/models/base.js#L339).
 
 As of April 23, 2014, they are: 
 
