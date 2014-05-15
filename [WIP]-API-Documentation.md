@@ -66,36 +66,39 @@ Title of your blog post.
 - **slug: string**<br/>
 Automatically generated unique slug that is based on the title of your blog post (e.g.: 'Test Post' will become 'test-post').
 - **status: string**<br/>
-Possible values are `draft` and `published`. `status` has influence on who can see your post and if it is shown on the frontpage of your blog.
+Possible values are `draft` and `published`. `status` has influence on who can see your post and if it is shown on the frontpage of your blog. Defaults to `draft`.
 - **markdown: string**<br/>
-Content of your post encoded in markdown.
+Markdown of your post.
+- **html: string**<br/>
+HTML of your post generated from markdown.
 - **image: string**<br/>
-Not used yet.
+Not currently used.
 - **featured: boolean**<br/>
-Indicate a featured post.
+Indicate a featured post. Defaults to `false`.
 - **page: boolean**<br/>
-Indicate if the post is a page.
+Indicate if the post is a page. Defaults to `false`.
 - **language: string**<br/>
-remark about language format, not used yet, defaults to
+Language of the post. Not currently used. Defaults to `en_US`. Language codes used as primary subtags are from ISO 639-1. Country codes used as secondary subtags are from ISO 3166. Primary and secondary tag are concatenated with an underscore.
 - **meta_title: string**<br/>
-Not used yet.
+Not currently used.
 - **meta_description: string**<br/>
-Not used yet.
-- **author_id: integer**<br/>
+Not currently used.
+- **author: integer**, user - includeable<br/>
+Author of the post. By default the creator is used as initial author.
 - **created_at: string**<br/>
-remark about date/time
+ISO 8601 date and time when the post was created.
 - **created_by: integer**, user - includeable<br/>
-includeable when implemented
+User who created the post.
 - **updated_at: string**<br/>
-remark about date/time format
+ISO 8601 date and time when the post was last updated.
 - **updated_by: integer**, user - includeable<br/>
-includeable when implemented
+User who last updated the post
 - **published_at: string**<br/>
-remark about date/time
+ISO 8601 date and time when the post was published.
 - **published_by: integer**, user - includeable<br/>
-includeable when implemented
-- **author: object**, user<br/>
+User who published the post
 - **tags: array of objects**, tags<br/>
+Tags associated with the post.
 
 ### Example Post Object
 ```
@@ -108,31 +111,70 @@ includeable when implemented
             title: "Welcome to Ghost",
             slug: "welcome-to-ghost",
             markdown: "",
+            html: "",
             image: null,
             featured: false,
             page: false,
             language: "en_US",
             meta_title: null,
             meta_description: null,
-            author_id: 1,
+            author: 1,
             created_at: "2014-04-15T12:36:28.353Z",
             created_by: 1,
             updated_at: "2014-04-15T12:36:28.353Z",
             updated_by: 1,
             published_at: "2014-04-15T12:36:28.363Z",
             published_by: 1,
-            author: { ... },
             tags: [{ ... }]
         }
     ]
 }
 ```
 
-## Retrieve an existing post
+## Paginated List of Post Objects
+
+### Attributes
+- **posts: array**, post
+- **meta: object**<br/>
+Meta information for the result returned.
+- **pagination: object**<br/>Pagination information.
+- **page: integer**<br/>Number of the current page
+- **limit: integer**<br/>Number of posts per page
+- **pages: integer**<br/>Number of pages
+- **total: integer**<br/>Number of total posts
+- **next: integer**<br/>Number of next page, `null` if not available. 
+- **prev: integer**<br/>Number of previous page, `null` if not available.
+
+### Example Paginated List of Post Objects
+```
+{
+    posts: [{...}],
+    meta: {
+        pagination: {
+            page: 1,
+            limit: 15,
+            pages: 1,
+            total: 1,
+            next: null,
+            prev: null
+        }
+    }
+}
+```
+
+## Retrieve an Existing Post
 
 Retrieves an existing post that has been created. In order to get a post the `id` or `slug` are needed to identify the post. The same information is returned when creating, updating or deleting a post.
 
+### Usage
+
+ API           | Example
+---------------|----------------
+Internal API   |`api.posts.read({id: id})`
+HTTP Route     |`GET /ghost/api/v0.1/posts/{id}/`
+
 ### Arguments
+
 - **id or slug: required**<br/>
 ID of the post you would like to retrieve.
 
@@ -142,35 +184,128 @@ ID of the post you would like to retrieve.
 ---------------|----------------|-----------------|---------------
 read all posts | read all posts | read posts with status `published` <br> or that were created by the user | read posts with status `published
 
+
+
+## Retrieve a Paginated List of Existing Posts
+
+Retrieves a paginated list of post that exist in your database. By default only published posts are returned. It is possible to modify the filter using the `status` argument.
+
 ### Usage
-- `api.posts.read({id: id})`
-- `GET /ghost/api/v0.1/posts/{id}/`
-
-## List existing posts
-
-Retrieves a list of existing posts you have created.
+- `api.posts.browse({status: 'draft'})`
+- `GET /ghost/api/v0.1/posts/?status=draft`
 
 ### Arguments
 - **status: optional**<br/>
-Possible values are `draft`, `published` and `all`.
+Allowed values are `draft`, `published` and `all`.
 - **staticPages: optional**<br/>
-Include posts where the `page` attribute is `true`. Possible values are `true`, `false` and `all`.
+Include posts where the `page` attribute is `true`. Allowed values are `true`, `false` and `all`.
 
 
 ### Permissions
 
  Admin         | Editor         | Author          | NoAuth 
 ---------------|----------------|-----------------|---------------
-read all posts | read all posts | read posts with status `published` <br> or that were created by the user | read posts with status `published
+read all posts | read all posts | read posts with status `published` <br> or that were created by the user | read posts with status `published`
 
-### Usage
-- `api.posts.browse({status: 'draft'})`
-- `GET /ghost/api/v0.1/posts/?status=draft`
 
 ## Create a new post
-## Update an existing post
+
+Create a new post. Tags that are sent with a new post are created if they don't exist and linked to the newly created post. The newly created post object is returned.
+
+### Usage
+
+ API           | Example
+---------------|----------------
+Internal API   |`api.posts.add(object, options)`
+HTTP Route     |`GET /ghost/api/v0.1/posts/`
+
+### Arguments
+- **object: mandatory**<br/>
+Data of the post that is going to be created. The object is expected to be a valid post object with mandatory and optional properties.
+
+*Mandatory post properties:*
+
+- title
+- markdown
+    
+*Optional post properties:*
+
+- status
+- image
+- featured
+- page
+- language
+- meta_title
+- meta_description
+- author
+
+- **options: optional**<br/>
+TBD
+
+
+### Permissions
+
+ Admin         | Editor         | Author          | NoAuth 
+---------------|----------------|-----------------|---------------
+create post    | create post    | create post     | -
+
+## Edit an existing post
+
+Update a post that already exists. The edited post object is returned.
+
+### Usage
+ API           | Example
+---------------|----------------
+Internal API   |`api.posts.edit(object, options)`
+HTTP Route     |`PUT /ghost/api/v0.1/posts/<id>/`
+
+### Arguments
+- **object: mandatory**<br/>
+A valid post object with properties that should be updated.
+
+*Updateable post properties:*
+
+- title
+- markdown
+- status
+- image
+- featured
+- page
+- language
+- meta_title
+- meta_description
+- author
+- published_at
+
+- **options: optional**<br/>
+TBD
+
+### Permissions
+
+ Admin         | Editor         | Author          | NoAuth 
+---------------|----------------|-----------------|---------------
+edit all posts | edit all posts | edit all posts that were<br> create by the user | -
+
 ## Delete a post
 
+Delete an existing post. The deleted post object is returned.
+
+### Usage
+ API           | Example
+---------------|----------------
+Internal API   |`api.posts.destroy(object, options)`
+HTTP Route     |`DELETE /ghost/api/v0.1/posts/<id>/`
+
+### Arguments
+- **options: optional**<br/>
+TBD
+
+
+### Permissions
+
+ Admin         | Editor         | Author          | NoAuth 
+---------------|----------------|-----------------|---------------
+delete all posts | delete all posts | delete all posts that were<br> create by the user | -
 # Tag
 
 ## The Tag Object
