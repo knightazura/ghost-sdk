@@ -164,7 +164,7 @@ Meta information for the result returned.
 
 ## Retrieve an Existing Post
 
-Retrieves an existing post that has been created. In order to get a post the `id` or `slug` are needed to identify the post. The same information is returned when creating, updating or deleting a post.
+Retrieves an existing post. In order to get a post the `id` or `slug` are needed to identify the post. The information returned when creating, updating or deleting is identical to retrieving a post.
 
 ### Usage
 
@@ -230,6 +230,7 @@ Data of the post that is going to be created. The object is expected to be a val
     
 *Optional post properties:*
 
+- slug
 - status
 - image
 - featured
@@ -251,7 +252,7 @@ create post    | create post    | create post     | -
 
 ## Edit an existing post
 
-Update a post that already exists. The edited post object is returned.
+Update a post that already exists. In order to update a post the `id` is needed to identify the post. The edited post object is returned.
 
 ### Usage
  API           | Example
@@ -263,8 +264,13 @@ HTTP Route     |`PUT /ghost/api/v0.1/posts/<id>/`
 - **object: mandatory**<br/>
 A valid post object with properties that should be updated.
 
+*Mandatory post properties:*
+
+- id
+
 *Updateable post properties:*
 
+- slug
 - title
 - markdown
 - status
@@ -288,12 +294,12 @@ edit all posts | edit all posts | edit all posts that were<br> create by the use
 
 ## Delete a post
 
-Delete an existing post. The deleted post object is returned.
+Delete an existing post. In order to delete a post the `id` is needed to identify the post. The deleted post object is returned.
 
 ### Usage
  API           | Example
 ---------------|----------------
-Internal API   |`api.posts.destroy(object, options)`
+Internal API   |`api.posts.destroy(options)`
 HTTP Route     |`DELETE /ghost/api/v0.1/posts/<id>/`
 
 ### Arguments
