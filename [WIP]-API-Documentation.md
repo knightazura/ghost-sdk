@@ -10,12 +10,12 @@ Skip to:
 ### Posts
 
 * `GET /ghost/api/v0.1/posts` - get all posts
-* `POST /ghost/api/v0.1/posts` - add new post
     * Options:
         * page - pagination (default: 1)
         * limit - number of posts per page (default: 15)
         * status - status of the page (`all`, `published`, `draft`)
         * staticPages - include static pages (default: false)
+* `POST /ghost/api/v0.1/posts` - add new post
 * `GET /ghost/api/v0.1/posts/:id` - get post with id
 * `GET /ghost/api/v0.1/posts/:slug` - get post with slug
 * `PUT /ghost/api/v0.1/posts/:id` - update post with id
