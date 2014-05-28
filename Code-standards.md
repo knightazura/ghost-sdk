@@ -48,12 +48,13 @@ Dangling underscores are permitted to allow for the following use cases:
 Please do not use underscores to denote private properties or methods.
 
 ```
-_ = require('underscore')
-_.each()
+// OK :)
+_ = require('underscore');
+_.each();
 ```
-OK :)
 
 ```
+// OK :)
 var myObj = function () {
     var name;
     this.setName = function (_name) {
@@ -61,9 +62,9 @@ var myObj = function () {
     }
 };
 ```
-OK :)
 
 ```
+// Not OK :(
 var myObj = function () {
     var _name;
     this.setName = function (name) {
@@ -71,7 +72,6 @@ var myObj = function () {
     }
 };
 ```
-Not OK :(
 
 ## Frontend development standards (HTML & CSS)
 
