@@ -169,8 +169,8 @@ You may also see [Investigation] which is our equivalent of a spike. It usually 
 Pull requests (PRs) for Ghost tend to fall into four loose categories:
 
 1. Works in progress - something that is partly finished, or may have a problem and hasn't been worked on in a while. These are marked with [WIP].
-2. PRs marked [Docs] are PRs to the `gh-pages` branch which include general updates / fixes to docs.ghost.org
-3. [Translations :/??] indicates that this is a PR to the gh-pages branch which contains translations for a given language. These are often long-lived PRs
+2. PRs marked [Docs] are PRs to the `gh-pages` branch which include general updates / fixes to docs.ghost.org.
+3. [Translations :/??] indicates that this is a PR to the gh-pages branch which contains translations for a given language. These are often long-lived PRs.
 4. Everything else is a standard PR waiting to be merged.
 
 There is a Chrome Extension available that will filter the PRs into those Groups, which is useful if you find the docs PRs clutter your view: https://github.com/ErisDS/ghost-github-chrome-extension *note:* it doesn't work very well when there are a LOT of PRs :( but it's open source! So please feel free to fix it :)
