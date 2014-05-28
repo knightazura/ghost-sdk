@@ -156,7 +156,7 @@ In addition to the [Branching Strategy](#branching-strategy) documented above, y
 
 ### Open Issues
 
-Open issues on GitHub are a combination of things we're actively working on, or will be working on soon and bugs. Our [contributing guidelines](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md) contain lots of information about raising an issue. 
+Open issues on GitHub are a combination of things we're actively working on, or will be working on soon, and bugs. Our [contributing guidelines](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md) contain lots of information about raising an issue. 
 
 Some issues start with [Discussion] which means there is no active work to be done, we're just deciding what to do or how to do something.
 
