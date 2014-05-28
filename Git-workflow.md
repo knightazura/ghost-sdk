@@ -175,7 +175,7 @@ Pull requests (PRs) for Ghost tend to fall into four loose categories:
 
 There is a Chrome Extension available that will filter the PRs into those Groups, which is useful if you find the docs PRs clutter your view: https://github.com/ErisDS/ghost-github-chrome-extension *note:* it doesn't work very well when there are a LOT of PRs :( but it's open source! So please feel free to fix it :)
 
-PRs generally get assigned to either @erisds or @sebgie, this indicates who will test the PR and make sure it is ready to be merged.
+PRs generally get assigned to either @erisds or @sebgie, who will test the PR and make sure it is ready to be merged.
 
 ### Milestones
 
