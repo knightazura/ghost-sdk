@@ -53,7 +53,7 @@ The easier it is for us to merge a PR, the faster we'll be able to do it. Please
 
 **Always work on a branch**. It will make your life much easier, really. Not touching the master branch will also simplify keeping your fork up-to-date.
 
-**Use issues properly**. We have a whole set of [guidelines on how to raise an issue](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#raising-issues). Bugs, changes and features are all different and should be treated differently. Use your commit message to close or reference issues. The more information you provide, the more likely it is your PR will get merged.
+**Use issues properly**. We have a whole set of [guidelines on how to raise an issue](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#raising-issues). Bugs, changes and features are all different and should be treated differently. Use your commit message to close or reference issues. The more information you provide, the more likely your PR will get merged.
 
 *Note:* If you are not comfortable with git & using rebase, make a special 'merge' branch of your branch to do these things on, then if something goes awry you can always go back to your working branch and try again.
 
