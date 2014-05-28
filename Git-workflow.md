@@ -61,8 +61,8 @@ The easier it is for us to merge a PR, the faster we'll be able to do it. Please
 
 Whilst you're working on your branch on your own, you can do all the commits you like - lots of little commits are highly recommended. However, when you come to submit a PR, you should clean your history ready for public consumption.
 
-- Run `git log master..your-branch-name` to see how many commits there are on your branch
-- Run `git rebase -i HEAD~#` where # is the number of commits you have done on your branch
+- Run  `git log --oneline master..your-branch-name | wc -l`  to see how many commits there are on your branch.
+- Run `git rebase -i HEAD~#` where # is the number of commits you have done on your branch.
 
 Use the interactive rebase to edit your history. Unless you have good reason to keep more than one commit, I recommend marking the first commit with 'r' and the others with 's'. This lets you keep the first commit only, but change the message. Your commit message(s) should follow the pattern described in the [notes](#notes-on-writing-good-commit-messages) above. The first line of your commit message will appear in the change log which goes out to our VIPs with each pre-release, so please keep that in mind.
 
@@ -206,4 +206,3 @@ The `[ghost-ui]` label is a place holder marking issues that may be moved to or 
 `[importer]` is a project-specific label intended for the 0.5 milestone only
 
 All the other labels should be self-explanatory.
-
