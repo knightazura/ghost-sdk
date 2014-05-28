@@ -3,13 +3,13 @@ Good, clear and consistent code styles are pivotal in the success of any softwar
 ## The rules:
 
 * JSLint is King (see JSLint section below). 
-* Use strict mode
-* Protect the global scope
-* Indent with 4 spaces
-* Max line length 120
-* Use unix line endings
+* Use strict mode.
+* Protect the global scope.
+* Indent with 4 spaces.
+* Max line length 120.
+* Use unix line endings.
 * Document as you go - we have groc although are not actively using it yet. Comments should be used to provide clarity.
-* Write tests - unit tests are written in Mocha using spec style, functional tests use Casper.js
+* Write tests - unit tests are written in Mocha using spec style, functional tests use Casper.js.
 
 ##Guidance
 
