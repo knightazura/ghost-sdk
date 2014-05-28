@@ -100,7 +100,7 @@ If your PR has fallen behind and can't be merged cleanly, just re-do the steps a
 
 Thanks!
 
-*Note:* - this is my way of getting everything neat and tidy, you may have another, as long as the result is nice easy-to-merge PRs.
+*Note:* - this is my (ErisDS') way of getting everything neat and tidy, you may have another, as long as the result is nice easy-to-merge PRs.
 
 ### What Happens Next
 
