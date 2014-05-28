@@ -17,10 +17,9 @@ A few key points to bear in mind. See also the [Zen of Python](http://www.python
 
 * **When coding, less is always more.** Write the least amount of code possible to solve just the problem at hand. 
 * **Predicting the future is impossible.** Try to distinguish between anticipating potential future problems and potential future features. The former is usually good, the latter is usually bad.
-* **Callbacks are great, but promises and deferreds are even better.** We are using ### library to provide promise functionality. In the vast majority of cases this is preferred to using callbacks.
-* **'exports' comes last**
-Define the public API to your module at the very end of the file, even if it is a single function.
-* **Functional programming is functional** Functions should be small and single-purpose. Large variable lists are a sign your function does too much
+* **Callbacks are great, but promises and deferreds are even better.** We are using [when.js](https://github.com/cujojs/when) to provide promise functionality. In the vast majority of cases this is preferred to using callbacks.
+* **'exports' comes last.** Define the public API to your module at the very end of the file, even if it is a single function.
+* **Functional programming is functional.** Functions should be small and single-purpose. Large variable lists are a sign your function does too much.
 
 
 ## JSLint
