@@ -162,7 +162,7 @@ Some issues start with [Discussion] which means there is no active work to be do
 
 Others start with [Draft] indicating the issue is a placeholder for some work we know we need to do, but we aren't 100% sure what it looks like yet.
 
-You may also see [Investigation] which is our equivalent of a spike, it usually means that the work to be done does not require a PR, but rather some testing or learning around how a particular approach might solve a problem.
+You may also see [Investigation] which is our equivalent of a spike. It usually means that the work to be done does not require a PR, but rather some testing or learning around how a particular approach might solve a problem.
 
 ### Pull Requests
 
