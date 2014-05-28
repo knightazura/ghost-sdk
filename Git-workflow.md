@@ -24,14 +24,14 @@ Each developer should fork the core Ghost repo into a repo of their own and clon
 
 The main repository's master branch always contains the latest changes. For more info on branches, see the [branching strategy](#branching-strategy) notes.
 
-Changes should adhere to our [coding standards](Code-standards), commit messages should follow our [notes below](#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](#submitting-pull-requests)
+Changes should adhere to our [coding standards](Code-standards), commit messages should follow our [notes below](#notes-on-writing-good-commit-messages), and pull requests should be submitted as per the [guidelines](#submitting-pull-requests).
 
 ## Notes on writing good commit messages
 ##### Commit Messages
 * The first line of your commit message should be a short (80 chars) public description of what you have achieved with the commit. This is what appears in the change log. 
-* Leave a blank line after the first line
+* Leave a blank line after the first line.
 * The 3rd line should reference the issue with `issue #000` if you just want to mention an issue or `closes #000` if your commit closes an issue. If you don't have an issue to reference or close, think carefully about whether you need to [raise one](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#raising-issues) before opening a PR.
-* Use bullet points on the following lines to explain what your changes achieve and in particular why you've used your approach
+* Use bullet points on the following lines to explain what your changes achieve and in particular why you've used your approach.
 
 E.g.
 
@@ -45,15 +45,15 @@ closes #292
 - also switched sqlite3 to the latest version and checked it works with various node versions
 ```
 
-[See the original](https://github.com/TryGhost/Ghost/commit/6dd753212f1b143f0e6729010ff14b914f1bf576)
+See [the original](https://github.com/TryGhost/Ghost/commit/6dd753212f1b143f0e6729010ff14b914f1bf576).
 
 ## Submitting Pull Requests
 
 The easier it is for us to merge a PR, the faster we'll be able to do it. Please take steps to make merging easy and keep the history clean and useful.
 
-**always work on a branch**, it will make your life much easier - honest. Not touching the master branch will also simplify keeping your fork up-to-date.
+**Always work on a branch**, it will make your life much easier, really. Not touching the master branch will also simplify keeping your fork up-to-date.
 
-**use issues properly**, we have a whole set of [guidelines on how to raise an issue](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#raising-issues). Bugs, changes and features are all different and should be treated differently. Use your commit message to close or reference issues. The more information you provide, the more likely it is your PR will get merged.
+**Use issues properly**, we have a whole set of [guidelines on how to raise an issue](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#raising-issues). Bugs, changes and features are all different and should be treated differently. Use your commit message to close or reference issues. The more information you provide, the more likely it is your PR will get merged.
 
 *Note:* If you are not comfortable with git & using rebase, make a special 'merge' branch of your branch to do these things on, then if something goes awry you can always go back to your working branch and try again.
 
@@ -70,7 +70,7 @@ Use the interactive rebase to edit your history. Unless you have good reason to 
 
 Run `grunt validate` to check that your work passes JSLint and the server-side mocha unit tests. If this fails, your PR will throw an error when submitted.
 
-Our functional tests are not yet hooked up to grunt validate, but details on how to run them can be found in `core/test/functional/base.js` if you're making changes to the UI it's worth running these.
+Our functional tests are not yet hooked up to grunt validate, but details on how to run them can be found [in the Wiki](https://github.com/TryGhost/Ghost/wiki/Functional-testing-with-PhantomJS-and-CasperJS) and in `core/test/functional/base.js`. If you're making changes to the UI it's worth running these.
 
 #### Submit!
 
@@ -206,5 +206,4 @@ The `[ghost-ui]` label is a place holder marking issues that may be moved to or 
 `[importer]` is a project-specific label intended for the 0.5 milestone only
 
 All the other labels should be self-explanatory.
-
 
