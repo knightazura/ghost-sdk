@@ -96,7 +96,7 @@ Now submit your PR with all the latest changes from master and a nice clean hist
 
 ### Updating a Pull Request
 
-If your PR has fallen behind and can't be merge cleanly, just re-do the steps above (pull from master, rebase your branch), then force push to your branch using `git push -f origin my-feature-branch`. This will update the PR commits. Of course, never force push to any branch you have shared with others & be very careful about what you force push.
+If your PR has fallen behind and can't be merged cleanly, just re-do the steps above (pull from master, rebase your branch), then force push to your branch using `git push -f origin my-feature-branch`. This will update the PR commits. Of course, never force push to any branch you have shared with others & be very careful about what you force push.
 
 Thanks!
 
