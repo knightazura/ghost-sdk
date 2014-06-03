@@ -8,12 +8,11 @@ The roadmap has been changed to become project focused, rather than milestone fo
 
 The first project, API, is a dependency for the Ember project, Apps project and Multi-user project, which is why it is the first priority. The Ember project is required to deliver any features which require amends or additions to the admin UI. The Multi-user project has been brought forward as it is a highly requested feature, and the majority of the work is done by the API & Ember changes.
 
-
 ---
 
 ## Ember
 
-### Est. Q2 2014
+### Closed for PRs 23rd June
 
 **This is the currently active project, please help us by picking up an [Ember issue](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open), Thanks!**
 
@@ -35,7 +34,7 @@ See the [Epic](https://github.com/TryGhost/Ghost/issues/2271) for an overview of
 
 ## Multi-user
 
-### Est. Q2 2014
+### Closed for PRs 1st July
 
 Ghost will get the option to add multiple users, with differing roles and permissions. 
 
@@ -44,12 +43,24 @@ Ghost will get the option to add multiple users, with differing roles and permis
 * To ensure that the admin UI is safe from XSS and other security issues
 * To improve the first run/install and introducton experience for users
 
+
 ---
 
-## Upgrades
+## Milestone 5 - Version 0.5 - Multi-User
+
+### Est. Early July 2014
+
+Release the API, Ember and Multi-User projects as Ghost 0.5
+
+---
+
+## Dashboard
+
 ### Est. Q3 2014
 
-Introduce an internal tool for upgrading Ghost
+A new dashboard project, to deliver a basic, non-extensible version of the dashboard with a minimal set of widgets along with apps. More info coming soon.
+
+See also [where is the dashboard?](https://github.com/TryGhost/Ghost/wiki/Planned-Features#wiki-where-is-the-dashboard)
 
 ----
 
@@ -57,9 +68,7 @@ Introduce an internal tool for upgrading Ghost
 ### Est. Q3 2014
 Focuses on the app boilerplates, API, filters, importers, permissions, security and other app related things, to bring the first iteration of Ghost Apps to the public.
 
-
-
-Open issues: [0.5](https://github.com/TryGhost/Ghost/issues?direction=desc&milestone=12&page=1&sort=updated&state=open)
+Open issues: [Apps](https://github.com/TryGhost/Ghost/issues?milestone=12&page=1&state=open)
 
 Delivering the app platform for Ghost is a truly enormous project. To get a full grasp of what this entails, it is recommended that you read [Imagining-the-Ghost-Developer-Kit](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Kit). The roadmap here documents which aspects of the Ghost Developer Kit (GDK) we intend to deliver in 0.5, along with other areas of work that are required in order to deliver this first iteration of Apps.
 
@@ -92,6 +101,21 @@ Apps encompasses work across both the [Ghost](https://github.com/TryGhost/Ghost)
 
 ---
 
+## Milestone 6 - Version 0.6 - Apps
+
+### Est. Early September 2014
+
+Release a very simple Dashboard and basic app support as Ghost 0.6
+
+---
+
+## Upgrades
+### Est. Q3 2014
+
+Introduce an internal tool for upgrading Ghost
+
+---
+
 ## Importer Part 1
 
 ### Est. ?? 2014
@@ -116,14 +140,6 @@ Issue label: [importer](https://github.com/TryGhost/Ghost/issues?direction=desc&
 ### Est. ?? 2014
 
 Focuses firstly on adding multi-user functionality, so that you can run a multi-author blog, along with addressing the security concerns this introduces. Secondly, on providing the tools for l10n & i18n - making it possible for you to use Ghost in your language, and to publish blogs in any language. 
-
----
-
-## Dashboard
-
-### Est. ?? 2014
-
-For more information see [where is the dashboard?](https://github.com/TryGhost/Ghost/wiki/Planned-Features#wiki-where-is-the-dashboard)
 
 ---
 
