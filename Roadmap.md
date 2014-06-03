@@ -8,8 +8,6 @@ The roadmap has been changed to become project focused, rather than milestone fo
 
 The first project, API, is a dependency for the Ember project, Apps project and Multi-user project, which is why it is the first priority. The Ember project is required to deliver any features which require amends or additions to the admin UI. The Multi-user project has been brought forward as it is a highly requested feature, and the majority of the work is done by the API & Ember changes.
 
----
-
 
 ---
 
