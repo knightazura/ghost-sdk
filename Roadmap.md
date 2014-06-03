@@ -10,22 +10,6 @@ The first project, API, is a dependency for the Ember project, Apps project and 
 
 ---
 
-## API
-
-### Est. Q2 2014
-
-This project is now wrapping up.
-
-The API project is a dependency for the Ember, Multi-user and Apps projects. It involves changing the request and response formats of the internal data API to be clear and consistent, adding missing API endpoints, and implementing permissions across the API.
-
-See the [Epic](https://github.com/TryGhost/Ghost/issues/2124) for an overview of the project, what is required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?labels=&milestone=19&page=1&state=open) to pick up issues and monitor progress.
-
-#### Goals:
-
-* To standardise the Ghost data API by introducing a standard format which closely matches JSON-API
-* To introduce new API endpoints needed for Apps, Themes and other core parts of Ghost.
-* To introduce permissions / access control across the entire API
-* To produce structure documentation of each endpoint, the expected response and any errors that may result
 
 ---
 
@@ -207,6 +191,20 @@ Maintenance release, see [0.3.1](https://github.com/TryGhost/Ghost/commits/0.3.1
 
 See [0.3.0](https://github.com/TryGhost/Ghost/commits/0.3.0)
 
+## Past Projects:
+
+## API
+
+### In master Q2 2014
+
+See the [Epic](https://github.com/TryGhost/Ghost/issues/2124) for an overview of the project, what was required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?labels=&milestone=19&page=1&state=open) to pick up issues and monitor progress.
+
+#### Goals:
+
+* To standardise the Ghost data API by introducing a standard format which closely matches JSON-API
+* To introduce new API endpoints needed for Apps, Themes and other core parts of Ghost.
+* To introduce permissions / access control across the entire API
+* To produce structure documentation of each endpoint, the expected response and any errors that may result
 
 
 #### History 
