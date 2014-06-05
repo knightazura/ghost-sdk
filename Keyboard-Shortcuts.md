@@ -51,6 +51,6 @@ The following document outlines the keyboard shortcuts in place in the backbone 
 *`Ctrl+Alt+C` - copyHTML
 *`Ctrl+Enter` - newLine
 
-### Other
+### Other shortcuts
 * `ESC` - Close notification
 * `ESC` - Close modal
