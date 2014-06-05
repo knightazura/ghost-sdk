@@ -71,6 +71,12 @@ There are a few important things to consider.
 
 ## Research & Details for each action
 
+Sources:
+* Google docs [shortcuts](https://support.google.com/docs/answer/179738?hl=en)
+* Gmail [formatting](https://support.google.com/mail/answer/8260?authuser=2) [general shortcuts](https://support.google.com/mail/answer/6594?authuser=2)
+* Mou App (see actions) http://mouapp.com/
+* Common keyboard shortcuts [wikipedia](http://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts)
+
 **Bold Text**  
 `Ctrl/⌘ + B` - this is ubiquitous
 
