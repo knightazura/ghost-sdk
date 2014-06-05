@@ -1,8 +1,24 @@
 The following document outlines the keyboard shortcuts in place in the backbone Ghost admin, and the keyboard shortcuts as we want them to exist in the shiny new Ember admin.
 
+There are a few important things to consider. 
+ * Some of these keyboard shortcuts relate to quite advanced pieces of functionality which are only accessible via a keyboard shortcut (e.g zen mode). It may be the case that the functionality doesn't work yet in the Ember admin, but it will need to so we may need to make new issues.
+ * The markdown shortcuts have some very specific expected behaviour, in particular around where the cursor starts and where the cursor ends - for example if you press `Ctrl+B` without any text selected, you should get 4 `*`'s with the cursor in the middle (i.e. `**|**`) and I believe if you select text and do it, the selected text should be wrapped in bold and the cursor should appear after. Much of this seems to be broken.
+ * Long after we implemented the editor we realised that CodeMirror has some quite odd shortcuts of it's own: https://github.com/marijnh/CodeMirror/blob/master/lib/codemirror.js#L4675 and at least some of them (like Ctrl+D) need to be disabled
+
 ## Ember (new)
 
 ### Editor Markdown shortcuts
+
+##### Mac only:
+* `Meta+B` - bold
+* `Meta+I` - italic
+* `Meta+Alt+C` - copyHTML
+
+
+##### Non Mac:
+*`Ctrl+B` - bold
+*`Ctrl+I` - italic
+*`Ctrl+Alt+C` - copyHTML
 
 
 
