@@ -10,9 +10,9 @@ There are a few important things to consider.
 ### Editor Markdown shortcuts
 **Note** Where there is a `⌘`, the shortcuts should be split and the `⌘` version registered if the current device is mac, and the non-`⌘` version registered otherwise. `if (navigator.userAgent.indexOf('Mac') !== -1)` is sufficient to determine which to use.
 
-*`Ctrl/⌘+B` - bold
-*`Ctrl/⌘+I` - italic
-*`Ctrl/⌘+Alt+C` - copyHTML
+* `Ctrl/⌘+B` - bold
+* `Ctrl/⌘+I` - italic
+* `Ctrl/⌘+Alt+C` - copyHTML
 
 ### Editor General shortcuts 
 
