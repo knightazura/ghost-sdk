@@ -10,14 +10,16 @@ There are a few important things to consider.
 ### Editor Markdown shortcuts
 **Note** Where there is a `⌘`, the shortcuts should be split and the `⌘` version registered if the current device is mac, and the non-`⌘` version registered otherwise. `if (navigator.userAgent.indexOf('Mac') !== -1)` is sufficient to determine which to use.
 
-* `Ctrl/⌘+B` - **Bold Text** 
-* `Ctrl/⌘+I` - *Italic Text*
-* `Ctrl/⌘+Alt+C` - Copy HTML
+* `Ctrl/⌘ + B` - **Bold Text** 
+* `Ctrl/⌘ + I` - *Italic Text*
+* `Ctrl/⌘ + Alt + C` - Copy HTML
+* `Ctrl/⌘ + K` - Link
 
 ### Editor General shortcuts 
+* `Alt + Shift + Z` - Zen writing mode
 
 ##### Save button 
-* `Ctrl/⌘+S` - Save / Update post
+* `Ctrl/⌘ + S` - Save / Update post
 
 
 ## Backbone (existing)
@@ -84,6 +86,18 @@ Sources:
 `Ctrl/⌘ + I` - this is ubiquitous
 
 ~~Strikethrough~~
+Old Ghost - `Ctrl + Alt + U`
+Google docs - `Alt + Shift + 5`
+Mou App - `⌘ + U` - as though it was underline, markdown has no underline, so Ctrl/⌘ + U might be good?
 
+Link
+`Ctrl/⌘ + K` - from office, gmail and google docs
+Image
+
+`Code`
+
+```language-js
+Code Block
+```
 
 Copy HTML - a.k.a copy with styling
