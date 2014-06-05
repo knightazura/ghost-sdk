@@ -7,6 +7,15 @@ There are a few important things to consider.
 
 ## Ember (new)
 
+### Other/General shortcuts
+* `ESC` - Close notification
+* `ESC` - Close modal
+
+### Content screen
+
+* `UP` - navigate up through post list
+* `DOWN` - navigate down through post list
+
 ### Editor Markdown shortcuts
 **Note** Where there is a `⌘`, the shortcuts should be split and the `⌘` version registered if the current device is mac, and the non-`⌘` version registered otherwise. `if (navigator.userAgent.indexOf('Mac') !== -1)` is sufficient to determine which to use.
 
@@ -14,6 +23,8 @@ There are a few important things to consider.
 * `Ctrl/⌘ + I` - *Italic Text*
 * `Ctrl/⌘ + Alt + C` - Copy HTML
 * `Ctrl/⌘ + K` - Link
+* `Ctrl + Shift+  I` - image - not sure if we should change this one at all? It might be good to have `⌘ + Shift + 1` on mac?
+
 
 ### Editor General shortcuts 
 * `Alt + Shift + Z` - Zen writing mode
