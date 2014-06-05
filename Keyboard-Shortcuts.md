@@ -1,6 +1,10 @@
 The following document outlines the keyboard shortcuts in place in the backbone Ghost admin, and the keyboard shortcuts as we want them to exist in the shiny new Ember admin.
 
-## Backbone
+## Ember (new)
+
+
+
+## Backbone (existing)
 
 ### Editor 
 #### Action
