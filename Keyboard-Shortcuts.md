@@ -1,4 +1,4 @@
-The following document outlines the keyboard shortcuts in place in the backbone Ghost admin, and the keyboard shortcuts as we want them to exist in the shiny new Ember admin.
+The following document outlines the keyboard shortcuts in place in the backbone Ghost admin, and the keyboard shortcuts as we want them to exist in the shiny new Ember admin. At the end is a big list of research I did for various shortcuts.
 
 There are a few important things to consider. 
  * Some of these keyboard shortcuts relate to quite advanced pieces of functionality which are only accessible via a keyboard shortcut (e.g zen mode). It may be the case that the functionality doesn't work yet in the Ember admin, but it will need to so we may need to make new issues.
@@ -8,19 +8,16 @@ There are a few important things to consider.
 ## Ember (new)
 
 ### Editor Markdown shortcuts
+**Note** Where there is a `⌘`, the shortcuts should be split and the `⌘` version registered if the current device is mac, and the non-`⌘` version registered otherwise. `if (navigator.userAgent.indexOf('Mac') !== -1)` is sufficient to determine which to use.
 
-##### Mac only:
-* `Meta+B` - bold
-* `Meta+I` - italic
-* `Meta+Alt+C` - copyHTML
+*`Ctrl/⌘+B` - bold
+*`Ctrl/⌘+I` - italic
+*`Ctrl/⌘+Alt+C` - copyHTML
 
+### Editor General shortcuts 
 
-##### Non Mac:
-*`Ctrl+B` - bold
-*`Ctrl+I` - italic
-*`Ctrl+Alt+C` - copyHTML
-
-
+##### Save button 
+* `Ctrl/⌘+S` - Save / Update post
 
 
 ## Backbone (existing)
@@ -70,3 +67,12 @@ There are a few important things to consider.
 ### Other shortcuts
 * `ESC` - Close notification
 * `ESC` - Close modal
+
+
+## What everyone else does
+
+**Bold Text**  
+`Ctrl/⌘ + B` - this is ubiquitous
+
+*Italic Text*  
+`Ctrl/⌘ + I` - this is ubiquitous
