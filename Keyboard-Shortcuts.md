@@ -2,12 +2,14 @@ The following document outlines the keyboard shortcuts in place in the backbone 
 
 ## Ember (new)
 
+### Editor Markdown shortcuts
+
+
 
 
 ## Backbone (existing)
 
-### Editor 
-#### Action
+### Editor general shortcuts
 ##### Top level
 * `Ctrl+Alt+C` - HTML copy & paste
 * `Alt+Shift+Z` - Zen writing mode
@@ -16,7 +18,7 @@ The following document outlines the keyboard shortcuts in place in the backbone 
 * `Meta+S` - Save / Update post
 * `Ctrl+Alt+P` - Publish post
 
-#### Markdown
+### Editor Markdown shortcuts
 ##### All
 * `Ctrl+Alt+U` - strike
 * `Ctrl+Shift+K` - code
