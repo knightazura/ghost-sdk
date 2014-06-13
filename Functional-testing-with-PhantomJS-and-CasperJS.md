@@ -63,7 +63,7 @@ or use TortoiseGIT
 
 ## Running the tests
 
-On the command line, from the `core/tests/functional` directory run the following command..
+On the command line, from the `core/test/functional` directory run the following command..
 
 If you are on vagrant and your url is local.tryghost.org:
 
