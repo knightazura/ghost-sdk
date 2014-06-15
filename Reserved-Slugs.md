@@ -5,6 +5,8 @@ As of April 23, 2014, they are:
 * admin
 * archive
 * archives
+* app
+* apps
 * categories
 * category
 * dashboard
