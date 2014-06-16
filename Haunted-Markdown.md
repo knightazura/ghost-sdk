@@ -36,7 +36,7 @@ Haunted Markdown should support the following features:
 * Reference and inline video, with titles/captions (we don't know what this is gonna look like yet)
 * Both Markdown and GFM style autolinking
 * Indented, fenced and inline code blocks
-* Full [HTML support](wiki/HTML support)
+* Full [HTML support](HTML support)
 * MultiMarkdown features? TBC
 
 ### Specification
