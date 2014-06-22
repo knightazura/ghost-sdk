@@ -8,8 +8,7 @@ There are a few important things to consider.
 ## Ember (new)
 
 ### Other/General shortcuts
-* `ESC` - Close notification
-* `ESC` - Close modal
+* `ESC` - Close notifications, modal, & popovers
 
 ### Content screen
 
@@ -27,10 +26,11 @@ There are a few important things to consider.
 
 
 ### Editor General shortcuts 
-* `Alt + Shift + Z` - Zen writing mode
+* `Ctrl + Alt + Z` - Zen writing mode
 
 ##### Save button 
 * `Ctrl/⌘ + S` - Save / Update post
+* `Ctrl/⌘ + Alt + P` - Publish & Save post
 
 
 ## Backbone (existing)
