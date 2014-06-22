@@ -90,25 +90,46 @@ Sources:
 * Mou App (see actions) http://mouapp.com/
 * Common keyboard shortcuts [wikipedia](http://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts)
 
+### Shortcuts that are obvious / decided on:
+
 **Bold Text**  
 `Ctrl/⌘ + B` - this is ubiquitous
 
 *Italic Text*  
 `Ctrl/⌘ + I` - this is ubiquitous
 
+[Link](http://example.com)
+
+`Ctrl/⌘ + K` - from office, gmail and google docs
+
+### Shortcuts that need research / decisions:
+
 ~~Strikethrough~~
+
 Old Ghost - `Ctrl + Alt + U`
 Google docs - `Alt + Shift + 5`
 Mou App - `⌘ + U` - as though it was underline, markdown has no underline, so Ctrl/⌘ + U might be good?
 
-Link
-`Ctrl/⌘ + K` - from office, gmail and google docs
-Image
+**Image**
 
-`Code`
+**List**
 
-```language-js
-Code Block
-```
+`Code` - Inline code
 
-Copy HTML - a.k.a copy with styling
+`Code Block` - block of code (only inline had a shortcut before)
+
+**Blockquote**
+
+**CurrentDate**
+
+**Uppercase**
+
+**Lowercase**
+
+**Titlecase**
+
+**Select Word**
+
+**Horizontal Rule** - not present in old admin
+
+**Copy HTML** - a.k.a copy with styling
