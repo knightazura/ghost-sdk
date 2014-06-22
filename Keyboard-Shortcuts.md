@@ -80,6 +80,7 @@ There are a few important things to consider.
 ### Other shortcuts
 * `ESC` - Close notification
 * `ESC` - Close modal
+* `ESC` - Close popover
 
 
 ## Research & Details for each action
