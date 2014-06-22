@@ -114,9 +114,9 @@ Sources:
 
 **List**
 
-`Code` - Inline code
+**Code** - Inline code
 
-`Code Block` - block of code (only inline had a shortcut before)
+**Code Block** - block of code (only inline had a shortcut before)
 
 **Blockquote**
 
