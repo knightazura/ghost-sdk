@@ -163,6 +163,7 @@ Sources:
 * Mou App - `Shift + Alt + U`
 
 **Select Word**
+* Old Ghost - `Ctrl + Alt + W`
 
 **Horizontal Rule** - not present in old admin
 
