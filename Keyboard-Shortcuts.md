@@ -114,29 +114,53 @@ Sources:
 **Image**
 
 * Old Ghost - `Ctrl + Shift + I` - not sure if we should change this one at all? It might be good to have `⌘ + Shift + I` on mac?
-* Google docs - 
+* Mou App - `Ctrl + Shift + I`
 
 **List**
 
-* Old Ghost - `Ctrl+L`
+* Old Ghost - `Ctrl + L`
+* Google Docs - `Ctrl/⌘ + Shift + 7`(numbered list), `Ctrl/⌘ + Shift + 8` (bulleted list)
 
 **Code** - Inline code
 
-* Old Ghost - `Ctrl+Shift+K` (PC), `Meta+K` (Mac)
+* Old Ghost - `Ctrl + Shift + K` (PC), `Meta + K` (Mac)
+* Mou App - `⌘ + K` 
 
 **Code Block** - block of code 
 
 * Old Ghost - didn't have this
+* No shortcuts found
 
 **Blockquote**
+* Old Ghost - `Ctrl + Q`
+* Mou App - `Ctrl + Q`
+* Google Docs - `Ctrl + Shift + 9`(PC), `⌘ + Shift + 9`(Mac)
 
 **CurrentDate**
+* Old Ghost - `Ctrl + Shift + 1`
+* Mou App - `Ctrl + Shift + 1`
 
 **Uppercase**
+* Old Ghost - `Ctrl + U` - Google docs uses this for underline
+* Wiki - `Shift + F3` (PC) - toggles Uppercase/Lowercase 
+* Wiki - `Opt + ⌘ + C` (Mac) - toggles Uppercase/Lowercase 
+* Wiki - `Meta + U`(Emacs)
+* Mou App - `Ctrl + U`
 
 **Lowercase**
+* Old Ghost - `Ctrl + Shift + U`
+* Wiki - `Shift + F3` (PC) - toggles Uppercase/Lowercase 
+* Wiki - `Opt  + ⌘ + C` (Mac) - toggles Uppercase/Lowercase 
+* Wiki - `Meta + L`(Emacs)
+* Mou App - `Ctrl + Shift + U`
+
+**Capitalize 
+* Old Ghost - didn't have this
+* Wiki - `Meta+C`(Emacs)
 
 **Titlecase**
+* Old Ghost - `Ctrl + Alt + Shift + U`
+* Mou App - `Shift + Alt + U`
 
 **Select Word**
 
