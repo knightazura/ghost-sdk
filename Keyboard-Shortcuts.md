@@ -23,7 +23,7 @@ There are a few important things to consider.
 * `Ctrl/⌘ + I` - *Italic Text*
 * `Ctrl/⌘ + Alt + C` - Copy HTML
 * `Ctrl/⌘ + K` - Link
-* `Ctrl + Shift+  I` - image - not sure if we should change this one at all? It might be good to have `⌘ + Shift + 1` on mac?
+* `Ctrl + Shift + I` - image - not sure if we should change this one at all? It might be good to have `⌘ + Shift + I` on mac?
 
 
 ### Editor General shortcuts 
@@ -113,11 +113,20 @@ Sources:
 
 **Image**
 
+* Old Ghost - `Ctrl + Shift + I` - not sure if we should change this one at all? It might be good to have `⌘ + Shift + I` on mac?
+* Google docs - 
+
 **List**
+
+* Old Ghost - `Ctrl+L`
 
 **Code** - Inline code
 
-**Code Block** - block of code (only inline had a shortcut before)
+* Old Ghost - `Ctrl+Shift+K` (PC), `Meta+K` (Mac)
+
+**Code Block** - block of code 
+
+* Old Ghost - didn't have this
 
 **Blockquote**
 
