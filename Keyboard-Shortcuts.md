@@ -106,9 +106,9 @@ Sources:
 
 ~~Strikethrough~~
 
-Old Ghost - `Ctrl + Alt + U`
-Google docs - `Alt + Shift + 5`
-Mou App - `⌘ + U` - as though it was underline, markdown has no underline, so Ctrl/⌘ + U might be good?
+* Old Ghost - `Ctrl + Alt + U`
+* Google docs - `Alt + Shift + 5`
+* Mou App - `⌘ + U` - as though it was underline, markdown has no underline, so Ctrl/⌘ + U might be good?
 
 **Image**
 
