@@ -144,14 +144,14 @@ Sources:
 * Old Ghost - `Ctrl + U` - Google docs uses this for underline
 * Wiki - `Shift + F3` (PC) - toggles Uppercase/Lowercase 
 * Wiki - `Opt + ⌘ + C` (Mac) - toggles Uppercase/Lowercase 
-* Wiki - `Meta + U`(Emacs)
+* Wiki - `Meta + U` (Emacs)
 * Mou App - `Ctrl + U`
 
 **Lowercase**
 * Old Ghost - `Ctrl + Shift + U`
 * Wiki - `Shift + F3` (PC) - toggles Uppercase/Lowercase 
 * Wiki - `Opt  + ⌘ + C` (Mac) - toggles Uppercase/Lowercase 
-* Wiki - `Meta + L`(Emacs)
+* Wiki - `Meta + L` (Emacs)
 * Mou App - `Ctrl + Shift + U`
 
 **Capitalize 
