@@ -26,7 +26,7 @@ There are a few important things to consider.
 
 
 ### Editor General shortcuts 
-* `Ctrl + Alt + Z` - Zen writing mode
+* `Alt + Shift + Z` - Zen writing mode
 
 ##### Save button 
 * `Ctrl/⌘ + S` - Save / Update post
