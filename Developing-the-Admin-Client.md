@@ -10,10 +10,8 @@ URL of admin: [http://127.0.0.1:2368/ghost/]()
 
 If you can't seem to get things to work I have a few suggestions:
 
-1.  Delete your `bower_components` directory and then run:
-
-  ```
+Delete your `bower_components` directory and then run:
+```
 grunt init
 grunt
-  ```
-  And then run the commands at top.
+```
