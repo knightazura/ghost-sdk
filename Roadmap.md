@@ -80,7 +80,7 @@ Apps encompasses work across both the [Ghost](https://github.com/TryGhost/Ghost)
 
 #### Tasks
 
-* [ ] Settle on the App boilerplace, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
+* [ ] Settle on the App boilerplate, decide on v1.0 of the [Ghost-App](http://github.com/TryGhost/Ghost-App) module, and publish it to npm.
 * [~] Add `package.json` support for apps, enabling developers to define key data about apps, and also define their own dependencies.
 * [ ] Introduce App permissions system to ensure that apps can only do the things for which they have permission.
 * [ ] Create the App UIs for installation, activation and management.
