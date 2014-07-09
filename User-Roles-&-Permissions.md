@@ -30,6 +30,12 @@ edit       | y     | y  (user == self or user == author)      | y (user == self)
 add        | y     | y (user == author)      |                  | 
 delete     | y (user != owner) | y (user == author)
 
+### Roles
+
+API Method | Admin | Editor | Author           | NoAuth
+-----------|-------|--------|------------------|------------------------
+browse     | y     | ?      | ?
+
 ### Tags
 API Method  | Admin | Editor | Author           | NoAuth
 ------------|-------|--------|------------------|------------------------
