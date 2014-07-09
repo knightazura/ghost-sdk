@@ -19,25 +19,41 @@ browse            | y     | y      | y (status == published or created_by == sel
 read              | y     | y      | y (status == published or created_by == self) | y (status == published)
 edit              | y     | y      | y (created_by == self) | 
 add               | y     | y      | y                                             | 
-destroy           | y     | y      | y (created_by == self)                        | 
-getSlug           | y     | y      | y                                             | 
+destroy           | y     | y      | y (created_by == self)                                                            
 
 ### Users
-JSON API  | Admin | Editor | Author           | NoAuth
-----------|-------|--------|------------------|------------------------
-browse    | y     | y      | 
-read      | y     | y      | y      | y (email removed)
-edit      | y     | y  (user == self or user == author)      | y (user == self) | 
-add       | y     | y (user == author)      |                  | 
-delete    | y (user != owner) | y (user == author)
+API Method | Admin | Editor | Author           | NoAuth
+-----------|-------|--------|------------------|------------------------
+browse     | y     | y      | y 
+read       | y     | y      | y      | y (email removed)
+edit       | y     | y  (user == self or user == author)      | y (user == self) | 
+add        | y     | y (user == author)      |                  | 
+delete     | y (user != owner) | y (user == author)
+
+### Tags
+API Method  | Admin | Editor | Author           | NoAuth
+------------|-------|--------|------------------|------------------------
+browse      | y     | y      | y                | y
+read        | y     | y      | y                | y
+edit        | y     | y      |  | 
+add         | y     | y      |  y               | 
+delete      | y     | y      |                  | 
+
+
+
+### Slugs
+
+API Method            | Admin | Editor | Author | NoAuth
+----------------------|-------|--------|--------|--------
+generate              | y     | y      | y        
 
 ### DB
 
-API Method               | Admin | Editor | Author | NoAuth
--------------------------|-------|--------|--------|--------
-db.exportContent         | y     |        |        |
-db.importContent         | y     |        |        |
-db.deleteAllContent      | y     |        |        |
+API Method            | Admin | Editor | Author | NoAuth
+----------------------|-------|--------|--------|--------
+exportContent         | y     |        |        |
+importContent         | y     |        |        |
+deleteAllContent      | y     |        |        |
 
 ### Notifications
 
