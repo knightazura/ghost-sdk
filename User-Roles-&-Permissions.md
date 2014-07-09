@@ -29,7 +29,7 @@ browse    | y     | y      | y                |
 read      | y     | y      | y      | y                | y
 edit      | y     | y  (user == self or user == author)      | y (user == self) | 
 add       | y     | y (user == author)      |                  | 
-delete    | y (user !-= owner) | y (user == author)
+delete    | y (user != owner) | y (user == author)
 
 ### DB
 
