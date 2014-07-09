@@ -27,8 +27,8 @@ JSON API  | Admin | Editor | Author           | NoAuth
 ----------|-------|--------|------------------|------------------------
 browse    | y     | y      | y                | 
 read      | y     | y      | y      | y                | y
-edit      | y     | y      | y (user == self or user == author)      | y (user == self) | 
-add       | y     | y      | y (user == author)      |                  | 
+edit      | y     | y  (user == self or user == author)      | y (user == self) | 
+add       | y     | y (user == author)      |                  | 
 delete    | y (user !-= owner) | y (user == author)
 
 ### DB
