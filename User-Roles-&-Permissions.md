@@ -57,6 +57,15 @@ deleteAllContent      | y     |        |        |
 
 ### Notifications
 
+API Method  | Admin | Editor | Author           | NoAuth
+------------|-------|--------|------------------|------------------------
+browse      | y     |        |                  | 
+add*        | y     |        |                  | 
+delete      | y     |        |                  | 
+
+*add should probably be possible as an internal thing
+
+
 ### Settings
 
 API Method               | Admin | Editor | Author           | NoAuth
