@@ -23,12 +23,13 @@ destroy           | y     | y      | y (created_by == self)                     
 getSlug           | y     | y      | y                                             | 
 
 ### Users
-JSON API                 | Admin | Editor | Author           | NoAuth
--------------------------|-------|--------|------------------|------------------------
-users.browse             | y     | y      | y                | 
-users.read               | y     | y      | y                | y
-users.edit               | y     | y      | y (user == self) | 
-users.add                | y     | y      |                  | 
+JSON API  | Admin | Editor | Author           | NoAuth
+----------|-------|--------|------------------|------------------------
+browse    | y     | y      | y                | 
+read      | y     | y      | y      | y                | y
+edit      | y     | y      | y (user == self or user == author)      | y (user == self) | 
+add       | y     | y      | y (user == author)      |                  | 
+delete    | y (user !-= owner) | y (user == author)
 
 ### DB
 
