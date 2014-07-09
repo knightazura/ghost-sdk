@@ -26,7 +26,7 @@ getSlug           | y     | y      | y                                          
 JSON API  | Admin | Editor | Author           | NoAuth
 ----------|-------|--------|------------------|------------------------
 browse    | y     | y      | y                | 
-read      | y     | y      | y      | y                | y
+read      | y     | y      | y      | y                | y (email removed)
 edit      | y     | y  (user == self or user == author)      | y (user == self) | 
 add       | y     | y (user == author)      |                  | 
 delete    | y (user != owner) | y (user == author)
