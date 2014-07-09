@@ -13,15 +13,24 @@
 
 ### Posts
 
+**Special Rules:**
+
+- Visibility of posts is determined based on status
+- Ownership of posts is based on the author property, not created_by. The post's owner has all rights regardless of role.
+
 API Method        | Admin | Editor | Author                                        | NoAuth
 ------------------|-------|--------|-----------------------------------------------|------------------------
-browse            | y     | y      | y (status == published or created_by == self) | y (status == published)
-read              | y     | y      | y (status == published or created_by == self) | y (status == published)
-edit              | y     | y      | y (created_by == self) | 
+browse            | y     | y      | y (status == published or author == self) | y (status == published)
+read              | y     | y      | y (status == published or author == self) | y (status == published)
+edit              | y     | y      | y (author == self) | 
 add               | y     | y      | y                                             | 
-destroy           | y     | y      | y (created_by == self)                                                            
+destroy           | y     | y      | y (author == self)                                                            
 
 ### Users
+
+* The action a user can perform is determined by their role, and the role of the user on which they are acting
+* The user with the owner role cannot be deleted
+
 API Method | Admin | Editor | Author           | NoAuth
 -----------|-------|--------|------------------|------------------------
 browse     | y     | y      | y 
