@@ -65,6 +65,12 @@ delete      | y     |        |                  |
 
 *add should probably be possible as an internal thing
 
+# Mail
+
+API Method  | Admin | Editor | Author           | NoAuth
+------------|-------|--------|------------------|----------------
+send        | y     |        |                  | 
+sendTest    | y     |        |                  | 
 
 ### Settings
 
