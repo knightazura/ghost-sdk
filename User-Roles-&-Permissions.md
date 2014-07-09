@@ -12,6 +12,7 @@
 ## Permissions
 
 ### Posts
+
 API Method        | Admin | Editor | Author                                        | NoAuth
 ------------------|-------|--------|-----------------------------------------------|------------------------
 browse            | y     | y      | y (status == published or created_by == self) | y (status == published)
@@ -20,3 +21,41 @@ edit              | y     | y      | y (created_by == self) |
 add               | y     | y      | y                                             | 
 destroy           | y     | y      | y (created_by == self)                        | 
 getSlug           | y     | y      | y                                             | 
+
+### Users
+JSON API                 | Admin | Editor | Author           | NoAuth
+-------------------------|-------|--------|------------------|------------------------
+users.browse             | y     | y      | y                | 
+users.read               | y     | y      | y                | y
+users.edit               | y     | y      | y (user == self) | 
+users.add                | y     | y      |                  | 
+
+### DB
+
+API Method               | Admin | Editor | Author | NoAuth
+-------------------------|-------|--------|--------|--------
+db.exportContent         | y     |        |        |
+db.importContent         | y     |        |        |
+db.deleteAllContent      | y     |        |        |
+
+### Notifications
+
+### Settings
+
+API Method               | Admin | Editor | Author           | NoAuth
+-------------------------|-------|--------|------------------|------------------------
+settings.browse          |       |        |                  | 
+- core                   |       |        |                  | 
+- blog                   | y     | y      | y                | y
+- app                    | y     | y      | y                | 
+- theme                  | y     | y      | y                | 
+settings.read            |       |        |                  | 
+- core                   |       |        |                  | 
+- blog                   | y     | y      | y                | y
+- app                    | y     | y      | y                | 
+- theme                  | y     | y      | y                | 
+settings.edit            |       |        |                  | 
+- core                   |       |        |                  | 
+- blog                   | y     |        |                  |  
+- app                    | y     |        |                  | 
+- theme                  | y     |        |                  | 
