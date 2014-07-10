@@ -46,6 +46,7 @@ API Method | Admin | Editor | Author           | NoAuth
 browse     | y     | ?      | ?
 
 ### Tags
+
 API Method  | Admin | Editor | Author           | NoAuth
 ------------|-------|--------|------------------|------------------------
 browse      | y     | y      | y                | y
@@ -53,7 +54,6 @@ read        | y     | y      | y                | y
 edit        | y     | y      |  | 
 add         | y     | y      |  y               | 
 delete      | y     | y      |                  | 
-
 
 
 ### Slugs
@@ -75,10 +75,18 @@ deleteAllContent      | y     |        |        |
 API Method  | Admin | Editor | Author           | NoAuth
 ------------|-------|--------|------------------|------------------------
 browse      | y     |        |                  | 
-add*        | y     |        |                  | 
+add         | y     |        |                  | 
 delete      | y     |        |                  | 
 
-*add should probably be possible as an internal thing
+### Themes
+
+API Method  | Admin | Editor | Author           | NoAuth
+------------|-------|--------|------------------|----------------
+
+### Apps
+
+API Method  | Admin | Editor | Author           | NoAuth
+------------|-------|--------|------------------|----------------
 
 ### Mail
 
