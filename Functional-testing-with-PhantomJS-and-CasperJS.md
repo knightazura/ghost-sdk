@@ -63,6 +63,13 @@ or use TortoiseGIT
 
 ## Running the tests
 
+If you want automated testing, we've got a grunt task that has you covered. Just:
+```bash
+grunt test-functional
+```
+and you'll be up and running.
+
+#### Running the tests manually
 On the command line, from the `core/test/functional` directory run the following command..
 
 If you are on vagrant and your url is local.tryghost.org:
