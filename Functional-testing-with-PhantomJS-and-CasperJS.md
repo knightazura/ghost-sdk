@@ -64,8 +64,8 @@ or use TortoiseGIT
 ## Running the tests
 
 If you want automated testing, we've got a grunt task that has you covered. Just:
-```bash
-grunt test-functional
+```
+$ grunt test-functional
 ```
 and you'll be up and running.
 
