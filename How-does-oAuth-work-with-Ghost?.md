@@ -56,7 +56,7 @@ Ghost implements *OAuth 2.0 - Resource Owner Password Credentials Grant (RFC 674
 
 # Usage
 
-To access a ressources on the server the access_token is sent as Authorization header.
+To access a resource on the server the access_token is sent as Authorization header.
 
 ```
 GET /ghost/api/v0.1/users/me/
