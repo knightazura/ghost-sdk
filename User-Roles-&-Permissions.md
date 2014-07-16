@@ -47,7 +47,7 @@ browse     | y     | ?      | ?
 
 ### Roles Users
 
-i.e. adding a user with a given role
+i.e. adding a user with a given role / assign a role
 
 API Method | Admin | Editor | Author           | NoAuth
 -----------|-------|--------|------------------|------------------------
@@ -55,6 +55,10 @@ add admin  | y     |        |
 add editor | y     |        | 
 add author | y     |   y    | 
 
+
+API Method | Admin | Editor | Author           | NoAuth
+-----------|-------|--------|------------------|------------------------
+assign     | y     |   y (role = author)     | 
 
 ### Tags
 
