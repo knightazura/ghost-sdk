@@ -45,6 +45,17 @@ API Method | Admin | Editor | Author           | NoAuth
 -----------|-------|--------|------------------|------------------------
 browse     | y     | ?      | ?
 
+### Roles Users
+
+i.e. adding a user with a given role
+
+API Method | Admin | Editor | Author           | NoAuth
+-----------|-------|--------|------------------|------------------------
+add admin  | y     |        | 
+add editor | y     |        | 
+add author | y     |   y    | 
+
+
 ### Tags
 
 API Method  | Admin | Editor | Author           | NoAuth
