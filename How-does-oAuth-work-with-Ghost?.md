@@ -31,7 +31,7 @@ Ghost implements *OAuth 2.0 - Resource Owner Password Credentials Grant (RFC 674
 2. Ghost Admin sends a post request to obtain an access token:
 
     ```
-    POST /ghost/api/v0.1/token
+    POST /ghost/api/v0.1/authentication/token
     Content-Type: application/x-www-form-urlencoded
     grant_type=password&username=<username>&password=<password>&client_id=ghost-admin
     ```
