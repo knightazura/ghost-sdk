@@ -2,35 +2,12 @@ The Roadmap aims to set out when certain features will appear. It reduces in cla
 
 If you're just looking to find out whether a feature is likely to end up in core or not, then take a look at the [planned features page](https://github.com/TryGhost/Ghost/wiki/Planned-Features). It's just a list, but we're adding more detail to it as we go.
 
-**Update: 15th April 2014**
+** Update 17th July 2014 **
 
-The roadmap has been changed to become project focused, rather than milestone focused to help the team deliver. Each project listed here in the Roadmap is listed in the order they will be done. Projects don't get a Ghost version in advance, but they do have an estimated delivery date. As we pick up each project, we'll assign a number of weeks / end date for the project - no project should last more than 4 weeks.
-
-The first project, API, is a dependency for the Ember project, Apps project and Multi-user project, which is why it is the first priority. The Ember project is required to deliver any features which require amends or additions to the admin UI. The Multi-user project has been brought forward as it is a highly requested feature, and the majority of the work is done by the API & Ember changes.
+This Roadmap is about to be replaced with a better solution, to make it easier for the public to keep track of on going work. The Ghost team is currently 100% focused on delivering multi-user as soon as possible. To follow progress, the best resource is the [Dev Blog](http://dev.ghost.org) which is updated weekly after the public developer meeting.
 
 ---
 
-## Ember
-
-### Closed for PRs 23rd June
-
-**This is the currently active project, please help us by picking up an [Ember issue](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open), Thanks!**
-
-The Ghost Admin will be rewritten in Ember.js as a full client side SPA, consuming the Ghost data API. This is a dependency for all features which depend on UI changes. This project was started several weeks ago, but has been put on hold so that everyone can focus on the refactoring work to the API which is a dependency if the Ember admin is ever going to work. We should be back to this project before the end of April.
-
-If you are interested in helping out with the Ember work, please take a look at the [Ember admin wiki page](https://github.com/TryGhost/Ghost/wiki/Ember-Admin-UI). 
-
-See the [Epic](https://github.com/TryGhost/Ghost/issues/2271) for an overview of the project, what is required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open) to pick up issues and monitor progress.
-
-#### Goals
-
-* To rebuild the entire Ghost admin in Ember.js
-* To resolve as many UI bugs/issues as possible
-* To create a framework for rapid development of user interfaces in Ghost
-* To lay the groundwork to deliver significant improvements for mobile
-* ?To introduce a more holistic solution for managing keyboard shortcuts?
-
----
 
 ## Multi-user
 
@@ -219,6 +196,23 @@ See the [Epic](https://github.com/TryGhost/Ghost/issues/2124) for an overview of
 * To introduce new API endpoints needed for Apps, Themes and other core parts of Ghost.
 * To introduce permissions / access control across the entire API
 * To produce structure documentation of each endpoint, the expected response and any errors that may result
+
+## Ember
+
+The Ghost Admin will be rewritten in Ember.js as a full client side SPA, consuming the Ghost data API. This is a dependency for all features which depend on UI changes. This project was started several weeks ago, but has been put on hold so that everyone can focus on the refactoring work to the API which is a dependency if the Ember admin is ever going to work. We should be back to this project before the end of April.
+
+See the [Epic](https://github.com/TryGhost/Ghost/issues/2271) for an overview of the project, what is required and why. Additionally, see the [issue backlog](https://github.com/TryGhost/Ghost/issues?milestone=17&state=open) to pick up issues and monitor progress.
+
+#### Goals
+
+* To rebuild the entire Ghost admin in Ember.js
+* To resolve as many UI bugs/issues as possible
+* To create a framework for rapid development of user interfaces in Ghost
+* To lay the groundwork to deliver significant improvements for mobile
+* ?To introduce a more holistic solution for managing keyboard shortcuts?
+
+---
+
 
 
 #### History 
