@@ -11,7 +11,7 @@ This Roadmap is about to be replaced with a better solution, to make it easier f
 
 ## Multi-user
 
-### Closed for PRs 1st July
+### Closed for PRs 22nd July
 
 Ghost will get the option to add multiple users, with differing roles and permissions. 
 
