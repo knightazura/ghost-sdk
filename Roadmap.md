@@ -18,7 +18,7 @@ Ghost will get the option to add multiple users, with differing roles and permis
 #### Goals
 * To make it possible to have a multi-user blog
 * To ensure that the admin UI is safe from XSS and other security issues
-* To improve the first run/install and introducton experience for users
+* To improve the first run/install and introduction experience for users
 
 
 ---
