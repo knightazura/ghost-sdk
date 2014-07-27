@@ -4,11 +4,11 @@ HTML emails in Ghost
 ## Thinks to keep in mind
 Before you start, here are some limitations you should be aware of:
 > When it comes to email HTML, note that all best practices from web development goes out the window. To make the look consistent, you should:
-> 1. Use table based layouts
-> 2. Use the old-school attribute styling for tables
-> 3. Use ONLY inline-styles, and only very simple such. ```<style>```-tags are discarded by many clients.
-> 4. Skip using ```<html>```, ```<head>``` and ```<body>``` - They will be discarded by most clients anyway.
-> 5. If you embed images, try to make sure that the e-mail looks decent even if images are not loaded. Many - clients require the user to mark the email as "safe" before displaying images.
+> - Use table based layouts
+> - Use the old-school attribute styling for tables
+> - Use ONLY inline-styles, and only very simple such. ```<style>```-tags are discarded by many clients.
+> - Skip using ```<html>```, ```<head>``` and ```<body>``` - They will be discarded by most clients anyway.
+> - If you embed images, try to make sure that the e-mail looks decent even if images are not loaded. Many - clients require the user to mark the email as "safe" before displaying images.
 
 [[src](http://stackoverflow.com/a/2935522/1021300)]
 
