@@ -1,6 +1,4 @@
-# Dealing with HTML emails in Ghost
-
-
+HTML emails in Ghost
 
 
 ## Thinks to keep in mind
