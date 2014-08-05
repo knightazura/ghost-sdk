@@ -77,9 +77,8 @@ filters.doFilter('post.render', html, {
 | tag paged| /tag/my-tag/page/2/ | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | n/a | n/a | n/a | [rss] | rss feed XML
 | rss paged| /rss/2/ | T | n/a | n/a | n/a | [rss, paged] | rss feed XML
-| **coming with multi-user** | (maybe) | - | - | - | - | - | - |
-| user | /user/my-user/ | F | user.hbs or index.hbs | n/a | _user-template, user-*_ | [user] | [{posts}], {pagination}, {user} |
-| user paged | /user/my-user/page/2 | T | user.hbs or index.hbs | n/a | _user-template, user-*, paged_ | [user, paged] | [{posts}], {pagination}, {user} |
+| author| /author/my-user/ | F | user.hbs or index.hbs | n/a | _user-template, user-*_ | [user] | [{posts}], {pagination}, {author} |
+| authorpaged | /author/my-user/page/2 | T | author.hbs or index.hbs | n/a | _author-template, author-*, paged_ | [author, paged] | [{posts}], {pagination}, {author} |
 | **coming in ??** | (maybe) | - | - | - | - | - | - |
 | users | /users/ | F | users.hbs | n/a | | [users] | [{users}], {pagination} |
 | users paged| /users/page/2/ | T | users.hbs | n/a | | [users, paged] | [{users}], {pagination} |
