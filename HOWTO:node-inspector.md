@@ -22,7 +22,7 @@ express: {
 
     dev: {
         options: {
-            debug: false
+            debug: true
         }
     },
     test: {
