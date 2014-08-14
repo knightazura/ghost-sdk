@@ -1,1 +1,0 @@
-Moved to https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Kit
