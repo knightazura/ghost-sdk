@@ -1,1 +1,0 @@
-The contributing guide is now located at https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md
