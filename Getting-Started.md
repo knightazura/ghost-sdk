@@ -1,1 +1,0 @@
-Moved to https://github.com/TryGhost/Ghost/blob/master/README.md#getting-started
