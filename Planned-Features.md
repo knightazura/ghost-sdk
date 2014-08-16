@@ -4,21 +4,11 @@ We have a list of features that we plan to implement which is as long as a goril
 
 ### what makes it into Ghost core?
 
-If you're looking to figure out whether or not a feature will be implemented, the principles are:
-
-- Is it a feature that is fundamentally core to publishing digital content? If yes, then it will probably be in Ghost core. E.g I18n, post scheduling, etc.
-- Is it something so large and complex that other companies have entire teams and infrastructures dedicated to it? Then it will probably be provided through 3rd party integrations. E.g. Comments, and media management.
-- Is it something that is only relevant to a small group, or for a short time? If yes, it is probably app territory. E.g. XML-RPC, Import tools
-- Is it something that can only be added in core? If yes, then it will be considered in terms of benefit vs complexity.
+See: https://github.com/TryGhost/Ghost/wiki/What-makes-it-into-Ghost-core%3F
 
 ### where is the dashboard?
 
-The dashboard is the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. 
-
-As it stands, the Ghost project is concentrating on far more important and valuable features, such as delivering apps, multi-user, i18n and other often requested features. It is hoped that as the project grows, more people will join in and contribute to Ghost, but currently there are very few frontend developers involved in the project. The current idea is to plan the dashboard as a side project during 0.5, and to try to put together a team willing to work on it during 0.5 and 0.6. Keep an eye out on the [dev blog](http://dev.ghost.org) for more information about this. 
-
-If this fails, then the dashboard will likely become the focus of the 0.8 or 0.9 milestone. We are committed to delivering the dashboard in time for Ghost v1.0 which is scheduled to land around the beginning of 2015.
-
+The dashboard is the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. In short, it'll be ready when it's ready, but we are committed to delivering it before Ghost hits v1.0
 
 ## Planned Projects
 
