@@ -16,35 +16,20 @@ There are some bugs and features which clearly belong together as a group, and s
 
 ### Apps
 
-Ghost Apps (plugins) is the next big project that we will take on. This includes tying down the boilerplate & tools which are available for building Ghost Apps in the Ghost-App repository, as well as introducing a vast toolset in the Ghost internals. The first steps will include the ability to install and activate an App via the Ghost UI, and introducing more access control so that Ghost users can be sure what a Ghost App is able to do. Ghost will have filter hooks added at various points, and we'll start to build the tools for working with 3rd parties and the dashboard. At this time it is intended that Ghost Apps will be the sole focus of the 0.5 milestone.
+Ghost Apps (plugins) is the next big project that we will take on. This includes tying down the boilerplate & tools which are available for building Ghost Apps in the Ghost-App repository, as well as introducing a vast toolset in the Ghost internals. The first steps will include the ability to install and activate an App via the Ghost UI, and introducing more access control so that Ghost users can be sure what a Ghost App is able to do. Ghost will have filter hooks added at various points, and we'll start to build the tools for working with 3rd parties and the dashboard. 
 
 ### Multi-User
 
-Multi User is a pretty sizeable project. Ghost is inherently multi-user under the bonnet, but the UI has been locked down to a single user because it adds a level of complexity to every feature in terms of security. As part of the multi-user (and also as part of the Apps project), Ghost will have a complete ACL layer added, so that it is possible to control users, roles and permissions across every action in the Ghost admin. We will also add a stronger focus on XSS protection and ensuring that users cannot cause problems for other users. At this time it is intended that Multi User will be the main focus of the 0.6 milestone.
+Multi User is a pretty sizeable project. Ghost is inherently multi-user under the bonnet, but the UI has been locked down to a single user because it adds a level of complexity to every feature in terms of security. As part of the multi-user (and also as part of the Apps project), Ghost will have a complete ACL layer added, so that it is possible to control users, roles and permissions across every action in the Ghost admin. We will also add a stronger focus on XSS protection and ensuring that users cannot cause problems for other users. 
  
 
 ### Localisation / i18n 
 
-Ghost is currently pretty much UK-based English-language only, and has barely any features to account for timezones, locales, languages, alphabets, keyboard layouts or anything else that isn't UTC/English in either the admin or in themes. Even the USA folks luck out, sorry! All this is set to change with full support for multiple locales and languages across the admin and your blog posts. Throughout the Ghost GitHub, support for all of these sorts of features is referred to as `i18n` (internationalisation), and this is scheduled to be done along with multi-user in milestone 0.6.
-
-One feature which is particularly key, Timezone support, may be introduced in 0.5.
-
-
-### Markdown2
-
-Markdown is a fabulous tool and it comes in many different flavours. Ghost intends to develop a JavaScript parser for markdown which pulls in the best features from the greatest flavors (like GFM and MultiMarkdown). The features and how they work will be tightly spec'd and unit tested, and will be called 'Markdown2'. The Markdown2 JS parser will be available both as a node module and a browser script, and will replace the use of Showdown in Ghost. 
+Ghost is currently pretty much UK-based English-language only, and has barely any features to account for timezones, locales, languages, alphabets, keyboard layouts or anything else that isn't UTC/English in either the admin or in themes. Even the USA folks luck out, sorry! All this is set to change with full support for multiple locales and languages across the admin and your blog posts. Throughout the Ghost GitHub, support for all of these sorts of features is referred to as `i18n` (internationalisation).
 
 ### Ghost Editor
 
-With the Markdown2 parser in place, we will overhaul the Ghost Editor to use it in both the editor and preview windows, rather than using CodeMirror's parser in the editor and showdown in the preview. This should instantly eradicate all of the tiny bugs and inconsistencies across the two panes.
-
-### Magazine
-
-"Magazine" is the name of the project that is currently scheduled for milestone 0.8. It encompasses all the features you'd need to run a larger, magazine style blog, including scheduling/queuing posts, managing complex teams with advanced publishing workflows, and features for building magazine style themes.
-
-### Admin overhaul
-
-Ghost's current admin interface is build using Backbone, originally rendered server-side, but partially moved over to rendering client side. It is a half-way house and desperately needs love. We are planning a project to rebuild the admin interface, using one of many potential technologies such as Rendr, Ember, or Angular. This project isn't currently scheduled for a milestone, instead it will likely run as a side project starting in 0.5 and getting released in whatever milestone it is completed. 
+A project to redesign and rebuild the Ghost editor is planned to take place before we ship Ghost 1.0, replacing the current iteration with a new component which doesn't depend on different markdown interpretations, which is easily extensible and which works as well on mobile as it does on desktop.
 
 ### Dashboard
 
@@ -59,92 +44,83 @@ Please note: This list is not complete and is being added to on a regular basis.
 
 Note: Ghost core will contain the tools for making Ghost work in various languages, but the languages and settings specific to different languages will be provided via a 'language pack'.
 
-* Timezone settings *0.5*
-* date localisation *i18n/0.6*
-* advanced character sets for fonts *i18n/0.6*
-* translatable admin *i18n/0.6*
-* post language *i18n/0.6*
-* multi-language posts *future*
+* Timezone settings 
+* date localisation 
+* advanced character sets for fonts 
+* translatable admin 
+* post language 
+* multi-language posts 
 
 ### Blog content creation
 
-* Extended markdown features (Markdown2) *editor/0.7*
-* Preview uses theme styles *editor/0.7*
-* Post SEO *magazine/0.8*
-* Post scheduling *magazine/0.8*
-* Post queue *magazine/0.8*
-* Auto-save & offline *editor/0.7*
-* Post cover / feature image *magazine/0.8*
-* Video embedding *future*
-* Version control *future*
-* Post custom data *apps/0.5*
+* Extended markdown features
+* Preview uses theme styles
+* Post SEO 
+* Post scheduling 
+* Post queue 
+* Auto-save & offline 
+* Post cover / feature image 
+* Video embedding 
+* Version control 
+* Post custom data 
 
 ### Admin UI
 
-* Installation screen *other/0.5* 
-* Better Markdown support / behaviour when live previewing *editor/0.7*
-* Editor -> Preview consistency *editor/0.7*
-* Advanced editor scrolling *editor/0.7*
-* Post list filtering and search *editor/0.7*
-* Tag management *editor/0.7*
-* Admin overhaul *future*
+* Better Markdown support / behaviour when live previewing
+* Editor -> Preview consistency
+* Advanced editor scrolling 
+* Post list filtering and search
+* Tag management
 
 ### Site structure
 
-* Tag pages *0.5*
-* Archives *magazine/0.8*
-* Search *magazine/0.8*
-* Navigation menu UI *magazine/0.8*
-* More permalink structures *importer/0.5*
-* Sitemap & other SEO tools *future*
+* Archives
+* Search 
+* Navigation menu UI
+* More permalink structures
+* Sitemap 
+* Other SEO tools
 
 ### Users
 
-* Multiple users *multi-user/0.6*
-* User management screen *multi-user/0.6*
-* User role and permission management *multi-user/0.6*
-* User profile pages *multi-user/0.6*
-* Multi-author *magazine/0.8*
-* Advanced publishing workflows *magazine/0.8*
+* User role and permission management 
+* Multi-author 
+* Advanced publishing workflows
 
 ### Apps & integrations
 
-* Basic app API / structure *apps/0.5*
-* App installation/activation/management *apps/0.5*
-* App settings *apps/0.5*
-* Hooks for interacting with Ghost *apps/0.5*
-* Data API *apps/0.5*
-* Routes API *apps/0.5*
-* Files API *apps/0.5*
-* Dashboard widget API *dashboard*
-* Admin UI hooks *apps/0.5*
-* Authentication tools for working with 3rd parties *future*
-* API tools for interacting with 3rd party APIs *future*
-* Importer hooks, & improved import workflow *importer/0.5*
-* Importer app (for WP, Tumblr, Blogger, etc) *importer/0.5*
-* Public API for Ghost using OAuth *magazine/0.8*
-* Integration options for analytics, comments, media etc *apps/0.5*
-* Name, version, other info support via `package.json` *apps/0.5*
+* Basic app API / structure 
+* App installation/activation/management 
+* App settings 
+* Hooks for interacting with Ghost
+* Data API 
+* Routes API 
+* Files API 
+* Dashboard widget API 
+* Admin UI hooks
+* Authentication tools for working with 3rd parties
+* API tools for interacting with 3rd party APIs
+* Importer hooks, & improved import workflow
+* Importer app (for WP, Tumblr, Blogger, etc)
+* Public API for Ghost using OAuth
+* Integration options for analytics, comments, media etc
+* Name, version, other info support via `package.json`
 
 ### Themes
 
-* `has` helper *themes/0.5*
-* Name, version, other info support via `package.json` *themes/0.5*
-* Debugging tools *themes/0.5*
-* Custom templates *themes/0.5*
-* Placeholder helpers for app filters *themes/0.5*
-* Advanced excerpts *magazine/0.8*
-* Feature / cover images *magazine/0.8*
-* Retrieve image in multiple sizes/formats *magazine/0.8*
-* Previous & next post available on single post *magazine/0.8*
-* Dynamic helpers - Post lists on post pages - latest, related, etc *magazine/0.8*
-* Head/foot js snippet support *future*
+* Debugging tools 
+* Custom templates
+* Placeholder helpers for app filters
+* Advanced excerpts 
+* Feature / cover images 
+* Retrieve image in multiple sizes/formats 
+* Previous & next post available on single post
+* Dynamic helpers - Post lists on post pages - latest, related, etc
+* Head/foot js snippet support
 
 ### Core / Infrastructure
 
-* Support for requiring Ghost *other/0.5*
-* More modularisation *future*
-* Command line tools *future*
-* Support for no-SQL *future*
-* Upgrade/update tools *other/0.5*
-* Auto-discover themes and apps *future*
+* More modularisation 
+* Command line tools 
+* Upgrade/update tools 
+* Auto-discover themes and apps 
