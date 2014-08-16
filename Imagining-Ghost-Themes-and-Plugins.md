@@ -1,1 +1,0 @@
-The content of this page has moved to [Imagining the Ghost Developer Tools](https://github.com/TryGhost/Ghost/wiki/Imagining-the-Ghost-Developer-Tools)
