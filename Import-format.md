@@ -25,7 +25,7 @@ The file structure can optionally be wrapped in `{"db":[...contents here...]}` -
 
 You must include a `meta` block and a `data` block.
 
-All IDs inside the file are relative to the file only, so if you have a `post` with `id: 1` and a `posts_tags` object which references `post_id: 1`, then those two things will be linked, but they do not relate to the `post` with `id: 1` in your database. The only exception is any reference in foreign key fields to a `user` with `id: 1`, i.e. `created_by: 1` as the user with `id: 1` in the import file is assumed to mean the user in the database with the `owner` role.
+IDs inside the file are usually relative to the file only, so if you have a `post` with `id: 1` and a `posts_tags` object which references `post_id: 1`, then those two things will be linked, but they do not relate to the `post` with `id: 1` in your database. 
 
 #### The meta block
 
@@ -38,6 +38,16 @@ The `meta` block expects two keys, `exported_on` and `version`. `exported_on` sh
 `"data": { "posts": [{...}, ...], "tags": [], "posts_tags": [], "users": [], "roles_users": []}`
 
 The data block contains all of the posts, tags, and users that you want to import into your blog, as well as relationships between posts and tags and users and roles. Each item that you include should be an array of objects.
+
+#### Users
+
+With 0.5 comes the ability to import multiple users into your blog. Any user in the file who has an email address which matches the email address of a user already in your database will be ignored. Any user with a new email address will be imported and their account set to locked so that they must reset their password to login.
+
+#### Linking objects to users
+
+If you want to link your posts, tags, etc to the user they were authored/created/published by you can do so by specifying an id relative to a user id in the file. So, if you have a user with `id: 2` in your file, and a post with `author_id: 2` that post will be set to be authored by that user.
+
+Please note that as a special case, any reference to a `user` with `id: 1`, i.e. `created_by: 1` or `author_id: 1` where there is no user with that id in the import file, will be assumed to refer to the user who has the `owner` role.
 
 
 ```
