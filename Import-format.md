@@ -43,12 +43,25 @@ The data block contains all of the posts, tags, and users that you want to impor
 
 With 0.5 comes the ability to import multiple users into your blog. Any user in the file who has an email address which matches the email address of a user already in your database will be ignored. Any user with a new email address will be imported and their account set to locked so that they must reset their password to login.
 
-#### Linking objects to users
+##### Linking objects to users
 
-If you want to link your posts, tags, etc to the user they were authored/created/published by you can do so by specifying an id relative to a user id in the file. So, if you have a user with `id: 2` in your file, and a post with `author_id: 2` that post will be set to be authored by that user.
+If you want to link your posts, tags, etc to the user they were authored/created/published by you can do so by specifying a user id relative to a user's id in the import file. So, if you have a user with `id: 2` in your file, and a post with `author_id: 2` that post will be set to be authored by that user.
 
-Please note that as a special case, any reference to a `user` with `id: 1`, i.e. `created_by: 1` or `author_id: 1` where there is no user with that id in the import file, will be assumed to refer to the user who has the `owner` role.
+All new users (i.e. users with email addresses that aren't yet present in the db) are imported first. Then the importer matches the ids from `created_by`, `author_id` etc with users in the `users: []` object, and finally maps them to the right user in the database via their email address. Therefore if you want to link objects to a user that is already in the database you can specify the bare minimum information for that user so that it can be mapped correctly:
 
+```
+"users": [{
+   id: 3,
+   name: "A User",
+   email: "user@example.com"
+}]
+```
+
+**Note:** there is a special case for user ids. Any reference to a user with `id: 1`, i.e. `created_by: 1` or `author_id: 1` where there is no user with that id in the import file, will be assumed to refer to the user who has the `owner` role.
+
+##### User Roles
+
+All users are given the role of `author` by default. If you want to specify different roles, you can do so by providing a `roles_users` object, much like the `posts_tags` object. Please note that Ghost doesn't yet support importing roles, so in this case the `role_id` is always relative to the `id` in the database, rather than in the file. This will change to match the other objects in the near future.
 
 ```
 {
