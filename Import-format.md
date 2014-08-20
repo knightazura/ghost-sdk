@@ -15,7 +15,31 @@ Once you've generated the JSON go to `/ghost/debug` on your blog to access the i
 
 ## Rolling your own.
 
-If no export tools exist for your current blogging system you'll need to create one that generates a JSON file that resembles the following. Please note that it should have no linebreaks, comments, or indentation in the final format. Those are only included here for readability and explanatory purposes.
+If no export tools exist for your current blogging system you'll need to create one that generates a JSON file as described here. There is a full example at the end of this file. Please note that your final JSON file should have no comments in the final format. Those are only included here for readability and explanatory purposes.
+
+### JSON file structure
+
+First and foremost, your JSON file must contain valid JSON. You can test your file is valid using the [JSONLint](http://jsonlint.com/) online tool.
+
+The file structure can optionally be wrapped in `{"db":[...contents here...]}` - both with and without are valid Ghost JSON files.
+
+You must include a `meta` block and a `data` block.
+
+All IDs inside the file are relative to the file only, so if you have a `post` with `id: 1` and a `posts_tags` object which references `post_id: 1`, then those two things will be linked, but they do not relate to the `post` with `id: 1` in your database. The only exception is any reference in foreign key fields to a `user` with `id: 1`, i.e. `created_by: 1` as the user with `id: 1` in the import file is assumed to mean the user in the database with the `owner` role.
+
+#### The meta block
+
+`"meta":{"exported_on":1408552443891,"version":"003"}`
+
+The `meta` block expects two keys, `exported_on` and `version`. `exported_on` should be an epoch timestamp in milliseconds, version should be the data version the import is valid for. Currently Ghost is on data version 003, see [version info](https://github.com/TryGhost/Ghost/wiki/Version-Info) for more details.
+
+#### The data block
+
+`"data": { "posts": [{...}, ...], "tags": [], "posts_tags": [], "users": [], "roles_users": []}`
+
+The data block contains all of the posts, tags, and users that you want to import into your blog, as well as relationships between posts and tags and users and roles. Each item that you include should be an array of objects.
+
+
 ```
 {
     "meta":{
