@@ -1,5 +1,21 @@
 You can now use Ghost as a NPM module!
 
+### UPDATE! 
+
+The API for using Ghost as an NPM module is changing in **0.5.2**. 
+
+Calling `ghost()` will no longer start an express server. If you have setup Ghost this way with Ghost <0.5.2 you will need to change the code that calls the module. The new API signature will be:
+
+```
+ghost().then(function (app) {
+    app.start();
+});
+``` 
+
+This documentation will be updated with more details closer to the release.
+
+### Using Ghost as an NPM module
+
 1.  Include Ghost as a dependency in your `package.json` file
 
   ```
