@@ -7,6 +7,7 @@ The API for using Ghost as an NPM module is changing in **0.5.2**.
 Calling `ghost()` will no longer start an express server. If you have setup Ghost this way with Ghost <0.5.2 you will need to change the code that calls the module. The new API signature will be:
 
 ```
+var ghost = require('ghost');
 ghost().then(function (app) {
     app.start();
 });
