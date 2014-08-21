@@ -1,3 +1,5 @@
+### Please see http://support.ghost.org/markdown-guide/ for documentation on the current shortcuts in Ghost
+
 The following document outlines the keyboard shortcuts in place in the backbone Ghost admin, and the keyboard shortcuts as we want them to exist in the shiny new Ember admin. At the end is a big list of research I did for various shortcuts along with a rough explanation of what they all do.
 
 There are a few important things to consider. 
