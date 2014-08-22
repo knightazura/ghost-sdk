@@ -69,7 +69,7 @@ filters.doFilter('post.render', html, {
 
 | name | url (default) | paged | template | body classes (current) | body classes (proposed) [WIP]| context | data (current) | data (post API project) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| index (home) | / | F | index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | { posts: [{post}, {post}], meta: {pagination} }
+| index (home) | / | F | home.hbs or index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | { posts: [{post}, {post}], meta: {pagination} }
 | index paged| /page/2 | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} | { posts: [{post}, {post}], meta: {pagination} }
 | post | /my-post | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post} | { posts: [{post}], meta: {pagination} }
 | page | /my-page | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, ?page-template-{{slug}} | _page-template, tag-*_, ?page-template-{{slug}} | [post] | {post} | { posts: [{post}], meta: {pagination} }
