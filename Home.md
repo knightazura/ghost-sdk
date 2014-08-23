@@ -28,3 +28,7 @@ The following documents are intended to provide all the information you need for
 ## How do I create themes or apps (plugins)?
 
 Get started with Ghost themes by reading the [theme documentation](http://docs.ghost.org/themes). The app API is not yet ready, we'll add the documentation here once we've finalised the API.
+
+## Which browsers are supported?
+
+Ghost is expected to work the current and previous version of all major desktop and mobile browsers. Some functionality may be degraded in certain browsers.
