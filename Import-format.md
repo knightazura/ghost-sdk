@@ -138,6 +138,12 @@ All users are given the role of `author` by default. If you want to specify diff
                 "updated_at":   1286958624000, // epoch time in millis
                 "updated_by":   1 // the first user created has an id of 1
             }
+        ],
+        "roles_users": [
+            {
+                "user_id": 2,
+                "role_id": 3   
+            }
         ]
     }
 }
