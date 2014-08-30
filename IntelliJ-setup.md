@@ -52,7 +52,7 @@ By adding just the buttons you want to the Navigation Bar Toolbar you end up wit
 
 ### Databases
 
-It is possible to connect IntelliJ to your SQLite3 databases
+It is possible to connect IntelliJ to your SQLite3 databases. You need to enable the Database Support plugin first. Go to Preferences -> Plugins, search for 'database', and tick 'Database Support'. You will need to restart IntelliJ.
 
 **Pro tip**: Use **Xerial**, not Zentus
 
