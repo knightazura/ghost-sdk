@@ -4,11 +4,19 @@ If you're just looking to find out whether a feature is likely to end up in core
 
 ## The Public Roadmap
 
-This Roadmap has been replaced with a [public trello board](https://trello.com/b/EceUgtCL/ghost-roadmap), to make it easier for everyone to keep track of ongoing work. If you would like to receive regular updates on our progress, you can subscribe to the [Dev Blog](http://dev.ghost.org) which is updated weekly after the public developer meeting.
+The wiki Roadmap has been replaced with a [public trello board](https://trello.com/b/EceUgtCL/ghost-roadmap), to make it easier for everyone to keep track of ongoing work. If you would like to receive regular updates on our progress, you can subscribe to the [Dev Blog](http://dev.ghost.org) which is updated weekly after the public developer meeting.
 
 [![](https://trello.com/b/EceUgtCL.png)](https://trello.com/b/EceUgtCL/ghost-roadmap)
 
 For information on how the new roadmap works, see [visit trello](https://trello.com/c/0e0L0alW/65-how-does-this-roadmap-work-click-here-to-find-out).
+
+## GitHub Backlogs
+
+We now have just two Milestones on GitHub: 
+- [0.5x Backlog](https://github.com/TryGhost/Ghost/issues?milestone=21) - contains issues which are ready to be worked on
+- [Future Backlog](https://github.com/TryGhost/Ghost/issues?milestone=6) - contains issues which aren't ready to be worked on yet
+
+The idea is that any issue in the 0.5.x backlog can be picked up and worked on. If the PR gets merged, the code goes out in the next release. We ask developers to use the [roadmap](https://trello.com/b/EceUgtCL/ghost-roadmap) as a guide to which features are most important for the next release, but this only covers features, not technical improvements or bug fixes.
 
 ## Past Milestones
 
