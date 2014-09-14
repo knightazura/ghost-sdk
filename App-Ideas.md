@@ -31,6 +31,7 @@ If you have an idea, please add it to the list no need to break it down into fea
    * Will need a separate permission that doesn't belong to a model.
 * Multilingual blogs
    * Each post could be annotated with an AppField `language` - would require post filtering by AppField value (only posts with app_field language = `en`)
+* Add roles and authentication to frontend (described [here](https://ghost.org/forum/plugins/16275-viewer-reader-role/))
 
 Quick List from looking around GitHub / Forum:
 
