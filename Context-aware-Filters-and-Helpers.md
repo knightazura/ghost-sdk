@@ -72,7 +72,7 @@ filters.doFilter('post.render', html, {
 | index (home) | / | F | home.hbs or index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | { posts: [{post}, {post}], meta: {pagination} }
 | index paged| /page/2 | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} | { posts: [{post}, {post}], meta: {pagination} }
 | post | /my-post | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post} | { posts: [{post}], meta: {pagination} }
-| page | /my-page | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, (page-template-{{slug}}) | _page-template, tag-*, (page-{{slug}})_ | [post] | {post} | { posts: [{post}], meta: {pagination} }
+| page | /my-page | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, (page-template-{{slug}}) | _page-template, tag-*, (page-{{slug}})_ | [page] | {post} | { posts: [{post}], meta: {pagination} }
 | tag | /tag/my-tag/ | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [tag] | [{posts}], {pagination}, {tag} |
 | tag paged| /tag/my-tag/page/2/ | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | n/a | n/a | n/a | [rss] | rss feed XML
