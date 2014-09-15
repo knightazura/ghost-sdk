@@ -9,4 +9,4 @@ These are the guiding principles, they are somewhat subjective but they provide 
 
 When making a feature request, keep in mind that Ghost is a publishing platform for the masses. It's aim is to be the go-to solution for publishing content to the web - we want to do one thing, REALLY well. The aim of the Ghost architecture is to provide for the most common use cases in Ghost core and provide for extensibility so that less common use cases can be catered for with apps and extensions.
 
-If you want to see list of the main features we have planned, please see the [Planned Features](/Planned-Features) page.
+If you want to see list of the main features we have planned, please see the [Planned Features](https://github.com/TryGhost/Ghost/wiki/Planned-Features) page.
