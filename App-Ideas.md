@@ -32,6 +32,7 @@ If you have an idea, please add it to the list no need to break it down into fea
 * Multilingual blogs
    * Each post could be annotated with an AppField `language` - would require post filtering by AppField value (only posts with app_field language = `en`)
 * Add roles and authentication to frontend (described [here](https://ghost.org/forum/plugins/16275-viewer-reader-role/))
+* Hook into saving/deleting of posts (observer pattern)
 
 Quick List from looking around GitHub / Forum:
 
