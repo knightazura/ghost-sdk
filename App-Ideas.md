@@ -27,6 +27,7 @@ If you have an idea, please add it to the list no need to break it down into fea
    * It would be awesome to extend native helpers like `{{#has ..}}` to check for attributes in custom fields (`{{#has audio='true'}}`)
 * Modify HTML before rendering from markdown
    * Could be used by syntax highlighters to recognise the extended fenced code blocks notation.
+   * See also the request for supporting Markdown flavors in the list below
 * Intercept image uploads to generate thumbnails/etc.
    * Will need a separate permission that doesn't belong to a model.
 * Multilingual blogs
