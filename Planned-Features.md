@@ -8,7 +8,7 @@ See: https://github.com/TryGhost/Ghost/wiki/What-makes-it-into-Ghost-core%3F
 
 ### where is the dashboard?
 
-The dashboard is the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. In short, it'll be ready when it's ready, but we are committed to delivering it before Ghost hits v1.0
+The dashboard is the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. In short, it'll be ready when it's ready, but we are committed to delivering it before Ghost hits v1.0.
 
 ## Planned Projects
 
