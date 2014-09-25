@@ -45,7 +45,7 @@ The GhostServer object returned by the `ghost()` promise has the following API:
 
 #### .rootApp
 
-The base express instance 
+The base Ghost express instance which has all of Ghost's middleware and configuration mounted on it.
 
 #### .config
 
@@ -56,7 +56,7 @@ Reference to the Ghost config module
 
 Starts a server listening for requests on the host & port or socket configured in `config.js`. 
 
-* **Takes:** an optional express instance.
+* **Takes:** an optional express instance (should have Ghost mounted on it)
 * **Returns:** a promise which resolves with the ghostServer instance once the server has successfully  started
 
 #### .stop()
@@ -70,6 +70,26 @@ Stops the server
 * **Returns:** a promise which resolves with the ghostServer instance once the server has successfully restarted
 
 ## Example customizations
+
+### Mount Ghost on a subdirectory
+
+Ghost's default `index.js` uses this to add subdirectory support. It is possible to create a parent express instance, call `.use` to add your own middleware and configuration, and then tell the `ghostServer` to start Ghost with your new parent app.
+
+```
+var ghost = require('ghost'),
+    express = require('express'),
+    parentApp = express();
+
+ghost().then(function (ghostServer) {
+    parentApp.use(ghostServer.config.paths.subdir, ghostServer.rootApp);
+
+    ghostServer.start(parentApp);
+});
+``` 
+
+`ghostServer.config.paths.subdir` contains the subdirectory specified via the URL in `config.js` alternatively you can pass in any valid path string.
+
+**Note:** If you pass in an express instance which has not had the Ghost `rootApp` mounted on it, then `ghostServer` will start a server that doesn't do anything ;)
 
 ### Decide where the `content/` directory should exist
 
