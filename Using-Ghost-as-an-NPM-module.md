@@ -35,10 +35,41 @@ ghost().then(function (ghostServer) {
     ghostServer.start();
 });
 ``` 
-
 At this point Ghost should be running!
 
-## Further customizations
+## GhostServer API
+
+The GhostServer object returned by the `ghost()` promise has the following API:
+
+### Properties 
+
+#### .rootApp
+
+The base express instance 
+
+#### .config
+
+Reference to the Ghost config module
+
+### Methods
+#### .start([express instance])
+
+Starts a server listening for requests on the host & port or socket configured in `config.js`. 
+
+* **Takes:** an optional express instance.
+* **Returns:** a promise which resolves with the ghostServer instance once the server has successfully  started
+
+#### .stop()
+
+Stops the server
+
+* **Returns:** a promise which resolves with the ghostServer instance once the server has successfully stopped
+
+#### .restart()
+
+* **Returns:** a promise which resolves with the ghostServer instance once the server has successfully restarted
+
+## Example customizations
 
 ### Decide where the `content/` directory should exist
 
