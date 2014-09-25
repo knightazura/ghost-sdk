@@ -39,7 +39,7 @@ At this point Ghost should be running!
 
 ## GhostServer API
 
-The GhostServer object returned by the `ghost()` promise has the following API:
+The [GhostServer](https://github.com/TryGhost/Ghost/blob/master/core/server/ghost-server.js) object returned by the `ghost()` promise has the following API:
 
 ### Properties 
 
