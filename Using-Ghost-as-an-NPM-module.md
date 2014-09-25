@@ -1,6 +1,6 @@
 You can now use Ghost as a NPM module!
 
-### UPDATE! 
+### BREAKING CHANGE 
 
 The API for using Ghost as an NPM module is changing in **0.5.2**. 
 
@@ -8,8 +8,8 @@ Calling `ghost()` will no longer start an express server. If you have setup Ghos
 
 ```
 var ghost = require('ghost');
-ghost().then(function (app) {
-    app.start();
+ghost().then(function (ghostServer) {
+    ghostServer.start();
 });
 ``` 
 
@@ -21,18 +21,20 @@ This documentation will be updated with more details closer to the release.
 
   ```
 "dependencies": {
-      "ghost": "0.4.2"
+      "ghost": "0.5.2"
 }
   ```
 
 2.  Run `npm install` to install Ghost.
 
-3.  Include the Ghost module where desired and then invoke it to start ghost.
+3.  Include the Ghost module where desired and then invoke it to get a promise for a ghostServer object. 
 
-  ```
+```
 var ghost = require('ghost');
-ghost();
-  ```
+ghost().then(function (ghostServer) {
+    ghostServer.start();
+});
+``` 
 
 At this point Ghost should be running!
 
