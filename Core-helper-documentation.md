@@ -1,1 +1,0 @@
-Moved to http://docs.ghost.org/themes
