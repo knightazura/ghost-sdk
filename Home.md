@@ -22,6 +22,7 @@ Here's a quick list of the most useful pages:
 * [Tech architecture vision](wiki/Tech-architecture-vision)
 * [How does OAuth work with Ghost](wiki/How-does-oAuth-work-with-Ghost%3F)
 * [HTML email template generation](wiki/HTML-email-template-generation)
+* [Reserved slugs](wiki/Reserved-Slugs)
 
 **API docs:**
 
