@@ -1,8 +1,16 @@
-Welcome to the Ghost Github wiki! There's tons of documentation here on the wiki pertaining to the development, structure and functioning of Ghost. If you don't find the info you're looking for below, then it may be hiding somewhere in the list of [pages](wiki/_pages) or in the [Ghost Guide](http://docs.ghost.org). 
+#### Welcome to the Ghost Github wiki! 
 
-If you really can't find what you're looking for, then please drop us a note on the [Ghost forum](http://ghost.org/forum), where the Ghost staff & community are all on hand to answer your queries.
+The wiki contains all kinds of documentation about the development of Ghost, and is also the place where you'll find early documentation for working with the various APIs. These documents are usually aimed at the people developing features, so they're rough around the edges, but they're here nonetheless.
 
-If you find a bug, please report it here on Github by creating a [new issue](https://github.com/TryGhost/Ghost/issues/new).
+The wiki largely functions as an extension to our [contributing guide](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md) with lots of information about our workflows, how to use Git and GitHub, and the general process and procedure we work with.  It's also a place we hope to use to expand our documentation on the codebase itself, to help developers get started with finding their way around and submitting fixes and features. 
+
+## Where else do I find documentation?
+
+If you're a developer looking for the official developer documentation for things like themes, apps and the data API, you'll find that at [docs.ghost.org](http://docs.ghost.org). 
+
+If you're a user looking for information on installing, configuring and using Ghost, you'll find all those details in our user documentation at [support.ghost.org](http://support.ghost.org). 
+
+If you're looking for a helping hand the best place is the [Ghost forum](https://ghost.org/forum), where the Ghost staff & community are all on hand to answer your queries and you can also get help on our IRC channel, which is #ghost on freenode.org.
 
 ## What is this Ghost thing?
 
@@ -27,7 +35,7 @@ The following documents are intended to provide all the information you need for
 
 ## How do I create themes or apps (plugins)?
 
-Get started with Ghost themes by reading the [theme documentation](http://docs.ghost.org/themes). The app API is not yet ready, we'll add the documentation here once we've finalised the API.
+Get started with Ghost themes by reading the [theme documentation](http://docs.ghost.org/themes). The app API is not yet ready, we'll add the documentation there once we've finalised the API.
 
 ## Which browsers are supported?
 
