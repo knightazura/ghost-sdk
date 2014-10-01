@@ -1,19 +1,8 @@
 Markdown is the heart of Ghost, and as such we intend to make working with it one of our core competencies.
 
-The version of Markdown used in Ghost is dubbed 'Haunted Markdown'. Haunted Markdown is based on John Gruber's original [Markdown project](http://daringfireball.net/projects/markdown/), and borrows from [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [MultiMarkdown](http://fletcherpenney.net/multimarkdown/). It has a focus on producing consistent results whilst editing, so that the experience of live previewing is smooth.
+The version of Markdown used in Ghost is based on John Gruber's original [Markdown project](http://daringfireball.net/projects/markdown/), and borrows from [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [MultiMarkdown](http://fletcherpenney.net/multimarkdown/). It has a focus on producing consistent results whilst editing, so that the experience of live previewing is smooth.
 
-We intend to create excellent tools for working with Haunted Markdown, and surpass the existing solution which uses CodeMirror and Showdown.
-
-The long term plan for Markdown in Ghost looks something like:
-
-1. Complete the initial draft of the specification for [Haunted Markdown](https://github.com/TryGhost/Ghost/wiki/Haunted-Markdown)
-2. Develop a standalone parser module for Haunted Markdown, which converts the Markdown into tokens (and doesn't use regular expressions to do it)
-3. Extend the parser to be able to convert tokens to HTML, and wire this up in Ghost as the tool we use to convert Markdown to HTML
-4. Use the parser to create a mode for CodeMirror which converts the tokens into styles
-
-At this point, we should achieve a consistent experience in the editor in terms of the mapping from Markdown to HTML. For example, we should no longer get hex strings styled differently in CodeMirror but ignored by the preview, or see situations where things are italic on one screen but not the other.
-
-In the even more distant future, with our Markdown parser in hand, we want to replace CodeMirror altogether with a purpose built editor capable of handling Haunted Markdown, and which provides the hooks we need to create a better relationship between the editor and preview.
+We intend to create excellent tools for working with Markdown in Ghost, and surpass the existing solution which uses CodeMirror and Showdown.
 
 
 ### Parsing Markdown
@@ -25,3 +14,47 @@ http://stackoverflow.com/questions/605434/how-would-you-go-about-parsing-markdow
 http://www.cforcoding.com/2010/02/markdown-block-parsing-and-road-to-hell.html
 
 http://blog.stackoverflow.com/2008/06/three-markdown-gotcha/
+
+
+### Current Implementations
+
+This section covers available implementations and current efforts to create a Markdown specification. Since the original Markdown Syntax proposed by John Gruber can be considered abandonware, the community started implementing various dialects of Markdown in order to fix flaws and provide additional features. 
+
+There is a [Markdown Group](http://www.w3.org/community/markdown/) at W3C, inspired by a post from [Jeff Atwood](http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html), that was created in 2012 in order to create a specification for Markdown. The group seems dead as of December 2012 (last post in Wiki), as discussed on its mailing list in October 2013 [where Haunted Markdown is mentioned](http://lists.w3.org/Archives/Public/public-markdown/2013Oct/0004.html).
+
+Another community initiated project tries to collect [all available Markdown implementations](https://github.com/markdown/markdown.github.com/wiki/Implementations) but has also not received any update since March 2013 and can be considered abandoned.
+
+There is a fairly active [`markdown-discuss` mailing list](http://six.pairlist.net/pipermail/markdown-discuss/).
+
+The available NodeJS based Markdown implementations can be categorized into two groups: RegEx Converters ([showdown](https://github.com/coreyti/showdown), [marked](https://github.com/chjj/marked), [markdown-js](https://github.com/evilstreak/markdown-js)) and Wrappers ([node-multimarkdown](https://github.com/dtjm/node-multimarkdown), [node-markdown](https://github.com/andris9/node-markdown), [RoboSkirt](https://github.com/benmills/robotskirt), [node-discount](https://github.com/visionmedia/node-discount)). Wrappers would add new system dependent dependencies and RegEx based converters are hard to extend and not context aware.
+
+John MacFarlane created a [great tool](http://johnmacfarlane.net/babelmark2/) to compare the output of multiple available Markdown implementations, which will become helpful in validating output of whatever library is chosen or built for HauntedMarkdown.
+
+### Features
+
+Ghost's Markdown is based on John Gruber's original Markdown project, and borrows from Github Flavored Markdown and MultiMarkdown. It has a focus on producing consistent results whilst editing, so that the experience of live previewing is smooth.
+
+Ghost wants to support the following features:
+
+* Markdown escaping of `&` and `<`
+* Markdown paragraphs and line breaks
+* Setext & atx style headings i.e. headings prefixed with `#` or underlined with `_` or `=`
+* GFM style line breaking
+* Blockquote with `>`, indented blockquotes 
+* Horizontal rules with `* * *`, `***`, `*****`, `- - -`, `----------------------`
+* Emphasis with `*` & `_`, and strong with `**` & `__` but which allows spaces at the end of the string between the markdown characters so that the style of the output doesn't change whilst typing.
+* GFM style handling of underscores inside words
+* Strike through with `~~`
+* Bulleted lists with `*` or `-`, numbered lists
+* Advanced list indenting (needs much consideration)
+* Reference and inline links, with titles `[alt](http://ghost.org "optional title")` or `[ref]: http://ghost.org  "optional title"`
+* Reference and inline images, with titles/captions. Currently we only support image uploads where the image is on a new line on it's own. It would be nice to look at ways to improve that.
+* Reference and inline video, with titles/captions (we don't know what this is gonna look like yet)
+* Both Markdown and GFM style autolinking
+* Indented, fenced and inline code blocks
+* Full [HTML support](HTML support)
+* MultiMarkdown features? TBC
+
+### Specification
+
+The goal is to create something like: https://github.com/mustache/spec
