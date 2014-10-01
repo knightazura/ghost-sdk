@@ -6,7 +6,7 @@ You can find the rules in the codebase. The root directory contains both a [.jsh
 
 The basic rules are:
 
-* Use `grunt lint` to check your code (run automatically by `grunt validate`).
+* `grunt lint` checks your code (`grunt validate` runs all tests).
 * Indent with 4 spaces.
 * Single quotes in JS.
 * One var per function.
