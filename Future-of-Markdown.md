@@ -1,6 +1,6 @@
 Markdown is the heart of Ghost, and as such we intend to make working with it one of our core competencies.
 
-The version of Markdown used in Ghost is called 'Haunted Markdown'. Haunted Markdown is based on John Gruber's original [Markdown project](http://daringfireball.net/projects/markdown/), and borrows from [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [MultiMarkdown](http://fletcherpenney.net/multimarkdown/). It has a focus on producing consistent results whilst editing, so that the experience of live previewing is smooth.
+The version of Markdown used in Ghost is dubbed 'Haunted Markdown'. Haunted Markdown is based on John Gruber's original [Markdown project](http://daringfireball.net/projects/markdown/), and borrows from [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [MultiMarkdown](http://fletcherpenney.net/multimarkdown/). It has a focus on producing consistent results whilst editing, so that the experience of live previewing is smooth.
 
 We intend to create excellent tools for working with Haunted Markdown, and surpass the existing solution which uses CodeMirror and Showdown.
 
