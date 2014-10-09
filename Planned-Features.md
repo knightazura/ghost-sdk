@@ -50,11 +50,9 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 
 * Extended markdown features
 * Preview uses theme styles
-* Post SEO 
 * Post scheduling 
 * Post queue 
 * Auto-save & offline 
-* Post cover / feature image 
 * Video embedding 
 * Version control 
 * Post custom data 
@@ -79,7 +77,6 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 ### Users
 
 * User role and permission management 
-* Multi-author 
 * Advanced publishing workflows
 
 ### Apps & integrations
@@ -104,14 +101,12 @@ Note: Ghost core will contain the tools for making Ghost work in various languag
 ### Themes
 
 * Debugging tools 
-* Custom templates
 * Placeholder helpers for app filters
 * Advanced excerpts 
-* Feature / cover images 
 * Retrieve image in multiple sizes/formats 
 * Previous & next post available on single post
-* Dynamic helpers - Post lists on post pages - latest, related, etc
-* Head/foot js snippet support
+* Dynamic / query helpers - Post lists on post pages - latest, related, etc
+* Head/foot js snippet support (code injection)
 
 ### Core / Infrastructure
 
