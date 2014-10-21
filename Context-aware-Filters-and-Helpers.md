@@ -67,10 +67,10 @@ filters.doFilter('post.render', html, {
 
 ## Context Table
 
-| name | url (default) | paged | template | body classes (current) | body classes (proposed) [WIP]| context | data (current) | data (post API project) |
+| name | url (default) | paged | template | body classes (old) | body classes (proper)| context | data |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | index (home) | / | F | home.hbs or index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | [{posts}], {pagination}
-| index paged| /page/2 | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} | [{posts}], {pagination}
+| index paged| /page/2 | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} 
 | post | /my-post | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post} | {post}
 | page | /my-page | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, (page-template-{{slug}}) | _page-template, tag-*, (page-{{slug}})_ | [page] | {post} | {post}
 | tag | /tag/my-tag/ | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [tag] | [{posts}], {pagination}, {tag} |
