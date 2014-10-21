@@ -67,22 +67,22 @@ filters.doFilter('post.render', html, {
 
 ## Context Table
 
-| name | url (default) | paged | template | body classes (old) | body classes (proper)| context | data |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| index (home) | / | F | home.hbs or index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | [{posts}], {pagination}
-| index paged| /page/2 | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} 
-| post | /my-post | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post} | {post}
-| page | /my-page | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, (page-template-{{slug}}) | _page-template, tag-*, (page-{{slug}})_ | [page] | {post} | {post}
-| tag | /tag/my-tag/ | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [tag] | [{posts}], {pagination}, {tag} |
-| tag paged| /tag/my-tag/page/2/ | T | tag-{{slug}}, tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
-| rss | /rss/ | F | n/a | n/a | n/a | [rss] | rss feed XML
-| rss paged| /rss/2/ | T | n/a | n/a | n/a | [rss, paged] | rss feed XML
-| author| /author/my-user/ | F | author.hbs or index.hbs | n/a | _author-template, author-*_ | [author] | [{posts}], {pagination}, {author} |
-| author paged | /author/my-user/page/2 | T | author.hbs or index.hbs | n/a | _author-template, author-*, paged_ | [author, paged] | [{posts}], {pagination}, {author} |
+| name | url (default)| template | body classes (old) | body classes (proper)| context | data |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| index (home) | / | home.hbs or index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | [{posts}], {pagination}
+| index paged| /page/2 | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} 
+| post | /my-post | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post} | {post}
+| page | /my-page | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, (page-template-{{slug}}) | _page-template, tag-*, (page-{{slug}})_ | [page] | {post} | {post}
+| tag | /tag/my-tag/ | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [tag] | [{posts}], {pagination}, {tag} |
+| tag paged| /tag/my-tag/page/2/ | tag-{{slug}}, tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
+| rss | /rss/ | n/a | n/a | n/a | [rss] | rss feed XML
+| rss paged| /rss/2/ | n/a | n/a | n/a | [rss, paged] | rss feed XML
+| author| /author/my-user/ | author.hbs or index.hbs | n/a | _author-template, author-*_ | [author] | [{posts}], {pagination}, {author} |
+| author paged | /author/my-user/page/2 | author.hbs or index.hbs | n/a | _author-template, author-*, paged_ | [author, paged] | [{posts}], {pagination}, {author} |
 | **coming in ??** | (maybe) | - | - | - | - | - | - |
-| users | /users/ | F | users.hbs | n/a | | [users] | [{users}], {pagination} |
-| users paged| /users/page/2/ | T | users.hbs | n/a | | [users, paged] | [{users}], {pagination} |
-| tags | /tags/ | F | tags.hbs | n/a | | [tags] | [{tags}], {pagination} |
-| tags | /tags/page/2 | F | tags.hbs | n/a | | [tags, paged] | [{tags}], {pagination} |
-| archive | /archive/ | F | archive.hbs or index.hbs | n/a | | [archive] | [{posts}], {pagination} |
-| archive paged| /archive/page/2/ | F | archive.hbs or index.hbs | n/a | | [archive, paged] | [{posts}], {pagination} |
+| users | /users/ | users.hbs | n/a | | [users] | [{users}], {pagination} |
+| users paged| /users/page/2/ | users.hbs | n/a | | [users, paged] | [{users}], {pagination} |
+| tags | /tags/ | tags.hbs | n/a | | [tags] | [{tags}], {pagination} |
+| tags | /tags/page/2 | tags.hbs | n/a | | [tags, paged] | [{tags}], {pagination} |
+| archive | /archive/ | archive.hbs or index.hbs | n/a | | [archive] | [{posts}], {pagination} |
+| archive paged| /archive/page/2/ | archive.hbs or index.hbs | n/a | | [archive, paged] | [{posts}], {pagination} |
