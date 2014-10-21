@@ -69,12 +69,12 @@ filters.doFilter('post.render', html, {
 
 | name | url (default) | paged | template | body classes (current) | body classes (proposed) [WIP]| context | data (current) | data (post API project) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| index (home) | / | F | home.hbs or index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | { posts: [{post}, {post}], meta: {pagination} }
-| index paged| /page/2 | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} | { posts: [{post}, {post}], meta: {pagination} }
-| post | /my-post | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post} | { posts: [{post}], meta: {pagination} }
-| page | /my-page | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, (page-template-{{slug}}) | _page-template, tag-*, (page-{{slug}})_ | [page] | {post} | { posts: [{post}], meta: {pagination} }
+| index (home) | / | F | home.hbs or index.hbs | home-template | _home-template_ | [index, home] | [{posts}], {pagination} | [{posts}], {pagination}
+| index paged| /page/2 | T | index.hbs | archive-template  | _paged_ | [index, paged] | [{posts}], {pagination} | [{posts}], {pagination}
+| post | /my-post | F | post.hbs | post-template, tag-* | _post-template, tag-*_ | [post] | {post} | {post}
+| page | /my-page | F | page-{{slug}}.hbs or page.hbs or post.hbs | post-template, page, tag-*, (page-template-{{slug}}) | _page-template, tag-*, (page-{{slug}})_ | [page] | {post} | {post}
 | tag | /tag/my-tag/ | F | tag.hbs or index.hbs | tag-template, tag-* | _tag-template, tag-*_ | [tag] | [{posts}], {pagination}, {tag} |
-| tag paged| /tag/my-tag/page/2/ | T | tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
+| tag paged| /tag/my-tag/page/2/ | T | tag-{{slug}}, tag.hbs or index.hbs | archive-template, tag-template, tag-* | _tag-template, tag-*, paged_ | [tag, paged] | [{posts}], {pagination}, {tag} |
 | rss | /rss/ | F | n/a | n/a | n/a | [rss] | rss feed XML
 | rss paged| /rss/2/ | T | n/a | n/a | n/a | [rss, paged] | rss feed XML
 | author| /author/my-user/ | F | author.hbs or index.hbs | n/a | _author-template, author-*_ | [author] | [{posts}], {pagination}, {author} |
