@@ -22,9 +22,9 @@ This is super-duper simple using [Homebrew](http://brew.sh/)
 Use `wget` to fetch the correct archive from http://phantomjs.org/download.html
 
 E.g. for 64-bit (find out which architecture you're on with `arch`)
-* $ `wget https://phantomjs.googlecode.com/files/phantomjs-1.9.2-linux-x86_64.tar.bz2`
-* $ `tar xvjf phantomjs-1.9.2-linux-x86_64.tar.bz2`
-* $ `cd phantomjs-1.9.2-linux-x86_64`
+* $ `wget https://phantomjs.googlecode.com/files/phantomjs-1.9.8-linux-x86_64.tar.bz2`
+* $ `tar xvjf phantomjs-1.9.8-linux-x86_64.tar.bz2`
+* $ `cd phantomjs-1.9.8-linux-x86_64`
 * $ `ln -sf "$(pwd)"/bin/phantomjs /usr/local/bin/phantomjs` (may require sudo)
 
 #### Casperjs:
