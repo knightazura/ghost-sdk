@@ -72,8 +72,6 @@ Your commit message(s) should follow the pattern described in the [notes](#notes
 
 Run `grunt validate` to check that your work passes JSLint and the server-side mocha unit tests. If this fails, your PR will throw an error when submitted.
 
-Our functional tests are not yet hooked up to grunt validate, but details on how to run them can be found [in the Wiki](https://github.com/TryGhost/Ghost/wiki/Functional-testing-with-PhantomJS-and-CasperJS) and in `core/test/functional/base.js`. If you're making changes to the UI it's worth running these.
-
 #### Submit!
 
 Now that your history is nice and clean, fetch the latest updates from upstream. Assuming you haven't changed the master branch, do:
