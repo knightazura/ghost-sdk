@@ -70,7 +70,7 @@ Your commit message(s) should follow the pattern described in the [notes](#notes
 
 #### Check it passes the tests
 
-Run `grunt validate` to check that your work passes JSLint and the server-side mocha unit tests. If this fails, your PR will throw an error when submitted.
+Run `grunt validate` to check that your work passes jshint/jscs linting and the tests. If this fails, your PR will throw an error when submitted.
 
 #### Submit!
 
@@ -114,10 +114,6 @@ Feel free to pick up any issue which is not assigned. Please leave a comment on 
 
 Stable versions are tagged using [semantic versioning](http://semver.org/). 
 
-Along with the master branch, there is always a branch open for bug fixes that might need to go into a patch release. For example if the current released version is 0.3.3, you'll find a branch called 0.3-maintenance.
-
-There may be several patch releases in between minor versions. A patch release does not contain master, it contains the previous release + specific fixes that may have been applied directly, or cherry-picked from master.
-
 On your local repository, you should always work on a branch to make keeping up-to-date and submitting pull requests easier, but in most cases you should submit your pull requests to `master`. Where necessary, for example if multiple people are contributing on a large feature, or if a feature requires a database change, we make use of feature branches. If you are working on something which you feel needs to go into a feature branch, let Hannah know and she will create this for you.
 
 ## Release Procedure
@@ -149,8 +145,6 @@ In addition to the [Branching Strategy](#branching-strategy) documented above, y
 **gh-pages** - this branch contains all of the code and content for http://docs.ghost.org. This is open to contributions.
 
 **###-data-updates** - a branch starting with 3 numbers is probably to do with schema changes that require us to bump the database version number.
-
-**ember** - a branch we're currently using to rewrite our admin UI in ember
 
 ### Open Issues
 
@@ -200,8 +194,6 @@ The `[client]` and `[server]` labels are intended to show which 'side' of the co
 The `[api]` label refers to the JSON data api
 
 The `[data]` label refers to anything in the models or schema - the data layer underneath the api.
-
-The `[ghost-ui]` label is a place holder marking issues that may be moved to or solved by development on the [Ghost UI](https://github.com/TryGhost/Ghost-UI) framework.
 
 `[importer]` is a project-specific label intended for the 0.5 milestone only
 
