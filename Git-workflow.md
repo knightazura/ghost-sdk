@@ -171,7 +171,7 @@ PRs generally get assigned to either @ErisDS or @sebgie who will test the PR and
 
 ### Milestones
 
-The [milestones](https://github.com/TryGhost/Ghost/issues/milestones) page in GitHub lists out all the milestones with open issues against them, in order of delivery date. Ghost milestones are usually tied to minor version releases for Ghost, such as 0.5 or 0.6 which means the milestone page closely mirrors our [Roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap). 
+The [milestones](https://github.com/TryGhost/Ghost/milestones) page in GitHub lists out all the milestones with open issues against them, in order of delivery date. Ghost milestones are usually tied to minor version releases for Ghost, such as 0.5 or 0.6 which means the milestone page closely mirrors our [Roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap). 
 
 ![milestones](http://puu.sh/7bzhv.png)
 
