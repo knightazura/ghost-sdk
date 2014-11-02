@@ -12,7 +12,7 @@ Skip to:
 * `GET /ghost/api/v0.1/posts` - get all posts
     * Options:
         * page - pagination (default: 1)
-        * limit - number of posts per page (default: 15)
+        * limit - number of posts per page (`all` or an `integer`. default: 15)
         * status - status of the page (`all`, `published`, `draft`)
         * staticPages - include static pages (default: false)
 * `POST /ghost/api/v0.1/posts` - add new post
@@ -48,6 +48,8 @@ Skip to:
 
 * `GET /ghost/api/v0.1/users/` - get all users
 * `GET /ghost/api/v0.1/users/:id/` - get user with id (`id=me` would be the current user)
+* `GET /ghost/api/v0.1/users/slug/:slug/` - get user with slug
+* `GET /ghost/api/v0.1/users/email/:email/` - get user with email
 * `PUT /ghost/api/v0.1/users/:id/` - update user with id
 
 
@@ -171,6 +173,7 @@ Retrieves an existing post. In order to get a post the `id` or `slug` are needed
 ---------------|----------------
 Internal API   |`api.posts.read({id: id})`
 HTTP Route     |`GET /ghost/api/v0.1/posts/{id}/`
+               |`GET /ghost/api/v0.1/posts/slug/{slug}/`
 
 ### Arguments
 
@@ -267,7 +270,7 @@ A valid post object with properties that should be updated.
 
 - id
 
-*Updateable post properties:*
+*Updatable post properties:*
 
 - slug
 - title
