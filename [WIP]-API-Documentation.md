@@ -17,7 +17,7 @@ Skip to:
         * staticPages - include static pages (default: false)
 * `POST /ghost/api/v0.1/posts` - add new post
 * `GET /ghost/api/v0.1/posts/:id` - get post with id
-* `GET /ghost/api/v0.1/posts/:slug` - get post with slug
+* `GET /ghost/api/v0.1/posts/slug/:slug` - get post with slug
 * `PUT /ghost/api/v0.1/posts/:id` - update post with id
 * `DELETE /ghost/api/v0.1/posts/:id` - delete post with id
 
