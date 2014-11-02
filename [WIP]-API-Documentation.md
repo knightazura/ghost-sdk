@@ -20,7 +20,6 @@ Skip to:
 * `GET /ghost/api/v0.1/posts/:slug` - get post with slug
 * `PUT /ghost/api/v0.1/posts/:id` - update post with id
 * `DELETE /ghost/api/v0.1/posts/:id` - delete post with id
-* `GET /ghost/api/v0.1/posts/getSlug/:title` - get slug from title
 
 ### DB
 
