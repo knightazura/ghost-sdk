@@ -13,8 +13,8 @@ For information on how the new roadmap works, see [visit trello](https://trello.
 ## GitHub Backlogs
 
 We now have just two Milestones on GitHub: 
-- [Current Backlog](https://github.com/TryGhost/Ghost/issues?milestone=22) - contains high priority issues which we really want to ship in the next release
+- [Current Backlog](https://github.com/TryGhost/Ghost/issues?milestone=22) - contains high priority issues which we really want to ship in the next release and should always have ~10 issues
 - [Next Backlog](https://github.com/TryGhost/Ghost/issues?milestone=21) - contains issues which are ready to be worked on
 - [Future Backlog](https://github.com/TryGhost/Ghost/issues?milestone=6) - contains issues which aren't ready to be worked on yet
 
-The idea is that any issue in the 0.5.x backlog can be picked up and worked on. If the PR gets merged, the code goes out in the next release. We ask developers to use the [roadmap](https://trello.com/b/EceUgtCL/ghost-roadmap) as a guide to which features are most important for the next release, but this only covers features, not technical improvements or bug fixes.
+The idea is that any issue in the Current or Next backlog can be picked up and worked on. If the PR gets merged, the code goes out in the next release. We ask developers to pick up issues (particularly any bugs) in the Current Backlog as a priority. The [roadmap](https://trello.com/b/EceUgtCL/ghost-roadmap) is a public guide to which features are most important for the next release, but this only covers features, not technical improvements or bug fixes.
