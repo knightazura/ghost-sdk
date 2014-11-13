@@ -38,7 +38,7 @@ The Dashboard project encompasses creating the dashboard framework, building the
 
 **Please note:** This is the original feature bucket list that we have had since day 1. The [public roadmap](https://trello.com/b/EceUgtCL/ghost-roadmap) contains an updated todo list which you can vote and comment on, and you can also add suggestions by posting in the [forum](https://ghost.org/forum/bugs-suggestions/17479-ghost-roadmap-got-a-great-idea/)
 
-### Localisation
+#### Localisation
 
 * Timezone settings 
 * date localisation 
@@ -47,7 +47,7 @@ The Dashboard project encompasses creating the dashboard framework, building the
 * post language 
 * multi-language posts 
 
-### Blog content creation
+#### Blog content creation
 
 * Extended markdown features
 * Preview uses theme styles
@@ -58,7 +58,7 @@ The Dashboard project encompasses creating the dashboard framework, building the
 * Version control 
 * Post custom data 
 
-### Admin UI
+#### Admin UI
 
 * Better Markdown support / behaviour when live previewing
 * Editor -> Preview consistency
@@ -66,7 +66,7 @@ The Dashboard project encompasses creating the dashboard framework, building the
 * Post list filtering and search
 * Tag management
 
-### Site structure
+#### Site structure
 
 * Archives
 * Search 
@@ -75,12 +75,12 @@ The Dashboard project encompasses creating the dashboard framework, building the
 * Sitemap 
 * Other SEO tools
 
-### Users
+#### Users
 
 * User role and permission management 
 * Advanced publishing workflows
 
-### Apps & integrations
+#### Apps & integrations
 
 * Basic app API / structure 
 * App installation/activation/management 
@@ -99,7 +99,7 @@ The Dashboard project encompasses creating the dashboard framework, building the
 * Integration options for analytics, comments, media etc
 * Name, version, other info support via `package.json`
 
-### Themes
+#### Themes
 
 * Debugging tools 
 * Placeholder helpers for app filters
@@ -109,7 +109,7 @@ The Dashboard project encompasses creating the dashboard framework, building the
 * Dynamic / query helpers - Post lists on post pages - latest, related, etc
 * Head/foot js snippet support (code injection)
 
-### Core / Infrastructure
+#### Core / Infrastructure
 
 * More modularisation 
 * Command line tools 
