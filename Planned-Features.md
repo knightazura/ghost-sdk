@@ -10,6 +10,8 @@ See: https://github.com/TryGhost/Ghost/wiki/What-makes-it-into-Ghost-core%3F
 
 The dashboard is one of the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. In short, it'll be ready when it's ready, but we are committed to delivering it before Ghost hits v1.0.
 
+---
+
 ## Planned Projects
 
 There are some bugs and features which clearly belong together as a group, and some which are dependent on each other. These have formed into natural projects that we are planning to complete in various milestones.
@@ -30,6 +32,7 @@ A project to redesign and rebuild the Ghost editor is planned to take place befo
 
 The Dashboard project encompasses creating the dashboard framework, building the default Widgets which live within it, and creating all of the tools needed for apps to register and define their own widgets. It is an advanced one-page javascript application all of its own, and will likely be built in Ember or Angular, rather than Backbone. The dashboard project is scheduled to be planned and begin during the 0.5 milestone, but is not expected to ship until later.
 
+---
 
 ## Feature List
 
