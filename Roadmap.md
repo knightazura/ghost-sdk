@@ -12,7 +12,7 @@ For information on how the new roadmap works, see [visit trello](https://trello.
 
 ## GitHub Backlogs
 
-We now have just two Milestones on GitHub: 
+In order to manage issue priority in GitHub, we use 3 milestones:
 - [Current Backlog](https://github.com/TryGhost/Ghost/issues?milestone=22) - contains high priority issues which we really want to ship in the next release and should always have ~10 issues
 - [Next Backlog](https://github.com/TryGhost/Ghost/issues?milestone=21) - contains issues which are ready to be worked on
 - [Future Backlog](https://github.com/TryGhost/Ghost/issues?milestone=6) - contains issues which aren't ready to be worked on yet
