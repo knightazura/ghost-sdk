@@ -33,11 +33,9 @@ The Dashboard project encompasses creating the dashboard framework, building the
 
 ## Feature List
 
-Please note: This list is not complete and is being added to on a regular basis. Each item has just a short title/description, and where possible, a project and/or milestone indicator. *future* means this item hasn't been sorted into a project/milestone yet, it does not necessarily mean that it will be delivered after everything else.
+**Please note:** This is the original feature bucket list that we have had since day 1. The [public roadmap](https://trello.com/b/EceUgtCL/ghost-roadmap) contains an updated todo list which you can vote and comment on, and you can also add suggestions by posting in the [forum](https://ghost.org/forum/bugs-suggestions/17479-ghost-roadmap-got-a-great-idea/)
 
 ### Localisation
-
-Note: Ghost core will contain the tools for making Ghost work in various languages, but the languages and settings specific to different languages will be provided via a 'language pack'.
 
 * Timezone settings 
 * date localisation 
