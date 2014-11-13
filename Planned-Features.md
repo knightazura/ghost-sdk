@@ -8,7 +8,7 @@ See: https://github.com/TryGhost/Ghost/wiki/What-makes-it-into-Ghost-core%3F
 
 ### Where is the dashboard?
 
-The dashboard is the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. In short, it'll be ready when it's ready, but we are committed to delivering it before Ghost hits v1.0.
+The dashboard is one of the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. In short, it'll be ready when it's ready, but we are committed to delivering it before Ghost hits v1.0.
 
 ## Planned Projects
 
@@ -16,7 +16,7 @@ There are some bugs and features which clearly belong together as a group, and s
 
 ### Apps
 
-Ghost Apps (plugins) is the next big project that we will take on. This includes tying down the boilerplate & tools which are available for building Ghost Apps in the Ghost-App repository, as well as introducing a vast toolset in the Ghost internals. The first steps will include the ability to install and activate an App via the Ghost UI, and introducing more access control so that Ghost users can be sure what a Ghost App is able to do. Ghost will have filter hooks added at various points, and we'll start to build the tools for working with 3rd parties and the dashboard. 
+Ghost Apps (plugins) has an almost limitless scope as a project. This includes tying down the boilerplate & tools which are available for building Ghost Apps in the Ghost-App repository, as well as introducing a vast toolset in the Ghost internals. The first steps will include the ability to install and activate an App via the Ghost UI, and introducing more access control so that Ghost users can be sure what a Ghost App is able to do. Ghost will have filter hooks added at various points, and we'll start to build the tools for working with 3rd parties and the dashboard. 
 
 ### Localisation / i18n 
 
