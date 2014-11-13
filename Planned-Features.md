@@ -16,19 +16,19 @@ The dashboard is one of the most ambitious planned feature for Ghost. It is esse
 
 There are some bugs and features which clearly belong together as a group, and some which are dependent on each other. These have formed into natural projects that we are planning to complete in various milestones.
 
-### Apps
+#### Apps
 
 Ghost Apps (plugins) has an almost limitless scope as a project. This includes tying down the boilerplate & tools which are available for building Ghost Apps in the Ghost-App repository, as well as introducing a vast toolset in the Ghost internals. The first steps will include the ability to install and activate an App via the Ghost UI, and introducing more access control so that Ghost users can be sure what a Ghost App is able to do. Ghost will have filter hooks added at various points, and we'll start to build the tools for working with 3rd parties and the dashboard. 
 
-### Localisation / i18n 
+#### Localisation / i18n 
 
 Ghost is currently pretty much UK-based English-language only, and has barely any features to account for timezones, locales, languages, alphabets, keyboard layouts or anything else that isn't UTC/English in either the admin or in themes. Even the USA folks luck out, sorry! All this is set to change with full support for multiple locales and languages across the admin and your blog posts. Throughout the Ghost GitHub, support for all of these sorts of features is referred to as `i18n` (internationalisation).
 
-### Ghost Editor
+#### Ghost Editor
 
 A project to redesign and rebuild the Ghost editor is planned to take place before we ship Ghost 1.0, replacing the current iteration with a new component which doesn't depend on different markdown interpretations, which is easily extensible and which works as well on mobile as it does on desktop.
 
-### Dashboard
+#### Dashboard
 
 The Dashboard project encompasses creating the dashboard framework, building the default Widgets which live within it, and creating all of the tools needed for apps to register and define their own widgets. It is an advanced one-page javascript application all of its own, and will likely be built in Ember or Angular, rather than Backbone. The dashboard project is scheduled to be planned and begin during the 0.5 milestone, but is not expected to ship until later.
 
