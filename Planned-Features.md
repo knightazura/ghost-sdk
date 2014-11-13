@@ -1,12 +1,12 @@
-### (when) will Ghost do X?
+### (When) will Ghost do X?
 
 We have a list of features that we plan to implement which is as long as a gorilla's arm, and it is pretty hard to communicate. This page attempts to quantify that list, detail the finer points where we know them, and will be expanded upon as it becomes clearer how a feature will fit into Ghost, and the [roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap). 
 
-### what makes it into Ghost core?
+### What makes it into Ghost core?
 
 See: https://github.com/TryGhost/Ghost/wiki/What-makes-it-into-Ghost-core%3F
 
-### where is the dashboard?
+### Where is the dashboard?
 
 The dashboard is the most ambitious planned feature for Ghost. It is essentially an entire web application all on its own, supporting many many smaller web applications. It is going to take considerable time and resource to implement, however the dashboard will only provide value once it is possible to add apps to Ghost, and integrate with 3rd party services. In short, it'll be ready when it's ready, but we are committed to delivering it before Ghost hits v1.0.
 
