@@ -73,7 +73,7 @@ Stops the server
 
 ### Mount Ghost on a subdirectory
 
-Ghost's default `index.js` uses this to add subdirectory support. It is possible to create a parent express instance, call `.use` to add your own middleware and configuration, and then tell the `ghostServer` to start Ghost with your new parent app.
+Ghost's default `index.js` uses this feature to add subdirectory support to Ghost. It is possible to create a parent express instance, call `.use` to add your own middleware and configuration, and then tell the `ghostServer` to start Ghost with your new parent app.
 
 ```
 var ghost = require('ghost'),
@@ -87,9 +87,13 @@ ghost().then(function (ghostServer) {
 });
 ``` 
 
+In this snippet there are two express instances - `parentApp` can be your own express instance containing all of your own configuration and `rootApp` is the express instance you'll get from `ghostServer` which has all of Ghost's behaviour and configuration.
+
+The line `parentApp.use(ghostServer.config.paths.subdir, ghostServer.rootApp);` mounts Ghost on a subdirectory inside the existing express app.
+
 `ghostServer.config.paths.subdir` contains the subdirectory specified via the URL in `config.js` alternatively you can pass in any valid path string.
 
-**Note:** If you pass in an express instance which has not had the Ghost `rootApp` mounted on it, then `ghostServer` will start a server that doesn't do anything ;)
+**Note:** If you pass an express instance to `ghostServer.start` which has not had the Ghost `rootApp` mounted on it (i.e. you haven't called `.use()`), then `ghostServer` will still start a server but it will not have Ghost's functionality.
 
 ### Decide where the `content/` directory should exist
 
