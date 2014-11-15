@@ -1,5 +1,32 @@
 This is an overview of how the Ghost codebase is structured and how the different parts interact with each other. 
 
+```
++-----------------------------------------------------------+
+|                                                           |
+|   +---------------------------------------------------+   |
+|   |                                                   |   |
+|   |                   JSON DATA API                   |   |
+|   |                                                   |   |
+|   +---------------------------------------------------+   |
+|                   ^                    ^                  |
++-------------------|-------------+      |                  |
+                    |             |      |                  |
+               HTTP |             |      | require()        |
+                    |             |      |                  |                                                                                                                                
++-------------------|------+      |      |                  |
+|                   |      |      |      |                  |
+|         Client    |      |      |      |   Server         |
+|                   v      |      |      v                  |
+|   +-----------------+    |      |    +----------------+   |
+|   |                 |    |      |    |                |   |
+|   |   Admin Panel   |    |      |    |      Blog      |   |
+|   |   (Ember.js)    |    |      |    |     (theme)    |   |
+|   |                 |    |      |    |                |   |
+|   +-----------------+    |      |    +----------------+   |
+|                          |      |                         |
++--------------------------+      +-------------------------+
+```
+
 Ghost is made up of two main folders:
 
 * **content**  - contains the files which may be added or changed by the user such as themes and apps
