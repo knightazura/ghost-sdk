@@ -48,7 +48,7 @@ The core directory is further split into four directories
 * **shared** - anything shared between the server and client
 * **test** - various test suites
 
-## Ghost In Detail
+## Ghost Components In Detail
 
 ![Ghost API Overview](https://dl.dropboxusercontent.com/u/1338220/ghost/Ghost_API.png)
 
