@@ -1,5 +1,7 @@
 This is an overview of how the Ghost codebase is structured and how the different parts interact with each other. 
 
+Conceptually, Ghost is made up of three different applications: the JSON data API, the client-side admin panel app which is built in Ember and the server-side application which renders the blog with the active theme.
+
 ```
 +-----------------------------------------------------------+
 |                                                           |
