@@ -30,6 +30,12 @@ Here's a quick list of the most useful pages:
 * [JSON format](wiki/import-format) (for imports/exports)
 * [Using Ghost as an npm module](wiki/Using-Ghost-as-an-NPM-module)
 
+**Product vision:**
+
+[Imagining the Ghost Developer Kit](wiki/Imagining-the-Ghost-Developer-Kit)
+[Accounts API](wiki/Accounts-API)
+[Tags 101](wiki/Tags-101)
+
 ## Where else do I find documentation?
 
 If you're a developer looking for the official developer documentation for things like themes, apps and the data API, you'll find that at [docs.ghost.org](http://docs.ghost.org). 
