@@ -32,9 +32,10 @@ Here's a quick list of the most useful pages:
 
 **Product vision:**
 
-[Imagining the Ghost Developer Kit](wiki/Imagining-the-Ghost-Developer-Kit)
-[Accounts API](wiki/Accounts-API)
-[Tags 101](wiki/Tags-101)
+* [Tags 101](wiki/Tags-101)
+* [Imagining the Ghost Developer Kit](wiki/Imagining-the-Ghost-Developer-Kit)
+* [Accounts API](wiki/Accounts-API)
+
 
 ## Where else do I find documentation?
 
