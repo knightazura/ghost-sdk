@@ -1,3 +1,7 @@
+**Attention:** The API is not publicly accessible at the moment. Please see https://github.com/TryGhost/Ghost/issues/4004 for further details on how OAuth is going to be used to control access to the API.
+
+---
+
 Skip to:
 
 * [Endpoints](#endpoints)
