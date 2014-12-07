@@ -223,7 +223,7 @@ Create a new post. Tags that are sent with a new post are created if they don't 
  API           | Example
 ---------------|----------------
 Internal API   |`api.posts.add(object, options)`
-HTTP Route     |`GET /ghost/api/v0.1/posts/`
+HTTP Route     |`POST /ghost/api/v0.1/posts/`
 
 ### Arguments
 - **object: mandatory**<br/>
