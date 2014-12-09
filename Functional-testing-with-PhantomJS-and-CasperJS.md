@@ -63,23 +63,18 @@ or use TortoiseGIT
 
 ## Running the tests
 
-If you want automated testing, we've got a grunt task that has you covered. Just:
+If you want automated testing, we've got a grunt task that has you covered. The following command will have you up and running:
+
 ```
 $ grunt test-functional
 ```
-and you'll be up and running.
 
-#### Running the tests manually
-On the command line, from the `core/test/functional` directory run the following command..
+If you want to target a particular file or folder you can use:
 
-If you are on vagrant and your url is local.tryghost.org:
+```
+$ grunt test-functional --target=client
+$ grunt test-functional --target=client/app_test.js
+```
 
-`casperjs test admin/ --includes=base.js --host=local.tryghost.org --noPort=true --email=YOUR_LOGIN_EMAIL --password=YOUR_LOGIN_PW`
+The [Grunt file](https://github.com/TryGhost/Ghost/blob/master/Gruntfile.js#L750) has further documentation on this.
 
-If you are running Ghost from localhost:2368:
-
-`casperjs test admin/ --includes=base.js --email=YOUR_LOGIN_EMAIL --password=YOUR_LOGIN_PW`
-
-Full command with options if you have some other setup:
-
-`casperjs test admin/ --includes=base.js [--host=localhost --port=2368 --noPort=false --email=YOUR_LOGIN_EMAIL --password=YOUR_LOGIN_PW]`
