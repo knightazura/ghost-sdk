@@ -1,5 +1,12 @@
 | Version No | Database Version | Date | Public? | 
 | ----------:| ----------------:|------|---------|
+| [0.5.8](https://github.com/TryGhost/Ghost/releases/tag/) | ? | 2014-12-?? | Y | 
+| [0.5.7](https://github.com/TryGhost/Ghost/releases/tag/0.5.7) | 003 | 2014-12-15 | Y | 
+| [0.5.6](https://github.com/TryGhost/Ghost/releases/tag/0.5.6) | 003 | 2014-12-04 | Y | 
+| [0.5.5](https://github.com/TryGhost/Ghost/releases/tag/0.5.5) | 003 | 2014-11-19 | Y | 
+| [0.5.4](https://github.com/TryGhost/Ghost/releases/tag/0.5.4) | 003 | 2014-11-18 | Y | 
+| [0.5.3](https://github.com/TryGhost/Ghost/releases/tag/0.5.3) | 003 | 2014-10-21 | Y | 
+| [0.5.2](https://github.com/TryGhost/Ghost/releases/tag/0.5.2) | 003 | 2014-09-25 | Y | 
 | [0.5.1](https://github.com/TryGhost/Ghost/releases/tag/0.5.1) | 003 | 2014-08-27 | Y | 
 | [0.5.0](https://github.com/TryGhost/Ghost/releases/tag/0.5.0) | 003 | 2014-08-11 | Y | 
 | [0.4.2](https://github.com/TryGhost/Ghost/releases/tag/0.4.2) | [002](https://github.com/TryGhost/Ghost-Config/tree/master/ghost-versions/0.4.2) | 2014-03-26 | Y | 
