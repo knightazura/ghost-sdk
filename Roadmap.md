@@ -23,4 +23,4 @@ The idea is that any issue in the Current or Next backlog can be picked up and w
 
 The current general focus of the project is on shipping user-facing features, as described in the blog post [Road to 0.6](http://dev.ghost.org/road-to-0-6/).
 
-The plan is to ship as many of the user facing features as possible up until early 2015, and then switch our focus from user-facing features to 'customisation', meaning improving on the theme API, adding OAuth to the API, and getting a first version of apps (and the dashboard) into the wild.
+The plan is to ship as many of the user facing features as possible up until early 2015, and then switch our focus from user-facing features to 'customisation', meaning improving on the theme API, adding OAuth to the API, and getting a first version of Apps (and the dashboard) into the wild.
