@@ -18,3 +18,9 @@ In order to manage issue priority in GitHub, we use 3 milestones:
 - [Future Backlog](https://github.com/TryGhost/Ghost/issues?milestone=6) - contains issues which aren't ready to be worked on yet
 
 The idea is that any issue in the Current or Next backlog can be picked up and worked on. If the PR gets merged, the code goes out in the next release. We ask developers to pick up issues (particularly any bugs) in the Current Backlog as a priority. The [roadmap](https://trello.com/b/EceUgtCL/ghost-roadmap) is a public guide to which features are most important for the next release, but this only covers features, not technical improvements or bug fixes.
+
+## General Focus
+
+The current general focus of the project is on shipping user-facing features, as described in the blog post [Road to 0.6](http://dev.ghost.org/road-to-0-6/).
+
+The plan is to ship as many of the user facing features as possible up until early 2015, and then switch our focus from user-facing features to 'customisation', meaning improving on the theme API, adding OAuth to the API, and getting a first version of apps (and the dashboard) into the wild.
