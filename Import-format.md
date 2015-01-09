@@ -149,3 +149,9 @@ All users are given the role of `author` by default. If you want to specify diff
     }
 }
 ```
+
+### Importing Images
+
+Ghost can import images which match any of the formats [accepted by the API](https://github.com/TryGhost/Ghost/blob/master/core/server/config/index.js#L188). Multiple images can be imported with a zip file. 
+When uploading a zip which includes both images and a JSON file, the relative path to the images from the JSON should match any relative path used inside the JSON data. Ghost will then attempt to update the image paths in the content of the JSON such that they will continue to work after importing.
+
