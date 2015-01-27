@@ -1,4 +1,4 @@
-Ghost imports from existing blogs by via a custom JSON data format, which is described [below](#json-file-structure). The import and export tools can be found on the 'labs' page in Ghost settings. The importer will accept a JSON file, markdown file, an image, or a zip file containing a combination of either JSON or markdown files along with accompanying images.
+Ghost imports from existing blogs via a custom JSON data format, which is described [below](#json-file-structure). The import and export tools can be found on the 'labs' page in Ghost settings. The importer will accept a JSON file, markdown file, an image, or a zip file containing a combination of either JSON or markdown files along with accompanying images.
 
 ## Existing Plugins to Automate this:
 
