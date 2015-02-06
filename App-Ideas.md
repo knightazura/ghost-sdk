@@ -18,7 +18,8 @@ If you have an idea, please add it to the list no need to break it down into fea
 * Github project daily/weekly/release summary post
    * Use Github Webhooks ([git-at-me](https://github.com/jgable/git-at-me)) to compile a summary of commits/PR/issues for a specified time range
 * Way to specify a path for receiving REST data
-   * Have a server POST data to a ghost path that the app can then store and use (like usage statistics every 2 hours from a server)
+   * Have a server POST data to a ghost path that the app can then store and use (like usage statistics every 2 hours from a server, or to save/retrieve ratings of posts)
+   * To save/retrieve meta information used to navigate blog posts in a non-standard (i.e. not by date or category) way
 * Hook into the login process to add 2FA
    * https://ghost.org/forum/plugins/877-two-factor-auth/
 * Hook into existing routes
