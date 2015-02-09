@@ -41,7 +41,7 @@ Quick List from looking around GitHub / Forum:
 * Editor stuff
   * Hemmingway app
   * Markdown Flavors
-  * Mathjax
+  * Mathjax / KaTeX
   * Vim bindings
 * Media
   * oEmbed
