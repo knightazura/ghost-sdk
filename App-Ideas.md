@@ -36,6 +36,7 @@ If you have an idea, please add it to the list no need to break it down into fea
 * Add roles and authentication to frontend (described [here](https://ghost.org/forum/plugins/16275-viewer-reader-role/))
 * Hook into saving/deleting of posts (observer pattern)
 * Ability to like posts, track views. Some sort of stats tracking per post which can be used for sorting by likes, views, etc
+* Tag Cloud
  
 Quick List from looking around GitHub / Forum:
 
