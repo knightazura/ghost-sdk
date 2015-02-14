@@ -37,6 +37,7 @@ If you have an idea, please add it to the list no need to break it down into fea
 * Hook into saving/deleting of posts (observer pattern)
 * Ability to like posts, track views. Some sort of stats tracking per post which can be used for sorting by likes, views, etc
 * Tag Cloud
+* Include "featured post" on front page - one way to do this would be have a "featured" tag and an api for `/tag/:tag`
  
 Quick List from looking around GitHub / Forum:
 
